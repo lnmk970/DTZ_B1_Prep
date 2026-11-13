@@ -98,7 +98,7 @@ BUILD = str(int(__import__('time').time()))  # only mocks 1..MAXN are published 
 def mc(name, opts):
     h = ""
     for i, o in enumerate(opts):
-        h += f'<label class="opt"><input type="radio" name="{name}" value="{i}"><span class="k">{LET[i]}</span><span>{E(o)}</span></label>'
+        h += f'<label class="opt"><input type="radio" name="{name}" value="{i}">{"" if len(o)<=1 else f'<span class="k">{LET[i]}</span>'}<span>{E(o)}</span></label>'
     return f'<div class="opts" data-q="{name}">{h}</div>'
 
 
@@ -517,9 +517,16 @@ def main():
     sys.path.insert(0, ROOT)
     from content.extras import EXTRAS
     from content.l1cat import L1
+    from content.lesen_long import LONG
     mocks = load_mocks()[:MAXN]
     for i, M in enumerate(mocks):
         M.update(EXTRAS[i + 1]); M['l1cat'] = L1[i + 1]
+        if i + 1 in LONG:
+            Lg = LONG[i + 1]
+            M['l2'] = (Lg['ads'], M['l2'][1], M['l2'][2])
+            M['l3'] = [(t, M['l3'][k][1]) for k, t in enumerate(Lg['l3'])]
+            M['l4'] = (Lg['l4'], M['l4'][1])
+            M['l5'] = (Lg['l5'], M['l5'][1])
     os.makedirs(os.path.join(DOCS, "assets"), exist_ok=True)
     app = APP.replace("%TIPS%", json.dumps({k: list(v) for k, v in X.TIPS.items()}, ensure_ascii=False))
     for name, txt in (("style.css", CSS), ("app.js", app), ("index.js", INDEX_JS)):
