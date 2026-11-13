@@ -193,8 +193,7 @@ def build_page(n, M, total):
     LT.append(("Aufgabe 2 · Anzeigen", "Lesen Sie die Anzeigen und ordnen Sie zu.", left, it)); TK["lesen"].append(ks)
     ks, it, left = [], "", ""
     for ti, (text, qs) in enumerate(M["l3"]):
-        left += f'<div class="sub">Text {ti+1}</div><div class="text">{E(text).replace(chr(10), "<br>")}</div>'
-        it += f'<div class="sub">Zu Text {ti+1}</div>'
+        it += f'<div class="text">{E(text).replace(chr(10), "<br>")}</div>'
         for q, o, a in qs:
             o, a = rot(o, a); c += 1; nm = f"l{c}"; key[nm] = a; ol = o.split("|"); ks.append(nm)
             it += item(c, q, ol, nm)
@@ -202,7 +201,7 @@ def build_page(n, M, total):
                 s = X.best_sent(text, X.toks(q), []); reg(nm, "l3", q, ol, a, text, ev=[s, s])
             else:
                 reg(nm, "l3", q, ol, a, text)
-    LT.append(("Aufgabe 3 · Presse und formelle Mitteilungen", "Lesen Sie die Texte. Zu jedem Text gibt es zwei Aufgaben.", left, it)); TK["lesen"].append(ks)
+    LT.append(("Aufgabe 3 · Presse und formelle Mitteilungen", "Lesen Sie die Texte und lösen Sie die Aufgaben.", "", it)); TK["lesen"].append(ks)
     text, qs = M["l4"]
     ks, it = [], ""
     for q, a in qs:
@@ -443,8 +442,9 @@ $('#hdone').onclick=()=>{if(confirm('Hören jetzt beenden?'))endSec('hoeren','H�
 function startAudio(){if(st.lock.hoeren)return;if(st.aend){aStat('Wiedergabe beendet');$('#hdone').disabled=false;return}aStat('Wiedergabe startet …');aud.play().catch(()=>{aStat('Bitte „Wiedergabe starten“ klicken');$('#aplay').hidden=false})}
 /* finish */
 function counts(){const o={};['h','l'].forEach(p=>{const ks=Object.keys(KEY).filter(k=>k[0]===p);o[p]=[ks.filter(k=>st.sel[k]!==undefined).length,ks.length]});return o}
-function openFinish(){const c=counts();const rows=[['hoeren','Hören',c.h[0]+' von '+c.h[1]+' beantwortet'],['lesen','Lesen',c.l[0]+' von '+c.l[1]+' beantwortet'],['schreiben','Schreiben',((st.brief||'').trim().match(/\S+/g)||[]).length+' Wörter geschrieben'],['sprechen','Sprechen',(st.sprech||'').trim()?'Antworten notiert':'keine Notizen (Sprechen wird im Chat bewertet)']];
-$('#chk').innerHTML=rows.map(r=>'<div class="chk"><input type="checkbox" id="c-'+r[0]+'"><label for="c-'+r[0]+'"><b>Ich habe '+r[1]+' noch einmal geprüft.</b><small>'+r[2]+'</small></label><button data-go="'+r[0]+'">Ansehen</button></div>').join('');
+function openFinish(){const c=counts();const rows0=[['hoeren','Hören',c.h[0]+' von '+c.h[1]+' beantwortet'],['lesen','Lesen',c.l[0]+' von '+c.l[1]+' beantwortet'],['schreiben','Schreiben',((st.brief||'').trim().match(/\S+/g)||[]).length+' Wörter geschrieben'],['sprechen','Sprechen',(st.sprech||'').trim()?'Antworten notiert':'keine Notizen (Sprechen wird im Chat bewertet)']];
+const rows=rows0.filter(r=>!st.lock[r[0]]);const done=rows0.filter(r=>st.lock[r[0]]).map(r=>r[1]);
+$('#chk').innerHTML=(done.length?'<p class="hint">Bereits beendet und gespeichert: '+done.join(', ')+'. Diese Teile können nicht mehr geändert werden.</p>':'')+rows.map(r=>'<div class="chk"><input type="checkbox" id="c-'+r[0]+'"><label for="c-'+r[0]+'"><b>Ich habe '+r[1]+' noch einmal geprüft.</b><small>'+r[2]+'</small></label><button data-go="'+r[0]+'">Ansehen</button></div>').join('');
 $$('#chk [data-go]').forEach(b=>b.onclick=()=>{$('#modal').hidden=true;if(avail(b.dataset.go)||st.lock[b.dataset.go])go(b.dataset.go,0)});
 $$('#chk input').forEach(i=>i.onchange=()=>{$('#submit').disabled=!$$('#chk input').every(x=>x.checked)});$('#submit').disabled=true;$('#modal').hidden=false}
 $('#finish').onclick=openFinish;$('#finish2').onclick=openFinish;$('#back').onclick=()=>$('#modal').hidden=true;$('#submit').onclick=()=>{$('#modal').hidden=true;finalize()};
