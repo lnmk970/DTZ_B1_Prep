@@ -17,7 +17,8 @@ function commit(){if(st.act&&st.since){st.el[st.act]=(st.el[st.act]||0)+now()-st
 function setAct(s){commit();st.act=s;st.since=now();save()}
 const fmt=ms=>{ms=Math.max(0,ms);const s=Math.ceil(ms/1000);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')};
 function avail(s){if(!st.t0)return false;if(s==='hoeren')return true;if(s==='lesen'||s==='schreiben')return !!st.lock.hoeren;if(s==='sprechen')return !!(st.lock.hoeren&&st.lock.lesen&&st.lock.schreiben);return !!st.fin}
-function tabs(){$$('.sbtn').forEach(b=>{const s=b.dataset.t;b.disabled=st.fin?false:!avail(s);b.classList.toggle('on',s===cur);b.classList.toggle('end',!!st.lock[s]&&s!=='antworten')});
+function updEnd(){const b=$('#endcur');const ok=!st.fin&&['hoeren','lesen','schreiben'].includes(cur)&&!st.lock[cur]&&(cur==='hoeren'||(st.began&&st.began[cur]));b.hidden=!ok;if(ok)b.textContent=LAB[cur]+' beenden'}
+function tabs(){updEnd();$$('.sbtn').forEach(b=>{const s=b.dataset.t;b.disabled=st.fin?false:!avail(s);b.classList.toggle('on',s===cur);b.classList.toggle('end',!!st.lock[s]&&s!=='antworten')});
 const h=$('#sidehint');h.textContent=st.fin?'Prüfung abgegeben.':!st.lock.hoeren?'Hören läuft. Die anderen Teile sind gesperrt, bis Hören beendet ist.':(!st.lock.lesen||!st.lock.schreiben)?'Lesen und Schreiben können Sie in beliebiger Reihenfolge bearbeiten. Sprechen folgt danach.':'Sprechen ist freigeschaltet.'}
 $$('[data-begin]').forEach(b=>b.onclick=()=>{const k=b.dataset.begin;st.began=st.began||{};st.began[k]=1;save();go(k)});
 /* navigation */
@@ -75,6 +76,7 @@ aud.addEventListener('playing',()=>{aStat('Wiedergabe läuft …');$('#aplay').h
 aud.addEventListener('ended',()=>{ended=true;st.aend=true;save();aStat('Wiedergabe beendet');$('#hdone').disabled=false});
 aud.addEventListener('error',()=>{$('#noaudio').style.display='block';aStat('Audio nicht verfügbar');$('#hdone').disabled=false});
 $('#aplay').onclick=()=>{aud.play().catch(()=>{})};
+$('#endcur').onclick=()=>{const s=cur;const m=s==='hoeren'?'Hören jetzt beenden? Der Hörtext kann nicht noch einmal abgespielt werden.':LAB[s]+' jetzt beenden? Danach können Sie diesen Teil nicht mehr ändern.';if(confirm(m))endSec(s,LAB[s]+' ist beendet. Ihre Antworten sind gespeichert.')};
 $('#hdone').onclick=()=>{if(confirm('Hören jetzt beenden?'))endSec('hoeren','Hören ist beendet. Ihre Antworten sind gespeichert.')};
 function startAudio(){if(st.lock.hoeren)return;if(st.aend){aStat('Wiedergabe beendet');$('#hdone').disabled=false;return}aStat('Wiedergabe startet …');aud.play().catch(()=>{aStat('Bitte „Wiedergabe starten“ klicken');$('#aplay').hidden=false})}
 /* finish */

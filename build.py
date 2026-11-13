@@ -252,7 +252,7 @@ def build_page(n, M, total):
 <div id="app" hidden>
 <header class="bar"><div class="bl"><button class="homebtn" id="home" title="Startseite" aria-label="Startseite"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg></button><span class="logo sm">DTZ B1</span><div><b>Modelltest {n}</b><small>{E(M['th'])}</small></div></div>
 <div class="bc"><div class="tm main"><small id="tm-l">Schriftliche Prüfung</small><b id="tm-main">100:00</b></div><div class="tm sub"><small id="tm-sl">Hören</small><b id="tm-sub">25:00</b></div></div>
-<div class="br"><button class="btn" id="finish">Prüfung beenden</button></div></header>
+<div class="br"><button class="btn gold" id="endcur" hidden>Beenden</button><button class="btn" id="finish">Prüfung beenden</button></div></header>
 <div class="shell"><nav class="side"><button class="sbtn" data-t="hoeren"><i>1</i><span>Hören<small>25 Min</small></span></button><button class="sbtn" data-t="lesen"><i>2</i><span>Lesen<small>45 Min</small></span></button><button class="sbtn" data-t="schreiben"><i>3</i><span>Schreiben<small>30 Min</small></span></button><button class="sbtn" data-t="sprechen"><i>4</i><span>Sprechen<small>ca. 15 Min</small></span></button><button class="sbtn" data-t="antworten" disabled><i>★</i><span>Antworten<small>nach der Abgabe</small></span></button><div class="sidehint" id="sidehint"></div></nav>
 <main id="main">
 <section id="hoeren"><div class="audbar"><b>Hörtext</b><div class="prog"><i id="aprog"></i></div><span id="astat">Wartet auf Start</span><button class="btn ghost small" id="aplay" hidden>Wiedergabe starten</button><button class="btn small" id="hdone" disabled>Hören beenden</button></div><audio id="aud" preload="auto" src="hoeren.mp3"></audio><div class="noaudio" id="noaudio">Die Audiodatei fehlt oder kann nicht geladen werden. Sie können „Hören beenden“ klicken und trotzdem die Aufgaben ansehen.</div>{Hh}</section>
@@ -302,7 +302,7 @@ CSS = """
 .rules{padding-left:18px;color:#34455e;margin:0}.rules li{margin:.45em 0}.startacts{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:28px}.startacts a{color:var(--pri);font-weight:700;text-decoration:none}
 #app[hidden]{display:none}
 .bar{position:sticky;top:0;z-index:30;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;padding:8px 24px;height:88px;background:var(--ink);color:#fff}
-.bl{display:flex;gap:12px;align-items:center;min-width:0}.bl b{display:block;line-height:1.2}.bl small{color:#9db0c9}.br{justify-self:end;display:flex;gap:10px}.homebtn{width:42px;height:42px;border-radius:10px;border:1.5px solid #6f86a6;background:transparent;color:#fff;display:grid;place-items:center;cursor:pointer;flex:none}.homebtn:hover{background:#ffffff1f}.bar .btn{background:transparent;border-color:#6f86a6}.bar .btn:hover{background:#ffffff1a}
+.bl{display:flex;gap:12px;align-items:center;min-width:0}.bl b{display:block;line-height:1.2}.bl small{color:#9db0c9}.br{justify-self:end;display:flex;gap:10px}.bar .btn.gold{background:var(--gold);border-color:var(--gold);color:var(--ink)}.bar .btn.gold:hover{background:#ffd37e}.homebtn{width:42px;height:42px;border-radius:10px;border:1.5px solid #6f86a6;background:transparent;color:#fff;display:grid;place-items:center;cursor:pointer;flex:none}.homebtn:hover{background:#ffffff1f}.bar .btn{background:transparent;border-color:#6f86a6}.bar .btn:hover{background:#ffffff1a}
 .bc{display:flex;flex-direction:column;align-items:center;line-height:1}.tm small{display:block;color:#9db0c9;font-size:.72rem}
 .tm.main b{font:800 2rem/1.1 var(--sans);font-variant-numeric:tabular-nums;color:var(--gold)}.tm.sub{display:flex;gap:8px;align-items:baseline;margin-top:3px;background:#ffffff18;border-radius:99px;padding:2px 14px}.tm.sub small{display:inline}.tm.sub b{color:#fff;font:700 1rem var(--sans);font-variant-numeric:tabular-nums}
 .bc.low .tm.main b{color:#ff7b6b;animation:pulse 1s infinite}@keyframes pulse{50%{opacity:.5}}
@@ -379,7 +379,8 @@ function commit(){if(st.act&&st.since){st.el[st.act]=(st.el[st.act]||0)+now()-st
 function setAct(s){commit();st.act=s;st.since=now();save()}
 const fmt=ms=>{ms=Math.max(0,ms);const s=Math.ceil(ms/1000);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')};
 function avail(s){if(!st.t0)return false;if(s==='hoeren')return true;if(s==='lesen'||s==='schreiben')return !!st.lock.hoeren;if(s==='sprechen')return !!(st.lock.hoeren&&st.lock.lesen&&st.lock.schreiben);return !!st.fin}
-function tabs(){$$('.sbtn').forEach(b=>{const s=b.dataset.t;b.disabled=st.fin?false:!avail(s);b.classList.toggle('on',s===cur);b.classList.toggle('end',!!st.lock[s]&&s!=='antworten')});
+function updEnd(){const b=$('#endcur');const ok=!st.fin&&['hoeren','lesen','schreiben'].includes(cur)&&!st.lock[cur]&&(cur==='hoeren'||(st.began&&st.began[cur]));b.hidden=!ok;if(ok)b.textContent=LAB[cur]+' beenden'}
+function tabs(){updEnd();$$('.sbtn').forEach(b=>{const s=b.dataset.t;b.disabled=st.fin?false:!avail(s);b.classList.toggle('on',s===cur);b.classList.toggle('end',!!st.lock[s]&&s!=='antworten')});
 const h=$('#sidehint');h.textContent=st.fin?'Prüfung abgegeben.':!st.lock.hoeren?'Hören läuft. Die anderen Teile sind gesperrt, bis Hören beendet ist.':(!st.lock.lesen||!st.lock.schreiben)?'Lesen und Schreiben können Sie in beliebiger Reihenfolge bearbeiten. Sprechen folgt danach.':'Sprechen ist freigeschaltet.'}
 $$('[data-begin]').forEach(b=>b.onclick=()=>{const k=b.dataset.begin;st.began=st.began||{};st.began[k]=1;save();go(k)});
 /* navigation */
@@ -437,6 +438,7 @@ aud.addEventListener('playing',()=>{aStat('Wiedergabe läuft …');$('#aplay').h
 aud.addEventListener('ended',()=>{ended=true;st.aend=true;save();aStat('Wiedergabe beendet');$('#hdone').disabled=false});
 aud.addEventListener('error',()=>{$('#noaudio').style.display='block';aStat('Audio nicht verfügbar');$('#hdone').disabled=false});
 $('#aplay').onclick=()=>{aud.play().catch(()=>{})};
+$('#endcur').onclick=()=>{const s=cur;const m=s==='hoeren'?'Hören jetzt beenden? Der Hörtext kann nicht noch einmal abgespielt werden.':LAB[s]+' jetzt beenden? Danach können Sie diesen Teil nicht mehr ändern.';if(confirm(m))endSec(s,LAB[s]+' ist beendet. Ihre Antworten sind gespeichert.')};
 $('#hdone').onclick=()=>{if(confirm('Hören jetzt beenden?'))endSec('hoeren','Hören ist beendet. Ihre Antworten sind gespeichert.')};
 function startAudio(){if(st.lock.hoeren)return;if(st.aend){aStat('Wiedergabe beendet');$('#hdone').disabled=false;return}aStat('Wiedergabe startet …');aud.play().catch(()=>{aStat('Bitte „Wiedergabe starten“ klicken');$('#aplay').hidden=false})}
 /* finish */
