@@ -387,7 +387,7 @@ function rem(s){return st.lock[s]?0:B[s]-elapsed(s)}
 function commit(){if(st.act&&st.since){st.el[st.act]=(st.el[st.act]||0)+now()-st.since}st.since=now()}
 function setAct(s){commit();st.act=s;st.since=now();save()}
 const fmt=ms=>{ms=Math.max(0,ms);const s=Math.ceil(ms/1000);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')};
-function avail(s){if(!st.t0)return false;if(s==='hoeren')return true;if(s==='lesen'||s==='schreiben')return !!st.lock.hoeren;if(s==='sprechen')return !!(st.lock.hoeren&&st.lock.lesen&&st.lock.schreiben);return !!st.fin}
+function avail(s){if(!st.t0)return false;if(s==='hoeren')return !st.lock.hoeren||!!st.fin;if(s==='lesen'||s==='schreiben')return !!st.lock.hoeren;if(s==='sprechen')return !!(st.lock.hoeren&&st.lock.lesen&&st.lock.schreiben);return !!st.fin}
 function updEnd(){const b=$('#endcur');const ok=!st.fin&&['hoeren','lesen','schreiben'].includes(cur)&&!st.lock[cur]&&(cur==='hoeren'||(st.began&&st.began[cur]));b.hidden=!ok;if(ok)b.textContent=LAB[cur]+' beenden'}
 function tabs(){updEnd();$$('.sbtn').forEach(b=>{const s=b.dataset.t;b.disabled=st.fin?false:!avail(s);b.classList.toggle('on',s===cur);b.classList.toggle('end',!!st.lock[s]&&s!=='antworten')});
 const h=$('#sidehint');h.textContent=st.fin?'Prüfung abgegeben.':!st.lock.hoeren?'Hören läuft. Die anderen Teile sind gesperrt, bis Hören beendet ist.':(!st.lock.lesen||!st.lock.schreiben)?'Lesen und Schreiben können Sie in beliebiger Reihenfolge bearbeiten. Sprechen folgt danach.':'Sprechen ist freigeschaltet.'}
@@ -415,7 +415,7 @@ function pwc(){const e=$('#pwc');if(e)e.textContent=((st.brief||'').trim().match
 /* locking */
 function lockSec(s,why){commit();st.lock[s]=true;const sec=$('#'+s);sec.classList.add('locked');sec.querySelectorAll('input,textarea').forEach(i=>i.disabled=true);
 if(!sec.querySelector('.banner')){const b=document.createElement('div');b.className='banner';b.textContent=why;sec.insertBefore(b,sec.firstChild)}
-if(s==='hoeren'){try{aud.pause()}catch(e){}$('#hdone').disabled=true}
+if(s==='hoeren'){clearInterval(preT);preT=null;try{aud.pause()}catch(e){}$('#hdone').disabled=true}
 save();tabs()}
 function autoNext(from){if(from==='hoeren'){go('lesen')}else if(from==='lesen'){if(!st.lock.schreiben)go('schreiben');else if(avail('sprechen'))go('sprechen');else openFinish()}else if(from==='schreiben'){if(!st.lock.lesen)go('lesen');else if(avail('sprechen'))go('sprechen');else openFinish()}else openFinish()}
 function endSec(s,msg){lockSec(s,msg);toast(LAB[s]+' beendet, gespeichert');autoNext(s)}
@@ -449,6 +449,8 @@ aud.addEventListener('error',()=>{$('#noaudio').style.display='block';aStat('Aud
 $('#aplay').onclick=()=>{aud.play().catch(()=>{})};
 $('#endcur').onclick=()=>{const s=cur;const m=s==='hoeren'?'Hören jetzt beenden? Der Hörtext kann nicht noch einmal abgespielt werden.':LAB[s]+' jetzt beenden? Danach können Sie diesen Teil nicht mehr ändern.';if(confirm(m))endSec(s,LAB[s]+' ist beendet. Ihre Antworten sind gespeichert.')};
 $('#hdone').onclick=()=>{if(confirm('Hören jetzt beenden?'))endSec('hoeren','Hören ist beendet. Ihre Antworten sind gespeichert.')};
+let preT=null,preLeft=0;
+function preStart(sec){preLeft=sec;clearInterval(preT);const up=()=>{aStat('Der Hörtext startet in '+preLeft+' Sekunden. Lesen Sie jetzt die Aufgaben.')};up();preT=setInterval(()=>{preLeft--;if(preLeft<=0){clearInterval(preT);preT=null;st.preLeft=0;save();startAudio()}else up()},1000)}
 function startAudio(){if(st.lock.hoeren)return;if(st.aend){aStat('Wiedergabe beendet');$('#hdone').disabled=false;return}aStat('Wiedergabe startet …');aud.play().catch(()=>{aStat('Bitte „Wiedergabe starten“ klicken');$('#aplay').hidden=false})}
 /* finish */
 function counts(){const o={};['h','l'].forEach(p=>{const ks=Object.keys(KEY).filter(k=>k[0]===p);o[p]=[ks.filter(k=>st.sel[k]!==undefined).length,ks.length]});return o}
@@ -485,8 +487,8 @@ $$('audio:not(#aud)').forEach(a=>{const n=a.parentNode.querySelector('.noaudio')
 $('#redo').onclick=()=>{if(confirm('Alle Antworten dieses Tests löschen und neu beginnen?')){try{localStorage.removeItem(SK)}catch(e){}location.reload()}};
 /* start */
 function showApp(){$('#start').hidden=true;$('#app').hidden=false}
-function begin(){const resume=!!st.paused;if(!st.t0){st.t0=now();st.act='hoeren';st.since=now();save()}if(resume){st.paused=false;st.act=st.pact||null;st.since=now();save()}showApp();SECS.forEach(s=>{if(st.lock[s])lockSec(s,'Dieser Teil ist beendet.')});const tg=st.fin?'antworten':(st.where&&(avail(st.where)||st.lock[st.where])?st.where:'hoeren');go(tg,1);if(!st.fin&&(tg==='hoeren'||!st.lock.hoeren))startAudio()}
-$('#home').onclick=()=>{if(st.fin||!st.t0){location.href='../';return}if(confirm('Sie sind mitten in der Prüfung. Prüfung pausieren und zur Startseite gehen?\n\nDie Zeit wird angehalten. Beim Fortsetzen machen Sie genau hier weiter.')){commit();st.pact=st.act;st.act=null;st.since=0;st.paused=true;st.where=cur;save();location.href='../'}};
+function begin(){const resume=!!st.paused;const fresh=!st.t0;if(!st.t0){st.t0=now();st.act='hoeren';st.since=now();save()}if(resume){st.paused=false;st.act=st.pact||null;st.since=now();save()}showApp();SECS.forEach(s=>{if(st.lock[s])lockSec(s,'Dieser Teil ist beendet.')});const tg=st.fin?'antworten':(st.where&&(avail(st.where)||st.lock[st.where])?st.where:'hoeren');go(tg,1);if(!st.fin&&!st.lock.hoeren&&tg==='hoeren'){if(fresh)preStart(30);else if(st.preLeft>0&&!st.apos)preStart(st.preLeft);else startAudio()}}
+$('#home').onclick=()=>{if(st.fin||!st.t0){location.href='../';return}if(confirm('Sie sind mitten in der Prüfung. Prüfung pausieren und zur Startseite gehen?\n\nDie Zeit wird angehalten. Beim Fortsetzen machen Sie genau hier weiter.')){if(preT){clearInterval(preT);preT=null;st.preLeft=preLeft}commit();st.pact=st.act;st.act=null;st.since=0;st.paused=true;st.where=cur;save();location.href='../'}};
 $('#begin').onclick=begin;$('#reset').onclick=()=>{if(confirm('Test zurücksetzen?')){try{localStorage.removeItem(SK)}catch(e){}location.reload()}};
 if(st.fin){showApp();SECS.forEach(s=>lockSec(s,'Die Prüfung ist abgegeben. Änderungen sind nicht mehr möglich.'));st.h=score('h');st.l=score('l');render();go('antworten',1)}
 else if(st.t0){$('#begin').textContent=st.paused?'Pausierte Prüfung fortsetzen':'Prüfung fortsetzen';$('#reset').hidden=false}
