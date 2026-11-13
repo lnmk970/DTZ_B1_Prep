@@ -88,7 +88,7 @@ const rows=rows0.filter(r=>!st.lock[r[0]]);const done=rows0.filter(r=>st.lock[r[
 $('#chk').innerHTML=(done.length?'<p class="hint">Bereits beendet und gespeichert: '+done.join(', ')+'. Diese Teile können nicht mehr geändert werden.</p>':'')+rows.map(r=>'<div class="chk"><input type="checkbox" id="c-'+r[0]+'"><label for="c-'+r[0]+'"><b>Ich habe '+r[1]+' noch einmal geprüft.</b><small>'+r[2]+'</small></label><button data-go="'+r[0]+'">Ansehen</button></div>').join('');
 $$('#chk [data-go]').forEach(b=>b.onclick=()=>{$('#modal').hidden=true;if(avail(b.dataset.go)||st.lock[b.dataset.go])go(b.dataset.go,0)});
 $$('#chk input').forEach(i=>i.onchange=()=>{$('#submit').disabled=!$$('#chk input').every(x=>x.checked)});$('#submit').disabled=true;$('#modal').hidden=false}
-$('#finish').onclick=openFinish;$('#finish2').onclick=openFinish;$('#back').onclick=()=>$('#modal').hidden=true;$('#submit').onclick=()=>{$('#modal').hidden=true;finalize()};
+$('#finish').onclick=$('#finish2').onclick=()=>{if(st.fin){location.href='../'}else openFinish()};$('#back').onclick=()=>$('#modal').hidden=true;$('#submit').onclick=()=>{$('#modal').hidden=true;finalize()};
 function score(p){return Object.keys(KEY).filter(k=>k[0]===p&&String(KEY[k])===st.sel[k]).length}
 function finalize(){commit();st.fin=true;st.h=score('h');st.l=score('l');SECS.forEach(s=>lockSec(s,'Die Prüfung ist abgegeben. Änderungen sind nicht mehr möglich.'));save();render();go('antworten')}
 /* answers */
@@ -111,7 +111,7 @@ function inline(){Object.keys(KEY).forEach(k=>{const it=document.getElementById(
 const labs=[...it.querySelectorAll('.opt')];const pos=v=>String(v)==='8'?labs.length-1:+v;labs.forEach(l=>l.classList.remove('is-correct','is-wrong'));
 if(labs[pos(KEY[k])])labs[pos(KEY[k])].classList.add('is-correct');const sv=st.sel[k];if(sv!==undefined&&String(sv)!==String(KEY[k])&&labs[pos(sv)])labs[pos(sv)].classList.add('is-wrong');
 const d=document.createElement('div');d.className='inexp';d.innerHTML=card(k,it.querySelector('.qn').textContent,true);qb.appendChild(d)});
-aud.controls=true;aud.removeAttribute('hidden');aud.style.display='block';$('#aplay').hidden=true;$('#hdone').hidden=true;$('#endcur').hidden=true;$('#finish').hidden=true;$$('[data-endsec]').forEach(b=>b.hidden=true);aStat('Zum Nachhören: Wiedergabe, Pause und Vor- oder Zurückspulen mit der Leiste unten.');$('#noaudio').style.display='none'}
+aud.controls=true;aud.removeAttribute('hidden');aud.style.display='block';$('#aplay').hidden=true;$('#hdone').hidden=true;$('#endcur').hidden=true;$('#finish').hidden=false;$('#finish').textContent='Zur Startseite';$('#finish2').textContent='Zur Startseite';$$('[data-endsec]').forEach(b=>b.hidden=true);aStat('Zum Nachhören: Wiedergabe, Pause und Vor- oder Zurückspulen mit der Leiste unten.');$('#noaudio').style.display='none'}
 function list(){const out=[];[['h','hoeren'],['l','lesen']].forEach(([p,s])=>{let i=0;Object.keys(KEY).filter(k=>k[0]===p).forEach(k=>{i++;const ok=String(KEY[k])===st.sel[k];if(filt==='all'||!ok)out.push('<h3>'+LAB[s]+' · Aufgabe '+i+'</h3>'+card(k,i))})});$('#ans-list').innerHTML=out.length?out.join(''):'<p>Alle Aufgaben richtig – sehr gut!</p>'}
 const lvl=x=>x>=33?'B1':x>=20?'A2':'unter A2';
 function verdict(){const hl=(st.h||0)+(st.l||0);const v=$('#verdict');if(!v)return;const pB=st.p==='2',sB=st.s==='2',hlB=hl>=33;
