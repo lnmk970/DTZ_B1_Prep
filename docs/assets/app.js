@@ -7,8 +7,8 @@ st.sel=st.sel||{};
 document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button,section').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.getElementById(b.dataset.t).classList.add('on');if(b.dataset.t==='ergebnis')fin();window.scrollTo(0,0)});
 document.querySelectorAll('input[type=radio]').forEach(r=>{const n=r.name;if(st.sel[n]===r.value)r.checked=true;r.addEventListener('change',()=>{if(n==='s'||n==='p'){st[n]=r.value}else st.sel[n]=r.value;save()})});
 ['s','p'].forEach(n=>{if(st[n]!==undefined){const r=document.querySelector('input[name='+n+'][value="'+st[n]+'"]');if(r)r.checked=true}});
-function ev(p){let ok=0,tot=0;Object.keys(KEY).filter(k=>k[0]===p).forEach(k=>{tot++;const box=document.querySelector('[data-q='+k+']');const s=st.sel[k];box.querySelectorAll('.opt').forEach((o,i)=>{o.classList.remove('right','wrong');if(i===KEY[k])o.classList.add('right');else if(String(i)===s)o.classList.add('wrong')});if(String(KEY[k])===s)ok++});st[p]=ok;save();
-const lv=ok>=33?'B1':ok>=20?'A2':'unter A2';return ok}
+var ev=function(p){let ok=0,tot=0;Object.keys(KEY).filter(k=>k[0]===p).forEach(k=>{tot++;const box=document.querySelector('[data-q='+k+']');const s=st.sel[k];box.querySelectorAll('.opt').forEach((o,i)=>{o.classList.remove('right','wrong');if(i===KEY[k])o.classList.add('right');else if(String(i)===s)o.classList.add('wrong')});if(String(KEY[k])===s)ok++});st[p]=ok;save();
+return ok}
 function show(p){const ok=ev(p),tot=p==='h'?20:25;document.getElementById('res-'+p).textContent=ok+' von '+tot+' richtig ('+Math.round(ok/tot*100)+' %). Richtige Antworten sind grün, deine falschen rot.'}
 document.querySelectorAll('[data-eval]').forEach(b=>b.onclick=()=>show(b.dataset.eval));
 if(st.h!==undefined)document.getElementById('res-h').textContent='Zuletzt: '+st.h+' von 20 richtig.';
@@ -23,4 +23,10 @@ const ta=document.getElementById('brief');if(st.brief)ta.value=st.brief;const wc
 document.getElementById('copy').onclick=()=>{ta.select();try{navigator.clipboard.writeText(ta.value)}catch(e){document.execCommand('copy')}};
 document.querySelectorAll('.timer').forEach(t=>{let s=+t.dataset.min*60,iv=null;const sp=t.querySelector('span'),b=t.querySelector('button');const draw=()=>{sp.textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')};b.onclick=()=>{if(iv){clearInterval(iv);iv=null;b.textContent='Weiter'}else{b.textContent='Pause';iv=setInterval(()=>{s--;draw();if(s<=0){clearInterval(iv);sp.style.color='#dc2626'}},1000)}}});
 const c=document.getElementById('count');const days=Math.ceil((new Date('2026-12-10T00:00:00')-new Date())/864e5);c.textContent=days>0?'Noch '+days+' Tage bis zur Prüfung':'Prüfungstag';
+
+document.querySelectorAll('.qnav').forEach(q=>{const p=q.dataset.p;const ks=Object.keys(KEY).filter(k=>k[0]===p);q.innerHTML='<b>Aufgaben</b><div class="g">'+ks.map((k,i)=>'<a href="#i-'+k+'" data-k="'+k+'">'+(i+1)+'</a>').join('')+'</div><p>Blau = beantwortet</p>'});
+function paint(){document.querySelectorAll('.qnav a').forEach(a=>{const k=a.dataset.k;a.classList.toggle('done',st.sel[k]!==undefined)})}
+paint();document.addEventListener('change',paint);
+const _ev=ev;ev=function(p){const r=_ev(p);document.querySelectorAll('.qnav a').forEach(a=>{const k=a.dataset.k;if(k[0]!==p)return;a.classList.remove('done','r','w');a.classList.add(String(KEY[k])===st.sel[k]?'r':'w')});return r};
+document.querySelectorAll('audio').forEach(a=>{const n=a.parentNode.querySelector('.noaudio');const bad=()=>{if(n)n.style.display='block'};a.addEventListener('error',bad);a.addEventListener('loadedmetadata',()=>{if(n)n.style.display='none'});fetch(a.src,{method:'HEAD'}).then(r=>{if(!r.ok)bad()}).catch(()=>{})});
 })();

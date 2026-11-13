@@ -196,17 +196,17 @@ def build_page(n, M, total):
 <title>DTZ B1 · Modelltest {n} (Tag {n})</title><link rel="stylesheet" href="../assets/style.css"></head>
 <body>
 <header class="top"><a class="home" href="../">⌂ Übersicht</a>
-<div><div class="eyebrow">Deutsch-Test für Zuwanderer · B1</div><h1>Modelltest {n} <small>· Tag {n} · {ds}</small></h1><div class="theme">Thema: {E(M['th'])}</div></div>
+<div><div class="eyebrow">Deutsch-Test für Zuwanderer B1</div><h1>Modelltest {n} <small>Tag {n}, {ds}</small></h1><div class="theme">Thema: {E(M['th'])}</div></div>
 <div class="count" id="count"></div></header>
 <nav class="tabs"><button data-t="hoeren" class="on">Hören<br><small>25 Min · 20</small></button><button data-t="lesen">Lesen<br><small>45 Min · 25</small></button><button data-t="schreiben">Schreiben<br><small>30 Min</small></button><button data-t="sprechen">Sprechen<br><small>ca. 15 Min</small></button><button data-t="ergebnis">Ergebnis</button></nav>
 <main>
 <section id="hoeren" class="on"><div class="card"><h2>Hören</h2><p>Sie hören jeden Text <b>nur einmal</b>. Lesen Sie zuerst die Aufgabe, hören Sie dann den Text. Starten Sie die Audiodatei erst, wenn Sie bereit sind – und spulen Sie nicht zurück, wie in der echten Prüfung.</p>
-<audio controls preload="none" src="hoeren.mp3"></audio><div class="timer" data-min="25"><span>25:00</span><button>Zeit starten</button></div></div>
-<div class="card">{H}</div>
+<div class="player"><audio controls preload="none" src="hoeren.mp3"></audio><div class="noaudio">Die Audiodatei fehlt noch. Auf dem PC <code>python gen_audio.py docs</code> ausführen und die MP3-Dateien hochladen.</div></div><div class="timer" data-min="25"><span>25:00</span><button>Zeit starten</button></div></div>
+<div class="layout"><div class="card">{H}</div><aside class="qnav" data-p="h"></aside></div>
 <div class="card"><button class="btn" data-eval="h">Hören auswerten</button><div id="res-h" class="res"></div>
 <details><summary>Hörtexte (erst nach dem Auswerten lesen)</summary>{TR}</details></div></section>
 <section id="lesen"><div class="card"><h2>Lesen</h2><p>Lösen Sie die Aufgaben 1 bis 25. Sie haben 45 Minuten Zeit. Wenn Sie eine Aufgabe nicht lösen können, gehen Sie weiter.</p><div class="timer" data-min="45"><span>45:00</span><button>Zeit starten</button></div></div>
-<div class="card">{L}</div>
+<div class="layout"><div class="card">{L}</div><aside class="qnav" data-p="l"></aside></div>
 <div class="card"><button class="btn" data-eval="l">Lesen auswerten</button><div id="res-l" class="res"></div></div></section>
 <section id="schreiben"><div class="card"><h2>Schreiben</h2><p>Sie haben 30 Minuten Zeit. <b>Schreiben Sie möglichst viel</b> (ca. 80–100 Wörter) und behandeln Sie alle vier Punkte.</p>{S}
 <div class="timer" data-min="30"><span>30:00</span><button>Zeit starten</button></div>
@@ -216,7 +216,7 @@ def build_page(n, M, total):
 <details><summary>Modellbrief (erst nach dem Schreiben)</summary><div class="text">{E(model).replace(chr(10), "<br>")}</div></details>
 <div class="self"><b>Selbsteinschätzung:</b> <label><input type="radio" name="s" value="0"> A1</label> <label><input type="radio" name="s" value="1"> A2</label> <label><input type="radio" name="s" value="2"> B1</label></div></div></section>
 <section id="sprechen"><div class="card"><h2>Sprechen</h2><p>Die mündliche Prüfung ist eine Paarprüfung. Üben Sie mit Ihrer Partnerin oder allein laut. Nehmen Sie sich mit dem Handy auf und hören Sie sich danach an.</p>{P}
-<audio controls preload="none" src="sprechen_modell.mp3"></audio>
+<div class="player"><audio controls preload="none" src="sprechen_modell.mp3"></audio><div class="noaudio">Die Audiodatei fehlt noch (gen_audio.py ausführen).</div></div>
 <p class="hint">Bewertung: Schicken Sie Ihre Antwort (getippt oder diktiert) in den Claude-Chat und schreiben Sie „Ich bin fertig, Modelltest {n}“. Kriterien wie im Prüferblatt: Aussprache und Intonation (nur beim lauten Üben), Flüssigkeit, Korrektheit, Wortschatz, Inhaltliche Angemessenheit – je A1 / A2 / B1.</p>
 <details><summary>Beispielantworten (erst nach dem Sprechen)</summary>{P_model}</details>
 <div class="self"><b>Selbsteinschätzung:</b> <label><input type="radio" name="p" value="0"> A1</label> <label><input type="radio" name="p" value="1"> A2</label> <label><input type="radio" name="p" value="2"> B1</label></div></div></section>
@@ -238,27 +238,67 @@ def build_index(mocks):
 
 
 CSS = """
-:root{--bg:#0f172a;--card:#fff;--ink:#0f172a;--mut:#64748b;--acc:#4f46e5;--ok:#16a34a;--bad:#dc2626;--line:#e2e8f0}
-*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,Segoe UI,Roboto,sans-serif;background:#f1f5f9;color:var(--ink)}
-.top{display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:18px 20px;background:linear-gradient(135deg,#1e1b4b,#4f46e5 60%,#0ea5e9);color:#fff}
-.top h1{margin:0;font-size:1.5rem}.top small{font-weight:400;opacity:.8}.eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;opacity:.8}.theme{opacity:.9}
-.home{color:#fff;text-decoration:none;background:#ffffff22;padding:6px 10px;border-radius:8px}.count{margin-left:auto;background:#ffffff22;padding:8px 14px;border-radius:12px;font-weight:600}
-.tabs{display:flex;gap:6px;padding:10px;position:sticky;top:0;background:#f1f5f9;z-index:5;overflow:auto}.tabs button{flex:1;min-width:84px;border:1px solid var(--line);background:#fff;border-radius:10px;padding:8px;font-weight:600;cursor:pointer}.tabs button small{font-weight:400;color:var(--mut)}.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}.tabs button.on small{color:#e0e7ff}
-main{max-width:860px;margin:0 auto;padding:10px 12px 40px}section{display:none}section.on{display:block}.card{background:var(--card);border-radius:14px;padding:16px 18px;margin:12px 0;box-shadow:0 1px 3px #0001}
-h2{margin:.2em 0 .4em}h3{margin:1.3em 0 .2em;color:var(--acc)}.hint{color:var(--mut);font-size:.92rem}.sub{margin:14px 0 4px;font-weight:700;background:#eef2ff;padding:6px 10px;border-radius:8px}
-.item{display:flex;gap:10px;padding:10px 0;border-top:1px solid var(--line)}.qn{width:30px;height:30px;flex:none;border-radius:50%;background:var(--acc);color:#fff;display:grid;place-items:center;font-weight:700;font-size:.85rem}.qb{flex:1}.q{margin:.1em 0 .4em;font-weight:600}
-.opt{display:flex;gap:8px;align-items:flex-start;padding:7px 10px;border:1px solid var(--line);border-radius:10px;margin:5px 0;cursor:pointer}.opt:hover{background:#f8fafc}.opt input{margin-top:5px}.k{font-weight:700;color:var(--acc);min-width:1.1em}
-.opts.row{display:flex;flex-wrap:wrap;gap:6px}.opts.row .opt{margin:0;padding:6px 12px}
-.opt.right{background:#dcfce7;border-color:var(--ok)}.opt.wrong{background:#fee2e2;border-color:var(--bad)}.fb{margin:.2em 0 0;font-size:.9rem;color:var(--mut)}
-.text,.ad{background:#f8fafc;border-left:4px solid var(--acc);padding:10px 14px;border-radius:8px;margin:10px 0}.ads{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}.ad{margin:0;font-size:.93rem}
-.stm{list-style:none;padding:0}.stm li{padding:4px 0}.gap{color:var(--acc)}
-.btn{background:var(--acc);color:#fff;border:0;border-radius:10px;padding:10px 18px;font-weight:700;cursor:pointer}.res{margin-top:12px;font-weight:600}
-.timer{display:flex;gap:10px;align-items:center;margin:10px 0}.timer span{font:700 1.4rem ui-monospace,monospace}.timer button{border:1px solid var(--line);background:#fff;border-radius:8px;padding:5px 10px;cursor:pointer}
-audio{width:100%;margin:8px 0}textarea{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:10px}.wc{color:var(--mut);margin:4px 0 8px}.self{margin-top:14px;padding:10px;background:#f8fafc;border-radius:10px}.self label{margin-right:12px}
-details{margin-top:12px}summary{cursor:pointer;font-weight:600;color:var(--acc)}
-footer.nav{display:flex;justify-content:space-between;max-width:860px;margin:0 auto;padding:0 16px 40px}footer.nav a{color:var(--acc);font-weight:600;text-decoration:none}
-.bar{height:12px;background:#e2e8f0;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,#22c55e,#4f46e5)}
-.day{display:flex;gap:12px;align-items:center;background:#fff;border-radius:12px;padding:12px 14px;margin:8px 0;text-decoration:none;color:inherit;box-shadow:0 1px 3px #0001}.day .n{width:42px;height:42px;border-radius:12px;background:#eef2ff;color:var(--acc);display:grid;place-items:center;font-weight:800}.day.today{outline:2px solid var(--acc)}.day .t{flex:1}.day small{color:var(--mut)}.pill{padding:3px 10px;border-radius:99px;font-size:.8rem;font-weight:700;background:#e2e8f0}.pill.b1{background:#dcfce7;color:#166534}.pill.a2{background:#fef9c3;color:#854d0e}
+:root{--bar:#16202e;--bar2:#223046;--desk:#e6e9ee;--paper:#fff;--ink:#1b2432;--mut:#5d6b7e;--pri:#1d4f91;--pri-d:#153b6e;--sel:#e7eef9;--ok:#1c7a4d;--okbg:#e3f3ea;--bad:#b3261e;--badbg:#fbe8e6;--line:#d5dbe3;--warn:#c2410c;--serif:Georgia,'Iowan Old Style','Palatino Linotype',serif;--sans:'Segoe UI',system-ui,-apple-system,Roboto,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:150px}
+body{margin:0;font:16px/1.55 var(--sans);background:var(--desk);color:var(--ink)}
+:focus-visible{outline:3px solid #f5b301;outline-offset:2px}
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:18px;padding:10px 22px;background:var(--bar);color:#e8edf4;border-bottom:3px solid #f5b301}
+.top h1{margin:0;font:600 1.05rem/1.2 var(--sans);letter-spacing:.01em}.top small{font-weight:400;color:#9fb0c6}
+.eyebrow{font-size:.78rem;color:#9fb0c6}.theme{font-size:.82rem;color:#c3cfdf}
+.home{color:#e8edf4;text-decoration:none;border:1px solid #3a4a62;padding:6px 12px;border-radius:6px;font-size:.88rem}.home:hover{background:var(--bar2)}
+.count{margin-left:auto;font-size:.85rem;color:#c3cfdf;border-left:1px solid #3a4a62;padding-left:16px}
+.tabs{position:sticky;top:64px;z-index:15;display:flex;gap:0;padding:0 14px;background:#fff;border-bottom:1px solid var(--line);overflow:auto;box-shadow:0 2px 6px #0000000f}
+.tabs button{flex:1;min-width:96px;border:0;border-bottom:4px solid transparent;background:none;padding:10px 8px 8px;font:600 .95rem var(--sans);color:var(--mut);cursor:pointer}
+.tabs button small{display:block;font-weight:400;font-size:.76rem;color:#8795a8}
+.tabs button:hover{background:#f4f6f9}.tabs button.on{color:var(--pri);border-bottom-color:var(--pri)}
+main{max-width:1060px;margin:0 auto;padding:18px 14px 50px}section{display:none}section.on{display:block}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:16px;align-items:start}
+.qnav{position:sticky;top:140px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:12px}
+.qnav b{font-size:.85rem}.qnav .g{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-top:8px}
+.qnav a{display:grid;place-items:center;height:30px;font-size:.8rem;font-weight:600;text-decoration:none;color:var(--mut);border:1px solid var(--line);border-radius:5px;background:#fff}
+.qnav a.done{background:var(--pri);border-color:var(--pri);color:#fff}.qnav a.r{background:var(--ok);border-color:var(--ok);color:#fff}.qnav a.w{background:var(--bad);border-color:var(--bad);color:#fff}
+.qnav p{font-size:.78rem;color:var(--mut);margin:.7em 0 0}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:20px 24px;margin:0 0 14px}
+h2{margin:.1em 0 .4em;font:700 1.45rem/1.2 var(--serif)}
+h3{margin:1.6em 0 .3em;padding-top:.9em;border-top:2px solid var(--ink);font:700 1.1rem/1.3 var(--serif)}
+.card>h3:first-child{margin-top:0;border-top:0;padding-top:0}
+.hint{color:var(--mut);font-size:.92rem;max-width:68ch}
+.sub{margin:18px 0 2px;font-weight:600;color:var(--pri-d);font-size:.95rem}
+.item{display:flex;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+.qn{width:34px;height:34px;flex:none;border-radius:4px;background:var(--bar);color:#fff;display:grid;place-items:center;font-weight:700;font-size:.9rem}
+.qb{flex:1;min-width:0}.q{margin:.2em 0 .55em;font:600 1.02rem/1.45 var(--sans)}
+.opt{display:flex;gap:11px;align-items:flex-start;padding:9px 12px;border:1px solid var(--line);border-radius:6px;margin:6px 0;cursor:pointer;background:#fff;transition:background .12s,border-color .12s}
+.opt:hover{border-color:#9db3d3;background:#f6f9fd}.opt:has(input:checked){background:var(--sel);border-color:var(--pri)}
+.opt input{appearance:none;flex:none;width:18px;height:18px;margin:2px 0 0;border:2px solid #7d8da3;border-radius:50%;background:#fff}
+.opt input:checked{border-color:var(--pri);background:radial-gradient(var(--pri) 0 45%,#fff 50%)}
+.k{font-weight:700;color:var(--pri);min-width:1.1em}
+.opts.row{display:flex;flex-wrap:wrap;gap:6px}.opts.row .opt{margin:0;padding:7px 14px}
+.opt.right{background:var(--okbg)!important;border-color:var(--ok)!important}.opt.wrong{background:var(--badbg)!important;border-color:var(--bad)!important}
+.fb{margin:.3em 0 0;font-size:.9rem;color:var(--mut)}
+.text,.ad{background:#fbfbfa;border:1px solid var(--line);border-left:4px solid var(--ink);padding:14px 18px;border-radius:3px;margin:12px 0;font:1.04rem/1.75 var(--serif);max-width:72ch}
+.ads{display:grid;gap:8px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.ad{margin:0;font-size:.95rem;line-height:1.55;border-left-width:4px}
+.stm{list-style:none;padding:0;margin:.6em 0}.stm li{padding:5px 0}.gap{color:var(--pri);border-bottom:2px solid var(--pri);padding:0 4px}
+.btn{background:var(--pri);color:#fff;border:0;border-radius:6px;padding:11px 22px;font:700 .95rem var(--sans);cursor:pointer}.btn:hover{background:var(--pri-d)}
+.res{margin-top:14px;font-weight:600;padding:12px 14px;background:#f3f6fa;border-radius:6px}.res:empty{display:none}
+.timer{display:flex;gap:14px;align-items:center;margin:14px 0;padding:10px 16px;background:var(--bar);color:#fff;border-radius:6px;width:fit-content}
+.timer span{font:600 2rem/1 ui-monospace,Consolas,monospace;letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.timer button{border:1px solid #4a5b75;background:none;color:#e8edf4;border-radius:5px;padding:6px 14px;cursor:pointer;font:600 .85rem var(--sans)}.timer button:hover{background:var(--bar2)}
+.player{border:1px solid var(--line);border-radius:6px;padding:12px 14px;background:#f6f8fb;margin:12px 0}
+audio{width:100%}.noaudio{display:none;margin-top:8px;padding:8px 12px;background:#fff4e5;border:1px solid #f0c37a;border-radius:6px;color:#7a4a00;font-size:.9rem}
+textarea{width:100%;font:1.05rem/1.7 var(--serif);padding:14px 16px;border:1px solid #9aa8bb;border-radius:4px;background:#fff;min-height:280px}
+.wc{color:var(--mut);margin:4px 0 10px;font-size:.9rem}
+.self{margin-top:16px;padding:12px 14px;background:#f3f6fa;border-radius:6px}.self label{margin-right:16px;cursor:pointer}
+details{margin-top:14px;border:1px solid var(--line);border-radius:6px;padding:0 14px}summary{cursor:pointer;font-weight:600;color:var(--pri);padding:10px 0}details[open]{padding-bottom:12px}
+footer.nav{display:flex;justify-content:space-between;max-width:1060px;margin:0 auto;padding:0 18px 50px}footer.nav a{color:var(--pri);font-weight:600;text-decoration:none}
+.bar{height:10px;background:#dfe4ea;border-radius:99px;overflow:hidden}.bar i{display:block;height:100%;width:0;background:var(--pri);transition:width .5s}
+.top.big{padding:26px 22px}.top.big h1{font:700 1.7rem/1.15 var(--serif)}
+.day{display:flex;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:6px;padding:12px 16px;margin:8px 0;text-decoration:none;color:inherit}
+.day:hover{border-color:var(--pri);background:#f6f9fd}
+.day .n{width:44px;height:44px;border-radius:4px;background:var(--bar);color:#fff;display:grid;place-items:center;font-weight:700}
+.day.today{border-color:var(--pri);box-shadow:inset 4px 0 0 var(--pri)}.day .t{flex:1}.day small{color:var(--mut)}
+.pill{padding:3px 12px;border-radius:99px;font-size:.8rem;font-weight:700;background:#e4e8ee;color:#44546a}.pill.b1{background:var(--okbg);color:var(--ok)}.pill.a2{background:#fdf0c8;color:#7a5500}
+@media(max-width:820px){.layout{grid-template-columns:1fr}.qnav{position:static}.top{flex-wrap:wrap;padding:8px 12px}.tabs{top:96px}.card{padding:16px 14px}.count{border:0;padding:0}html{scroll-padding-top:190px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 """
 
 APP = r"""
@@ -270,8 +310,8 @@ st.sel=st.sel||{};
 document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button,section').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.getElementById(b.dataset.t).classList.add('on');if(b.dataset.t==='ergebnis')fin();window.scrollTo(0,0)});
 document.querySelectorAll('input[type=radio]').forEach(r=>{const n=r.name;if(st.sel[n]===r.value)r.checked=true;r.addEventListener('change',()=>{if(n==='s'||n==='p'){st[n]=r.value}else st.sel[n]=r.value;save()})});
 ['s','p'].forEach(n=>{if(st[n]!==undefined){const r=document.querySelector('input[name='+n+'][value="'+st[n]+'"]');if(r)r.checked=true}});
-function ev(p){let ok=0,tot=0;Object.keys(KEY).filter(k=>k[0]===p).forEach(k=>{tot++;const box=document.querySelector('[data-q='+k+']');const s=st.sel[k];box.querySelectorAll('.opt').forEach((o,i)=>{o.classList.remove('right','wrong');if(i===KEY[k])o.classList.add('right');else if(String(i)===s)o.classList.add('wrong')});if(String(KEY[k])===s)ok++});st[p]=ok;save();
-const lv=ok>=33?'B1':ok>=20?'A2':'unter A2';return ok}
+var ev=function(p){let ok=0,tot=0;Object.keys(KEY).filter(k=>k[0]===p).forEach(k=>{tot++;const box=document.querySelector('[data-q='+k+']');const s=st.sel[k];box.querySelectorAll('.opt').forEach((o,i)=>{o.classList.remove('right','wrong');if(i===KEY[k])o.classList.add('right');else if(String(i)===s)o.classList.add('wrong')});if(String(KEY[k])===s)ok++});st[p]=ok;save();
+return ok}
 function show(p){const ok=ev(p),tot=p==='h'?20:25;document.getElementById('res-'+p).textContent=ok+' von '+tot+' richtig ('+Math.round(ok/tot*100)+' %). Richtige Antworten sind grün, deine falschen rot.'}
 document.querySelectorAll('[data-eval]').forEach(b=>b.onclick=()=>show(b.dataset.eval));
 if(st.h!==undefined)document.getElementById('res-h').textContent='Zuletzt: '+st.h+' von 20 richtig.';
@@ -286,6 +326,12 @@ const ta=document.getElementById('brief');if(st.brief)ta.value=st.brief;const wc
 document.getElementById('copy').onclick=()=>{ta.select();try{navigator.clipboard.writeText(ta.value)}catch(e){document.execCommand('copy')}};
 document.querySelectorAll('.timer').forEach(t=>{let s=+t.dataset.min*60,iv=null;const sp=t.querySelector('span'),b=t.querySelector('button');const draw=()=>{sp.textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')};b.onclick=()=>{if(iv){clearInterval(iv);iv=null;b.textContent='Weiter'}else{b.textContent='Pause';iv=setInterval(()=>{s--;draw();if(s<=0){clearInterval(iv);sp.style.color='#dc2626'}},1000)}}});
 const c=document.getElementById('count');const days=Math.ceil((new Date('2026-12-10T00:00:00')-new Date())/864e5);c.textContent=days>0?'Noch '+days+' Tage bis zur Prüfung':'Prüfungstag';
+
+document.querySelectorAll('.qnav').forEach(q=>{const p=q.dataset.p;const ks=Object.keys(KEY).filter(k=>k[0]===p);q.innerHTML='<b>Aufgaben</b><div class="g">'+ks.map((k,i)=>'<a href="#i-'+k+'" data-k="'+k+'">'+(i+1)+'</a>').join('')+'</div><p>Blau = beantwortet</p>'});
+function paint(){document.querySelectorAll('.qnav a').forEach(a=>{const k=a.dataset.k;a.classList.toggle('done',st.sel[k]!==undefined)})}
+paint();document.addEventListener('change',paint);
+const _ev=ev;ev=function(p){const r=_ev(p);document.querySelectorAll('.qnav a').forEach(a=>{const k=a.dataset.k;if(k[0]!==p)return;a.classList.remove('done','r','w');a.classList.add(String(KEY[k])===st.sel[k]?'r':'w')});return r};
+document.querySelectorAll('audio').forEach(a=>{const n=a.parentNode.querySelector('.noaudio');const bad=()=>{if(n)n.style.display='block'};a.addEventListener('error',bad);a.addEventListener('loadedmetadata',()=>{if(n)n.style.display='none'});fetch(a.src,{method:'HEAD'}).then(r=>{if(!r.ok)bad()}).catch(()=>{})});
 })();
 """
 
