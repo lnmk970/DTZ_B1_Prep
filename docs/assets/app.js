@@ -19,11 +19,13 @@ const fmt=ms=>{ms=Math.max(0,ms);const s=Math.ceil(ms/1000);return String(Math.f
 function avail(s){if(!st.t0)return false;if(s==='hoeren')return true;if(s==='lesen'||s==='schreiben')return !!st.lock.hoeren;if(s==='sprechen')return !!(st.lock.hoeren&&st.lock.lesen&&st.lock.schreiben);return !!st.fin}
 function tabs(){$$('.sbtn').forEach(b=>{const s=b.dataset.t;b.disabled=st.fin?false:!avail(s);b.classList.toggle('on',s===cur);b.classList.toggle('end',!!st.lock[s]&&s!=='antworten')});
 const h=$('#sidehint');h.textContent=st.fin?'Prüfung abgegeben.':!st.lock.hoeren?'Hören läuft. Die anderen Teile sind gesperrt, bis Hören beendet ist.':(!st.lock.lesen||!st.lock.schreiben)?'Lesen und Schreiben können Sie in beliebiger Reihenfolge bearbeiten. Sprechen folgt danach.':'Sprechen ist freigeschaltet.'}
+$$('[data-begin]').forEach(b=>b.onclick=()=>{const k=b.dataset.begin;st.began=st.began||{};st.began[k]=1;save();go(k)});
 /* navigation */
 function leaveTask(sec){const i=st.cur[sec];if(i===undefined||!TK[sec])return;(TK[sec][i]||[]).forEach(k=>{st.vis[k]=1})}
-function go(s,keep){if(s!=='antworten'&&!st.fin&&!avail(s))return;if(SECS.includes(cur))leaveTask(cur);cur=s;
+function go(s,keep){if(s!=='antworten'&&!st.fin&&!avail(s))return;if(SECS.includes(cur)&&cur!==s)leaveTask(cur);cur=s;
 $$('section').forEach(x=>x.classList.toggle('on',x.id===s));
-if(!st.fin&&SECS.includes(s)&&!st.lock[s])setAct(s);
+if(!st.fin&&SECS.includes(s)&&!st.lock[s]){if(s==='lesen'||s==='schreiben'){if(!st.began||!st.began[s]){commit();st.act=null;st.since=0}else setAct(s)}else setAct(s)}
+$$('#lesen,#schreiben').forEach(x=>x.classList.toggle('gated',!st.lock[x.id]&&!st.fin&&!(st.began&&st.began[x.id])));
 if(TK[s]){showTask(s,st.cur[s]||0)}else{pal()}
 tabs();tick();if(!keep)window.scrollTo(0,0)}
 function showTask(sec,i){if(st.cur[sec]!==undefined&&st.cur[sec]!==i)leaveTask(sec);st.cur[sec]=i;$$('#'+sec+' .task').forEach((t,j)=>t.classList.toggle('on',j===i));pal();save()}
