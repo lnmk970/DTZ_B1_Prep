@@ -52,10 +52,10 @@ $$('[data-endsec]').forEach(b=>b.onclick=()=>{const s=b.dataset.endsec;if(confir
 function tick(){if(!st.t0)return;
 if(!st.fin){SECS.forEach(s=>{if(!st.lock[s]&&st.act===s&&rem(s)<=0){endSec(s,'Die Zeit für diesen Teil ist abgelaufen. Ihre Antworten wurden gespeichert.')}})}
 const bc=$('.bc');if(st.fin){$('#tm-l').textContent='Prüfung abgegeben';$('#tm-main').textContent='–';$('.tm.sub').style.visibility='hidden';bc.classList.remove('low');return}
-const open=WR.filter(s=>!st.lock[s]);let main,lab;if(open.length){main=open.reduce((a,s)=>a+rem(s),0);lab='Schriftliche Prüfung'}else{main=rem('sprechen');lab='Sprechen'}
+const open=WR.filter(s=>!st.lock[s]);let main,lab;if(!st.lock.hoeren){main=rem('hoeren');lab='Hören'}else if(open.length){main=open.reduce((a,s)=>a+rem(s),0);lab='Schriftliche Prüfung'}else{main=rem('sprechen');lab='Sprechen'}
 $('#tm-l').textContent=lab;$('#tm-main').textContent=fmt(main);
 const a=st.act&&!st.lock[st.act]?st.act:null;const sub=$('.tm.sub');
-if(a&&open.length){$('#tm-sl').textContent=LAB[a];$('#tm-sub').textContent=fmt(rem(a));sub.style.visibility='visible'}else sub.style.visibility='hidden';
+if(a&&open.length&&st.lock.hoeren){$('#tm-sl').textContent=LAB[a];$('#tm-sub').textContent=fmt(rem(a));sub.style.visibility='visible'}else sub.style.visibility='hidden';
 bc.classList.toggle('low',(a?rem(a):main)<5*M60)}
 setInterval(tick,1000);
 /* inputs */

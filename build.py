@@ -91,7 +91,8 @@ def audio_sprechen(M):
 import re, shutil
 import explain as X
 
-MAXN = 7  # only mocks 1..MAXN are published for now
+MAXN = 7
+BUILD = str(int(__import__('time').time()))  # only mocks 1..MAXN are published for now
 
 
 def mc(name, opts):
@@ -242,16 +243,16 @@ def build_page(n, M, total):
     save = ""
     return f"""<!DOCTYPE html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>DTZ B1 · Modelltest {n}</title>{FONTS}<link rel="stylesheet" href="../assets/style.css"></head>
+<title>DTZ B1 · Modelltest {n}</title>{FONTS}<link rel="stylesheet" href="../assets/style.css?v={BUILD}"></head>
 <body class="exam">
 <div id="start"><div class="hero-l"><div><span class="logo">DTZ B1</span><div class="big">{n}</div><h1>Modelltest {n}</h1><p>{E(M['th'])} · {ds}</p></div><p>Deutsch-Test für Zuwanderer · Probeprüfung unter Prüfungsbedingungen</p></div>
 <div class="hero-r"><h2>So läuft die Prüfung ab</h2><div class="flow"><div><b>Hören · 25 Minuten</b><small>20 Aufgaben. Audio läuft einmal, automatisch.</small></div><div><b>Lesen · 45 Minuten und Schreiben · 30 Minuten</b><small>Beliebige Reihenfolge. Jeder Teil startet erst, wenn Sie ihn starten.</small></div><div><b>Sprechen · ca. 15 Minuten</b><small>3 Teile, Paarprüfung.</small></div></div>
 <ul class="rules"><li>Die Zeit startet erst mit „Prüfung starten“. Der schriftliche Teil dauert insgesamt 100 Minuten.</li><li>Während Hören läuft, sind alle anderen Teile gesperrt.</li><li>Läuft die Zeit eines Teils ab, werden Ihre Antworten gespeichert und der Teil wird gesperrt.</li><li>Antworten und Erklärungen sehen Sie erst nach der Abgabe.</li></ul>
 <div class="startacts"><button class="btn big" id="begin">Prüfung starten</button><button class="btn ghost" id="reset" hidden>Neu beginnen</button><a href="../">Zur Übersicht</a></div></div></div>
 <div id="app" hidden>
-<header class="bar"><div class="bl"><span class="logo sm">DTZ B1</span><div><b>Modelltest {n}</b><small>{E(M['th'])}</small></div></div>
+<header class="bar"><div class="bl"><button class="homebtn" id="home" title="Startseite" aria-label="Startseite"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg></button><span class="logo sm">DTZ B1</span><div><b>Modelltest {n}</b><small>{E(M['th'])}</small></div></div>
 <div class="bc"><div class="tm main"><small id="tm-l">Schriftliche Prüfung</small><b id="tm-main">100:00</b></div><div class="tm sub"><small id="tm-sl">Hören</small><b id="tm-sub">25:00</b></div></div>
-<div class="br"><button class="btn" id="home">Startseite</button><button class="btn" id="finish">Prüfung beenden</button></div></header>
+<div class="br"><button class="btn" id="finish">Prüfung beenden</button></div></header>
 <div class="shell"><nav class="side"><button class="sbtn" data-t="hoeren"><i>1</i><span>Hören<small>25 Min</small></span></button><button class="sbtn" data-t="lesen"><i>2</i><span>Lesen<small>45 Min</small></span></button><button class="sbtn" data-t="schreiben"><i>3</i><span>Schreiben<small>30 Min</small></span></button><button class="sbtn" data-t="sprechen"><i>4</i><span>Sprechen<small>ca. 15 Min</small></span></button><button class="sbtn" data-t="antworten" disabled><i>★</i><span>Antworten<small>nach der Abgabe</small></span></button><div class="sidehint" id="sidehint"></div></nav>
 <main id="main">
 <section id="hoeren"><div class="audbar"><b>Hörtext</b><div class="prog"><i id="aprog"></i></div><span id="astat">Wartet auf Start</span><button class="btn ghost small" id="aplay" hidden>Wiedergabe starten</button><button class="btn small" id="hdone" disabled>Hören beenden</button></div><audio id="aud" preload="auto" src="hoeren.mp3"></audio><div class="noaudio" id="noaudio">Die Audiodatei fehlt oder kann nicht geladen werden. Sie können „Hören beenden“ klicken und trotzdem die Aufgaben ansehen.</div>{Hh}</section>
@@ -270,18 +271,18 @@ def build_page(n, M, total):
 <aside class="pal" id="pal"></aside></div></div>
 <div id="modal" hidden><div class="dlg"><h2>Prüfung beenden?</h2><p>Prüfen Sie Ihre Antworten in jedem Teil noch einmal. Nach dem Abgeben können Sie nichts mehr ändern.</p><div id="chk"></div><div class="acts"><button class="btn ghost" id="back">Zurück zur Prüfung</button><button class="btn" id="submit" disabled>Endgültig abgeben</button></div></div></div>
 <div id="toast" hidden></div>
-<script id="meta" type="application/json">{meta}</script><script src="../assets/app.js"></script>
+<script id="meta" type="application/json">{meta}</script><script src="../assets/app.js?v={BUILD}"></script>
 </body></html>"""
 
 
 def build_index(mocks):
     meta = json.dumps([{"n": i + 1, "f": folder(i + 1), "d": date_of(i + 1)[1], "th": M["th"]} for i, M in enumerate(mocks)], ensure_ascii=False)
     return f"""<!DOCTYPE html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DTZ B1 · Modelltests</title>{FONTS}<link rel="stylesheet" href="assets/style.css"></head>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DTZ B1 · Modelltests</title>{FONTS}<link rel="stylesheet" href="assets/style.css?v={BUILD}"></head>
 <body class="home-page"><header class="hero"><div class="hero-in"><div><div class="logo">DTZ B1</div><h1>{len(mocks)} Modelltests</h1><div class="theme">Prüfung am Donnerstag, 10. Dezember 2026 · <span id="count"></span></div></div><div class="stats" id="stats"></div></div></header>
 <main class="homemain"><div class="card"><div class="bar"><i id="bar"></i></div><p id="sum"></p><p class="hint">Jeder Test ist eine komplette Prüfung mit Zeitlimit. Bestanden: B1 im Sprechen und in Hören/Lesen (ab 33 von 45) oder im Schreiben. Dein Fortschritt wird nur in diesem Browser gespeichert.</p></div>
 <div id="list"></div></main>
-<script>const MOCKS={meta};</script><script src="assets/index.js"></script></body></html>"""
+<script>const MOCKS={meta};</script><script src="assets/index.js?v={BUILD}"></script></body></html>"""
 
 
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">'
@@ -301,7 +302,7 @@ CSS = """
 .rules{padding-left:18px;color:#34455e;margin:0}.rules li{margin:.45em 0}.startacts{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:28px}.startacts a{color:var(--pri);font-weight:700;text-decoration:none}
 #app[hidden]{display:none}
 .bar{position:sticky;top:0;z-index:30;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;padding:8px 24px;height:88px;background:var(--ink);color:#fff}
-.bl{display:flex;gap:12px;align-items:center;min-width:0}.bl b{display:block;line-height:1.2}.bl small{color:#9db0c9}.br{justify-self:end;display:flex;gap:10px}.bar .btn{background:transparent;border-color:#6f86a6}.bar .btn:hover{background:#ffffff1a}
+.bl{display:flex;gap:12px;align-items:center;min-width:0}.bl b{display:block;line-height:1.2}.bl small{color:#9db0c9}.br{justify-self:end;display:flex;gap:10px}.homebtn{width:42px;height:42px;border-radius:10px;border:1.5px solid #6f86a6;background:transparent;color:#fff;display:grid;place-items:center;cursor:pointer;flex:none}.homebtn:hover{background:#ffffff1f}.bar .btn{background:transparent;border-color:#6f86a6}.bar .btn:hover{background:#ffffff1a}
 .bc{display:flex;flex-direction:column;align-items:center;line-height:1}.tm small{display:block;color:#9db0c9;font-size:.72rem}
 .tm.main b{font:800 2rem/1.1 var(--sans);font-variant-numeric:tabular-nums;color:var(--gold)}.tm.sub{display:flex;gap:8px;align-items:baseline;margin-top:3px;background:#ffffff18;border-radius:99px;padding:2px 14px}.tm.sub small{display:inline}.tm.sub b{color:#fff;font:700 1rem var(--sans);font-variant-numeric:tabular-nums}
 .bc.low .tm.main b{color:#ff7b6b;animation:pulse 1s infinite}@keyframes pulse{50%{opacity:.5}}
@@ -413,10 +414,10 @@ $$('[data-endsec]').forEach(b=>b.onclick=()=>{const s=b.dataset.endsec;if(confir
 function tick(){if(!st.t0)return;
 if(!st.fin){SECS.forEach(s=>{if(!st.lock[s]&&st.act===s&&rem(s)<=0){endSec(s,'Die Zeit für diesen Teil ist abgelaufen. Ihre Antworten wurden gespeichert.')}})}
 const bc=$('.bc');if(st.fin){$('#tm-l').textContent='Prüfung abgegeben';$('#tm-main').textContent='–';$('.tm.sub').style.visibility='hidden';bc.classList.remove('low');return}
-const open=WR.filter(s=>!st.lock[s]);let main,lab;if(open.length){main=open.reduce((a,s)=>a+rem(s),0);lab='Schriftliche Prüfung'}else{main=rem('sprechen');lab='Sprechen'}
+const open=WR.filter(s=>!st.lock[s]);let main,lab;if(!st.lock.hoeren){main=rem('hoeren');lab='Hören'}else if(open.length){main=open.reduce((a,s)=>a+rem(s),0);lab='Schriftliche Prüfung'}else{main=rem('sprechen');lab='Sprechen'}
 $('#tm-l').textContent=lab;$('#tm-main').textContent=fmt(main);
 const a=st.act&&!st.lock[st.act]?st.act:null;const sub=$('.tm.sub');
-if(a&&open.length){$('#tm-sl').textContent=LAB[a];$('#tm-sub').textContent=fmt(rem(a));sub.style.visibility='visible'}else sub.style.visibility='hidden';
+if(a&&open.length&&st.lock.hoeren){$('#tm-sl').textContent=LAB[a];$('#tm-sub').textContent=fmt(rem(a));sub.style.visibility='visible'}else sub.style.visibility='hidden';
 bc.classList.toggle('low',(a?rem(a):main)<5*M60)}
 setInterval(tick,1000);
 /* inputs */
