@@ -179,10 +179,20 @@ def build_page(n, M, total):
     # ----- Lesen tasks -----
     LT, c = [], 0
     ks, it = [], ""
-    for t, q, o, a in M["l1"]:
-        o, a = rot(o, a); c += 1; nm = f"l{c}"; key[nm] = a; ol = o.split("|"); ks.append(nm)
-        it += item(c, q, ol, nm); reg(nm, "l1", q, ol, a, "", ev=["" for _ in ol], extra={"why": X.l1_text(q, ol, a)})
-    LT.append(("Aufgabe 1 · Kataloge, Verzeichnisse, Rubriken", "Wo finden Sie das? Wählen Sie die richtige Rubrik.", "", it)); TK["lesen"].append(ks)
+    C1 = M["l1cat"]
+    labels = [r[0] for r in C1["rows"]]
+    left = f'<h4>{E(C1["title"])}</h4><p class="hint">{E(C1["intro"])}</p><table class="cat">' + "".join(f'<tr><th>{E(l)}</th><td>{E(d)}</td></tr>' for l, d in C1["rows"]) + "</table>"
+    for qi, (q, ci) in enumerate(C1["qs"]):
+        others = [i for i in range(len(labels)) if i != ci]
+        sel = sorted([ci, others[qi % len(others)], others[(qi + 2) % len(others)]])
+        a = sel.index(ci); ol = [labels[i] for i in sel]
+        o, a = rot("|".join(ol), a); ol = o.split("|")
+        c += 1; nm = f"l{c}"; key[nm] = a; ks.append(nm)
+        it += item(c, q, ol, nm)
+        row = dict(C1["rows"])
+        why = f"Im Verzeichnis steht: «{ol[a]}: {row[ol[a]]}». Das passt zu Ihrer Situation. " + " ".join(f"«{l}: {row[l]}» enthält dazu nichts." for l in ol if l != ol[a])
+        reg(nm, "l1", q, ol, a, "", ev=["" for _ in ol], extra={"why": why})
+    LT.append(("Aufgabe 1 · Kataloge, Verzeichnisse, Rubriken", "Lesen Sie das Verzeichnis. Wo finden Sie das? Wählen Sie die richtige Angabe.", left, it)); TK["lesen"].append(ks)
     ads, sits, sans = M["l2"]
     ks, it = [], ""
     left = '<p class="hint">Welche Anzeige passt zu welcher Situation? Eine Situation hat keine passende Anzeige: Wählen Sie dann <b>x</b>.</p><div class="ads">' + "".join(f'<div class="ad"><b>{LET[i]}</b> {E(x)}</div>' for i, x in enumerate(ads)) + "</div>"
@@ -333,7 +343,7 @@ h4{margin:.2em 0 .4em;font-size:1.05rem}.pane h4:not(:first-child){margin-top:1.
 .gate h2{font-size:2rem;margin:0}.gate p{color:var(--mut);max-width:48ch;margin:10px auto 26px}.gate .dur{font:800 3.4rem/1 var(--sans);color:var(--pri);margin:14px 0 4px}
 textarea{width:100%;min-height:340px;font:1.06rem/1.7 var(--serif);padding:15px 17px;border:1.5px solid #9aa8bb;border-radius:11px;background:#fff;resize:vertical}.wc{color:var(--mut);margin:4px 0 8px;font-size:.88rem}
 .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:14px}.choice{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}.choice label{border:1.5px solid var(--bd);padding:9px 15px;border-radius:11px;cursor:pointer;background:#fff;font-weight:600}.choice label:has(input:checked){border-color:var(--pri);background:var(--sel)}
-.wtask{display:none}.wtask.on{display:block}.picgrid{display:grid;gap:12px}.pic{border:1.5px solid var(--bd);border-radius:12px;padding:12px 16px;background:#fff}.pimg{display:block;width:100%;height:auto;border-radius:10px;margin:8px 0;background:#e4e9f0}.ph{margin:8px 0;padding:14px;background:#eef2f7;border-radius:8px;color:#4b586a;font-style:italic}
+.wtask{display:none}.wtask.on{display:block}.picgrid{display:grid;gap:12px}.pic{border:1.5px solid var(--bd);border-radius:12px;padding:12px 16px;background:#fff}.cat{width:100%;border-collapse:collapse;margin-top:8px}.cat th,.cat td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--bd);vertical-align:top}.cat th{white-space:nowrap;color:var(--pri-d);width:1%}.pimg{display:block;width:100%;height:auto;border-radius:10px;margin:8px 0;background:#e4e9f0}.ph{margin:8px 0;padding:14px;background:#eef2f7;border-radius:8px;color:#4b586a;font-style:italic}
 .pal{position:sticky;top:104px;background:#fff;border-radius:14px;padding:18px;max-height:calc(100vh - 120px);overflow:auto;box-shadow:0 1px 2px #0d1b2e14,0 8px 28px #0d1b2e0d}
 .pal h5{margin:0 0 4px;font-size:1rem}.pal .grp{margin-top:14px;font-size:.78rem;font-weight:800;color:var(--mut)}.pal .g{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:6px}
 .pal a{display:grid;place-items:center;height:38px;border-radius:9px;border:1.5px solid var(--bd);background:#f1f4f8;color:#5a6779;font-weight:800;font-size:.85rem;text-decoration:none;cursor:pointer}
@@ -504,9 +514,10 @@ const d=Math.ceil((new Date('2026-12-10T00:00:00')-today)/864e5);document.getEle
 def main():
     sys.path.insert(0, ROOT)
     from content.extras import EXTRAS
+    from content.l1cat import L1
     mocks = load_mocks()[:MAXN]
     for i, M in enumerate(mocks):
-        M.update(EXTRAS[i + 1])
+        M.update(EXTRAS[i + 1]); M['l1cat'] = L1[i + 1]
     os.makedirs(os.path.join(DOCS, "assets"), exist_ok=True)
     app = APP.replace("%TIPS%", json.dumps({k: list(v) for k, v in X.TIPS.items()}, ensure_ascii=False))
     for name, txt in (("style.css", CSS), ("app.js", app), ("index.js", INDEX_JS)):

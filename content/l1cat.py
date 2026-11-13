@@ -1,0 +1,25 @@
+# Lesen Aufgabe 1: ein Verzeichnis (Wegweiser, Programm, Inhaltsverzeichnis) + 5 Situationen.
+# rows = (Bezeichnung, Inhalt). qs = (Situation, Index der richtigen Zeile)
+L1 = {
+1: dict(title="Ärztehaus Mitte · Wegweiser", intro="Sie sind im Ärztehaus Mitte und lesen den Wegweiser im Eingang.",
+  rows=[("Erdgeschoss","Anmeldung · Apotheke mit Rezeptausgabe"),("1. Stock","Hausärztin Dr. Weber · Kinderarzt Dr. Lang · Labor"),("2. Stock","Zahnarzt Dr. Braun · Physiotherapie"),("3. Stock","Augenarzt Dr. Klein")],
+  qs=[("Ihr Sohn ist vier Jahre alt und hat Fieber. Wohin gehen Sie?",1),("Sie haben starke Zahnschmerzen. Wohin gehen Sie?",2),("Sie wollen ein Medikament mit Rezept abholen. Wohin gehen Sie?",0),("Sie brauchen eine neue Brille und möchten Ihre Augen testen lassen. Wohin gehen Sie?",3),("Der Arzt hat Ihnen Rückenübungen verschrieben. Wohin gehen Sie?",2)]),
+2: dict(title="Hofmann Baumarkt · Wegweiser", intro="Sie sind im Baumarkt und lesen den Wegweiser am Eingang.",
+  rows=[("Halle A","Farben und Lacke · Tapeten"),("Halle B","Werkzeug · Schrauben und Nägel"),("Halle C","Bad und Sanitär · Fliesen"),("Gartencenter","Gartengeräte · Blumenerde · Gartenschläuche"),("Obergeschoss","Lampen und Leuchtmittel · Steckdosen")],
+  qs=[("Sie möchten die Wand im Kinderzimmer weiß streichen.",0),("Sie brauchen einen Hammer und Nägel.",1),("Der Wasserhahn in der Dusche ist kaputt. Sie brauchen einen neuen.",2),("Sie wollen Ihre Blumen im Garten gießen und brauchen einen Schlauch.",3),("Die Lampe im Flur braucht eine neue Glühbirne.",4)]),
+3: dict(title="Hauptbahnhof · Verkehrsinfo", intro="Sie sind am Hauptbahnhof und lesen die Tafel mit den Verbindungen.",
+  rows=[("Bus 12","Hauptbahnhof – Rathaus – Uniklinik"),("Bus 40","Hauptbahnhof – Industriegebiet Nord (Schichtbeginn 6 und 14 Uhr)"),("Tram 3","Hauptbahnhof – Marktplatz – Stadion"),("S1","Hauptbahnhof – Flughafen (alle 15 Minuten)"),("Rufbus 99","Nur nachts: zwischen Marktplatz und den Wohngebieten")],
+  qs=[("Sie arbeiten in einer Fabrik im Industriegebiet und beginnen um 6 Uhr.",1),("Sie wollen Ihre Tante im Krankenhaus besuchen.",0),("Sie fliegen heute Abend und müssen zum Flughafen.",3),("Sie wollen am Samstag ein Fußballspiel im Stadion sehen.",2),("Es ist zwei Uhr nachts. Sie sind am Marktplatz und wollen nach Hause.",4)]),
+4: dict(title="Volkshochschule · Kursverzeichnis", intro="Sie lesen das Kursverzeichnis der Volkshochschule. Wo finden Sie den Kurs?",
+  rows=[("Sprachen","Spanisch für Anfänger · Englisch A2 · Französisch Konversation"),("Computer","Excel-Grundkurs · Fotos am Computer bearbeiten"),("Gesundheit und Bewegung","Yoga · Rückenfit · Nordic Walking"),("Kochen und Ernährung","Pasta und Pizza · Brot backen"),("Beruf und Bewerbung","Bewerbungstraining · Präsentieren")],
+  qs=[("Sie wollen Nordic Walking lernen.",2),("Sie möchten mit Excel Tabellen erstellen.",1),("Sie schreiben gerade Bewerbungen und möchten üben.",4),("Sie möchten lernen, Brot zu backen.",3),("Sie fahren im Sommer nach Spanien und wollen Spanisch lernen.",0)]),
+5: dict(title="Seehotel · Ausflugsprogramm der Woche", intro="Sie lesen das Wochenprogramm im Hotel.",
+  rows=[("Montag","Schifffahrt auf dem See, Abfahrt 10 Uhr"),("Dienstag","Fahrradtour am Seeufer · Fahrradverleih am Hotel"),("Mittwoch","Museum und Altstadtführung (auch bei Regen)"),("Donnerstag","Therme mit Sauna und Schwimmbad bis 22 Uhr"),("Freitag","Wanderung zum Aussichtsturm, ganztags")],
+  qs=[("Es regnet. Sie möchten etwas über die Stadt lernen.",2),("Sie wollen schwimmen und in die Sauna gehen.",3),("Sie haben kein Fahrrad, möchten aber am Ufer radeln.",1),("Sie möchten morgens auf dem Wasser sein.",0),("Sie wollen einen ganzen Tag in den Bergen wandern.",4)]),
+6: dict(title="Restaurant Zur Linde · Inhaltsverzeichnis der Speisekarte", intro="Sie lesen das Inhaltsverzeichnis der Speisekarte. Auf welcher Seite finden Sie das?",
+  rows=[("Seite 2","Suppen und kleine Vorspeisen"),("Seite 3","Salate und vegetarische Gerichte"),("Seite 4","Fleisch und Fisch"),("Seite 5","Desserts und Eis"),("Seite 6","Getränke: Wein, Bier, Saft und Wasser")],
+  qs=[("Sie essen kein Fleisch und möchten ein Hauptgericht.",1),("Sie möchten zum Schluss etwas Süßes.",3),("Sie möchten ein Glas Apfelsaft.",4),("Sie möchten eine Tomatensuppe als Vorspeise.",0),("Sie möchten eine gebratene Forelle essen.",2)]),
+7: dict(title="Bürgeramt · Wegweiser", intro="Sie sind im Bürgeramt und lesen den Wegweiser im Flur.",
+  rows=[("Zimmer 101","Wohnsitz anmelden und abmelden"),("Zimmer 105","Reisepass und Personalausweis"),("Zimmer 112","Kfz-Zulassung (Auto anmelden)"),("Zimmer 120","Geburtsurkunde und Heirat"),("Zimmer 130","Aufenthaltstitel verlängern")],
+  qs=[("Sie sind umgezogen und haben eine neue Adresse.",0),("Ihr Reisepass ist abgelaufen. Sie brauchen einen neuen.",1),("Sie haben ein Auto gekauft und wollen es anmelden.",2),("Sie brauchen eine Kopie der Geburtsurkunde Ihres Kindes.",3),("Ihre Aufenthaltserlaubnis läuft bald ab.",4)]),
+}
