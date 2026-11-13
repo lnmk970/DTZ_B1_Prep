@@ -481,7 +481,8 @@ let marks;if(st.fin){S.h.push(st.h/20);S.l.push(st.l/25);if(st.s!==undefined)S.s
 marks=pill('Hören '+st.h+'/20',st.h>=15?'b1':st.h>=9?'a2':'lo')+pill('Lesen '+st.l+'/25',st.l>=18?'b1':st.l>=11?'a2':'lo')+pill('Σ '+hl+'/45',hl>=33?'b1':hl>=20?'a2':'lo')+pill('Schreiben '+(st.s!==undefined?LV[st.s]:'offen'),st.s==='2'?'b1':st.s==='1'?'a2':st.s==='0'?'lo':'')+pill('Sprechen '+(st.p!==undefined?LV[st.p]:'offen'),st.p==='2'?'b1':st.p==='1'?'a2':st.p==='0'?'lo':'');if(st.done)done++}
 else marks=st.t0?pill('begonnen','a2'):pill('offen','');
 const a=document.createElement('a');a.className='day';const d0=new Date(2026,10,12+m.n);if(d0.toDateString()===today.toDateString())a.className+=' today';a.href=m.f+'/';
-a.innerHTML='<div class="n">'+m.n+'</div><div class="t"><b>Modelltest '+m.n+'</b><br><small>'+m.d+' · '+m.th+'</small></div><div class="marks">'+marks+'</div>';L.appendChild(a)});
+a.innerHTML='<div class="n">'+m.n+'</div><div class="t"><b>Modelltest '+m.n+'</b><br><small>'+m.d+' · '+m.th+'</small></div><div class="marks">'+marks+'</div>'+(st.t0?'<button class="btn ghost small rst">Zurücksetzen</button>':'');
+const rb=a.querySelector('.rst');if(rb)rb.onclick=e=>{e.preventDefault();e.stopPropagation();if(confirm('Modelltest '+m.n+' zurücksetzen? Alle Antworten, Zeiten und Ergebnisse dieses Tests werden gelöscht.')){try{localStorage.removeItem('dtz:'+m.n)}catch(x){}location.reload()}};L.appendChild(a)});
 document.getElementById('bar').style.width=(done/MOCKS.length*100)+'%';document.getElementById('sum').textContent=done+' von '+MOCKS.length+' Modelltests komplett abgeschlossen.';
 const avg=x=>x.length?x.reduce((a,b)=>a+b,0)/x.length:null;const R=[['Hören',avg(S.h)],['Lesen',avg(S.l)],['Schreiben',avg(S.s)],['Sprechen',avg(S.p)]];
 const vals=R.filter(r=>r[1]!==null);const min=vals.length>1?Math.min(...vals.map(r=>r[1])):null;
