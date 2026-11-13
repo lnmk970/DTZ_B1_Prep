@@ -22,7 +22,7 @@ const h=$('#sidehint');h.textContent=st.fin?'Prüfung abgegeben.':!st.lock.hoere
 $$('[data-begin]').forEach(b=>b.onclick=()=>{const k=b.dataset.begin;st.began=st.began||{};st.began[k]=1;save();go(k)});
 /* navigation */
 function leaveTask(sec){const i=st.cur[sec];if(i===undefined||!TK[sec])return;(TK[sec][i]||[]).forEach(k=>{st.vis[k]=1})}
-function go(s,keep){if(s!=='antworten'&&!st.fin&&!avail(s))return;if(SECS.includes(cur)&&cur!==s)leaveTask(cur);cur=s;
+function go(s,keep){st.where=s;if(s!=='antworten'&&!st.fin&&!avail(s))return;if(SECS.includes(cur)&&cur!==s)leaveTask(cur);cur=s;
 $$('section').forEach(x=>x.classList.toggle('on',x.id===s));
 if(!st.fin&&SECS.includes(s)&&!st.lock[s]){if(s==='lesen'||s==='schreiben'){if(!st.began||!st.began[s]){commit();st.act=null;st.since=0}else setAct(s)}else setAct(s)}
 $$('#lesen,#schreiben').forEach(x=>x.classList.toggle('gated',!st.lock[x.id]&&!st.fin&&!(st.began&&st.began[x.id])));
@@ -69,13 +69,14 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-save]');if
 /* audio */
 const aud=$('#aud');let ended=false;
 function aStat(t){$('#astat').textContent=t}
-aud.addEventListener('timeupdate',()=>{if(aud.duration)$('#aprog').style.width=(aud.currentTime/aud.duration*100)+'%'});
+aud.addEventListener('timeupdate',()=>{if(aud.duration)$('#aprog').style.width=(aud.currentTime/aud.duration*100)+'%';if(!ended&&Math.abs(aud.currentTime-(st.apos||0))>2){st.apos=aud.currentTime;save()}});
+aud.addEventListener('loadedmetadata',()=>{if(st.apos&&!st.aend)try{aud.currentTime=st.apos}catch(e){}});
 aud.addEventListener('playing',()=>{aStat('Wiedergabe läuft …');$('#aplay').hidden=true;$('#noaudio').style.display='none'});
-aud.addEventListener('ended',()=>{ended=true;aStat('Wiedergabe beendet');$('#hdone').disabled=false});
+aud.addEventListener('ended',()=>{ended=true;st.aend=true;save();aStat('Wiedergabe beendet');$('#hdone').disabled=false});
 aud.addEventListener('error',()=>{$('#noaudio').style.display='block';aStat('Audio nicht verfügbar');$('#hdone').disabled=false});
 $('#aplay').onclick=()=>{aud.play().catch(()=>{})};
 $('#hdone').onclick=()=>{if(confirm('Hören jetzt beenden?'))endSec('hoeren','Hören ist beendet. Ihre Antworten sind gespeichert.')};
-function startAudio(){if(st.lock.hoeren)return;aStat('Wiedergabe startet …');aud.play().catch(()=>{aStat('Bitte „Wiedergabe starten“ klicken');$('#aplay').hidden=false})}
+function startAudio(){if(st.lock.hoeren)return;if(st.aend){aStat('Wiedergabe beendet');$('#hdone').disabled=false;return}aStat('Wiedergabe startet …');aud.play().catch(()=>{aStat('Bitte „Wiedergabe starten“ klicken');$('#aplay').hidden=false})}
 /* finish */
 function counts(){const o={};['h','l'].forEach(p=>{const ks=Object.keys(KEY).filter(k=>k[0]===p);o[p]=[ks.filter(k=>st.sel[k]!==undefined).length,ks.length]});return o}
 function openFinish(){const c=counts();const rows=[['hoeren','Hören',c.h[0]+' von '+c.h[1]+' beantwortet'],['lesen','Lesen',c.l[0]+' von '+c.l[1]+' beantwortet'],['schreiben','Schreiben',((st.brief||'').trim().match(/\S+/g)||[]).length+' Wörter geschrieben'],['sprechen','Sprechen',(st.sprech||'').trim()?'Antworten notiert':'keine Notizen (Sprechen wird im Chat bewertet)']];
@@ -110,8 +111,9 @@ $$('audio:not(#aud)').forEach(a=>{const n=a.parentNode.querySelector('.noaudio')
 $('#redo').onclick=()=>{if(confirm('Alle Antworten dieses Tests löschen und neu beginnen?')){try{localStorage.removeItem(SK)}catch(e){}location.reload()}};
 /* start */
 function showApp(){$('#start').hidden=true;$('#app').hidden=false}
-function begin(){if(!st.t0){st.t0=now();st.act='hoeren';st.since=now();save()}showApp();SECS.forEach(s=>{if(st.lock[s])lockSec(s,'Dieser Teil ist beendet.')});go(st.fin?'antworten':'hoeren',1);if(!st.fin)startAudio()}
+function begin(){const resume=!!st.paused;if(!st.t0){st.t0=now();st.act='hoeren';st.since=now();save()}if(resume){st.paused=false;st.act=st.pact||null;st.since=now();save()}showApp();SECS.forEach(s=>{if(st.lock[s])lockSec(s,'Dieser Teil ist beendet.')});const tg=st.fin?'antworten':(st.where&&(avail(st.where)||st.lock[st.where])?st.where:'hoeren');go(tg,1);if(!st.fin&&(tg==='hoeren'||!st.lock.hoeren))startAudio()}
+$('#home').onclick=()=>{if(st.fin||!st.t0){location.href='../';return}if(confirm('Sie sind mitten in der Prüfung. Prüfung pausieren und zur Startseite gehen?\n\nDie Zeit wird angehalten. Beim Fortsetzen machen Sie genau hier weiter.')){commit();st.pact=st.act;st.act=null;st.since=0;st.paused=true;st.where=cur;save();location.href='../'}};
 $('#begin').onclick=begin;$('#reset').onclick=()=>{if(confirm('Test zurücksetzen?')){try{localStorage.removeItem(SK)}catch(e){}location.reload()}};
 if(st.fin){showApp();SECS.forEach(s=>lockSec(s,'Die Prüfung ist abgegeben. Änderungen sind nicht mehr möglich.'));st.h=score('h');st.l=score('l');render();go('antworten',1)}
-else if(st.t0){$('#begin').textContent='Prüfung fortsetzen';$('#reset').hidden=false}
+else if(st.t0){$('#begin').textContent=st.paused?'Pausierte Prüfung fortsetzen':'Prüfung fortsetzen';$('#reset').hidden=false}
 })();
