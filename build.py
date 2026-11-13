@@ -120,6 +120,11 @@ def task(sec, i, total, title, hint, left, items):
     return f'<div class="task" data-sec="{sec}" data-i="{i}"><div class="tband"><b>{title}</b>{("<span>"+hint+"</span>") if hint else ""}</div><div class="tbody {"two" if left else "one"}">{body}</div><div class="tnav"><div>{first}</div><div class="mid"><button class="btn ghost" data-save>Speichern</button><span class="saved"></span></div><div>{last}</div></div></div>'
 
 
+def pimg(src, desc):
+    d = E(desc).replace('"', '&quot;')
+    return f'<img class="pimg" src="{src}" alt="{d}" onerror="this.outerHTML=\'<div class=ph>\'+this.alt+\'</div>\'">'
+
+
 def build_page(n, M, total):
     d, ds = date_of(n)
     key, ex, TK = {}, {}, {"hoeren": [], "lesen": []}
@@ -228,7 +233,7 @@ def build_page(n, M, total):
     # ----- Sprechen -----
     p1, p2, p3, p2b = M["p1"], M["p2"], M["p3"], M["p2b"]
     P_left = '<h4>Teil 1 · Sich vorstellen</h4><p class="hint">Sie stellen sich vor (ca. 1 Minute). Danach folgen ein bis zwei Fragen.</p><ul>' + "".join(f"<li>{E(x)}</li>" for x in p1[0]) + "</ul><p><b>Mögliche Nachfragen:</b> " + E(" · ".join(p1[1])) + "</p>"
-    P_left += f'<h4>Teil 2 · Von Erfahrungen berichten</h4><div class="picgrid"><div class="pic"><b>Teilnehmer A · Bild A</b><div class="ph">{E(p2[0])}</div><ul>' + "".join(f"<li>{E(x)}</li>" for x in p2[1]) + f'</ul></div><div class="pic"><b>Teilnehmer B · Bild B</b><div class="ph">{E(p2b[0])}</div><ul>' + "".join(f"<li>{E(x)}</li>" for x in p2b[1]) + "</ul></div></div>"
+    P_left += f'<h4>Teil 2 · Von Erfahrungen berichten</h4><div class="picgrid"><div class="pic"><b>Teilnehmer A · Bild A</b>{pimg('bild-a.png',p2[0])}<ul>' + "".join(f"<li>{E(x)}</li>" for x in p2[1]) + f'</ul></div><div class="pic"><b>Teilnehmer B · Bild B</b>{pimg('bild-b.png',p2b[0])}<ul>' + "".join(f"<li>{E(x)}</li>" for x in p2b[1]) + "</ul></div></div>"
     P_left += f'<h4>Teil 3 · Gemeinsam etwas planen</h4><div class="text">{E(p3[0])}</div><ul>' + "".join(f"<li>{E(x)}</li>" for x in p3[1]) + "</ul>"
     P_right = '<p class="hint">Sprechen Sie laut, am besten mit Aufnahme. Schreiben Sie danach Ihre Antworten hier auf. Die Bewertung machen wir im Claude-Chat.</p><textarea id="sprech" placeholder="Teil 1 … Teil 2 … Teil 3 …" spellcheck="false"></textarea><div class="actions"><button class="btn ghost" data-save>Speichern</button><span class="saved"></span><button class="btn" id="finish2">Prüfung beenden</button></div>'
     P_model = f"<p><b>Teil 1:</b> {E(p1[2])}</p><p><b>Teil 2 · Bild A:</b> {E(p2[2])}</p><p><b>Teil 2 · Bild B:</b> {E(p2b[2])}</p><p><b>Teil 3:</b><br>" + "<br>".join(f"{'Person A' if w in 'FG' else 'Person B'}: {E(l)}" for w, l in p3[2]) + "</p>"
@@ -328,7 +333,7 @@ h4{margin:.2em 0 .4em;font-size:1.05rem}.pane h4:not(:first-child){margin-top:1.
 .gate h2{font-size:2rem;margin:0}.gate p{color:var(--mut);max-width:48ch;margin:10px auto 26px}.gate .dur{font:800 3.4rem/1 var(--sans);color:var(--pri);margin:14px 0 4px}
 textarea{width:100%;min-height:340px;font:1.06rem/1.7 var(--serif);padding:15px 17px;border:1.5px solid #9aa8bb;border-radius:11px;background:#fff;resize:vertical}.wc{color:var(--mut);margin:4px 0 8px;font-size:.88rem}
 .actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:14px}.choice{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0}.choice label{border:1.5px solid var(--bd);padding:9px 15px;border-radius:11px;cursor:pointer;background:#fff;font-weight:600}.choice label:has(input:checked){border-color:var(--pri);background:var(--sel)}
-.wtask{display:none}.wtask.on{display:block}.picgrid{display:grid;gap:12px}.pic{border:1.5px solid var(--bd);border-radius:12px;padding:12px 16px;background:#fff}.ph{margin:8px 0;padding:14px;background:#eef2f7;border-radius:8px;color:#4b586a;font-style:italic}
+.wtask{display:none}.wtask.on{display:block}.picgrid{display:grid;gap:12px}.pic{border:1.5px solid var(--bd);border-radius:12px;padding:12px 16px;background:#fff}.pimg{display:block;width:100%;height:auto;border-radius:10px;margin:8px 0;background:#e4e9f0}.ph{margin:8px 0;padding:14px;background:#eef2f7;border-radius:8px;color:#4b586a;font-style:italic}
 .pal{position:sticky;top:104px;background:#fff;border-radius:14px;padding:18px;max-height:calc(100vh - 120px);overflow:auto;box-shadow:0 1px 2px #0d1b2e14,0 8px 28px #0d1b2e0d}
 .pal h5{margin:0 0 4px;font-size:1rem}.pal .grp{margin-top:14px;font-size:.78rem;font-weight:800;color:var(--mut)}.pal .g{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin-top:6px}
 .pal a{display:grid;place-items:center;height:38px;border-radius:9px;border:1.5px solid var(--bd);background:#f1f4f8;color:#5a6779;font-weight:800;font-size:.85rem;text-decoration:none;cursor:pointer}
