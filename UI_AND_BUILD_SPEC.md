@@ -99,7 +99,7 @@ Style: dark navy (`#0d1b2e`), gold (`#f6c25b`), teal (`#0b7a75`). Fonts: Manrope
 - All sections open read-only. Hören has a normal audio player (play, pause, seek).
 - Under each question: correct option green, wrong choice red, and an explanation box: status, your answer, correct answer, "Warum richtig?" (quote from the text), "So findest du die Antwort", "Merksatz".
 - Schreiben: automatic estimate out of 20 (Inhalt 5, Gestaltung 5, Wortschatz + Grammatik 10) with a checklist, error list from the LanguageTool API, model letter, copy button.
-- Sprechen: estimate out of 85 (Inhalt 35, Wortschatz 15, Redefluss 10, Grammatik 25), per-part checklist, model answers and model audio, copy button. Pronunciation is not rated.
+- Sprechen: estimate out of 100 (Inhalt 40, Wortschatz 20, Redefluss 10, Grammatik 30; pronunciation not rated), per-part checklist, model answers and model audio, copy button. Pronunciation is not rated.
 - The scores are estimates only, not official.
 - The page tells Chrome **not to translate** during the exam (`translate="no"` + meta tag). On submit the page reloads once without it, so you can translate while reviewing.
 
@@ -136,5 +136,5 @@ Active-time rule: `elapsed(section) = el[section] + (act === section ? now - sin
 > Home icon (left of the header) asks to pause; the exam resumes at the same section, timers and audio position. A per-test reset clears everything.
 > Layout: sticky dark header, left section menu (strip on phones), two-pane task cards (text left, questions right), right palette (green answered, orange visited-blank, grey unseen). In Lesen the text stays fixed while questions scroll; with several texts each text is sticky until its questions end, then the next one takes over. Mobile-first fixes: no horizontal scroll, compact header, sticky text under the header.
 > Schreiben: A/B choice, word count, copy-for-Claude button. Sprechen: per-part recording with live German transcript, playback, copy-for-Claude button.
-> After submitting: read-only review of all sections, Hören audio player, correct/wrong colouring, an explanation box under every question (why right, how to find it, memory tip), automatic estimates for Schreiben (/20) and Sprechen (/85) using keyword checks and LanguageTool, translation allowed only in review. Save all state in localStorage (audio in IndexedDB). No next-exam links.
+> After submitting: read-only review of all sections, Hören audio player, correct/wrong colouring, an explanation box under every question (why right, how to find it, memory tip), automatic estimates for Schreiben (/20) and Sprechen (/100) using keyword checks and LanguageTool, translation allowed only in review. Save all state in localStorage (audio in IndexedDB). No next-exam links.
 > Style: navy/gold/teal, Manrope + Newsreader, premium full-width look.
