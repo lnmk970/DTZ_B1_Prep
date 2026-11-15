@@ -119,7 +119,7 @@ def task(sec, i, total, title, hint, left, items):
     first = "" if i == 0 else '<button class="btn ghost" data-prev>← Zurück</button>'
     last = "" if i == total - 1 else '<button class="btn" data-next>Weiter →</button>'
     body = f'<div class="pane left">{left}</div><div class="pane right">{items}</div>' if left else f'<div class="pane wide">{items}</div>'
-    return f'<div class="task" data-sec="{sec}" data-i="{i}"><div class="tband"><b>{title}</b>{("<span>"+hint+"</span>") if hint else ""}</div><div class="tbody {"two" if left else "one"}">{body}</div><div class="tnav"><div>{first}</div><div class="mid"><button class="btn ghost" data-save>Speichern</button><span class="saved"></span></div><div>{last}</div></div></div>'
+    return f'<div class="task" data-sec="{sec}" data-i="{i}"><div class="tband"><b>{title}</b>{("<span>"+hint+"</span>") if hint else ""}</div><div class="tbody {"two" if left else "one"}">{body}</div><div class="tnav"><div>{first}</div><div class="mid"><span class="saved"></span></div><div>{last}</div></div></div>'
 
 
 def pimg(src, desc):
@@ -241,7 +241,7 @@ def build_page(n, M, total):
     def sblock(tag, sit, lp, reg_):
         return f'<div class="wtask" id="w{tag}"><div class="text">{E(sit).replace(chr(10), "<br>")}</div><p><b>Schreiben Sie auf alle vier Punkte:</b></p><ol>' + "".join(f"<li>{E(x)}</li>" for x in lp) + "</ol></div>"
     S_left = '<p class="hint">Wählen Sie Aufgabe A oder B. Schreiben Sie ca. 80–100 Wörter, behandeln Sie alle vier Punkte, und vergessen Sie Anrede und Gruß nicht.</p><div class="choice"><label><input type="radio" name="wt" value="A" checked> Aufgabe A (halbformell/informell)</label><label><input type="radio" name="wt" value="B"> Aufgabe B (formell/informell)</label></div>' + sblock("A", sit, lp, "") + sblock("B", sitB, lpB, "")
-    S_right = '<textarea id="brief" placeholder="Schreiben Sie hier Ihren Brief …" spellcheck="false"></textarea><div class="wc" id="wc">0 Wörter</div><div class="actions"><button class="btn ghost" data-save>Speichern</button><span class="saved"></span><button class="btn ghost" id="copy">Für Claude kopieren</button><button class="btn" data-endsec="schreiben">Schreiben beenden</button></div>'
+    S_right = '<textarea id="brief" placeholder="Schreiben Sie hier Ihren Brief …" spellcheck="false"></textarea><div class="wc" id="wc">0 Wörter</div><div class="actions"><span class="saved"></span><button class="btn ghost" id="copy">Für Claude kopieren</button><button class="btn" data-endsec="schreiben">Schreiben beenden</button></div>'
     # ----- Sprechen -----
     p1, p2, p3, p2b = M["p1"], M["p2"], M["p3"], M["p2b"]
     P_left = '<h4>Teil 1 · Sich vorstellen</h4><p class="hint">Sie stellen sich vor (ca. 2 Minuten). Danach folgen ein bis zwei Fragen.</p><ul>' + "".join(f"<li>{E(x)}</li>" for x in p1[0]) + "</ul><p><b>Mögliche Nachfragen:</b> " + E(" · ".join(p1[1])) + "</p>"
@@ -251,7 +251,7 @@ def build_page(n, M, total):
     _ua = f"<ul>{_ha}</ul>" if _ha else ""; _ub = f"<ul>{_hb}</ul>" if _hb else ""
     P_left += f'<h4>Teil 2 · Von Erfahrungen berichten</h4>' + '<p class="hint">Wählen Sie eines der beiden Fotos (Bild A oder Bild B). Beschreiben Sie es und berichten Sie von Ihren Erfahrungen (3–4 Minuten).</p>' + f'<div class="picgrid"><div class="pic"><b>Bild A</b>{pimg('bild-a.png',p2[0])}{_ua}</div><div class="pic"><b>Bild B</b>{pimg('bild-b.png',p2b[0])}{_ub}</div></div>'
     P_left += f'<h4>Teil 3 · Gemeinsam etwas planen (4–5 Minuten)</h4><div class="text">{E(p3[0])}</div><ul>' + "".join(f"<li>{E(x)}</li>" for x in p3[1]) + "</ul>"
-    P_right = '<p class="hint">Üben Sie jeden Teil laut. Nehmen Sie sich selbst auf: Sie hören die Aufnahme danach an, und der Text wird mitgeschrieben.</p><p class="hint" id="recnote"></p><div id="reclist"></div><h4>Notizen (freiwillig)</h4><textarea id="sprech" class="notes" placeholder="Eigene Notizen …" spellcheck="false"></textarea><div class="actions"><button class="btn ghost" data-save>Speichern</button><span class="saved"></span><button class="btn ghost" id="spcopy0">Für Claude kopieren</button><button class="btn" id="finish2">Prüfung beenden</button></div>'
+    P_right = '<p class="hint">Üben Sie jeden Teil laut. Nehmen Sie sich selbst auf: Sie hören die Aufnahme danach an, und der Text wird mitgeschrieben.</p><p class="hint" id="recnote"></p><div id="reclist"></div><h4>Notizen (freiwillig)</h4><textarea id="sprech" class="notes" placeholder="Eigene Notizen …" spellcheck="false"></textarea><div class="actions"><span class="saved"></span><button class="btn ghost" id="spcopy0">Für Claude kopieren</button><button class="btn" id="finish2">Prüfung beenden</button></div>'
     P_model = f"<p><b>Teil 1:</b> {E(p1[2])}</p><p><b>Teil 2 · Bild A:</b> {E(p2[2])}</p><p><b>Teil 2 · Bild B:</b> {E(p2b[2])}</p><p><b>Teil 3:</b><br>" + "<br>".join(f"{'Person A' if w in 'FG' else 'Person B'}: {E(l)}" for w, l in p3[2]) + "</p>"
     chk = "".join(f"<li>Leitpunkt: {E(x)}</li>" for x in lp)
     meta = json.dumps({"n": n, "key": key, "ex": ex, "tk": TK, "wm": {"A": model, "B": modelB}, "wl": {"A": list(lp), "B": list(lpB)}, "ws": {"A": sit, "B": sitB}, "sp": {"t1": {"pts": list(p1[0]), "q": list(p1[1])}, "a": {"d": p2[0], "q": list(p2[1])}, "b": {"d": p2b[0], "q": list(p2b[1])}, "p3": {"t": p3[0], "b": list(p3[1])}}, "rg": {"A": WC.REG[n][0], "B": WC.REG[n][1]}, "kw": {"A": WC.KW[n][0], "B": WC.KW[n][1]}, "pm": P_model}, ensure_ascii=False).replace("</", "<\\/")
@@ -448,7 +448,7 @@ function wt(){const w=st.wt||'A';$('#wA').classList.toggle('on',w==='A');$('#wB'
 const ta=$('#brief'),sp=$('#sprech');if(st.brief)ta.value=st.brief;if(st.sprech)sp.value=st.sprech;
 ta.oninput=()=>{st.brief=ta.value;const n=(ta.value.trim().match(/\S+/g)||[]).length;$('#wc').textContent=n+' Wörter';pwc();save()};ta.oninput();sp.oninput=()=>{st.sprech=sp.value;save()};
 $('#copy').onclick=()=>{st.brief=ta.value;wsCopy($('#copy'))};
-document.addEventListener('click',e=>{const b=e.target.closest('[data-save]');if(!b)return;save();const t=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});$$('.saved').forEach(x=>x.textContent='');const sv=b.parentNode.querySelector('.saved');if(sv)sv.textContent='Gespeichert um '+t;toast('Gespeichert')});
+setInterval(()=>{if(st.t0&&!st.fin){save();const t=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});$$('.saved').forEach(x=>x.textContent='Automatisch gespeichert · '+t)}},5000);
 /* audio */
 const aud=$('#aud');let ended=false;
 function aStat(t){$('#astat').textContent=t}
@@ -621,6 +621,7 @@ $('#home').onclick=()=>goAway('../../../');$('#dtzb').onclick=()=>goAway('../');
 $('#begin').onclick=begin;$('#reset').onclick=()=>{if(confirm('Test zurücksetzen?')){try{localStorage.removeItem(SK)}catch(e){}location.reload()}};
 if(st.fin){showApp();SECS.forEach(s=>lockSec(s,'Die Prüfung ist abgegeben. Änderungen sind nicht mehr möglich.'));st.h=score('h');st.l=score('l');render();go('antworten',1)}
 else if(st.t0){$('#begin').textContent=st.paused?'Pausierte Prüfung fortsetzen':'Prüfung fortsetzen';$('#reset').hidden=false}
+if(!st.fin&&st.t0&&/[?&]r=1/.test(location.search))$('#begin').click();
 })();
 """
 

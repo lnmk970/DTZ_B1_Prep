@@ -66,7 +66,7 @@ function wt(){const w=st.wt||'A';$('#wA').classList.toggle('on',w==='A');$('#wB'
 const ta=$('#brief'),sp=$('#sprech');if(st.brief)ta.value=st.brief;if(st.sprech)sp.value=st.sprech;
 ta.oninput=()=>{st.brief=ta.value;const n=(ta.value.trim().match(/\S+/g)||[]).length;$('#wc').textContent=n+' Wörter';pwc();save()};ta.oninput();sp.oninput=()=>{st.sprech=sp.value;save()};
 $('#copy').onclick=()=>{st.brief=ta.value;wsCopy($('#copy'))};
-document.addEventListener('click',e=>{const b=e.target.closest('[data-save]');if(!b)return;save();const t=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});$$('.saved').forEach(x=>x.textContent='');const sv=b.parentNode.querySelector('.saved');if(sv)sv.textContent='Gespeichert um '+t;toast('Gespeichert')});
+setInterval(()=>{if(st.t0&&!st.fin){save();const t=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});$$('.saved').forEach(x=>x.textContent='Automatisch gespeichert · '+t)}},5000);
 /* audio */
 const aud=$('#aud');let ended=false;
 function aStat(t){$('#astat').textContent=t}
@@ -239,4 +239,5 @@ $('#home').onclick=()=>goAway('../../../');$('#dtzb').onclick=()=>goAway('../');
 $('#begin').onclick=begin;$('#reset').onclick=()=>{if(confirm('Test zurücksetzen?')){try{localStorage.removeItem(SK)}catch(e){}location.reload()}};
 if(st.fin){showApp();SECS.forEach(s=>lockSec(s,'Die Prüfung ist abgegeben. Änderungen sind nicht mehr möglich.'));st.h=score('h');st.l=score('l');render();go('antworten',1)}
 else if(st.t0){$('#begin').textContent=st.paused?'Pausierte Prüfung fortsetzen':'Prüfung fortsetzen';$('#reset').hidden=false}
+if(!st.fin&&st.t0&&/[?&]r=1/.test(location.search))$('#begin').click();
 })();

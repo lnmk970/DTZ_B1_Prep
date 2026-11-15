@@ -315,7 +315,7 @@ function bind(){
  $('#aplay').onclick=()=>{aud&&aud.play();$('#aplay').hidden=true;aStat('Der Hörtext läuft.')};
  $$('[data-next]').forEach(x=>x.onclick=()=>{const sec=x.closest('section').id;const i=(st.cur[sec]||0)+1;if(i<TK[sec].length)showTask(sec,i);else toast('Das war die letzte Aufgabe in diesem Teil.');window.scrollTo(0,0)});
  $$('[data-prev]').forEach(x=>x.onclick=()=>{const sec=x.closest('section').id;const i=(st.cur[sec]||0)-1;if(i>=0)showTask(sec,i);window.scrollTo(0,0)});
- $$('[data-save]').forEach(x=>x.onclick=()=>{save();const s=x.parentNode.querySelector('.saved');if(s){s.textContent='Gespeichert';setTimeout(()=>s.textContent='',1500)}});
+ setInterval(()=>{if(st.t0&&!st.fin){commit();save();const d=new Date().toLocaleTimeString('de-DE',{hour:'2-digit',minute:'2-digit'});$$('.saved').forEach(x=>x.textContent='Automatisch gespeichert · '+d)}},5000);
  $('#finish').onclick=openFinish;$('#back').onclick=()=>$('#modal').hidden=true;
  $('#submit').onclick=()=>{$('#modal').hidden=true;finalize()};
  $$('.filter button').forEach(x=>x.onclick=()=>list(x.dataset.f));
@@ -331,5 +331,6 @@ function bind(){
  setInterval(tick,250);
 }
 bind();
+if(st.t0&&/[?&]r=1/.test(location.search)&&$('#begin'))$('#begin').click();
 if(st.fin&&st.t0){/* Ergebnis wird erst nach „Ergebnis ansehen“ gezeigt */}
 })();
