@@ -138,3 +138,14 @@ Active-time rule: `elapsed(section) = el[section] + (act === section ? now - sin
 > Schreiben: A/B choice, word count, copy-for-Claude button. Sprechen: per-part recording with live German transcript, playback, copy-for-Claude button.
 > After submitting: read-only review of all sections, Hören audio player, correct/wrong colouring, an explanation box under every question (why right, how to find it, memory tip), automatic estimates for Schreiben (/20) and Sprechen (/100) using keyword checks and LanguageTool, translation allowed only in review. Save all state in localStorage (audio in IndexedDB). No next-exam links.
 > Style: navy/gold/teal, Manrope + Newsreader, premium full-width look.
+
+---
+
+## 6. telc B1 (docs/telc/b1)
+
+* **Generator:** `build_telc.py` renders every `docs/telc/b1/mock-test-NN/index.html` from `content/telc/mock-NN.json` and `templates/telc_page.html` (task markup in `telc_lib.py`). It also writes `audio.json` and refreshes the `MOCKS` list and cache-busting numbers in `docs/telc/b1/index.html`. `python build_telc.py --check` validates specs without writing. The shared behaviour lives in `docs/telc/b1/assets/app.js` (exam page), `assets/index.js` (list page) and `assets/style.css`; edit those files directly.
+* **Same as DTZ:** hub and Telc home buttons, resume (`?r=1`), start screen, timers with pause, answers page with sections Auswertung, Schreiben und Sprechen (automatic estimates), Alle Aufgaben mit Begründung (filter Nur falsche und offene / Alle Aufgaben), Hörtexte, Schreiben: Modellbrief, Sprechen: Beispielantworten, Prüfung wiederholen.
+* **Different on purpose (official telc rules):** timings (Lesen+Sprachbausteine 90 min, Hören ca. 30 min, Schreiben 30 min, Sprechen 20 min preparation + ca. 15 min), points per task (see README), pass rule (≥135/225 schriftlich and ≥45/75 mündlich), grades sehr gut ≥270, gut ≥240, befriedigend ≥210.
+* **Automatic estimates** (`revWS`, `revSP` in app.js): Schreiben = three criteria A–D (5/3/1/0) × 3; Sprechen = four criteria A–D per part (Teil 1 max 15, Teil 2 and 3 max 30). Results go into `st.ssch` and `st.sspr` unless the user typed a value (`st.mansch`, `st.mansp`). If the grammar check (languagetool.org) is unreachable, no total is filled.
+* **Saved state** (`telc:mt:N`): v, t0, fin, sc{l,s,h}, pt{l,s,h}, sel, el, lock, cur, began, where, brief, rc{t1,t2,t3:{txt,sec,cf}}, ssch, sspr, mansch, mansp, lt, lt2 …
+* **Autosave (both exams):** every 5 s while a test is running, on every answer change, and when the tab is hidden or closed (`visibilitychange`, `pagehide`).

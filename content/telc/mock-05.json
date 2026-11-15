@@ -1,0 +1,1047 @@
+{
+ "n": 5,
+ "theme": "Essen, Einkaufen und Gastronomie",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Der Supermarkt in der Bahnhofstraße hat ab Montag länger geöffnet: Er schließt jetzt erst um 22 Uhr. Am Sonntag bleibt er weiterhin geschlossen.</p><p><b>2</b>&nbsp; Beim Kochkurs für Anfänger lernen Sie vier einfache Gerichte mit Gemüse. Der Kurs findet an drei Abenden statt. Alle Zutaten sind im Preis enthalten.</p><p><b>3</b>&nbsp; Auf dem Marktplatz gibt es jeden Samstag frisches Obst und Gemüse direkt vom Bauern. Wer mit eigener Tasche kommt, bekommt fünf Prozent Rabatt.</p><p><b>4</b>&nbsp; Wegen eines Wasserschadens bleibt das Restaurant „Zur Linde“ bis zum 15. Mai geschlossen. Reservierungen für Feiern können wir in dieser Zeit leider nicht annehmen.</p><p><b>5</b>&nbsp; In unserer Kantine gibt es ab sofort jeden Tag ein vegetarisches Gericht. Die Auswahl wechselt jede Woche. Fragen beantwortet das Küchenteam gern.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Frisch vom Bauern<br><b>b</b>&nbsp; Vorübergehend kein Essen im Lokal<br><b>c</b>&nbsp; Lernen, einfach zu kochen<br><b>d</b>&nbsp; Mehr Zeit zum Einkaufen<br><b>e</b>&nbsp; Neues Angebot ohne Fleisch<br><b>f</b>&nbsp; Neue Preise im Café<br><b>g</b>&nbsp; Lieferservice startet<br><b>h</b>&nbsp; Kochbuch gewonnen<br><b>i</b>&nbsp; Bäckerei sucht Verkäufer<br><b>j</b>&nbsp; Rezepte aus aller Welt</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Text 1: Der Supermarkt schließt später → d. „Länger geöffnet“ bedeutet mehr Zeit zum Einkaufen."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Text 2: Ein Kurs für Anfänger, einfache Gerichte → c. „Lernen, einfach zu kochen“."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Text 3: Obst und Gemüse direkt vom Bauern → a. Das Wort „Bauer“ steht in Text und Überschrift."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Text 4: Das Restaurant ist wegen eines Schadens zu → b. „Vorübergehend“ passt zu „bis zum 15. Mai“."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Text 5: Täglich ein vegetarisches Gericht → e. „ohne Fleisch“ ist ein anderes Wort für „vegetarisch“."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Vier Wochen ohne Fertiggericht</p><p>Familie Arslan aus Dortmund hat ein Experiment gemacht: Vier Wochen lang aß sie keine Fertiggerichte und ging nicht ins Restaurant. „Wir wollten wissen, ob wir wirklich so wenig Zeit zum Kochen haben, wie wir immer sagen“, erzählt Vater Emre, 38. Er und seine Frau Selin arbeiten beide Vollzeit. Die zwei Kinder sind sieben und elf Jahre alt.</p><p>Die erste Woche war schwierig. Der Einkauf dauerte fast zwei Stunden, weil die Familie vorher nie einen Plan gemacht hatte. Am Mittwoch fehlten plötzlich Zwiebeln, und niemand hatte Lust, noch einmal in den Laden zu gehen. Danach schrieben die Arslans jeden Sonntag eine Liste. „Das hat uns sehr geholfen“, sagt Selin.</p><p>Überrascht war die Familie vor allem vom Geld. Am Ende des Monats hatte sie 140 Euro weniger ausgegeben als sonst. Auch die Kinder halfen mit: Die Elfjährige schneidet seitdem das Gemüse, der Siebenjährige deckt den Tisch. „Beim gemeinsamen Kochen reden wir mehr als früher“, sagt Emre.</p><p>Ganz ohne Restaurant wollen die Arslans in Zukunft aber nicht leben. Einmal im Monat gehen sie essen, als kleine Belohnung. Fertiggerichte kommen nur noch im Notfall auf den Tisch.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Warum haben die Arslans das Experiment gemacht?",
+     "opts": [
+      "Sie wollten Geld sparen.",
+      "Sie wollten abnehmen.",
+      "Sie wollten prüfen, ob ihnen wirklich die Zeit zum Kochen fehlt."
+     ],
+     "key": "c",
+     "why": "Emre sagt: „Wir wollten wissen, ob wir wirklich so wenig Zeit zum Kochen haben.“ Das Geld sparen war ein Ergebnis, nicht der Grund."
+    },
+    {
+     "id": "l7",
+     "q": "Was war in der ersten Woche das Problem?",
+     "opts": [
+      "Der Einkauf dauerte sehr lange.",
+      "Die Kinder wollten nicht helfen.",
+      "Das Essen war zu teuer."
+     ],
+     "key": "a",
+     "why": "Der Einkauf dauerte fast zwei Stunden, weil es keinen Plan gab."
+    },
+    {
+     "id": "l8",
+     "q": "Was hat der Familie danach geholfen?",
+     "opts": [
+      "Ein neues Kochbuch.",
+      "Eine Einkaufsliste, die sie am Sonntag schrieben.",
+      "Ein Kochkurs."
+     ],
+     "key": "b",
+     "why": "„Danach schrieben die Arslans jeden Sonntag eine Liste.“"
+    },
+    {
+     "id": "l9",
+     "q": "Was hat die Familie am meisten überrascht?",
+     "opts": [
+      "Die Kinder essen gern Gemüse.",
+      "Das Kochen dauert nur zehn Minuten.",
+      "Sie hat weniger Geld ausgegeben."
+     ],
+     "key": "c",
+     "why": "„Überrascht war die Familie vor allem vom Geld.“ Sie sparte 140 Euro."
+    },
+    {
+     "id": "l10",
+     "q": "Wie ist es heute bei den Arslans?",
+     "opts": [
+      "Sie gehen nie mehr ins Restaurant.",
+      "Sie gehen manchmal zur Belohnung essen.",
+      "Sie essen oft Fertiggerichte."
+     ],
+     "key": "b",
+     "why": "Einmal im Monat gehen sie essen, Fertiggerichte nur im Notfall."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Gasthaus Alte Post: Saal für Feiern bis 40 Personen, auch am Wochenende. Reservierung unter 0241 555 66.</p><p><b>b</b>&nbsp; Backhaus Müller: Frisches Brot und Brötchen täglich bis 20 Uhr. Sonntag geschlossen.</p><p><b>c</b>&nbsp; Grüne Küche: Vegetarisches und veganes Essen, über 30 Gerichte. Mittagstisch ab 6,90 Euro.</p><p><b>d</b>&nbsp; Online-Supermarkt Schnell: Wir liefern Obst, Gemüse, Getränke und Haushaltswaren bis zur Haustür. Ab 20 Euro kostenlos.</p><p><b>e</b>&nbsp; Konditorei Zuckerwerk: Backkurs „Torten für Anfänger“, samstags, 3 Stunden. Alle Zutaten inklusive.</p><p><b>f</b>&nbsp; Familienrestaurant Sonnenhof: Sonntags großes Buffet, Kinder essen für die Hälfte. Großer Spielplatz im Garten.</p><p><b>g</b>&nbsp; Flohmarkt Schlossplatz: Jeden Samstag von 8 bis 14 Uhr. Gebrauchte Küchengeräte, Geschirr, Bücher.</p><p><b>h</b>&nbsp; Café Lesezeichen: Gratis-WLAN, ruhige Ecken, Frühstück bis 12 Uhr. Montag bis Freitag ab 8 Uhr.</p><p><b>i</b>&nbsp; Fischhandel am Hafen: Fangfrisch jeden Morgen von 6 bis 12 Uhr. Auch Räucherfisch zum Mitnehmen.</p><p><b>j</b>&nbsp; Pizzeria Napoli: Lieferservice bis 23 Uhr. Pizza ab 7 Euro.</p><p><b>k</b>&nbsp; Gemüsekiste Bio: Abholung jeden Freitag im Hofladen. Regional und saisonal.</p><p><b>l</b>&nbsp; Sporthalle Nord: Kurse für Erwachsene, Anmeldung im Büro.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie sind Vegetarier und suchen ein Restaurant mit großer Auswahl.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Vegetarisch mit großer Auswahl → c („über 30 Gerichte“)."
+    },
+    {
+     "id": "l12",
+     "q": "Sie suchen am Sonntagmittag ein günstiges Restaurant für die ganze Familie mit Kinderspielplatz.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Sonntag, Familie, Spielplatz → f („Kinder essen für die Hälfte“)."
+    },
+    {
+     "id": "l13",
+     "q": "Sie suchen ein Lokal für eine Geburtstagsfeier mit 20 Personen am Samstagabend.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Feier mit 20 Personen → a („Saal bis 40 Personen“, auch am Wochenende)."
+    },
+    {
+     "id": "l14",
+     "q": "Sie suchen ein Café mit WLAN, in dem Sie am Vormittag arbeiten können.",
+     "letters": "abcdefghijklx",
+     "key": "h",
+     "why": "WLAN und Vormittag → h („Gratis-WLAN“, ab 8 Uhr)."
+    },
+    {
+     "id": "l15",
+     "q": "Sie möchten lernen, Kuchen und Torten zu backen.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Backen lernen → e („Backkurs“)."
+    },
+    {
+     "id": "l16",
+     "q": "Sie suchen einen Nebenjob als Kellner am Wochenende.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Keine Anzeige bietet Arbeit an: Pizzeria (j) liefert nur Pizza, Sporthalle (l) bietet Kurse. Also x."
+    },
+    {
+     "id": "l17",
+     "q": "Sie möchten frisches Brot kaufen, aber erst nach der Arbeit gegen 19 Uhr.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Brot gegen 19 Uhr → b („bis 20 Uhr“). Sonntag spielt hier keine Rolle."
+    },
+    {
+     "id": "l18",
+     "q": "Sie möchten Fisch direkt am Hafen kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Fisch am Hafen → i („fangfrisch“ am Hafen)."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten Ihre Lebensmittel nach Hause liefern lassen, weil Sie kein Auto haben.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Lebensmittel liefern lassen → d. Bei k muss man die Kiste selbst abholen."
+    },
+    {
+     "id": "l20",
+     "q": "Sie möchten einen gebrauchten Mixer günstig kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Gebrauchte Küchengeräte → g (Flohmarkt)."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Liebe Frau Hoffmann,</p><p>ich habe Sie gestern zweimal <b>(21)</b>, aber leider niemanden erreicht. Ich schreibe Ihnen deshalb eine E-Mail, <b>(22)</b> ich Ihnen etwas Wichtiges mitteilen möchte. Am Samstag kommt mein erster <b>(23)</b> aus Indien zu uns, und wir haben ihn zum Essen <b>(24)</b>. Ich würde mich freuen, wenn Sie auch kommen könnten. Ich hoffe, <b>(25)</b> Sie Zeit haben. Meine Frau kocht sehr <b>(26)</b> und hat schon viele Rezepte ausprobiert. Wenn Sie möchten, können Sie etwas zum Nachtisch <b>(27)</b>. Bitte denken Sie daran: Wir haben <b>(28)</b> Haustiere, und im Haus ist es immer ruhig. Meine Frau und ich freuen <b>(29)</b> schon auf Ihren Besuch. Vielen <b>(30)</b> für Ihre Antwort.</p><p>Mit freundlichen Grüßen\nTomas Weber</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "angerufe",
+      "anrufen",
+      "angerufen"
+     ],
+     "key": "c",
+     "why": "Perfekt mit „haben“: „habe … angerufen“."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "weil",
+      "denn",
+      "obwohl"
+     ],
+     "key": "a",
+     "why": "„weil“ leitet den Grund ein, das Verb steht am Ende („möchte“)."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "Gast",
+      "Gasts",
+      "Gäste"
+     ],
+     "key": "a",
+     "why": "„ein Gast“ (maskulin, Nominativ Singular)."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "einlade",
+      "eingeladen",
+      "einladen"
+     ],
+     "key": "b",
+     "why": "Perfekt: „haben … eingeladen“ (haben + Partizip II)."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "dass",
+      "wenn",
+      "ob"
+     ],
+     "key": "a",
+     "why": "Nach „hoffen“ folgt „dass“: „Ich hoffe, dass Sie Zeit haben“."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "gern",
+      "gerne",
+      "gernen"
+     ],
+     "key": "a",
+     "why": "„sehr gern“ ist das Adverb zum Verb „kochen“."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "mitgebracht",
+      "mitbringt",
+      "mitbringen"
+     ],
+     "key": "c",
+     "why": "Modalverb „können“ + Infinitiv am Ende: „mitbringen“."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "nicht",
+      "kein",
+      "keine"
+     ],
+     "key": "c",
+     "why": "„keine Haustiere“: Negation im Plural mit kein-."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "uns",
+      "sich",
+      "euch"
+     ],
+     "key": "a",
+     "why": "Reflexivverb „sich freuen“: wir freuen uns."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "Danke",
+      "Dank",
+      "danken"
+     ],
+     "key": "b",
+     "why": "„Vielen Dank“ ist die feste Formel."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Hallo Jonas,</p><p>ich habe gerade erfahren, dass du am Samstag <b>(31)</b> kommst. Das freut mich sehr! Ich möchte etwas Leckeres für dich <b>(32)</b>, aber ich weiß nicht, was du gern isst. Hast du besondere <b>(33)</b>? Sonst koche ich einfach Nudeln mit Gemüse. Ich kaufe alles am Freitag auf dem Markt, denn dort ist das Gemüse immer <b>(34)</b>. Falls du <b>(35)</b> Zeit hast, kannst du mir beim Kochen helfen. Wir können uns danach auf den <b>(36)</b> Sessel setzen und Kaffee trinken. Ich muss dir <b>(37)</b> sagen, dass meine Küche klein ist. Aber das ist kein Problem, solange wir <b>(38)</b> sind. Schreib mir noch, <b>(39)</b> du kommst, damit ich <b>(40)</b> planen kann.</p><p>Bis bald\nDeine Mira</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> Zeitung &nbsp;·&nbsp; <b>b</b> Wünsche &nbsp;·&nbsp; <b>c</b> Fenster &nbsp;·&nbsp; <b>d</b> rechtzeitig &nbsp;·&nbsp; <b>e</b> frisch &nbsp;·&nbsp; <b>f</b> obwohl &nbsp;·&nbsp; <b>g</b> kochen &nbsp;·&nbsp; <b>h</b> Hunger &nbsp;·&nbsp; <b>i</b> leider &nbsp;·&nbsp; <b>j</b> bequemen &nbsp;·&nbsp; <b>k</b> zusammen &nbsp;·&nbsp; <b>l</b> wann &nbsp;·&nbsp; <b>m</b> gegessen &nbsp;·&nbsp; <b>n</b> vorbei &nbsp;·&nbsp; <b>o</b> noch</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "n",
+     "why": "„vorbeikommen“ ist ein trennbares Verb: „du kommst … vorbei“."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "g",
+     "why": "Modalverb „möchte … kochen“: Infinitiv am Ende."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "b",
+     "why": "„besondere Wünsche“: Plural, Akkusativ."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "„frisch“ beschreibt das Gemüse auf dem Markt."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "o",
+     "why": "„falls du noch Zeit hast“ = wenn du außerdem Zeit hast."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "„den bequemen Sessel“ (maskulin, Akkusativ, Adjektiv auf -en)."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "„Ich muss dir leider sagen“ leitet eine schlechte Nachricht ein."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "k",
+     "why": "„zusammen sein“ = miteinander."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "l",
+     "why": "„wann du kommst“ ist eine indirekte Frage nach der Zeit."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "„rechtzeitig planen“ = früh genug planen."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
+   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Das Brot ist heute billiger.",
+     "tf": true,
+     "key": "r",
+     "why": "Frisches Brot gibt es nur noch zum halben Preis."
+    },
+    {
+     "id": "h2",
+     "q": "Das Restaurant hat montags geöffnet.",
+     "tf": true,
+     "key": "f",
+     "why": "Montags ist Ruhetag."
+    },
+    {
+     "id": "h3",
+     "q": "Der Markt beginnt später als sonst.",
+     "tf": true,
+     "key": "r",
+     "why": "Wegen des Regens beginnt er erst um zehn Uhr."
+    },
+    {
+     "id": "h4",
+     "q": "Mira soll ein Geschenk mitbringen.",
+     "tf": true,
+     "key": "f",
+     "why": "Ben sagt: „Du musst nichts mitbringen.“"
+    },
+    {
+     "id": "h5",
+     "q": "Die Kantine ist morgen geöffnet.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie bleibt morgen geschlossen, erst am Donnerstag wieder offen."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
+   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Frau Costa hat ihr Restaurant vor drei Jahren eröffnet.",
+     "tf": true,
+     "key": "r",
+     "why": "„Seit drei Jahren.“"
+    },
+    {
+     "id": "h7",
+     "q": "Früher hat sie in einer Schule gekocht.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie war Köchin in einem Hotel."
+    },
+    {
+     "id": "h8",
+     "q": "Die Speisekarte ändert sich jeden Monat.",
+     "tf": true,
+     "key": "r",
+     "why": "Das sagt sie ausdrücklich."
+    },
+    {
+     "id": "h9",
+     "q": "Die Zutaten kommen meistens aus dem Ausland.",
+     "tf": true,
+     "key": "f",
+     "why": "Alle Zutaten kommen aus der Region."
+    },
+    {
+     "id": "h10",
+     "q": "Das Restaurant hat sechzehn Tische.",
+     "tf": true,
+     "key": "r",
+     "why": "Sechzehn Tische und acht Mitarbeiter."
+    },
+    {
+     "id": "h11",
+     "q": "Der Mittagstisch kostet genau acht Euro.",
+     "tf": true,
+     "key": "f",
+     "why": "Er kostet acht Euro fünfzig."
+    },
+    {
+     "id": "h12",
+     "q": "Am Wochenende ist das Restaurant meistens voll.",
+     "tf": true,
+     "key": "r",
+     "why": "Samstags sind alle Tische reserviert."
+    },
+    {
+     "id": "h13",
+     "q": "Das größte Problem ist, genug Gäste zu finden.",
+     "tf": true,
+     "key": "f",
+     "why": "Das Problem ist gutes Personal."
+    },
+    {
+     "id": "h14",
+     "q": "Das Restaurant ist sonntags geschlossen.",
+     "tf": true,
+     "key": "f",
+     "why": "Montags ist Ruhetag."
+    },
+    {
+     "id": "h15",
+     "q": "Frau Costa möchte im Sommer eine Terrasse eröffnen.",
+     "tf": true,
+     "key": "r",
+     "why": "Die Stadt prüft den Antrag."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
+   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Man muss die Quittung zur Abholung mitbringen.",
+     "tf": true,
+     "key": "r",
+     "why": "Die Bäckerei sagt: „Bitte bringen Sie die Quittung mit.“"
+    },
+    {
+     "id": "h17",
+     "q": "Der Sprecher isst jeden Tag Fast Food.",
+     "tf": true,
+     "key": "f",
+     "why": "Er isst nur einmal pro Woche so etwas."
+    },
+    {
+     "id": "h18",
+     "q": "Der Getränkemarkt ist am Dienstag geschlossen.",
+     "tf": true,
+     "key": "r",
+     "why": "Wegen der Inventur."
+    },
+    {
+     "id": "h19",
+     "q": "Man spart am meisten, wenn man hungrig einkauft.",
+     "tf": true,
+     "key": "f",
+     "why": "Man soll nie hungrig einkaufen."
+    },
+    {
+     "id": "h20",
+     "q": "Lisa kommt allein zum Mittagessen.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie bringt ihren Freund mit."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an eine Kollegin (informell)",
+  "situation": "<b>Ihre Kollegin Eva hat Sie für Samstag zum Abendessen zu sich nach Hause eingeladen.</b> Sie können an diesem Tag leider nicht kommen. Schreiben Sie ihr eine E-Mail. Bedanken Sie sich für die Einladung. Erklären Sie, warum Sie nicht kommen können. Schlagen Sie einen anderen Termin vor. Fragen Sie, ob Sie beim nächsten Mal etwas mitbringen sollen.",
+  "points": [
+   "Dank für die Einladung",
+   "Grund für die Absage",
+   "Vorschlag für einen anderen Termin",
+   "Frage: Was mitbringen?"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "danke|dank\\b|bedanke|freue mich (sehr )?(über|auf) (die|deine) einladung|nett.{0,20}einlad|einladung",
+   "nicht kommen|leider|kann nicht|keine zeit|arbeit|krank|besuch|termin|muss|familie|verreis|verhindert",
+   "anderen termin|anderen tag|nächste|treffen wir|wie wäre|vorschlag|stattdessen|dafür|sonntag|wochenende|freitag|vorschlagen|zeit",
+   "mitbring|soll ich|was (soll|kann|darf) ich|bring.{0,15}mit"
+  ],
+  "rg": "du"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich in einer Gruppe kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf oder Ausbildung, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie Ihren Gesprächspartner / Ihre Gesprächspartnerin: Was isst er/sie gern? Kocht er/sie selbst? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Selbst kochen oder im Restaurant essen?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit Kochen und Restaurantbesuchen · 2. Wie Menschen in meinem Heimatland essen · 3. Vorteile und Nachteile von Selbstkochen und Restaurant · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam ein Grillfest</b> für die Kolleginnen und Kollegen. Besprechen Sie: Wann und wo? · Wer wird eingeladen? · Was gibt es zu essen und zu trinken (auch vegetarisch)? · Wer kauft ein und bringt was mit? · Was kostet es und wer bezahlt? · Was machen Sie bei schlechtem Wetter?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Liebe Eva, vielen Dank für deine Einladung zum Abendessen! Ich habe mich sehr darüber gefreut. Leider kann ich am Samstag nicht kommen, weil ich schon einen Termin habe: Ich helfe einem Freund beim Umzug. Wie wäre es stattdessen mit dem nächsten Freitag? Dann habe ich nach der Arbeit Zeit und komme gern zu dir. Soll ich etwas mitbringen, zum Beispiel einen Nachtisch oder etwas zu trinken? Schreib mir einfach, was dir am besten passt. Ich freue mich schon auf unseren Abend. Viele Grüße, Manoj</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich bin 33 Jahre alt und komme aus Indien. Ich wohne in Aachen und arbeite als Softwareentwickler. Ich lerne Deutsch, weil ich hier arbeite und mit meinen Kollegen sprechen möchte. Was isst du gern? Kochst du selbst?</p><p><b>Teil 2:</b> Mein Thema ist: selbst kochen oder im Restaurant essen. Ich koche meistens selbst, weil das günstiger und gesünder ist. In Indien kochen die meisten Familien jeden Tag zu Hause. Ein Vorteil vom Restaurant ist, dass man Zeit spart. Ein Nachteil ist der Preis. Meiner Meinung nach ist es am besten, unter der Woche selbst zu kochen und am Wochenende essen zu gehen. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Wollen wir das Grillfest am ersten Samstag im Juni machen? Wir können im Park hinter dem Büro grillen, dort gibt es Tische. Wir laden alle Kollegen aus der Abteilung ein, das sind etwa fünfzehn Personen. Es gibt Würstchen, Gemüse und Salat, für Vegetarier auch Käse. Ich kaufe das Fleisch, du kaufst Getränke. Wir teilen die Kosten. Wenn es regnet, grillen wir bei mir auf dem Balkon oder verschieben das Fest.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Liebe Kunden, in zehn Minuten schließen wir. Bitte gehen Sie jetzt zu den Kassen. Die Kasse drei ist schon geschlossen. Frisches Brot gibt es heute nur noch zum halben Preis.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Restaurant Sonnenhof, guten Tag. Wir haben montags Ruhetag. Für Reservierungen rufen Sie bitte dienstags bis sonntags zwischen zehn und achtzehn Uhr an.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Heute ist Wochenmarkt auf dem Rathausplatz. Wegen des Regens beginnt er erst um zehn Uhr. Die Obststände sind aber schon aufgebaut.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Hallo Mira, hier ist Ben. Ich habe für Samstag einen Tisch im Restaurant reserviert, für sieben Uhr. Du musst nichts mitbringen. Sag mir nur bitte Bescheid, ob du vegetarisch isst.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Achtung, Kolleginnen und Kollegen: Die Kantine bleibt morgen wegen einer Kontrolle geschlossen. Bitte bringen Sie Ihr Mittagessen selbst mit. Am Donnerstag sind wir wieder für Sie da.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2",
+   "html": "<div class=\"text\"><p>Heute bei uns im Studio: Frau Costa, Besitzerin des Restaurants „La Piazza“. Frau Costa, seit wann gibt es Ihr Restaurant?</p><p>Seit drei Jahren. Vorher habe ich viele Jahre als Köchin in einem Hotel gearbeitet. Irgendwann wollte ich mein eigenes Restaurant haben.</p><p>Was ist das Besondere an Ihrer Speisekarte?</p><p>Sie ändert sich jeden Monat. Ich koche nur mit Zutaten aus der Region, zum Beispiel mit Gemüse von einem Bauern, der zehn Kilometer entfernt wohnt.</p><p>Wie groß ist das Restaurant?</p><p>Nicht sehr groß. Wir haben sechzehn Tische und acht Mitarbeiter.</p><p>Was kostet ein Mittagessen bei Ihnen?</p><p>Unser Mittagstisch kostet acht Euro fünfzig, mit Suppe und Getränk. Das Abendessen ist natürlich teurer.</p><p>Wann ist bei Ihnen am meisten los?</p><p>Am Wochenende, besonders samstags. Dann sind alle Tische reserviert, und wir haben oft eine Warteliste.</p><p>Was ist die größte Schwierigkeit?</p><p>Gutes Personal zu finden. Viele Köche und Kellner arbeiten lieber in großen Städten. Aber wir bezahlen fair und bieten Wochenenden frei, jeden zweiten Sonntag.</p><p>Und wann haben Sie geöffnet?</p><p>Von Dienstag bis Sonntag, am Montag ist Ruhetag. Im Sommer hätte ich gern eine Terrasse mit zwanzig Plätzen. Die Stadt prüft gerade den Antrag.</p><p>Dann drücken wir die Daumen. Vielen Dank, Frau Costa.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Guten Tag, hier ist die Bäckerei Krause. Ihre Torte für Samstag ist bestellt. Sie können sie ab Freitag um zwölf Uhr abholen. Bitte bringen Sie die Quittung mit.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Ich finde, dass Fast Food nicht so schlecht ist, wie alle sagen. Wichtig ist nur, dass man nicht jeden Tag Burger isst. Ich esse selbst nur einmal pro Woche so etwas.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Liebe Kunden, wegen einer Inventur ist unser Getränkemarkt am Dienstag geschlossen. Der Supermarkt ist wie immer von acht bis zwanzig Uhr geöffnet.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Heute in der Sendung: Tipps zum Sparen beim Einkaufen. Vergleichen Sie Preise, schreiben Sie eine Liste und gehen Sie nie hungrig einkaufen. So sparen Sie bis zu zwanzig Prozent.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Hallo Mama, ich bin es, Lisa. Ich komme am Sonntag zum Mittagessen, aber ich bringe meinen Freund mit. Er isst kein Fleisch. Kannst du bitte etwas Vegetarisches kochen?</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, in zehn Minuten schließen wir. Bitte gehen Sie jetzt zu den Kassen. Die Kasse drei ist schon geschlossen. Frisches Brot gibt es heute nur noch zum halben Preis.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Restaurant Sonnenhof, guten Tag. Wir haben montags Ruhetag. Für Reservierungen rufen Sie bitte dienstags bis sonntags zwischen zehn und achtzehn Uhr an.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Heute ist Wochenmarkt auf dem Rathausplatz. Wegen des Regens beginnt er erst um zehn Uhr. Die Obststände sind aber schon aufgebaut.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Mira, hier ist Ben. Ich habe für Samstag einen Tisch im Restaurant reserviert, für sieben Uhr. Du musst nichts mitbringen. Sag mir nur bitte Bescheid, ob du vegetarisch isst.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Achtung, Kolleginnen und Kollegen: Die Kantine bleibt morgen wegen einer Kontrolle geschlossen. Bitte bringen Sie Ihr Mittagessen selbst mit. Am Donnerstag sind wir wieder für Sie da.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute bei uns im Studio: Frau Costa, Besitzerin des Restaurants „La Piazza“. Frau Costa, seit wann gibt es Ihr Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit drei Jahren. Vorher habe ich viele Jahre als Köchin in einem Hotel gearbeitet. Irgendwann wollte ich mein eigenes Restaurant haben.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist das Besondere an Ihrer Speisekarte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sie ändert sich jeden Monat. Ich koche nur mit Zutaten aus der Region, zum Beispiel mit Gemüse von einem Bauern, der zehn Kilometer entfernt wohnt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie groß ist das Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht sehr groß. Wir haben sechzehn Tische und acht Mitarbeiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet ein Mittagessen bei Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Unser Mittagstisch kostet acht Euro fünfzig, mit Suppe und Getränk. Das Abendessen ist natürlich teurer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wann ist bei Ihnen am meisten los?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Am Wochenende, besonders samstags. Dann sind alle Tische reserviert, und wir haben oft eine Warteliste.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist die größte Schwierigkeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gutes Personal zu finden. Viele Köche und Kellner arbeiten lieber in großen Städten. Aber wir bezahlen fair und bieten Wochenenden frei, jeden zweiten Sonntag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wann haben Sie geöffnet?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Von Dienstag bis Sonntag, am Montag ist Ruhetag. Im Sommer hätte ich gern eine Terrasse mit zwanzig Plätzen. Die Stadt prüft gerade den Antrag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Dann drücken wir die Daumen. Vielen Dank, Frau Costa.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute bei uns im Studio: Frau Costa, Besitzerin des Restaurants „La Piazza“. Frau Costa, seit wann gibt es Ihr Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit drei Jahren. Vorher habe ich viele Jahre als Köchin in einem Hotel gearbeitet. Irgendwann wollte ich mein eigenes Restaurant haben.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist das Besondere an Ihrer Speisekarte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sie ändert sich jeden Monat. Ich koche nur mit Zutaten aus der Region, zum Beispiel mit Gemüse von einem Bauern, der zehn Kilometer entfernt wohnt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie groß ist das Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht sehr groß. Wir haben sechzehn Tische und acht Mitarbeiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet ein Mittagessen bei Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Unser Mittagstisch kostet acht Euro fünfzig, mit Suppe und Getränk. Das Abendessen ist natürlich teurer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wann ist bei Ihnen am meisten los?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Am Wochenende, besonders samstags. Dann sind alle Tische reserviert, und wir haben oft eine Warteliste.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist die größte Schwierigkeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gutes Personal zu finden. Viele Köche und Kellner arbeiten lieber in großen Städten. Aber wir bezahlen fair und bieten Wochenenden frei, jeden zweiten Sonntag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wann haben Sie geöffnet?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Von Dienstag bis Sonntag, am Montag ist Ruhetag. Im Sommer hätte ich gern eine Terrasse mit zwanzig Plätzen. Die Stadt prüft gerade den Antrag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Dann drücken wir die Daumen. Vielen Dank, Frau Costa.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Bäckerei Krause. Ihre Torte für Samstag ist bestellt. Sie können sie ab Freitag um zwölf Uhr abholen. Bitte bringen Sie die Quittung mit.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Bäckerei Krause. Ihre Torte für Samstag ist bestellt. Sie können sie ab Freitag um zwölf Uhr abholen. Bitte bringen Sie die Quittung mit.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Fast Food nicht so schlecht ist, wie alle sagen. Wichtig ist nur, dass man nicht jeden Tag Burger isst. Ich esse selbst nur einmal pro Woche so etwas.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Fast Food nicht so schlecht ist, wie alle sagen. Wichtig ist nur, dass man nicht jeden Tag Burger isst. Ich esse selbst nur einmal pro Woche so etwas.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, wegen einer Inventur ist unser Getränkemarkt am Dienstag geschlossen. Der Supermarkt ist wie immer von acht bis zwanzig Uhr geöffnet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, wegen einer Inventur ist unser Getränkemarkt am Dienstag geschlossen. Der Supermarkt ist wie immer von acht bis zwanzig Uhr geöffnet.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Heute in der Sendung: Tipps zum Sparen beim Einkaufen. Vergleichen Sie Preise, schreiben Sie eine Liste und gehen Sie nie hungrig einkaufen. So sparen Sie bis zu zwanzig Prozent.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Heute in der Sendung: Tipps zum Sparen beim Einkaufen. Vergleichen Sie Preise, schreiben Sie eine Liste und gehen Sie nie hungrig einkaufen. So sparen Sie bis zu zwanzig Prozent.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Mama, ich bin es, Lisa. Ich komme am Sonntag zum Mittagessen, aber ich bringe meinen Freund mit. Er isst kein Fleisch. Kannst du bitte etwas Vegetarisches kochen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Mama, ich bin es, Lisa. Ich komme am Sonntag zum Mittagessen, aber ich bringe meinen Freund mit. Er isst kein Fleisch. Kannst du bitte etwas Vegetarisches kochen?",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

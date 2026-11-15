@@ -156,15 +156,15 @@ function render(){
  const P=st.pt||{l:L*3.75,s:S*1.5,h:H*3.75},pl=P.l,ps=P.s,ph=P.h;
  $('#ans-sum').innerHTML='<div class="sum"><div><b>'+L+' / '+c.l[1]+'</b><small>Lesen · '+pl.toFixed(1).replace('.0','')+' von 75 Punkten</small></div><div><b>'+S+' / '+c.s[1]+'</b><small>Sprachbausteine · '+ps.toFixed(1).replace('.0','')+' von 30</small></div><div><b>'+H+' / '+c.h[1]+'</b><small>Hören · '+ph.toFixed(1).replace('.0','')+' von 75</small></div></div>';
  verdict();list();
- $('#schmodel').hidden=false;revWS();
+ $('#schmodel').hidden=false;revWS();revSP();
 }
 function verdict(){
  const v=$('#verdict');if(!st.sc)return;
  const sch=parseFloat(st.ssch),spr=parseFloat(st.sspr);
  const P=st.pt||{l:st.sc.l*3.75,s:st.sc.s*1.5,h:st.sc.h*3.75},base=P.l+P.s+P.h;
  let t='<p><b>Schriftlich bisher:</b> '+base.toFixed(1).replace('.0','')+' von 180 Punkten (Lesen, Sprachbausteine, Hören). Dazu kommen höchstens 45 Punkte für Schreiben. Für „bestanden“ brauchen Sie im schriftlichen Teil 135 von 225 Punkten (60 %) und im mündlichen Teil 45 von 75 Punkten.</p>';
- if(!isNaN(sch)){const w=base+sch;t+='<p><b>Schriftlich mit Schreiben:</b> '+w.toFixed(1).replace('.0','')+' von 225 · '+(w>=135?'<span class="tag ok">60 % erreicht</span>':'<span class="tag no">unter 60 %</span>')+'</p>'}
- if(!isNaN(spr)){t+='<p><b>Mündlich:</b> '+spr+' von 75 · '+(spr>=45?'<span class="tag ok">60 % erreicht</span>':'<span class="tag no">unter 60 %</span>')+'</p>'}
+ if(!isNaN(sch)){const w=base+sch;t+='<p><b>Schriftlich mit Schreiben'+(st.mansch?'':' (Schätzung)')+':</b> '+w.toFixed(1).replace('.0','')+' von 225 · '+(w>=135?'<span class="tag ok">60 % erreicht</span>':'<span class="tag no">unter 60 %</span>')+'</p>'}
+ if(!isNaN(spr)){t+='<p><b>Mündlich'+(st.mansp?'':' (Schätzung)')+':</b> '+spr+' von 75 · '+(spr>=45?'<span class="tag ok">60 % erreicht</span>':'<span class="tag no">unter 60 %</span>')+'</p>'}
  if(!isNaN(sch)&&!isNaN(spr)){const tot=base+sch+spr,ok=base+sch>=135&&spr>=45;t+='<p><b>Gesamt:</b> '+tot.toFixed(1).replace('.0','')+' von 300 · <b>'+(ok?'Bestanden':'Nicht bestanden')+'</b>'+(ok?' ('+(tot>=270?'sehr gut':tot>=240?'gut':tot>=210?'befriedigend':'ausreichend')+')':'')+'</p>'}
  v.innerHTML=t;
 }
@@ -200,19 +200,36 @@ function wsAnalyze(){const t=(st.brief||'').trim(),n=wsN(t),reg=meta.rg,kw=meta.
  const ges=anr+gr+rg+con+len;
  return{n,hits,fi,ges,fg:ges/5,anr,gr,rg,rgTxt,cs,con,len,L}}
 function wsForm(m,n){const r=n?m/n*100:99;return (r<=2?10:r<=5?8.5:r<=8?7:r<=12?5.5:r<=16?4:r<=22?2.5:r<=30?1:0)/10}
-async function wsFetchLT(t){const sig=((t.split(/\n/).pop())||'').split(/\s+/);const body=new URLSearchParams({text:t.replace(/\S+@\S+/g,'E-Mail'),language:'de-DE'});const r=await fetch('https://api.languagetool.org/v2/check',{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/x-www-form-urlencoded'},body});if(!r.ok)throw new Error('lt');const j=await r.json();return j.matches.filter(m=>{const c=m.rule.category.id;const bad=m.context.text.substr(m.context.offset,m.context.length);return!(c==='STYLE'||c==='TYPOGRAPHY'||c==='REDUNDANCY'||m.rule.id==='WHITESPACE_RULE'||(m.rule.issueType==='misspelling'&&sig.includes(bad)))}).slice(0,40).map(m=>({bad:m.context.text.substr(m.context.offset,m.context.length),rep:(m.replacements[0]||{}).value||'',cat:m.rule.category.id}))}
+async function wsFetchLT(t,sp){const sig=((t.split(/\n/).pop())||'').split(/\s+/);const body=new URLSearchParams({text:t.replace(/\S+@\S+/g,'E-Mail'),language:'de-DE'});const r=await fetch('https://api.languagetool.org/v2/check',{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/x-www-form-urlencoded'},body});if(!r.ok)throw new Error('lt');const j=await r.json();return j.matches.filter(m=>{const c=m.rule.category.id;const bad=m.context.text.substr(m.context.offset,m.context.length);return!((sp&&(c==='CASING'||c==='PUNCTUATION'||/UPPERCASE|COMMA|SENTENCE_WHITESPACE|DASH/.test(m.rule.id)))||c==='STYLE'||c==='TYPOGRAPHY'||c==='REDUNDANCY'||m.rule.id==='WHITESPACE_RULE'||(m.rule.issueType==='misspelling'&&sig.includes(bad)))}).slice(0,40).map(m=>({bad:m.context.text.substr(m.context.offset,m.context.length),rep:(m.replacements[0]||{}).value||'',cat:m.rule.category.id}))}
 const wsCat=c=>({TYPOS:'spelling',GRAMMAR:'grammar',CASING:'capital letters',PUNCTUATION:'punctuation',CONFUSED_WORDS:'wrong word',COMPOUNDING:'compound word'}[c]||'check');
+
+/* ---------- Offizielle telc-Bewertung: Noten A/B/C/D ----------
+   Schreiben: 3 Kriterien (Aufgabenbewältigung, Kommunikative Gestaltung, Formale Richtigkeit), A/B/C/D = 5/3/1/0, Summe mal 3 = max. 45.
+   Sprechen: 4 Kriterien (Ausdrucksfähigkeit, Aufgabenbewältigung, Formale Richtigkeit, Aussprache und Intonation).
+   Teil 1: 4/4/4/3 Punkte (A) = max. 15; Teil 2 und Teil 3: je 8/8/8/6 Punkte (A) = max. 30. B/C/D: 3/1/0 · 2/1/0 (Teil 1), 6/2/0 · 4/2/0 (Teil 2+3). */
+const GR=(r,t)=>r>=t[0]?'A':r>=t[1]?'B':r>=t[2]?'C':'D';
+const GNAME={A:'sehr gut',B:'gut',C:'ausreichend',D:'nicht ausreichend'};
+const WGP={A:5,B:3,C:1,D:0};
+const SPMAX=[[4,4,4,3],[8,8,8,6],[8,8,8,6]];
+const SPSCALE={4:{A:4,B:3,C:1,D:0},3:{A:3,B:2,C:1,D:0},8:{A:8,B:6,C:2,D:0},6:{A:6,B:4,C:2,D:0}};
+const SPCRIT=['Ausdrucksfähigkeit','Aufgabenbewältigung','Formale Richtigkeit','Aussprache und Intonation'];
+const spPts=(part,ci,g)=>SPSCALE[SPMAX[part][ci]][g];
+function setAuto(k,v){ // k: 'ssch' | 'sspr'
+ const man=k==='ssch'?st.mansch:st.mansp;if(man)return;
+ st[k]=String(v);const e=document.getElementById(k);if(e)e.value=st[k];save();verdict()}
 function revWS(){const box=$('#wsrev');if(!box)return;const A=wsAnalyze(),t=(st.brief||'').trim(),key=t;
  const ltOk=st.lt&&st.lt.t===key,lfail=st.lt&&st.lt.t===key+'\u0000fail';
  const f=ok=>'<li class="'+(ok===1?'ok':ok===.5?'half':'no')+'">'+(ok===1?'✔ ':ok===.5?'◐ ':'✘ ');
  let h='<h4>Ihr Brief: automatische Schätzung</h4>';
- if(!t){box.innerHTML=h+'<p>Sie haben keinen Text geschrieben (0 / 45). Unten sehen Sie den Beispiel-Text.</p>';return}
- const pI=15*A.fi,pG=15*A.fg,pF=ltOk?15*wsForm(st.lt.m.length,A.n):null,tot=pF===null?null:wsR(pI+pG+pF);
+ if(!t){box.innerHTML=h+'<p>Sie haben keinen Text geschrieben (0 / 45). Unten sehen Sie den Modellbrief.</p>';setAuto('ssch',0);return}
+ const gI=GR(A.fi,[1,.75,.5]),gG=GR(A.fg,[.8,.55,.3]),gF=ltOk?GR(wsForm(st.lt.m.length,A.n),[.85,.55,.25]):null;
+ const w3=g=>g===null?null:WGP[g],part=(w3(gI)+w3(gG))*3,tot=gF===null?null:(WGP[gI]+WGP[gG]+WGP[gF])*3;
  box.dataset.tot=tot===null?'':tot;
- h+='<div class="sum"><div><b>'+(tot!==null?'≈ '+tot+' / 45':lfail?'≈ '+wsR(pI+pG)+' / 30':'… / 45')+'</b><small>Schätzung'+(lfail?' ohne Grammatik':'')+' · '+A.n+' Wörter</small></div><div><b>'+wsR(pI)+' / 15</b><small>Aufgabenerfüllung</small></div><div><b>'+wsR(pG)+' / 15</b><small>Kommunikative Gestaltung</small></div><div><b>'+(pF===null?'…':wsR(pF))+' / 15</b><small>Formale Richtigkeit</small></div></div>';
- h+='<p class="hint">Nur eine grobe Schätzung, nicht amtlich. Sie sucht Schlüsselwörter, prüft Anrede, Gruß und Länge und zählt Fehler, und sie kann sich irren. Die Verteilung 15 + 15 + 15 ist eine Annahme: Quellen im Internet nennen unterschiedliche Aufteilungen der 45 Punkte. Für die echte Bewertung nutzen Sie „Brief für Claude kopieren“. Der Grammatik-Check sendet Ihren Text an languagetool.org.</p>';
- if(tot!==null)h+='<p><button class="btn small" id="wsuse" type="button">Schätzung als Punkte eintragen ('+tot+')</button></p>';
- h+='<p><b>Aufgabenerfüllung: die 4 Leitpunkte</b></p><ul class="rl">'+A.L.map((x,i)=>f(A.hits[i]?1:0)+esc(x)+(A.hits[i]?'':' – nicht erkannt')+'</li>').join('')+'</ul>';
+ if(tot!==null)setAuto('ssch',tot);
+ const tile=(g,n)=>'<div><b>'+(g===null?'…':g)+'</b><small>'+n+(g===null?'':' · '+(WGP[g]*3)+' von 15')+'</small></div>';
+ h+='<div class="sum"><div><b>'+(tot!==null?'≈ '+tot+' / 45':lfail?'≈ '+part+' / 30':'… / 45')+'</b><small>Schätzung'+(lfail?' ohne Formale Richtigkeit':'')+' · '+A.n+' Wörter</small></div>'+tile(gI,'Aufgabenbewältigung')+tile(gG,'Kommunikative Gestaltung')+tile(gF,'Formale Richtigkeit')+'</div>';
+ h+='<p class="hint">Nach den offiziellen telc-Kriterien: drei Kriterien, jedes mit A, B, C oder D (5, 3, 1 oder 0 Punkte). Die Summe wird mit 3 multipliziert, höchstens 45 Punkte. Die Seite schätzt das nur grob: Sie sucht Schlüsselwörter, prüft Anrede, Gruß und Länge und zählt Fehler, und sie kann sich irren. Die Punkte werden automatisch eingetragen; überschreiben Sie sie, wenn Sie selbst oder mit „Brief für Claude kopieren“ bewerten. Der Grammatik-Check sendet Ihren Text an languagetool.org.</p>';
+ h+='<p><b>Aufgabenbewältigung: die 4 Leitpunkte</b></p><ul class="rl">'+A.L.map((x,i)=>f(A.hits[i]?1:0)+esc(x)+(A.hits[i]?'':' – nicht erkannt')+'</li>').join('')+'</ul>';
  h+='<p><b>Kommunikative Gestaltung</b></p><ul class="rl">'+f(A.anr)+'Anrede'+(A.anr===.5?' (besser „Sehr geehrte …“)':A.anr===0?' fehlt oder passt nicht':'')+'</li>'+f(A.gr)+'Gruß'+(A.gr===.5?' (besser „Mit freundlichen Grüßen“)':A.gr===0?' fehlt oder passt nicht':'')+'</li>'+f(A.rg>=1.5?1:A.rg>0?.5:0)+'Anredeform: '+esc(A.rgTxt)+'</li>'+f(A.con>=.75?1:A.con>0?.5:0)+'Verbindungswörter: '+(A.cs.length?esc(A.cs.join(', ')):'keine')+'</li>'+f(A.len>=.75?1:A.len>0?.5:0)+'Länge: '+A.n+' Wörter (Ziel 80–100)</li></ul>';
  h+='<p><b>Formale Richtigkeit (Grammatik und Rechtschreibung)</b></p>';
  if(ltOk)h+=st.lt.m.length?'<p>'+st.lt.m.length+' mögliche Fehler:</p><ul class="rl">'+st.lt.m.map(m=>'<li class="no">✘ „'+esc(m.bad)+'“'+(m.rep?' → <b>'+esc(m.rep)+'</b>':'')+' <small>('+wsCat(m.cat)+')</small></li>').join('')+'</ul>':'<p>Keine Fehler gefunden. Sehr gut!</p>';
@@ -222,11 +239,63 @@ function revWS(){const box=$('#wsrev');if(!box)return;const A=wsAnalyze(),t=(st.
  h+='<p><button class="btn small" id="wscopy" type="button">Brief für Claude kopieren</button></p>';
  box.innerHTML=h;
  const cw=$('#wscopy');if(cw)cw.onclick=()=>copyWriting(cw);
-  const u=$('#wsuse');if(u)u.onclick=()=>{const ss=$('#ssch');ss.value=tot;st.ssch=String(tot);save();verdict();toast('Punkte eingetragen: '+tot+' von 45')};
  if(!ltOk&&!lfail&&!revWS.busy){revWS.busy=1;wsFetchLT(t).then(m=>{st.lt={t:key,m};save()}).catch(()=>{st.lt={t:key+'\u0000fail',m:[]};save()}).finally(()=>{revWS.busy=0;revWS()})}}
+
+/* ---------- Sprechen: automatische Schätzung nach den telc-Kriterien ---------- */
+const SPSTOP=new Set('ich du er sie es wir ihr und oder aber dass weil denn dann auch noch sehr mehr eine einen einem einer der die das den dem des ist sind war habe haben mit für von aus bei nach zum zur über unter auf wie was wer wo wann gemeinsam besprechen einigen sagen kurze danach'.split(' '));
+const spW=t=>(String(t||'').toLowerCase().match(/[a-zäöüß]+/g)||[]);
+const spKey=t=>[...new Set(spW(t).filter(w=>w.length>=5&&!SPSTOP.has(w)).map(w=>w.slice(0,5)))];
+const spOv=(words,keys)=>{const a=new Set(words.filter(w=>w.length>=5).map(w=>w.slice(0,5)));return keys.filter(k=>a.has(k)).length};
+const SPCONN=['weil','dass','aber','obwohl','deshalb','denn','wenn','außerdem','also','deswegen','trotzdem','damit','jedoch','sondern','zuerst','danach','dann','schließlich'];
+const SPTG=[60,150,120];
+function spAnalyze(){
+ const rc=st.rc||{},P=[];let all='',tw=0;
+ ['t1','t2','t3'].forEach((k,i)=>{const r=rc[k]||{},txt=(r.txt||'').trim(),low=txt.toLowerCase(),w=spW(txt),n=w.length;
+  const sp=(meta.sp&&meta.sp[i])||{t:'Teil '+(i+1),x:''};let ch=[];
+  if(i===0){ch=[['Name genannt',/ich hei(ß|ss)e|mein name|mein name ist/.test(low)],['Herkunft und Wohnort',/komme aus|wohne|lebe in|stamme/.test(low)],['Beruf oder Ausbildung',/arbeite|beruf|studiere|ausbildung|student|ingenieur|entwickler|schule/.test(low)],['Familie oder Hobbys',/familie|verheiratet|kinder|hobby|hobbys|freizeit|spiele|koche|lese|reise|sport/.test(low)],['Warum Deutsch',/lerne deutsch|deutsch lernen|deutschkurs|deutsch zu lernen|ich lerne/.test(low)],['Mindestens zwei Fragen an den Partner',(low.match(/und sie\b|und du\b|woher kommen|was machen|was sind|haben sie|hast du|wo wohnen|wie ist|was ist ihr|was gef(ä|ae)llt|und was|und wie|wie lange/g)||[]).length>=2]]}
+  else if(i===1){const keys=spKey(sp.x.replace(/^Thema:[^.?]*[.?]?/,''));ch=[['Eigene Erfahrungen (Punkt 1)',/ich habe|ich bin|ich fahre|ich war|bei mir|meine erfahrung|ich mache|ich nutze|ich benutze|ich esse|ich arbeite|ich spiele|ich koche|ich lese/.test(low)],['Heimatland (Punkt 2)',/heimat|in indien|in meinem land|bei uns|in deutschland|dort|menschen in|leute in/.test(low)],['Vorteile (Punkt 3)',/vorteil|positiv|praktisch|billig|gesund|schnell|bequem|spart|g(ü|ue)nstig/.test(low)],['Nachteile (Punkt 3)',/nachteil|negativ|problem|schlecht|teuer|leider|gef(ä|ae)hrlich|anstrengend|stress/.test(low)],['Meinung (Punkt 4)',/meiner meinung|ich finde|ich denke|ich glaube|meiner ansicht|ich meine|ich bin der meinung/.test(low)],['Abschluss und Dank (Punkt 5)',/vielen dank|danke|aufmerksamkeit|zuh(ö|oe)ren/.test(low)],['Thema des Vortrags getroffen',spOv(w,keys)>=Math.min(2,keys.length)]]}
+  else{const m=sp.x.split(/Besprechen Sie:/i)[1]||'';const bul=m.replace(/Einigen Sie sich\.?/i,'').split('·').map(x=>x.trim()).filter(Boolean);const bh=bul.map(x=>[x,spOv(w,spKey(x))>0]);const nb=bh.filter(x=>x[1]).length;
+   ch=[['Planung: '+nb+' von '+bul.length+' Punkten besprochen',bul.length?nb>=Math.ceil(bul.length*.6):false],['Vorschlag gemacht (Wie wäre es …? Wir könnten …)',/wie w(ä|ae)re|ich schlage|wir k(ö|oe)nnten|vielleicht|was h(ä|ae)ltst|was meinst|lieber|ich finde/.test(low)],['Zugestimmt oder widersprochen (Gute Idee, einverstanden …)',/gute idee|einverstanden|stimmt|genau|ich finde auch|ja,? gern|okay|in ordnung|nicht so gut|leider/.test(low)],['Geeinigt (Dann machen wir …)',/dann machen wir|abgemacht|treffen wir|ich bringe|ich mache|ich kümmere|wir machen|dann ist|dann bringe|einverstanden/.test(low)]];}
+  const ok=ch.filter(c=>c[1]).length,fr=n?ok/ch.length:0;
+  const cs=SPCONN.filter(c=>w.includes(c)),uniq=n?new Set(w).size/n:0;
+  const lenR=Math.min(1,n/SPTG[i]),div=n>=10?(uniq>=.6?1:uniq>=.45?.6:.3):0,conn=cs.length>=3?1:cs.length===2?.7:cs.length===1?.4:.1;
+  const ausdr=n?.45*lenR+.25*div+.3*conn:0;
+  const cf=r.cf&&r.cf[1]?r.cf[0]/r.cf[1]:null;
+  P.push({k,i,txt,n,sec:r.sec||0,ch,fr,cs,lenR,ausdr,cf});all+=(txt?txt+'\n':'');tw+=n});
+ return{P,all:all.trim(),tw}}
+function spGrades(A,ltOk){ // returns {g:[[4 grades]x3], pts:[3], tot, assumed}
+ const rate=ltOk&&A.tw?st.lt2.m.length/A.tw*100:null;const fr=rate===null?null:wsForm(st.lt2.m.length,A.tw);
+ let assumed=false;const G=A.P.map(p=>{
+  if(!p.n)return['D','D','D','D'];
+  const g0=GR(p.ausdr,[.8,.55,.3]),g1=GR(p.fr,[.8,.55,.3]),g2=fr===null?null:GR(fr,[.85,.55,.25]);let g3;
+  if(p.cf!==null)g3=GR(p.cf,[.85,.7,.5]);else{g3='B';assumed=true}
+  return[g0,g1,g2,g3]});
+ const pts=G.map((g,i)=>g.some(x=>x===null)?null:g.reduce((a,x,ci)=>a+spPts(i,ci,x),0));
+ const tot=pts.every(x=>x!==null)?pts.reduce((a,b)=>a+b,0):null;
+ return{G,pts,tot,assumed}}
+function revSP(){const box=$('#sprev');if(!box)return;const A=spAnalyze(),key=A.all;
+ const ltOk=A.tw&&st.lt2&&st.lt2.t===key,lfail=A.tw&&st.lt2&&st.lt2.t===key+'\u0000fail';
+ let h='<h4>Ihr Sprechen: automatische Schätzung</h4>';
+ if(!A.tw){box.innerHTML=h+'<p>Es gibt keinen Text von Ihren Aufnahmen (0 / 75). Nehmen Sie die drei Teile im Prüfungsteil „Sprechen“ auf; die Seite schreibt mit, was Sie sagen. Unten sehen Sie die Beispielantworten.</p>';setAuto('sspr',0);return}
+ const R=spGrades(A,!!ltOk),pf=(p,ci)=>R.G[p][ci];
+ if(R.tot!==null)setAuto('sspr',R.tot);
+ const part=R.G.map((g,i)=>g.reduce((a,x,ci)=>a+(x===null?0:spPts(i,ci,x)),0));
+ const pm=[15,30,30];
+ h+='<div class="sum"><div><b>'+(R.tot!==null?'≈ '+R.tot+' / 75':lfail?'…':'… / 75')+'</b><small>Schätzung'+(R.assumed?' · Aussprache angenommen: B':'')+'</small></div>'+part.map((x,i)=>'<div><b>'+x+' / '+pm[i]+'</b><small>Teil '+(i+1)+'</small></div>').join('')+'</div>';
+ h+='<p class="hint">Nach den offiziellen telc-Kriterien: vier Kriterien (Ausdrucksfähigkeit, Aufgabenbewältigung, Formale Richtigkeit, Aussprache und Intonation), je A bis D. Teil 1 zählt höchstens 15 Punkte, Teil 2 und Teil 3 je höchstens 30. In der echten Prüfung bewerten zwei Prüfende Ihr Gespräch. Diese Schätzung liest nur Ihren Text (Spracherkennung) und kann sich irren. Aussprache und Intonation sind nur über die Erkennungssicherheit des Browsers messbar; fehlt sie, wird B angenommen. Die Punkte werden automatisch eingetragen; überschreiben Sie sie, wenn Sie selbst oder mit Claude bewerten. Der Grammatik-Check sendet Ihren Text an languagetool.org.</p>';
+ h+='<div class="tblw"><table class="sptbl"><thead><tr><th></th>'+['Teil 1','Teil 2','Teil 3'].map(x=>'<th>'+x+'</th>').join('')+'</tr></thead><tbody>'+SPCRIT.map((c,ci)=>'<tr><td>'+c+'</td>'+[0,1,2].map(i=>{const g=R.G[i][ci];return'<td>'+(g===null?'…':'<b>'+g+'</b> <small>'+spPts(i,ci,g)+' / '+SPMAX[i][ci]+'</small>')+'</td>'}).join('')+'</tr>').join('')+'</tbody></table></div>';
+ A.P.forEach((p,i)=>{h+='<p><b>Teil '+(i+1)+': '+(['Kontakt aufnehmen','Thema vortragen','Gemeinsam planen'][i])+'</b> <small>('+p.n+' Wörter'+(p.sec?', '+fmt(p.sec*1000):'')+')</small></p>';
+  h+=p.n?'<ul class="rl">'+p.ch.map(c=>'<li class="'+(c[1]?'ok':'no')+'">'+(c[1]?'✔ ':'✘ ')+esc(c[0])+'</li>').join('')+'<li class="'+(p.cs.length>=2?'ok':p.cs.length?'half':'no')+'">'+(p.cs.length>=2?'✔ ':p.cs.length?'◐ ':'✘ ')+'Verbindungswörter: '+(p.cs.length?esc(p.cs.join(', ')):'keine')+'</li></ul>':'<p>Kein Text für diesen Teil.</p>'});
+ h+='<p><b>Formale Richtigkeit (Grammatik)</b></p>';
+ if(ltOk)h+=st.lt2.m.length?'<p>'+st.lt2.m.length+' mögliche Fehler:</p><ul class="rl">'+st.lt2.m.map(m=>'<li class="no">✘ „'+esc(m.bad)+'“'+(m.rep?' → <b>'+esc(m.rep)+'</b>':'')+' <small>('+wsCat(m.cat)+')</small></li>').join('')+'</ul>':'<p>Keine Fehler gefunden. Sehr gut!</p>';
+ else if(lfail)h+='<p>Der Grammatik-Check ist gerade nicht erreichbar (offline?). Ohne ihn gibt es keine Gesamtschätzung. Nutzen Sie „Texte für Claude kopieren“.</p>';
+ else h+='<p>Grammatik wird geprüft …</p>';
+ h+='<p><button class="btn small" id="spcopy2" type="button">Texte für Claude kopieren</button></p>';
+ box.innerHTML=h;const c2=$('#spcopy2');if(c2)c2.onclick=copySprechen;
+ if(!ltOk&&!lfail&&!revSP.busy){revSP.busy=1;wsFetchLT(key,true).then(m=>{st.lt2={t:key,m};save()}).catch(()=>{st.lt2={t:key+'\u0000fail',m:[]};save()}).finally(()=>{revSP.busy=0;revSP()})}}
 function copyWriting(btn){const t=(st.brief||'').trim();
  const reg=meta.rg==='sie'?'formell, mit Sie':'informell, mit du';
- const tx='Bitte korrigiere und bewerte meinen Brief für die telc-Prüfung Deutsch B1 (Schriftlicher Ausdruck).\n\nTest: telc B1 Modelltest '+N+' (Thema: '+meta.theme+')\nAufgabe: '+meta.wtitle.replace(/^Schreiben:\s*/,'')+'\nAnrede: '+reg+'\n\nSituation:\n'+meta.wsit+'\n\nDiese 4 Leitpunkte müssen im Brief vorkommen:\n'+meta.wl.map((x,i)=>(i+1)+'. '+x).join('\n')+'\n\nVorgabe: '+meta.wlen+'\n\nMein Brief ('+wsN(t)+' Wörter):\n'+(t||'(nicht geschrieben)')+'\n\nBitte:\n1) Gib mir Punkte von 45 nach den telc-Kriterien (Aufgabenerfüllung, Kommunikative Gestaltung, Formale Richtigkeit), mit kurzer Begründung je Kriterium. Sage dazu, welche Aufteilung der 45 Punkte du benutzt.\n2) Prüfe jeden der 4 Leitpunkte einzeln: erfüllt, teilweise oder nicht.\n3) Zeige alle Fehler mit Korrektur und kurzer Erklärung.\n4) Gib eine korrigierte Fassung.\n5) Gib drei Tipps zum Üben.\nBitte erkläre alles auf Englisch (ich bin Anfänger).';
+ const tx='Bitte korrigiere und bewerte meinen Brief für die telc-Prüfung Deutsch B1 (Schriftlicher Ausdruck).\n\nTest: telc B1 Modelltest '+N+' (Thema: '+meta.theme+')\nAufgabe: '+meta.wtitle.replace(/^Schreiben:\s*/,'')+'\nAnrede: '+reg+'\n\nSituation:\n'+meta.wsit+'\n\nDiese 4 Leitpunkte müssen im Brief vorkommen:\n'+meta.wl.map((x,i)=>(i+1)+'. '+x).join('\n')+'\n\nVorgabe: '+meta.wlen+'\n\nMein Brief ('+wsN(t)+' Wörter):\n'+(t||'(nicht geschrieben)')+'\n\nBitte:\n1) Gib mir Punkte von 45 nach den telc-Kriterien (Aufgabenbewältigung, Kommunikative Gestaltung, Formale Richtigkeit): gib je Kriterium die Note A, B, C oder D (5, 3, 1 oder 0 Punkte), addiere und multipliziere mit 3 (maximal 45), mit kurzer Begründung.\n2) Prüfe jeden der 4 Leitpunkte einzeln: erfüllt, teilweise oder nicht.\n3) Zeige alle Fehler mit Korrektur und kurzer Erklärung.\n4) Gib eine korrigierte Fassung.\n5) Gib drei Tipps zum Üben.\nBitte erkläre alles auf Englisch (ich bin Anfänger).';
  const done=()=>{toast('Kopiert: Test, Thema, Aufgabe, 4 Leitpunkte und Ihr Brief');if(btn){const o=btn.dataset.o||btn.textContent;btn.dataset.o=o;btn.textContent='Kopiert ✔';setTimeout(()=>btn.textContent=o,2200)}};
  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(tx).then(done,()=>fb(tx,done))}else fb(tx,done)
 }
@@ -274,13 +343,13 @@ async function toggleRec(row,p){
  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
  if(SR){try{recog=new SR();recog.lang='de-DE';recog.continuous=true;recog.interimResults=true;
   recog.onresult=ev=>{let fin='',int='';for(let i=ev.resultIndex;i<ev.results.length;i++){const r=ev.results[i];if(r.isFinal)fin+=r[0].transcript+' ';else int+=r[0].transcript}
-   if(fin)recTxt+=(recTxt&&!/\s$/.test(recTxt)?' ':'')+fin;const t=row.querySelector('.rtx');t.value=recTxt+int;st.rc[p]=st.rc[p]||{};st.rc[p].txt=t.value;save()};
+   if(fin)recTxt+=(recTxt&&!/\s$/.test(recTxt)?' ':'')+fin;for(let i=ev.resultIndex;i<ev.results.length;i++){const r=ev.results[i];if(r.isFinal&&r[0].confidence>0){st.rc[p]=st.rc[p]||{};const c=st.rc[p].cf||[0,0];st.rc[p].cf=[c[0]+r[0].confidence,c[1]+1]}}const t=row.querySelector('.rtx');t.value=recTxt+int;st.rc[p]=st.rc[p]||{};st.rc[p].txt=t.value;save()};
   recog.onend=()=>{if(rec&&recPart===p){try{recog.start()}catch(e){}}};recog.start()}catch(e){recog=null}}
 }
 function stopRec(){clearInterval(recIv);try{recog&&(recog.onend=null,recog.stop())}catch(e){}recog=null;try{rec&&rec.state!=='inactive'&&rec.stop()}catch(e){}}
 function copySprechen(){
  const parts=[...$$('.rrow')].map(r=>{const c=st.rc[r.dataset.p]||{};return '['+r.dataset.n+'] Dauer: '+fmt((c.sec||0)*1000)+'\nText: '+(c.txt||'(keine Eingabe)')}).join('\n\n');
- const tx='Bitte bewerte meine Antworten im telc-B1-Modelltest '+N+' (Sprechen) nach den telc-Kriterien (Aufgabenbewältigung, Interaktion, Wortschatz, Grammatik; Aussprache kann ich nicht aufnehmen). Maximal 75 Punkte. Zeige Fehler, erkläre sie kurz auf Englisch und gib eine bessere Version.\n\n'+parts+'\n\nNotizen:\n'+(st.notes||'');
+ const tx='Bitte bewerte meine Antworten im telc-B1-Modelltest '+N+' (Sprechen) nach den offiziellen telc-Kriterien: Ausdrucksfähigkeit, Aufgabenbewältigung, Formale Richtigkeit, Aussprache und Intonation (je A, B, C oder D). Teil 1 zählt höchstens 15 Punkte, Teil 2 und Teil 3 je höchstens 30, zusammen maximal 75. Aussprache kann ich nur über den Text zeigen. Zeige Fehler, erkläre sie kurz auf Englisch und gib eine bessere Version.\n\n'+parts+'\n\nNotizen:\n'+(st.notes||'');
  const done=()=>toast('Kopiert. Füge den Text jetzt in Claude ein.');
  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(tx).then(done,()=>fb(tx,done));else fb(tx,done)
 }
@@ -321,9 +390,9 @@ function bind(){
  $$('.filter button').forEach(x=>x.onclick=()=>list(x.dataset.f));
  const br=$('#brief');if(br){br.value=st.brief||'';br.oninput=()=>{st.brief=br.value;wc();save()}}
  const cp=$('#copy');if(cp)cp.onclick=()=>copyWriting(cp);
- const ss=$('#ssch'),sp=$('#sspr');
- if(ss){ss.value=st.ssch||'';ss.oninput=()=>{st.ssch=ss.value;save();verdict()}}
- if(sp){sp.value=st.sspr||'';sp.oninput=()=>{st.sspr=sp.value;save();verdict()}}
+ const ss=$('#ssch'),sp=$('#sspr');const rd=$('#redo');if(rd)rd.onclick=()=>{if(confirm('Alle Antworten und Zeiten dieses Tests löschen und die Prüfung neu beginnen?')){try{localStorage.removeItem(SK)}catch(e){}location.href=location.pathname}};
+ if(ss){ss.value=st.ssch||'';ss.oninput=()=>{st.ssch=ss.value;st.mansch=ss.value.trim()===''?0:1;save();verdict();if(!st.mansch&&st.fin)revWS()}}
+ if(sp){sp.value=st.sspr||'';sp.oninput=()=>{st.sspr=sp.value;st.mansp=sp.value.trim()===''?0:1;save();verdict();if(!st.mansp&&st.fin)revSP()}}
  const t=$('#sptalkbtn');if(t)t.onclick=setTalk;
  restore();wc();setupAudio();recRows();const cs=$('#copysp');if(cs)cs.onclick=copySprechen;
  document.addEventListener('visibilitychange',()=>{if(document.hidden){commit();save()}});

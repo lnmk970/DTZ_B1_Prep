@@ -1,0 +1,1047 @@
+{
+ "n": 4,
+ "theme": "Lernen, Schule und Weiterbildung",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Die Volkshochschule bietet ab September neue Abendkurse an. Man kann zwischen Spanisch, Italienisch und Japanisch wählen. Die Anmeldung ist online oder im Büro möglich.</p><p><b>2</b>&nbsp; Wegen der Bauarbeiten am Hauptgebäude findet der Unterricht der Klassen 5 bis 7 bis Ende Oktober in Containern neben der Turnhalle statt. Die Eltern müssen nichts tun.</p><p><b>3</b>&nbsp; Ab sofort können Schülerinnen und Schüler in der Schulbibliothek bis 17 Uhr ihre Hausaufgaben machen. Zwei Lehrerinnen helfen bei Fragen. Das Angebot kostet nichts.</p><p><b>4</b>&nbsp; Der Elternabend der Klasse 8b wird verschoben. Er findet nicht am Dienstag, sondern am Donnerstag um 19 Uhr statt. Thema ist die Klassenfahrt im Frühjahr.</p><p><b>5</b>&nbsp; Wer einen Schulabschluss nachholen möchte, kann sich ab Montag beraten lassen. Das Gespräch dauert 30 Minuten und ist anonym. Bitte machen Sie vorher einen Termin.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Treffpunkt für Hausaufgaben<br><b>b</b>&nbsp; Unterricht vorübergehend im Container<br><b>c</b>&nbsp; Fremdsprachen am Abend<br><b>d</b>&nbsp; Neuer Termin für Eltern<br><b>e</b>&nbsp; Hilfe beim Nachholen des Abschlusses<br><b>f</b>&nbsp; Schulfest im Sommer<br><b>g</b>&nbsp; Neue Mensa eröffnet<br><b>h</b>&nbsp; Fahrradprüfung für Grundschüler<br><b>i</b>&nbsp; Streik an der Schule<br><b>j</b>&nbsp; Computerkurs für Senioren</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Text 1: Abendkurse in drei Sprachen → c. „Fremdsprachen“ ist das Oberwort für Spanisch, Italienisch, Japanisch."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Text 2: Wegen Bauarbeiten Unterricht in Containern → b. „vorübergehend“ passt zu „bis Ende Oktober“."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Text 3: Hausaufgaben in der Bibliothek, Lehrerinnen helfen → a. Das ist ein Treffpunkt für Hausaufgaben."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Text 4: Der Elternabend hat einen anderen Tag → d. „Neuer Termin für Eltern“."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Text 5: Beratung, um den Abschluss nachzuholen → e. Das Wort „Hilfe“ steht für „beraten lassen“."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Mit 41 wieder Schüler</p><p>Jasmin Kovač hat zwanzig Jahre als Verkäuferin gearbeitet. Als ihr Geschäft im vergangenen Jahr schloss, stand sie plötzlich ohne Arbeit da. „Ich hatte nie einen Beruf gelernt, nur Erfahrung“, sagt sie. Beim Arbeitsamt riet man ihr zu einer Ausbildung als Pflegekraft. Die Idee gefiel ihr, aber zuerst musste sie einen Deutschkurs auf Niveau B1 abschließen.</p><p>Seit September sitzt sie jeden Morgen mit 14 anderen Erwachsenen im Klassenzimmer, die meisten sind jünger als sie. „Am Anfang war es komisch, wieder zu lernen“, erzählt sie. „Aber die anderen sind nett, und wir helfen uns gegenseitig.“ Besonders schwer findet sie das Schreiben. Dafür übt sie jeden Abend eine halbe Stunde, während ihre beiden Kinder Hausaufgaben machen.</p><p>Den Kurs bezahlt die Agentur für Arbeit. Auch die Fahrkarte für den Bus bekommt Jasmin erstattet. Nur die Bücher muss sie selbst kaufen. Ihr Mann findet das Projekt gut, auch wenn er jetzt öfter kochen muss.</p><p>Im Februar macht sie die Prüfung. Danach möchte sie sich in einem Krankenhaus bewerben. „Ich weiß, dass es nicht leicht wird“, sagt sie. „Aber ich möchte meinen Kindern zeigen, dass man in jedem Alter etwas Neues anfangen kann.“</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Warum hat Jasmin ihre Arbeit verloren?",
+     "opts": [
+      "Sie hat selbst gekündigt.",
+      "Ihr Geschäft wurde geschlossen.",
+      "Sie war zu oft krank."
+     ],
+     "key": "b",
+     "why": "Im Text: „Als ihr Geschäft … schloss, stand sie ohne Arbeit da.“ Sie hat nicht selbst gekündigt."
+    },
+    {
+     "id": "l7",
+     "q": "Was musste Jasmin vor der Ausbildung machen?",
+     "opts": [
+      "Ein Praktikum im Krankenhaus.",
+      "Einen Deutschkurs auf B1 abschließen.",
+      "Ihren Führerschein machen."
+     ],
+     "key": "b",
+     "why": "Das Arbeitsamt riet zur Ausbildung, aber „zuerst musste sie einen Deutschkurs auf Niveau B1 abschließen“."
+    },
+    {
+     "id": "l8",
+     "q": "Was findet Jasmin im Kurs besonders schwer?",
+     "opts": [
+      "Das Sprechen.",
+      "Das Hören.",
+      "Das Schreiben."
+     ],
+     "key": "c",
+     "why": "„Besonders schwer findet sie das Schreiben.“"
+    },
+    {
+     "id": "l9",
+     "q": "Was bezahlt Jasmin selbst?",
+     "opts": [
+      "Die Bücher.",
+      "Den Kurs.",
+      "Die Fahrkarte."
+     ],
+     "key": "a",
+     "why": "Kurs und Fahrkarte bezahlt die Agentur. „Nur die Bücher muss sie selbst kaufen.“"
+    },
+    {
+     "id": "l10",
+     "q": "Was sagt Jasmin über ihre Pläne?",
+     "opts": [
+      "Sie hofft, dass die Prüfung leicht ist.",
+      "Sie will ihren Kindern ein Vorbild sein.",
+      "Sie möchte nach der Prüfung ins Ausland ziehen."
+     ],
+     "key": "b",
+     "why": "„Ich möchte meinen Kindern zeigen, dass man in jedem Alter etwas Neues anfangen kann.“"
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Musikschule Harmonie: Gitarrenkurs für Erwachsene ohne Vorkenntnisse. Mittwochs, 19 bis 20.30 Uhr. Gitarren können geliehen werden.</p><p><b>b</b>&nbsp; Nachhilfe vor Ort: Unsere Lehrer kommen zu Ihnen nach Hause. Mathe, Englisch, Deutsch. Erste Stunde kostenlos.</p><p><b>c</b>&nbsp; Familienzentrum Mitte: Kinderbetreuung für Kinder ab zwei Jahren, während Sie an Kursen teilnehmen. Vormittags, auch kurzfristig.</p><p><b>d</b>&nbsp; Sprachschule Lingua: Kurs „Deutsch im Beruf“, 8 Wochen, abends. Am Ende gibt es ein Zertifikat.</p><p><b>e</b>&nbsp; Stadtbibliothek: Lernräume mit Steckdosen und WLAN. Montag bis Samstag bis 22 Uhr geöffnet. Keine Gebühr.</p><p><b>f</b>&nbsp; Second-Hand-Technik Peters: Geprüfte Laptops ab 180 Euro. Ein Jahr Garantie. Montag bis Freitag.</p><p><b>g</b>&nbsp; Fotoclub Lichtblick: Einsteigerkurs Fotografie, 6 Abende. Zum Abschluss Ausstellung im Rathaus.</p><p><b>h</b>&nbsp; Online-Akademie Zeitfrei: Kurse für Computer, Marketing und Sprachen. Starten Sie jederzeit, lernen Sie, wann Sie wollen.</p><p><b>i</b>&nbsp; Ferienprogramm der Stadt: Betreuung von 8 bis 16 Uhr, Sport, Schwimmen, Basteln. Anmeldung bis 1. Juni.</p><p><b>j</b>&nbsp; Tanzschule Takt: Anfängerkurs Standardtänze, dienstags abends. Paare willkommen.</p><p><b>k</b>&nbsp; Computerkurs für Senioren: Grundlagen für Einsteiger ab 60 Jahren, vormittags im Seniorenzentrum.</p><p><b>l</b>&nbsp; Schwimmbad Wellenreich: Frühschwimmer-Tarif ab 6 Uhr. Wassergymnastik für alle.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie suchen einen ruhigen Ort zum Lernen für die Prüfung, möglichst bis spät abends.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Lernraum bis spät → e (bis 22 Uhr)."
+    },
+    {
+     "id": "l12",
+     "q": "Sie möchten abends Gitarre lernen, haben aber noch nie gespielt.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Gitarre für Anfänger am Abend → a."
+    },
+    {
+     "id": "l13",
+     "q": "Sie möchten Ihre Kinder in den Ferien tagsüber betreuen lassen, mit Sport und Spielen.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Ferienbetreuung mit Sport → i."
+    },
+    {
+     "id": "l14",
+     "q": "Sie suchen einen Platz, wo Ihr zweijähriges Kind betreut wird, während Sie einen Kurs besuchen.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Betreuung für das Kleinkind während des Kurses → c."
+    },
+    {
+     "id": "l15",
+     "q": "Sie möchten einen Tanzkurs für Anfänger am Wochenende besuchen.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Tanzkurs für Anfänger am Wochenende → keine Anzeige passt (j gilt nur dienstags). Also x."
+    },
+    {
+     "id": "l16",
+     "q": "Sie möchten in einem Kurs Fotografieren lernen und Ihre Fotos später ausstellen.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Fotografie mit Ausstellung → g."
+    },
+    {
+     "id": "l17",
+     "q": "Ihr Sohn braucht Nachhilfe in Mathematik, am liebsten bei Ihnen zu Hause.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Nachhilfe zu Hause → b."
+    },
+    {
+     "id": "l18",
+     "q": "Sie interessieren sich für einen Online-Kurs, den Sie zeitlich frei einteilen können.",
+     "letters": "abcdefghijklx",
+     "key": "h",
+     "why": "Online-Kurs mit freier Zeiteinteilung → h."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten Ihr Deutsch für den Beruf verbessern und brauchen eine Bescheinigung.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Deutsch für den Beruf mit Bescheinigung → d (Zertifikat)."
+    },
+    {
+     "id": "l20",
+     "q": "Sie wollen einen gebrauchten Laptop für das Studium kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Gebrauchter Laptop → f."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Frau Neumann,</p><p>ich habe Ihre Anzeige für den Englischkurs am Abend <b>(21)</b> und möchte mich gern anmelden. Ich arbeite von 8 bis 17 Uhr, <b>(22)</b> kann ich nur nach 18 Uhr kommen. Können Sie mir <b>(23)</b>, wann der nächste Kurs beginnt? Außerdem möchte ich wissen, <b>(24)</b> der Kurs kostet. Ich habe schon zwei Jahre Englisch <b>(25)</b>, brauche aber eine Wiederholung. Gibt es vorher einen Test, <b>(26)</b> mein Niveau festzustellen? Wenn ja, <b>(27)</b> ich gern einen Termin vereinbaren. Sie erreichen mich ab Montag <b>(28)</b> unter der Nummer 0176 555 0123. Ich warte <b>(29)</b> Ihre Antwort.</p><p>Mit freundlichen <b>(30)</b>\nMarko Petrović</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "gelesen",
+      "gelest",
+      "lesen"
+     ],
+     "key": "a",
+     "why": "Perfekt: „habe … gelesen“ (haben + Partizip II)."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "trotzdem",
+      "weil",
+      "deshalb"
+     ],
+     "key": "c",
+     "why": "„deshalb“ nennt die Folge, danach steht das Verb auf Position 2 („kann ich“). „weil“ bräuchte das Verb am Ende."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "sagen",
+      "gesagt",
+      "sagt"
+     ],
+     "key": "a",
+     "why": "Modalverb „können“ + Infinitiv am Ende: „Können Sie mir sagen“."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "wie viel",
+      "wann",
+      "wer"
+     ],
+     "key": "a",
+     "why": "Frage nach dem Preis: „wie viel“ der Kurs kostet."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "lernte",
+      "gelernt",
+      "lernen"
+     ],
+     "key": "b",
+     "why": "Perfekt: „habe … gelernt“."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "damit",
+      "weil",
+      "um"
+     ],
+     "key": "c",
+     "why": "„um … zu“ + Infinitiv nennt den Zweck. „damit“ bräuchte einen eigenen Satz mit Subjekt."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "möchtest",
+      "möchte",
+      "möchten"
+     ],
+     "key": "b",
+     "why": "1. Person Singular: „ich möchte“."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "telefonieren",
+      "Telefon",
+      "telefonisch"
+     ],
+     "key": "c",
+     "why": "„telefonisch“ ist das Adverb: „per Telefon“."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "über",
+      "für",
+      "auf"
+     ],
+     "key": "c",
+     "why": "warten auf + Akkusativ: „auf Ihre Antwort“."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "Grüße",
+      "Grüßen",
+      "Gruß"
+     ],
+     "key": "b",
+     "why": "Grußformel im Brief: „Mit freundlichen Grüßen“ (Dativ Plural)."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Liebe Sandra,</p><p>vielen Dank für deine Nachricht. Ich habe jetzt endlich <b>(31)</b>, mit dem Deutschkurs zu beginnen. Er findet dreimal in der <b>(32)</b> statt, jeweils am Abend. Die Gruppe ist klein, <b>(33)</b> die Lehrerin genug Zeit für jeden hat. Am ersten Tag haben wir <b>(34)</b> Spiele gemacht, um uns kennenzulernen. Ich bin schon ziemlich <b>(35)</b> mit den Hausaufgaben, aber einige Wörter muss ich noch <b>(36)</b>. Wenn du Lust hast, können wir uns am Samstag <b>(37)</b> und zusammen lernen. Im Café Mitte gibt es immer einen <b>(38)</b> Platz am Fenster. Danach können wir noch einen <b>(39)</b> machen. Schreib mir bitte, <b>(40)</b> es dir passt.</p><p>Viele Grüße\nDeine Elena</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> Spaziergang &nbsp;·&nbsp; <b>b</b> bunt &nbsp;·&nbsp; <b>c</b> ruhigen &nbsp;·&nbsp; <b>d</b> treffen &nbsp;·&nbsp; <b>e</b> anrufen &nbsp;·&nbsp; <b>f</b> trotzdem &nbsp;·&nbsp; <b>g</b> wiederholen &nbsp;·&nbsp; <b>h</b> damit &nbsp;·&nbsp; <b>i</b> ob &nbsp;·&nbsp; <b>j</b> kleine &nbsp;·&nbsp; <b>k</b> weit &nbsp;·&nbsp; <b>l</b> gelacht &nbsp;·&nbsp; <b>m</b> beschlossen &nbsp;·&nbsp; <b>n</b> Woche &nbsp;·&nbsp; <b>o</b> Schule</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "m",
+     "why": "Perfekt: „habe … beschlossen“ (Partizip II)."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "n",
+     "why": "„in der Woche“ (feminin, Dativ)."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "„damit“ nennt das Ziel, das Verb steht am Ende („hat“)."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "Plural Akkusativ ohne Artikel: „kleine Spiele“."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "k",
+     "why": "„ziemlich weit mit den Hausaufgaben“ heißt: schon viel geschafft."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "g",
+     "why": "Modalverb „muss … wiederholen“."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "„wir können uns treffen“: Infinitiv am Ende."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "„einen ruhigen Platz“ (maskulin, Akkusativ)."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "„einen Spaziergang machen“."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "„ob“ steht für eine indirekte Ja/Nein-Frage."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
+   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Der Italienischkurs beginnt später als sonst.",
+     "tf": true,
+     "key": "r",
+     "why": "Er beginnt um 18 Uhr 30, nicht um 18 Uhr."
+    },
+    {
+     "id": "h2",
+     "q": "Man kann sich auch nach Freitag noch zur Prüfung anmelden.",
+     "tf": true,
+     "key": "f",
+     "why": "Nach Freitag ist die Anmeldung geschlossen."
+    },
+    {
+     "id": "h3",
+     "q": "Auf der Autobahn gibt es Stau.",
+     "tf": true,
+     "key": "r",
+     "why": "Sieben Kilometer Stau auf der A4."
+    },
+    {
+     "id": "h4",
+     "q": "Paul schlägt vor, am Mittwoch zu lernen.",
+     "tf": true,
+     "key": "r",
+     "why": "Er möchte sich am Mittwoch in der Bibliothek treffen."
+    },
+    {
+     "id": "h5",
+     "q": "Die Kantine ist auch am Samstag geöffnet.",
+     "tf": true,
+     "key": "f",
+     "why": "Am Wochenende bleibt sie geschlossen."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
+   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Frau Ilić leitet eine Abendschule.",
+     "tf": true,
+     "key": "r",
+     "why": "Das sagt die Moderatorin am Anfang."
+    },
+    {
+     "id": "h7",
+     "q": "Die meisten Schüler sind jünger als zwanzig.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie sind meist zwischen dreißig und fünfzig."
+    },
+    {
+     "id": "h8",
+     "q": "Der Unterricht ist von Montag bis Donnerstag.",
+     "tf": true,
+     "key": "r",
+     "why": "Freitags ist kein Unterricht."
+    },
+    {
+     "id": "h9",
+     "q": "Der Unterricht beginnt um 17 Uhr.",
+     "tf": true,
+     "key": "f",
+     "why": "Er beginnt um 18 Uhr."
+    },
+    {
+     "id": "h10",
+     "q": "Deutsch, Mathematik und Englisch sind Pflichtfächer.",
+     "tf": true,
+     "key": "r",
+     "why": "Das nennt Frau Ilić ausdrücklich."
+    },
+    {
+     "id": "h11",
+     "q": "Die Schüler müssen ein Wahlfach nehmen, das Geschichte heißt.",
+     "tf": true,
+     "key": "f",
+     "why": "Das Wahlfach kann zum Beispiel Informatik oder Geschichte sein."
+    },
+    {
+     "id": "h12",
+     "q": "Am Anfang schlafen manche Schüler fast ein.",
+     "tf": true,
+     "key": "r",
+     "why": "Nach einem langen Arbeitstag sind manche sehr müde."
+    },
+    {
+     "id": "h13",
+     "q": "Die Schüler zahlen eine hohe Gebühr.",
+     "tf": true,
+     "key": "f",
+     "why": "Die Schule ist kostenlos, nur die Bücher kosten Geld."
+    },
+    {
+     "id": "h14",
+     "q": "Rund drei Viertel der Schüler bestehen die Prüfung.",
+     "tf": true,
+     "key": "r",
+     "why": "„Etwa Dreiviertel“."
+    },
+    {
+     "id": "h15",
+     "q": "Das Beratungsgespräch ist verpflichtend und kostet Geld.",
+     "tf": true,
+     "key": "f",
+     "why": "Das Gespräch ist unverbindlich."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
+   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Die Bibliothek schließt heute früher als normal.",
+     "tf": true,
+     "key": "r",
+     "why": "Schon um sechzehn Uhr."
+    },
+    {
+     "id": "h17",
+     "q": "Der Sprecher findet, Grundschüler brauchen viele Hausaufgaben.",
+     "tf": true,
+     "key": "f",
+     "why": "Er findet Hausaufgaben nicht nötig."
+    },
+    {
+     "id": "h18",
+     "q": "Der Zug nach Hamburg fährt heute nicht.",
+     "tf": true,
+     "key": "r",
+     "why": "Er fällt aus; man nimmt den Zug um 14 Uhr 15."
+    },
+    {
+     "id": "h19",
+     "q": "Beim Tag der offenen Tür gibt es Getränke und Kuchen.",
+     "tf": true,
+     "key": "r",
+     "why": "„Für Getränke und Kuchen ist gesorgt.“"
+    },
+    {
+     "id": "h20",
+     "q": "Der Arzttermin morgen findet statt.",
+     "tf": true,
+     "key": "f",
+     "why": "Der Termin fällt aus."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an eine Sprachschule (formell)",
+  "situation": "<b>Sie haben vor zwei Wochen einen Deutschkurs bei der Sprachschule Lingua begonnen.</b> Leider ist der Kurs für Sie zu schwer, weil die Gruppe schon fortgeschritten ist. Schreiben Sie eine E-Mail an die Leiterin, Frau Neumann. Erklären Sie das Problem. Fragen Sie, ob Sie in eine andere Gruppe wechseln können. Sagen Sie, wann Sie Zeit haben. Bitten Sie um eine schnelle Antwort.",
+  "points": [
+   "Problem im Kurs beschreiben",
+   "Frage nach Gruppenwechsel",
+   "Zeitangabe: Wann haben Sie Zeit?",
+   "Bitte um schnelle Antwort"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "zu schwer|schwierig|fortgeschritten|zu schnell|nicht folgen|problem|verstehe|überfordert",
+   "gruppe|wechsel|anderen kurs|niedrigere|anfänger|einsteiger|ob ich",
+   "zeit|termin|gespräch|nachmittag|vormittag|\\buhr\\b|montag|dienstag|mittwoch|donnerstag|freitag|wochenende|vorbeikommen|besprechen",
+   "schnell|bald|baldige|rasch|zeitnah|möglichst|umgehend|dringend|rückmeldung|antworten sie|antwort bis|bis (zum |spätestens )?\\w+"
+  ],
+  "rg": "sie"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich in einer Gruppe kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf oder Ausbildung, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie Ihren Gesprächspartner / Ihre Gesprächspartnerin: Wie lange lernt er/sie schon Deutsch? Was gefällt ihm/ihr an der Sprache? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Online lernen oder im Kurs?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit dem Lernen (online oder im Kurs) · 2. Wie Menschen in meinem Heimatland lernen · 3. Vorteile und Nachteile von Online-Lernen und Kurs · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam eine Lerngruppe</b> für die telc-Prüfung. Besprechen Sie: Wer macht mit? · Wann und wie oft treffen Sie sich? · Wo treffen Sie sich? · Was üben Sie (Hören, Schreiben, Sprechen)? · Wer bringt welches Material mit? · Was machen Sie, wenn jemand nicht kommen kann?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Sehr geehrte Frau Neumann, vor zwei Wochen habe ich bei Ihnen den Deutschkurs am Abend begonnen. Leider ist der Kurs für mich zu schwer, weil die anderen Teilnehmer schon viel besser sprechen als ich. Ich verstehe oft nicht, was die Lehrerin erklärt. Deshalb möchte ich fragen, ob ich in eine Anfängergruppe wechseln kann. Ich habe montags und mittwochs nach 18 Uhr Zeit. Bitte antworten Sie mir möglichst schnell, damit ich den Platz nicht verliere. Vielen Dank für Ihre Hilfe. Mit freundlichen Grüßen, Marko Petrović</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich bin 33 Jahre alt und komme aus Indien. Ich wohne in Aachen und arbeite als Softwareentwickler. Ich lerne Deutsch, weil ich hier leben und arbeiten möchte. Wie lange lernst du schon Deutsch? Was gefällt dir an der Sprache?</p><p><b>Teil 2:</b> Ich spreche heute über das Lernen: online oder im Kurs. Ich habe beides probiert. Online kann ich lernen, wann ich will, und das spart Zeit. Im Kurs spreche ich mehr mit anderen und die Lehrerin korrigiert mich sofort. In Indien lernen viele online, weil Kurse teuer sind. Ein Vorteil von Online ist die Freiheit, ein Nachteil, dass man allein ist. Meiner Meinung nach ist die Mischung am besten. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Wer macht mit? Ich denke, wir sind zu viert. Wollen wir uns zweimal pro Woche am Abend treffen, zum Beispiel dienstags und donnerstags? Wir können in der Bibliothek lernen, dort ist es ruhig. Am Dienstag üben wir Sprechen, am Donnerstag Schreiben. Jeder bringt seine Übungshefte mit. Wenn jemand nicht kommen kann, schickt er eine Nachricht, und wir machen eine Aufnahme für ihn.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Achtung, eine Durchsage der Volkshochschule. Der Kurs Italienisch für Anfänger beginnt heute nicht um 18 Uhr, sondern erst um 18 Uhr 30. Bitte warten Sie vor Raum 204.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Hier ist die Mailbox von Frau Lindner. Ich bin heute nicht im Büro. Wenn Sie wegen der Prüfungsanmeldung anrufen, melden Sie sich bitte bis Freitag im Sekretariat. Danach ist die Anmeldung geschlossen.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Und nun die Verkehrsmeldung: Auf der A4 gibt es zwischen Köln und Aachen sieben Kilometer Stau. Fahren Sie besser über die Landstraße. Sie verlieren so etwa zwanzig Minuten.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Hallo Anna, hier ist Paul. Ich kann morgen nicht mit dir lernen, weil mein Zug Verspätung hat. Wollen wir uns stattdessen am Mittwoch in der Bibliothek treffen? Ruf mich bitte zurück.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Liebe Gäste, unsere Kantine hat ab sofort eine neue Öffnungszeit. Sie ist montags bis freitags von elf bis vierzehn Uhr geöffnet. Am Wochenende bleibt sie geschlossen.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2",
+   "html": "<div class=\"text\"><p>Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?</p><p>Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.</p><p>Wie lange dauert der Unterricht?</p><p>Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.</p><p>Welche Fächer lernen die Schüler?</p><p>Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.</p><p>Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?</p><p>Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.</p><p>Wie viel kostet der Besuch?</p><p>Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.</p><p>Und wie viele schaffen am Ende den Abschluss?</p><p>Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.</p><p>Was würden Sie jemandem raten, der noch zögert?</p><p>Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.</p><p>Vielen Dank, Frau Ilić, für das Gespräch.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage der Volkshochschule. Der Kurs Italienisch für Anfänger beginnt heute nicht um 18 Uhr, sondern erst um 18 Uhr 30. Bitte warten Sie vor Raum 204.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Mailbox von Frau Lindner. Ich bin heute nicht im Büro. Wenn Sie wegen der Prüfungsanmeldung anrufen, melden Sie sich bitte bis Freitag im Sekretariat. Danach ist die Anmeldung geschlossen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Und nun die Verkehrsmeldung: Auf der A4 gibt es zwischen Köln und Aachen sieben Kilometer Stau. Fahren Sie besser über die Landstraße. Sie verlieren so etwa zwanzig Minuten.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Anna, hier ist Paul. Ich kann morgen nicht mit dir lernen, weil mein Zug Verspätung hat. Wollen wir uns stattdessen am Mittwoch in der Bibliothek treffen? Ruf mich bitte zurück.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Gäste, unsere Kantine hat ab sofort eine neue Öffnungszeit. Sie ist montags bis freitags von elf bis vierzehn Uhr geöffnet. Am Wochenende bleibt sie geschlossen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie lange dauert der Unterricht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Fächer lernen die Schüler?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viel kostet der Besuch?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie viele schaffen am Ende den Abschluss?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie jemandem raten, der noch zögert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Ilić, für das Gespräch.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie lange dauert der Unterricht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Fächer lernen die Schüler?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viel kostet der Besuch?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie viele schaffen am Ende den Abschluss?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie jemandem raten, der noch zögert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Ilić, für das Gespräch.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

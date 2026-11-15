@@ -1,0 +1,1047 @@
+{
+ "n": 1,
+ "theme": "Alltag, Stadt und Arbeit",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Im Stadtteilzentrum Nord repariert ab Montag jeden Dienstagabend ein Team von Freiwilligen kostenlos Fahrräder. Werkzeug ist vorhanden, Ersatzteile bezahlen Sie selbst. Eine Anmeldung ist nicht nötig.</p><p><b>2</b>&nbsp; Das Hallenbad an der Lindenstraße bleibt wegen einer Reparatur der Lüftung vom 3. bis 28. März geschlossen. Schulklassen und Vereine dürfen in dieser Zeit das Becken in Süd benutzen. Einzelkarten bleiben gültig.</p><p><b>3</b>&nbsp; Der Wochenmarkt auf dem Rathausplatz findet ab April auch donnerstags statt. Neben Obst und Gemüse bieten jetzt auch zwei Bäckereien und ein Fischstand ihre Waren an.</p><p><b>4</b>&nbsp; Ab Januar wird die Biotonne alle zwei Wochen geleert, im Sommer jede Woche. Den neuen Abfuhrkalender bekommen alle Haushalte mit der Post.</p><p><b>5</b>&nbsp; Am Freitag lädt die Stadtbibliothek Kinder von sieben bis zehn Jahren zur Lesenacht ein. Die Kinder schlafen in der Bibliothek. Schlafsack und Taschenlampe bringen sie selbst mit. Anmeldung bis Mittwoch.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Hilfe für kaputte Fahrräder<br><b>b</b>&nbsp; Neue Parkgebühren<br><b>c</b>&nbsp; Hallenbad vorübergehend zu<br><b>d</b>&nbsp; Sprachkurs für Senioren<br><b>e</b>&nbsp; Markt öfter geöffnet<br><b>f</b>&nbsp; Konzert im Stadtpark<br><b>g</b>&nbsp; Neue Abholzeiten für Bioabfall<br><b>h</b>&nbsp; Busverbindung wird verbessert<br><b>i</b>&nbsp; Übernachtung zwischen Büchern<br><b>j</b>&nbsp; Tag der offenen Tür im Rathaus</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Text 1: Freiwillige reparieren Fahrräder → a. „Parkgebühren“ und „Busverbindung“ kommen im Text nicht vor."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Text 2: Das Hallenbad ist wegen einer Reparatur geschlossen → c. Das Wort „vorübergehend“ passt zu „vom 3. bis 28. März“."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Text 3: Der Markt ist ab April auch donnerstags geöffnet, also öfter → e. Das Konzert (f) wird nicht erwähnt."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "g",
+     "why": "Text 4: Die Biotonne wird anders geleert, das sind neue Abholzeiten → g. „Abfuhrkalender“ bestätigt es."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "i",
+     "why": "Text 5: Kinder übernachten in der Bibliothek → i. „Zwischen Büchern“ ist ein anderes Bild für Bibliothek."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Lena Brandt war nie ein Landmensch. Zwölf Jahre lang lebte sie in Köln, arbeitete als Grafikerin in einer Agentur und fuhr jeden Morgen eine Stunde mit der Bahn ins Büro. Als die Agentur 2021 begann, Arbeit von zu Hause zu erlauben, rechnete sie nach: Ihre Miete war hoch, ihre Wohnung klein, und im Homeoffice sah sie die Kollegen ohnehin nur noch auf dem Bildschirm.</p><p>Im Herbst zog sie in ein Dorf mit 900 Einwohnern in der Eifel. Das Haus war günstiger als ihre alte Wohnung und hat einen Garten. „Am Anfang fehlten mir die Cafés und das Kino“, erzählt sie. „Aber die Nachbarn haben mich sofort eingeladen. Ich glaube, dass man auf dem Land schneller Kontakt findet, wenn man sich ein bisschen Mühe gibt.“</p><p>Nicht alles ist einfach. Das Internet war zuerst so langsam, dass Lena Dateien nachts hochladen musste. Erst nach einem Jahr kam das Glasfaserkabel ins Dorf. Auch ohne Auto geht es nicht: Der Bus fährt nur dreimal am Tag. Für große Aufträge fährt sie noch ein- oder zweimal im Monat nach Köln, übernachtet bei einer Freundin und trifft ihr Team persönlich.</p><p>Zurück will sie nicht. „Ich arbeite konzentrierter, und abends sitze ich im Garten, statt in der Bahn zu stehen“, sagt sie. Ihrem Chef hat sie versprochen, bei Problemen sofort zu kommen. Bis jetzt war das nicht nötig.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Lena Brandt zog aufs Land, weil …",
+     "opts": [
+      "sie ihre Arbeit verloren hatte.",
+      "das Wohnen dort billiger war und sie zu Hause arbeiten durfte.",
+      "ihre Kollegen in die Eifel gezogen waren."
+     ],
+     "key": "b",
+     "why": "Im Text: hohe Miete, kleine Wohnung, Homeoffice erlaubt → billigeres Haus mit Garten. Ihre Arbeit hat sie nicht verloren (a), von Kollegen im Dorf steht nichts (c)."
+    },
+    {
+     "id": "l7",
+     "q": "Wie waren die ersten Monate im Dorf?",
+     "opts": [
+      "Die Nachbarn waren freundlich, aber Cafés und Kino fehlten ihr.",
+      "Sie fand lange keine Kontakte.",
+      "Sie langweilte sich so sehr, dass sie fast zurückzog."
+     ],
+     "key": "a",
+     "why": "„Am Anfang fehlten mir die Cafés“, aber die Nachbarn luden sie sofort ein. Antwort b ist falsch (Kontakt ging schnell), c steht nicht im Text."
+    },
+    {
+     "id": "l8",
+     "q": "Was war am Anfang das größte technische Problem?",
+     "opts": [
+      "Es gab kein Handynetz.",
+      "Das Internet war zu langsam.",
+      "Der Computer war zu alt."
+     ],
+     "key": "b",
+     "why": "Das Internet war so langsam, dass sie nachts hochladen musste. Glasfaser kam erst nach einem Jahr."
+    },
+    {
+     "id": "l9",
+     "q": "Warum braucht Lena ein Auto?",
+     "opts": [
+      "Der Bus fährt nur selten.",
+      "Sie muss jeden Tag nach Köln fahren.",
+      "Sie hat viele Kunden im Dorf."
+     ],
+     "key": "a",
+     "why": "Der Bus fährt nur dreimal am Tag. Nach Köln fährt sie nur ein- oder zweimal im Monat, nicht täglich (b)."
+    },
+    {
+     "id": "l10",
+     "q": "Was sagt Lena über ihr Leben heute?",
+     "opts": [
+      "Sie bereut den Umzug und will zurück nach Köln.",
+      "Sie arbeitet konzentrierter und hat abends mehr Freizeit.",
+      "Ihr Chef ist mit ihrer Arbeit nicht zufrieden."
+     ],
+     "key": "b",
+     "why": "„Ich arbeite konzentrierter … abends sitze ich im Garten.“ Zurück will sie nicht (a), von Problemen mit dem Chef steht nichts da (c)."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Hotel Bergblick: Familienfreundlich, Zimmer mit Balkon, Haustiere gegen Gebühr willkommen. Wanderwege direkt am Haus.</p><p><b>b</b>&nbsp; Sprachcafé jeden Donnerstag, 19 Uhr, im Café Lindenhof. Deutsch sprechen in lockerer Runde. Eintritt frei.</p><p><b>c</b>&nbsp; PC-Hilfe Meier: Reparatur am Tag der Abgabe möglich. Kostenvoranschlag gratis. Mo–Sa, 9–18 Uhr.</p><p><b>d</b>&nbsp; Gärtnerei Grün sucht Aushilfen für Samstag und Sonntag. Arbeit im Garten und im Gewächshaus. Stundenlohn 12 Euro.</p><p><b>e</b>&nbsp; Kinderflohmarkt in der Turnhalle der Grundschule. Bücher, Spielzeug und Fahrräder. Samstag, 10–14 Uhr.</p><p><b>f</b>&nbsp; Vegetarisch kochen leicht gemacht! Kurs in 4 Abenden, jeweils dienstags. Zutaten sind im Preis enthalten.</p><p><b>g</b>&nbsp; Umzugshilfe Schnell & Sicher: Transporter mit zwei Fahrern. Auch am Wochenende. Festpreis nach Besichtigung.</p><p><b>h</b>&nbsp; Helle 3-Zimmer-Wohnung, 85 m², mit Garten und Garage. Bushaltestelle vor dem Haus. Ab 1. April frei.</p><p><b>i</b>&nbsp; Online-Marktplatz „Alles Gebraucht“: Einfach Foto hochladen, Preis festlegen und verkaufen. Gebührenfrei für Privatpersonen.</p><p><b>j</b>&nbsp; Stadtmuseum: Jeden ersten Sonntag im Monat freier Eintritt für alle. Führung für Kinder um 11 Uhr.</p><p><b>k</b>&nbsp; Autohaus Weber: Winterreifen im Angebot. Montage inklusive. Nur bis Ende November.</p><p><b>l</b>&nbsp; Fitnessstudio Aktiv: 3 Monate zum Preis von 2. Neue Kurse am Abend.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie wollen am Sonntag mit den Kindern ins Museum, aber nicht viel bezahlen.",
+     "letters": "abcdefghijklx",
+     "key": "j",
+     "why": "Museum mit freiem Eintritt → j."
+    },
+    {
+     "id": "l12",
+     "q": "Sie möchten ein gebrauchtes Kinderfahrrad für Ihre Tochter kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Kinderfahrrad gebraucht → e (Kinderflohmarkt)."
+    },
+    {
+     "id": "l13",
+     "q": "Sie interessieren sich für einen Kochkurs mit vegetarischen Gerichten.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Vegetarischer Kochkurs → f."
+    },
+    {
+     "id": "l14",
+     "q": "Sie brauchen für den Umzug am Samstag einen Transporter mit Fahrer.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Umzug mit Transporter und Fahrer → g."
+    },
+    {
+     "id": "l15",
+     "q": "Sie suchen für Ihre Eltern ein Hotel in den Bergen, in dem Hunde erlaubt sind.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Hotel in den Bergen, Haustiere willkommen → a (die Gebühr widerspricht „erlaubt“ nicht)."
+    },
+    {
+     "id": "l16",
+     "q": "Sie suchen einen günstigen Nebenjob am Wochenende, am liebsten im Freien.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Wochenendarbeit im Freien → d."
+    },
+    {
+     "id": "l17",
+     "q": "Ihr Laptop ist kaputt. Sie möchten ihn möglichst am selben Tag reparieren lassen.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Reparatur am selben Tag → c."
+    },
+    {
+     "id": "l18",
+     "q": "Sie möchten Ihre Kamera verkaufen und suchen einen Platz, wo Sie sie anbieten können.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Kamera verkaufen → i (Online-Marktplatz)."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten abends Deutsch üben und suchen ein Treffen mit Muttersprachlern.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Sprachcafé am Donnerstagabend → b."
+    },
+    {
+     "id": "l20",
+     "q": "Sie suchen eine Wohnung mit Balkon in der Nähe der U-Bahn.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Keine Anzeige passt → x. Anzeige h hat Garten statt Balkon und Bus statt U-Bahn."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Frau Winter,</p><p>vor zwei Wochen habe ich bei Ihnen einen Sprachkurs für Anfänger <b>(21)</b>. Leider musste ich den Kurs nach der zweiten Stunde abbrechen, <b>(22)</b> ich eine neue Arbeitsstelle in Hamburg bekommen habe. Ich habe Sie deshalb am Montag angerufen, aber niemand hat <b>(23)</b> Telefon abgenommen. Darum schreibe ich Ihnen jetzt.</p><p>Ich möchte Sie bitten, mir das Geld für die restlichen Stunden zu <b>(24)</b>. Laut Ihren Bedingungen kann man bis zu zehn Tage nach Kursbeginn <b>(25)</b> Kosten kündigen. <b>(26)</b> ich Ihnen meine Kontonummer schon im Anmeldeformular genannt habe, schicke ich sie nicht noch einmal.</p><p>Ich wäre Ihnen dankbar, <b>(27)</b> Sie mir bis Ende des Monats antworten könnten. <b>(28)</b> ich bis dahin nichts höre, werde ich mich an die Verbraucherzentrale wenden. Ich hoffe, dass wir das Problem <b>(29)</b> lösen können, und bedanke mich im Voraus <b>(30)</b> Ihre Hilfe.</p><p>Mit freundlichen Grüßen\nPetra Lehmann</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "buchen",
+      "gebucht",
+      "gebuchen"
+     ],
+     "key": "b",
+     "why": "Perfekt: „habe … gebucht“ (haben + Partizip II)."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "weil",
+      "denn",
+      "obwohl"
+     ],
+     "key": "a",
+     "why": "„weil“ leitet einen Nebensatz ein, das Verb steht am Ende („bekommen habe“). „denn“ würde Verb auf Position 2 verlangen, „obwohl“ passt logisch nicht."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "den",
+      "dem",
+      "das"
+     ],
+     "key": "c",
+     "why": "Telefon ist neutral, Akkusativ: „das Telefon abnehmen“."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "erklären",
+      "erstatten",
+      "erhalten"
+     ],
+     "key": "b",
+     "why": "„Geld erstatten“ = zurückzahlen. „erhalten“ (bekommen) und „erklären“ passen nicht zu „mir … zu“."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "ohne",
+      "mit",
+      "von"
+     ],
+     "key": "a",
+     "why": "„ohne Kosten kündigen“ = kostenlos kündigen. „mit Kosten“ wäre das Gegenteil."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "Falls",
+      "Dass",
+      "Da"
+     ],
+     "key": "c",
+     "why": "„Da ich … genannt habe“ = Grund (weil). „Falls“ ist eine Bedingung und passt nicht."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "ob",
+      "wenn",
+      "dass"
+     ],
+     "key": "b",
+     "why": "„Ich wäre dankbar, wenn …“ ist eine feste Höflichkeitsform mit Konjunktiv II."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "Wenn",
+      "Als",
+      "Weil"
+     ],
+     "key": "a",
+     "why": "„Wenn ich nichts höre“ = Bedingung in der Gegenwart/Zukunft. „Als“ nur für einmalige Vergangenheit."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "schnellen",
+      "schnelle",
+      "schnell"
+     ],
+     "key": "c",
+     "why": "„lösen“ braucht ein Adverb, also unveränderlich: „schnell“. Die Formen mit -e/-en sind Adjektivendungen."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "an",
+      "für",
+      "auf"
+     ],
+     "key": "b",
+     "why": "sich bedanken für + Akkusativ."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Liebe Katrin,</p><p>vielen Dank für deine Einladung zu deinem Geburtstag! Ich freue mich sehr <b>(31)</b> und komme gern. Leider kann ich erst gegen 20 Uhr da sein, <b>(32)</b> ich am Nachmittag noch einen wichtigen <b>(33)</b> habe. Du weißt ja, dass ich seit Januar in der neuen Firma arbeite. Das ist <b>(34)</b> anstrengender als in meinem alten Job, aber die Kollegen sind sehr nett.</p><p>Was soll ich mitbringen? Ich könnte einen <b>(35)</b> backen oder einen Salat machen. Übrigens: Wir haben letzte Woche eine kleine <b>(36)</b> durch die Altstadt gemacht. Das Wetter war leider nicht <b>(37)</b>, es hat die ganze Zeit geregnet. Trotzdem war es ein schöner Tag, und ich habe viel <b>(38)</b>.</p><p>Kannst du mir bitte noch sagen, wo wir uns treffen? Ich kenne deine neue Adresse <b>(39)</b> nicht. Schick mir einfach eine <b>(40)</b> mit dem Weg.</p><p>Bis bald und liebe Grüße\nTim</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> darauf &nbsp;·&nbsp; <b>b</b> obwohl &nbsp;·&nbsp; <b>c</b> Zeitung &nbsp;·&nbsp; <b>d</b> viel &nbsp;·&nbsp; <b>e</b> noch &nbsp;·&nbsp; <b>f</b> Stadtführung &nbsp;·&nbsp; <b>g</b> wann &nbsp;·&nbsp; <b>h</b> gelernt &nbsp;·&nbsp; <b>i</b> spielen &nbsp;·&nbsp; <b>j</b> Termin &nbsp;·&nbsp; <b>k</b> Nachricht &nbsp;·&nbsp; <b>l</b> weil &nbsp;·&nbsp; <b>m</b> Kuchen &nbsp;·&nbsp; <b>n</b> schon &nbsp;·&nbsp; <b>o</b> gut</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "sich freuen auf → „darauf“ (Pronominaladverb für den Geburtstag)."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "l",
+     "why": "Grund → „weil“, Verb am Ende („habe“)."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "einen wichtigen Termin haben (maskulin, Akkusativ)."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "„viel anstrengender“ verstärkt den Komparativ. „schon“ (k) passt hier nicht."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "m",
+     "why": "einen Kuchen backen (maskulin, Akkusativ)."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "eine Stadtführung machen (feminin)."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "o",
+     "why": "„nicht gut“ = nicht schön (Wetter)."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "viel gelernt: Partizip II nach „habe“."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "„noch nicht“ = bisher nicht."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "k",
+     "why": "eine Nachricht schicken."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
+   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Der Zug nach München fährt von Gleis vier.",
+     "tf": true,
+     "key": "f",
+     "why": "Der Zug fährt heute von Gleis sieben, nicht von Gleis vier."
+    },
+    {
+     "id": "h2",
+     "q": "In dringenden Fällen kann man bei der Vertretung anrufen.",
+     "tf": true,
+     "key": "r",
+     "why": "Genau das sagt die Ansage: „wenden Sie sich an die Vertretung“."
+    },
+    {
+     "id": "h3",
+     "q": "Im Süden regnet es morgen.",
+     "tf": true,
+     "key": "f",
+     "why": "Im Norden regnet es, im Süden scheint die Sonne."
+    },
+    {
+     "id": "h4",
+     "q": "Die Mäntel sind nur heute billiger.",
+     "tf": true,
+     "key": "r",
+     "why": "„Nur noch heute“ – die Mäntel kosten die Hälfte."
+    },
+    {
+     "id": "h5",
+     "q": "Sven kommt heute Abend zum Fußball.",
+     "tf": true,
+     "key": "f",
+     "why": "Er muss Überstunden machen und kommt nicht."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
+   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Herr Demir hat früher in einem Supermarkt gearbeitet.",
+     "tf": true,
+     "key": "r",
+     "why": "Er war zwanzig Jahre Verkäufer im Supermarkt."
+    },
+    {
+     "id": "h7",
+     "q": "Er hat das Backen nur in einem Kurs gelernt.",
+     "tf": true,
+     "key": "f",
+     "why": "Zuerst von der Großmutter, dann in einem Kurs."
+    },
+    {
+     "id": "h8",
+     "q": "Der Backkurs dauerte ein halbes Jahr.",
+     "tf": true,
+     "key": "r",
+     "why": "Der Kurs hat ein halbes Jahr gedauert."
+    },
+    {
+     "id": "h9",
+     "q": "Die Bäckerei liegt direkt in der Innenstadt.",
+     "tf": true,
+     "key": "f",
+     "why": "Der Laden liegt in einer Seitenstraße."
+    },
+    {
+     "id": "h10",
+     "q": "Der Laden war vorher ein Blumengeschäft.",
+     "tf": true,
+     "key": "r",
+     "why": "Es war vorher ein Blumenladen."
+    },
+    {
+     "id": "h11",
+     "q": "Herr Demir hat fünf Mitarbeiter.",
+     "tf": true,
+     "key": "f",
+     "why": "Im Moment drei Mitarbeiter."
+    },
+    {
+     "id": "h12",
+     "q": "Er steht um drei Uhr nachts auf.",
+     "tf": true,
+     "key": "r",
+     "why": "Das sagt er ausdrücklich."
+    },
+    {
+     "id": "h13",
+     "q": "Die Kunden bleiben nie im Laden.",
+     "tf": true,
+     "key": "f",
+     "why": "Manche bleiben noch kurz für einen Kaffee."
+    },
+    {
+     "id": "h14",
+     "q": "Er hat die Preise erhöht.",
+     "tf": true,
+     "key": "f",
+     "why": "Er will sie nicht erhöhen und verkauft stattdessen Kaffee und Kuchen."
+    },
+    {
+     "id": "h15",
+     "q": "Er plant im Herbst Backkurse für Kinder.",
+     "tf": true,
+     "key": "r",
+     "why": "Die Schule im Viertel hat Interesse gezeigt."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
+   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Herr Weiß kann seinen Teppich am Donnerstag abholen.",
+     "tf": true,
+     "key": "f",
+     "why": "Am Donnerstag ist das Geschäft wegen Inventur zu."
+    },
+    {
+     "id": "h17",
+     "q": "Der Sprecher findet, Kinder sollen nur eine Stunde am Tag am Computer sein.",
+     "tf": true,
+     "key": "r",
+     "why": "„Eine Stunde am Tag reicht“."
+    },
+    {
+     "id": "h18",
+     "q": "Der Ersatzbus fährt vom Marktplatz zum Hauptbahnhof.",
+     "tf": true,
+     "key": "r",
+     "why": "Von dort bringt Sie ein Ersatzbus zum Hauptbahnhof."
+    },
+    {
+     "id": "h19",
+     "q": "Eltern müssen sich bis Montag eintragen.",
+     "tf": true,
+     "key": "f",
+     "why": "Bis Freitag."
+    },
+    {
+     "id": "h20",
+     "q": "Das Café im Erdgeschoss ist heute geschlossen.",
+     "tf": true,
+     "key": "f",
+     "why": "Nur das Restaurant im ersten Stock ist geschlossen."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an eine Freundin (informell)",
+  "situation": "<b>Ihre Freundin Mia hat Sie zu ihrem Geburtstag eingeladen.</b> Sie können leider nur kurz kommen. Schreiben Sie ihr eine E-Mail. Bedanken Sie sich für die Einladung. Erklären Sie, warum Sie erst spät kommen können. Fragen Sie, was Sie mitbringen sollen. Schlagen Sie ein Treffen in der folgenden Woche vor.",
+  "points": [
+   "Dank für die Einladung",
+   "Grund für die späte Ankunft",
+   "Frage: Was mitbringen?",
+   "Vorschlag für ein Treffen nächste Woche"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "danke|dank\\b|bedanke|freue mich (sehr )?(über|auf) (die|deine) einladung|nett.{0,20}einlad|einladung",
+   "spät|später|erst (um|gegen|ab|nach)|kann erst|muss (noch )?arbeiten|arbeit|termin|nur kurz",
+   "mitbring|soll ich|was (soll|kann|darf) ich|bring.{0,15}mit",
+   "nächste woche|treffen|sehen uns|verabred|kaffee|zeit"
+  ],
+  "rg": "du"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich in einer Gruppe kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf oder Ausbildung, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie Ihren Gesprächspartner / Ihre Gesprächspartnerin mindestens zwei Dinge.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Fahrrad oder Auto in der Stadt?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) und folgen Sie diesen fünf Punkten: 1. Meine Erfahrungen mit dem Fahrrad / Auto · 2. Die Situation in meinem Heimatland · 3. Vorteile und Nachteile · 4. Meine Meinung · 5. Abschluss und Dank für das Zuhören. Danach beantworten Sie eine Frage des Partners.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam einen Ausflug</b> mit Ihrer Deutschkursgruppe am Wochenende. Besprechen Sie: Wohin? · Wann und wie lange? · Wie kommen wir hin? · Was essen wir? · Was kostet es? · Wer organisiert was? Einigen Sie sich.</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Liebe Mia, vielen Dank für deine Einladung zu deinem Geburtstag! Ich freue mich sehr darauf. Leider kann ich erst gegen 21 Uhr kommen, weil ich bis 19 Uhr arbeiten muss und danach noch einen Termin beim Arzt habe. Was soll ich mitbringen? Ich kann einen Salat machen oder ein Getränk kaufen. Wollen wir uns nächste Woche zum Kaffee treffen? Am Mittwoch oder Donnerstag habe ich nachmittags Zeit. Schreib mir einfach, was dir besser passt. Liebe Grüße, Manoj</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich bin 33 Jahre alt und komme aus Indien. Seit zwei Jahren wohne ich in Aachen, wo ich als Softwareentwickler arbeite. In meiner Freizeit koche ich gern und mache Fotos. Ich lerne Deutsch, weil ich in Deutschland bleiben möchte. Und Sie? Woher kommen Sie, und was machen Sie gern am Wochenende?</p><p><b>Teil 2:</b> Ich möchte heute über das Fahrrad in der Stadt sprechen. Ich fahre selbst jeden Tag mit dem Fahrrad zur Arbeit. In Indien fahren viele Leute Motorrad, aber auch Fahrräder sind verbreitet, besonders in kleineren Städten. Das Fahrrad hat Vorteile: Es ist billig, gesund und schnell in der Stadt. Ein Nachteil ist, dass man bei Regen nass wird. Meiner Meinung nach sollte es mehr Radwege geben. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Ich schlage vor, dass wir nach Köln fahren. Wie wäre es mit Samstag, von zehn bis fünf Uhr? Wir können mit dem Zug fahren, das ist billig. – Gute Idee. Und wer kauft die Fahrkarten? – Ich kann das machen. Zum Mittagessen können wir ein Picknick mitbringen. Einverstanden?</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Achtung, eine Durchsage für die Reisenden nach München. Der Zug fährt heute nicht von Gleis vier, sondern von Gleis sieben. Er hat zehn Minuten Verspätung.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Guten Tag, Sie haben die Praxis von Doktor Berger erreicht. Wir sind bis zum zwölften August im Urlaub. In dringenden Fällen wenden Sie sich bitte an die Vertretung. Die Nummer lautet zwei drei vier eins, fünf fünf, sechs sechs.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Und nun das Wetter. Morgen wird es im Norden regnerisch bei etwa zwölf Grad. Im Süden scheint dagegen die Sonne, dort werden es bis zu zwanzig Grad.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Liebe Kunden, nur noch heute: Alle Wintermäntel im zweiten Stock kosten die Hälfte. Die Kasse für Mäntel finden Sie direkt neben der Rolltreppe.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Hallo Lukas, hier ist Sven. Ich schaffe es heute Abend leider nicht zum Fußball, weil ich Überstunden machen muss. Aber am Samstag habe ich Zeit, da können wir spielen.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2",
+   "html": "<div class=\"text\"><p>Willkommen zu unserer Sendung „Neu im Viertel“. Heute ist Herr Demir bei uns. Er hat vor einem Jahr eine kleine Bäckerei eröffnet. Herr Demir, wie kam es dazu?</p><p>Ich habe zwanzig Jahre als Verkäufer in einem großen Supermarkt gearbeitet. Das war okay, aber ich wollte etwas Eigenes machen. Backen war immer mein Hobby.</p><p>Und wo haben Sie das Backen gelernt?</p><p>Zuerst von meiner Großmutter. Später habe ich abends einen Kurs bei der Handwerkskammer besucht. Der hat ein halbes Jahr gedauert.</p><p>War es schwierig, einen Laden zu finden?</p><p>Sehr schwierig. Die Mieten in der Innenstadt sind hoch. Am Ende habe ich ein kleines Geschäft in einer Seitenstraße gefunden. Es war vorher ein Blumenladen.</p><p>Wie viele Mitarbeiter haben Sie?</p><p>Im Moment drei. Meine Frau hilft am Wochenende, und eine Studentin arbeitet bei uns im Verkauf. Ich selbst stehe um drei Uhr nachts auf.</p><p>Um drei Uhr! Das ist früh. Was gefällt Ihnen trotzdem an der Arbeit?</p><p>Dass ich sehe, wie die Leute sich über das frische Brot freuen. Manche Kunden kommen jeden Morgen und bleiben noch kurz für einen Kaffee.</p><p>Und was ist die größte Herausforderung?</p><p>Das Geld. Die Zutaten sind teurer geworden. Ich möchte die Preise nicht erhöhen, deshalb verkaufe ich jetzt auch Kaffee und Kuchen. Das läuft gut.</p><p>Haben Sie schon Pläne für die Zukunft?</p><p>Ja, im Herbst möchte ich Brotbackkurse für Kinder anbieten. Die Schule im Viertel hat schon Interesse gezeigt.</p><p>Vielen Dank für das Gespräch, Herr Demir, und viel Erfolg!</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Hier ist die Nachricht für Herrn Weiß. Ihr Teppich ist da. Sie können ihn ab morgen abholen. Das Geschäft ist bis achtzehn Uhr geöffnet. Am Donnerstag ist wegen einer Inventur geschlossen.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Ich finde, dass Kinder schon früh mit Computern lernen sollten. Aber wichtig ist, dass sie nicht stundenlang davor sitzen. Eine Stunde am Tag reicht in der Grundschule völlig aus.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Liebe Fahrgäste, wegen Bauarbeiten fährt die Linie fünf bis Ende Mai nur bis zum Marktplatz. Von dort bringt Sie ein Ersatzbus zum Hauptbahnhof. Bitte planen Sie fünfzehn Minuten mehr Zeit ein.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Das Sommerfest unserer Schule findet am zwanzigsten Juni statt. Wir brauchen noch Eltern, die Kuchen backen oder beim Aufbau helfen. Wer mitmachen möchte, trägt sich bitte bis Freitag in die Liste im Sekretariat ein.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Sehr geehrte Gäste, das Restaurant im ersten Stock bleibt heute Abend wegen einer privaten Feier geschlossen. Unser Café im Erdgeschoss ist wie immer bis dreiundzwanzig Uhr für Sie da.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage für die Reisenden nach München. Der Zug fährt heute nicht von Gleis vier, sondern von Gleis sieben. Er hat zehn Minuten Verspätung.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, Sie haben die Praxis von Doktor Berger erreicht. Wir sind bis zum zwölften August im Urlaub. In dringenden Fällen wenden Sie sich bitte an die Vertretung. Die Nummer lautet zwei drei vier eins, fünf fünf, sechs sechs.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Und nun das Wetter. Morgen wird es im Norden regnerisch bei etwa zwölf Grad. Im Süden scheint dagegen die Sonne, dort werden es bis zu zwanzig Grad.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Kunden, nur noch heute: Alle Wintermäntel im zweiten Stock kosten die Hälfte. Die Kasse für Mäntel finden Sie direkt neben der Rolltreppe.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Lukas, hier ist Sven. Ich schaffe es heute Abend leider nicht zum Fußball, weil ich Überstunden machen muss. Aber am Samstag habe ich Zeit, da können wir spielen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen zu unserer Sendung „Neu im Viertel“. Heute ist Herr Demir bei uns. Er hat vor einem Jahr eine kleine Bäckerei eröffnet. Herr Demir, wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich habe zwanzig Jahre als Verkäufer in einem großen Supermarkt gearbeitet. Das war okay, aber ich wollte etwas Eigenes machen. Backen war immer mein Hobby.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wo haben Sie das Backen gelernt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zuerst von meiner Großmutter. Später habe ich abends einen Kurs bei der Handwerkskammer besucht. Der hat ein halbes Jahr gedauert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "War es schwierig, einen Laden zu finden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sehr schwierig. Die Mieten in der Innenstadt sind hoch. Am Ende habe ich ein kleines Geschäft in einer Seitenstraße gefunden. Es war vorher ein Blumenladen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viele Mitarbeiter haben Sie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Moment drei. Meine Frau hilft am Wochenende, und eine Studentin arbeitet bei uns im Verkauf. Ich selbst stehe um drei Uhr nachts auf.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Um drei Uhr! Das ist früh. Was gefällt Ihnen trotzdem an der Arbeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Dass ich sehe, wie die Leute sich über das frische Brot freuen. Manche Kunden kommen jeden Morgen und bleiben noch kurz für einen Kaffee.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was ist die größte Herausforderung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das Geld. Die Zutaten sind teurer geworden. Ich möchte die Preise nicht erhöhen, deshalb verkaufe ich jetzt auch Kaffee und Kuchen. Das läuft gut.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie schon Pläne für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, im Herbst möchte ich Brotbackkurse für Kinder anbieten. Die Schule im Viertel hat schon Interesse gezeigt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch, Herr Demir, und viel Erfolg!",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen zu unserer Sendung „Neu im Viertel“. Heute ist Herr Demir bei uns. Er hat vor einem Jahr eine kleine Bäckerei eröffnet. Herr Demir, wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich habe zwanzig Jahre als Verkäufer in einem großen Supermarkt gearbeitet. Das war okay, aber ich wollte etwas Eigenes machen. Backen war immer mein Hobby.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wo haben Sie das Backen gelernt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zuerst von meiner Großmutter. Später habe ich abends einen Kurs bei der Handwerkskammer besucht. Der hat ein halbes Jahr gedauert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "War es schwierig, einen Laden zu finden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sehr schwierig. Die Mieten in der Innenstadt sind hoch. Am Ende habe ich ein kleines Geschäft in einer Seitenstraße gefunden. Es war vorher ein Blumenladen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viele Mitarbeiter haben Sie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Moment drei. Meine Frau hilft am Wochenende, und eine Studentin arbeitet bei uns im Verkauf. Ich selbst stehe um drei Uhr nachts auf.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Um drei Uhr! Das ist früh. Was gefällt Ihnen trotzdem an der Arbeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Dass ich sehe, wie die Leute sich über das frische Brot freuen. Manche Kunden kommen jeden Morgen und bleiben noch kurz für einen Kaffee.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was ist die größte Herausforderung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das Geld. Die Zutaten sind teurer geworden. Ich möchte die Preise nicht erhöhen, deshalb verkaufe ich jetzt auch Kaffee und Kuchen. Das läuft gut.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie schon Pläne für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, im Herbst möchte ich Brotbackkurse für Kinder anbieten. Die Schule im Viertel hat schon Interesse gezeigt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch, Herr Demir, und viel Erfolg!",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Nachricht für Herrn Weiß. Ihr Teppich ist da. Sie können ihn ab morgen abholen. Das Geschäft ist bis achtzehn Uhr geöffnet. Am Donnerstag ist wegen einer Inventur geschlossen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Nachricht für Herrn Weiß. Ihr Teppich ist da. Sie können ihn ab morgen abholen. Das Geschäft ist bis achtzehn Uhr geöffnet. Am Donnerstag ist wegen einer Inventur geschlossen.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Kinder schon früh mit Computern lernen sollten. Aber wichtig ist, dass sie nicht stundenlang davor sitzen. Eine Stunde am Tag reicht in der Grundschule völlig aus.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Kinder schon früh mit Computern lernen sollten. Aber wichtig ist, dass sie nicht stundenlang davor sitzen. Eine Stunde am Tag reicht in der Grundschule völlig aus.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen Bauarbeiten fährt die Linie fünf bis Ende Mai nur bis zum Marktplatz. Von dort bringt Sie ein Ersatzbus zum Hauptbahnhof. Bitte planen Sie fünfzehn Minuten mehr Zeit ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen Bauarbeiten fährt die Linie fünf bis Ende Mai nur bis zum Marktplatz. Von dort bringt Sie ein Ersatzbus zum Hauptbahnhof. Bitte planen Sie fünfzehn Minuten mehr Zeit ein.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Sommerfest unserer Schule findet am zwanzigsten Juni statt. Wir brauchen noch Eltern, die Kuchen backen oder beim Aufbau helfen. Wer mitmachen möchte, trägt sich bitte bis Freitag in die Liste im Sekretariat ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Sommerfest unserer Schule findet am zwanzigsten Juni statt. Wir brauchen noch Eltern, die Kuchen backen oder beim Aufbau helfen. Wer mitmachen möchte, trägt sich bitte bis Freitag in die Liste im Sekretariat ein.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Gäste, das Restaurant im ersten Stock bleibt heute Abend wegen einer privaten Feier geschlossen. Unser Café im Erdgeschoss ist wie immer bis dreiundzwanzig Uhr für Sie da.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Gäste, das Restaurant im ersten Stock bleibt heute Abend wegen einer privaten Feier geschlossen. Unser Café im Erdgeschoss ist wie immer bis dreiundzwanzig Uhr für Sie da.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

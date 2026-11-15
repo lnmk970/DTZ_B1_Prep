@@ -1,0 +1,1047 @@
+{
+ "n": 6,
+ "theme": "Wohnen und Umwelt",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Die Hausverwaltung informiert: Am Mittwoch wird von 9 bis 12 Uhr das Wasser abgestellt, weil im Keller eine Leitung repariert wird. Bitte füllen Sie vorher Wasser in Behälter.</p><p><b>2</b>&nbsp; Im Hof des Hauses Nummer 12 gibt es ab Mai einen Gemeinschaftsgarten. Wer mitmachen möchte, trägt sich in die Liste im Treppenhaus ein. Werkzeug ist vorhanden.</p><p><b>3</b>&nbsp; Wegen der Straßenarbeiten ist die Hauptstraße bis zum 30. Juni für Autos gesperrt. Busse und Radfahrer können durchfahren. Anwohner dürfen ihre Garagen wie gewohnt benutzen.</p><p><b>4</b>&nbsp; Die Stadtwerke bitten alle Haushalte, ihren Stromzähler bis zum 15. Januar abzulesen. Die Zahlen können online, per Post oder telefonisch durchgegeben werden.</p><p><b>5</b>&nbsp; Der Mieterverein bietet jeden ersten Montag im Monat eine kostenlose Beratung an. Es geht um Fragen zu Mietvertrag, Nebenkosten und Kündigung. Eine Anmeldung ist nicht nötig.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Rat bei Problemen mit der Wohnung<br><b>b</b>&nbsp; Zählerstand melden<br><b>c</b>&nbsp; Gärtnern mit den Nachbarn<br><b>d</b>&nbsp; Straße teilweise gesperrt<br><b>e</b>&nbsp; Kein Wasser am Vormittag<br><b>f</b>&nbsp; Neue Müllabfuhr<br><b>g</b>&nbsp; Wohnung zu vermieten<br><b>h</b>&nbsp; Lärm im Treppenhaus<br><b>i</b>&nbsp; Umzug nach Köln<br><b>j</b>&nbsp; Strom wird billiger</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Text 1: Das Wasser wird für drei Stunden abgestellt → e. „am Vormittag“ passt zu „von 9 bis 12 Uhr“."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Text 2: Ein Garten im Hof für alle Hausbewohner → c. „mit den Nachbarn“ passt zu „Gemeinschaftsgarten“."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Text 3: Autos dürfen nicht durch, Busse und Radfahrer schon → d. Nur „teilweise“ gesperrt."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Text 4: Haushalte sollen den Zählerstand durchgeben → b. „Stromzähler ablesen“ = „Zählerstand melden“."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Text 5: Beratung zu Mietvertrag und Kündigung → a. „Probleme mit der Wohnung“ ist der Oberbegriff."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Raus aus der Stadt</p><p>Vor einem Jahr haben Thomas und Nora Berger ihre Wohnung in München verlassen und sind in ein Dorf bei Landshut gezogen. Der Grund war das Geld: Die Miete war in vier Jahren um 30 Prozent gestiegen, und für eine größere Wohnung hätte die Familie noch mehr bezahlen müssen. Im Dorf zahlen sie für ein Haus mit Garten weniger als vorher.</p><p>Für Thomas hat sich der Alltag stark verändert. Früher fuhr er mit dem Auto zur Arbeit und stand oft im Stau. Heute nimmt er den Zug, der in 35 Minuten in der Stadt ist. „Ich lese jetzt jeden Morgen die Zeitung, das hätte ich früher nie getan“, sagt er. Nora arbeitet im Homeoffice und vermisst vor allem eines: den Supermarkt, der in München abends lange geöffnet hatte. Im Dorf schließt der einzige Laden um 18 Uhr, deshalb plant sie die Einkäufe jetzt genauer.</p><p>Die Kinder, acht und zwölf Jahre alt, sind begeistert. Sie spielen nach der Schule draußen, fahren mit dem Rad zu Freunden und haben gelernt, Hühner zu füttern. Nur das Nachmittagsprogramm in der Stadt, mit Schwimmkurs und Musikschule, fehlt ihnen manchmal.</p><p>Im Frühjahr wollen die Bergers einen Gemüsegarten anlegen. Die Nachbarn haben schon Hilfe angeboten und ihnen Samen geschenkt. „Wir sind hier nicht allein“, sagt Nora. „Das hatten wir in der Stadt nicht.“</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Warum sind die Bergers aus München weggezogen?",
+     "opts": [
+      "Der Arbeitgeber von Thomas ist umgezogen.",
+      "Sie hatten Streit mit den Nachbarn.",
+      "Die Miete war für sie zu hoch geworden."
+     ],
+     "key": "c",
+     "why": "„Der Grund war das Geld: Die Miete war in vier Jahren um 30 Prozent gestiegen.“"
+    },
+    {
+     "id": "l7",
+     "q": "Was hat sich für Thomas im Alltag verändert?",
+     "opts": [
+      "Er fährt jetzt mit dem Zug zur Arbeit.",
+      "Er arbeitet jetzt zu Hause.",
+      "Er hat weniger Arbeitszeit."
+     ],
+     "key": "a",
+     "why": "Früher fuhr er mit dem Auto und stand im Stau. „Heute nimmt er den Zug.“ Nora arbeitet im Homeoffice, nicht Thomas."
+    },
+    {
+     "id": "l8",
+     "q": "Was vermisst Nora im Dorf?",
+     "opts": [
+      "Ihre Freunde aus München.",
+      "Einen Supermarkt, der abends lange offen ist.",
+      "Ihre Arbeit im Büro."
+     ],
+     "key": "b",
+     "why": "Im Dorf schließt der einzige Laden um 18 Uhr; in München war abends lange geöffnet."
+    },
+    {
+     "id": "l9",
+     "q": "Wie finden die Kinder das Leben im Dorf?",
+     "opts": [
+      "Sie langweilen sich oft.",
+      "Sie wollen zurück in die Stadt.",
+      "Sie sind begeistert und spielen viel draußen."
+     ],
+     "key": "c",
+     "why": "„Die Kinder … sind begeistert. Sie spielen nach der Schule draußen.“ Nur das Programm der Stadt fehlt manchmal."
+    },
+    {
+     "id": "l10",
+     "q": "Was wollen die Bergers im Frühjahr tun?",
+     "opts": [
+      "Ein neues Haus kaufen.",
+      "Einen Gemüsegarten anlegen.",
+      "Einen Schwimmkurs besuchen."
+     ],
+     "key": "b",
+     "why": "„Im Frühjahr wollen die Bergers einen Gemüsegarten anlegen.“"
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Helle 2-Zimmer-Wohnung mit Balkon, U-Bahn in drei Minuten zu Fuß, ab 1. März frei.</p><p><b>b</b>&nbsp; Umzugsteam Flink: Transporter mit zwei Helfern, auch samstags. Festpreis nach Besichtigung.</p><p><b>c</b>&nbsp; Sanitär-Notdienst Lenz: Rohrbruch, tropfende Wasserhähne, verstopfte Abflüsse. 24 Stunden, auch sonntags.</p><p><b>d</b>&nbsp; Sperrmüll-Abholung der Stadt: Wir holen Möbel und Geräte direkt vor der Haustür ab. Anmeldung online.</p><p><b>e</b>&nbsp; Möbelbörse Neu-Alt: Gebrauchte Möbel in gutem Zustand, Sofas ab 40 Euro. Lieferung möglich.</p><p><b>f</b>&nbsp; Garage zu vermieten, Bahnhofstraße 5, 60 Euro im Monat. Sofort frei.</p><p><b>g</b>&nbsp; Mieterverein: Beratung zu Mietvertrag, Nebenkosten und Kündigung. Dienstag und Donnerstag, für Mitglieder kostenlos.</p><p><b>h</b>&nbsp; Gemeinschaftsgarten „Grüne Hände“: Beete zu vergeben, Werkzeug vorhanden. Infos im Stadtteilzentrum.</p><p><b>i</b>&nbsp; Energieberatung der Stadtwerke: Kostenlose Tipps zum Heizen und Lüften, telefonisch oder vor Ort.</p><p><b>j</b>&nbsp; Hotel am See: Zimmer ab 59 Euro, Frühstück inklusive. Ruhige Lage.</p><p><b>k</b>&nbsp; Reisebüro Sonne: Flugreisen und Kreuzfahrten ab 199 Euro.</p><p><b>l</b>&nbsp; Baumarkt Heimwerker: Farben, Werkzeug, Gartengeräte. Montag bis Samstag 8 bis 20 Uhr.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie möchten im Garten Gemüse anbauen, haben aber selbst keinen Garten.",
+     "letters": "abcdefghijklx",
+     "key": "h",
+     "why": "Gemüse anbauen ohne eigenen Garten → h (Gemeinschaftsgarten, Beete zu vergeben)."
+    },
+    {
+     "id": "l12",
+     "q": "Der Wasserhahn in Ihrer Küche tropft stark. Sie brauchen schnell einen Handwerker, auch am Sonntag.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Handwerker am Sonntag → c („24 Stunden, auch sonntags“)."
+    },
+    {
+     "id": "l13",
+     "q": "Sie suchen eine Wohnung mit Balkon in der Nähe der U-Bahn.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Balkon und U-Bahn → a."
+    },
+    {
+     "id": "l14",
+     "q": "Sie suchen eine Ferienwohnung am Meer für eine Woche im Sommer.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Keine Anzeige bietet eine Ferienwohnung am Meer an: j ist ein Hotel am See, k ein Reisebüro. Also x."
+    },
+    {
+     "id": "l15",
+     "q": "Sie suchen günstige gebrauchte Möbel für Ihre erste Wohnung.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Gebrauchte Möbel günstig → e („Sofas ab 40 Euro“)."
+    },
+    {
+     "id": "l16",
+     "q": "Sie möchten Ihren Mietvertrag von einem Fachmann prüfen lassen.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Mietvertrag prüfen lassen → g (Beratung zum Mietvertrag)."
+    },
+    {
+     "id": "l17",
+     "q": "Sie brauchen am Samstag zwei Umzugshelfer mit einem Transporter.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Umzug am Samstag → b (Transporter mit zwei Helfern, auch samstags)."
+    },
+    {
+     "id": "l18",
+     "q": "Ihre Wohnung ist im Winter zu kalt, und Sie möchten mehr über Energiesparen erfahren.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Heizen und Energiesparen → i (Energieberatung, Tipps zum Heizen und Lüften)."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten alte Möbel loswerden, haben aber kein Auto.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Möbel abholen lassen → d. Bei e werden Möbel verkauft, nicht abgeholt."
+    },
+    {
+     "id": "l20",
+     "q": "Sie suchen einen Parkplatz in der Nähe des Bahnhofs für Ihr Auto.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Parkplatz am Bahnhof → f (Garage in der Bahnhofstraße)."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Sehr geehrter Herr Schulz,</p><p>ich habe Ihre Anzeige für die 2-Zimmer-Wohnung in der Lindenstraße <b>(21)</b>. Die Wohnung <b>(22)</b> mir sehr gut, und ich möchte sie gern besichtigen. Könnten Sie mir bitte mitteilen, <b>(23)</b> die Wohnung noch frei ist? Ich suche eine Wohnung, <b>(24)</b> nicht weit vom Bahnhof liegt, denn ich fahre jeden Tag mit dem Zug zur Arbeit. Außerdem würde ich gern wissen, wie hoch die Nebenkosten <b>(25)</b>. Ich arbeite als Ingenieur und habe ein <b>(26)</b> Einkommen. Ich habe leider noch keine Wohnung in Aachen gefunden und muss bis Ende des Monats <b>(27)</b>. Sie erreichen mich am besten <b>(28)</b> E-Mail oder unter der Telefonnummer 0151 555 4411. Ich hoffe, <b>(29)</b> Sie mir bald antworten können. Vielen Dank im Voraus.</p><p>Mit freundlichen <b>(30)</b>\nIvan Petrov</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "lesen",
+      "gelesen",
+      "gelest"
+     ],
+     "key": "b",
+     "why": "Perfekt: „habe … gelesen“ (haben + Partizip II)."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "gefallt",
+      "gefallen",
+      "gefällt"
+     ],
+     "key": "c",
+     "why": "„gefallen“ im Präsens, 3. Person Singular: „die Wohnung gefällt“."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "ob",
+      "weil",
+      "dass"
+     ],
+     "key": "a",
+     "why": "Indirekte Ja/Nein-Frage: „ob“."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "die",
+      "der",
+      "das"
+     ],
+     "key": "a",
+     "why": "Relativpronomen, feminin Nominativ: „eine Wohnung, die … liegt“."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "ist",
+      "seid",
+      "sind"
+     ],
+     "key": "c",
+     "why": "Plural: „die Nebenkosten sind“."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "fester",
+      "feste",
+      "festes"
+     ],
+     "key": "c",
+     "why": "„ein festes Einkommen“ (Neutrum, Akkusativ)."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "umzieht",
+      "umziehen",
+      "umgezogen"
+     ],
+     "key": "b",
+     "why": "Modalverb „muss“ + Infinitiv am Ende: „umziehen“."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "mit",
+      "auf",
+      "per"
+     ],
+     "key": "c",
+     "why": "„per E-Mail“ = durch E-Mail."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "dass",
+      "wenn",
+      "ob"
+     ],
+     "key": "a",
+     "why": "Nach „hoffen“ folgt „dass“."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "Grüße",
+      "Grüßen",
+      "Gruß"
+     ],
+     "key": "b",
+     "why": "Grußformel im Brief: „Mit freundlichen Grüßen“."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Liebe Katja,</p><p>ich bin letzte Woche <b>(31)</b> und wohne jetzt in einer neuen Wohnung. Sie liegt im dritten <b>(32)</b> eines großen Hauses, und es gibt leider keinen <b>(33)</b>. Aber die Aussicht ist toll, und die Miete ist <b>(34)</b> als in meiner alten Wohnung. Die Nachbarn sind sehr <b>(35)</b>. Gestern hat eine Frau mir einen Kuchen <b>(36)</b>, um mich zu begrüßen. Am Wochenende möchte ich eine kleine Party <b>(37)</b>, und ich würde mich freuen, wenn du auch <b>(38)</b>. Du musst nur sagen, <b>(39)</b> du Zeit hast. Bring bitte etwas zu <b>(40)</b> mit.</p><p>Bis bald\nPetra</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> obwohl &nbsp;·&nbsp; <b>b</b> Zeitung &nbsp;·&nbsp; <b>c</b> umgezogen &nbsp;·&nbsp; <b>d</b> Fenster &nbsp;·&nbsp; <b>e</b> machen &nbsp;·&nbsp; <b>f</b> wann &nbsp;·&nbsp; <b>g</b> gegessen &nbsp;·&nbsp; <b>h</b> gebracht &nbsp;·&nbsp; <b>i</b> freundlich &nbsp;·&nbsp; <b>j</b> kommst &nbsp;·&nbsp; <b>k</b> billiger &nbsp;·&nbsp; <b>l</b> Stock &nbsp;·&nbsp; <b>m</b> Aufzug &nbsp;·&nbsp; <b>n</b> trinken &nbsp;·&nbsp; <b>o</b> schwer</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "Perfekt von „umziehen“: „bin … umgezogen“ (mit „sein“)."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "l",
+     "why": "„im dritten Stock“ = auf der dritten Etage."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "m",
+     "why": "Maskulin Akkusativ: „keinen Aufzug“."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "k",
+     "why": "Komparativ von „billig“: „billiger als“."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "„freundlich“ beschreibt die Nachbarn."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "Perfekt: „hat … gebracht“."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "„eine Party machen“; Infinitiv am Ende nach „möchte“."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "Nebensatz mit „wenn“: „wenn du auch kommst“."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "„wann du Zeit hast“ = indirekte Frage nach der Zeit."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "n",
+     "why": "„etwas zu trinken“ ist ein fester Ausdruck."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
+   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Der Aufzug funktioniert am Donnerstag.",
+     "tf": true,
+     "key": "f",
+     "why": "Er ist außer Betrieb."
+    },
+    {
+     "id": "h2",
+     "q": "Die Besichtigung beginnt später als geplant.",
+     "tf": true,
+     "key": "r",
+     "why": "Sie beginnt um 17 Uhr statt um 16 Uhr."
+    },
+    {
+     "id": "h3",
+     "q": "Die Straße ist nur in einer Richtung gesperrt.",
+     "tf": true,
+     "key": "f",
+     "why": "In beiden Richtungen."
+    },
+    {
+     "id": "h4",
+     "q": "Tim bietet den Helfern Essen an.",
+     "tf": true,
+     "key": "r",
+     "why": "Es gibt Pizza für alle."
+    },
+    {
+     "id": "h5",
+     "q": "Der Recyclinghof schließt samstags früher als bisher.",
+     "tf": true,
+     "key": "r",
+     "why": "Um vierzehn statt um sechzehn Uhr."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
+   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Frau Yılmaz arbeitet seit zwanzig Jahren beim Mieterverein.",
+     "tf": true,
+     "key": "r",
+     "why": "„Seit zwanzig Jahren.“"
+    },
+    {
+     "id": "h7",
+     "q": "Die meisten Fragen betreffen den Lärm im Haus.",
+     "tf": true,
+     "key": "f",
+     "why": "Meistens geht es um die Nebenkosten."
+    },
+    {
+     "id": "h8",
+     "q": "Mieter können normalerweise mit drei Monaten Frist kündigen.",
+     "tf": true,
+     "key": "r",
+     "why": "„In der Regel beträgt die Frist drei Monate.“"
+    },
+    {
+     "id": "h9",
+     "q": "Die Kaution darf beliebig hoch sein.",
+     "tf": true,
+     "key": "f",
+     "why": "Höchstens drei Monatsmieten."
+    },
+    {
+     "id": "h10",
+     "q": "Der Mitgliedsbeitrag beträgt sechzig Euro im Jahr.",
+     "tf": true,
+     "key": "r",
+     "why": "Das nennt Frau Yılmaz genau."
+    },
+    {
+     "id": "h11",
+     "q": "Die Beratung kostet Mitglieder zusätzlich Geld.",
+     "tf": true,
+     "key": "f",
+     "why": "Für Mitglieder ist sie kostenlos."
+    },
+    {
+     "id": "h12",
+     "q": "Die Beratung gibt es nur montags.",
+     "tf": true,
+     "key": "f",
+     "why": "Dienstags und donnerstags."
+    },
+    {
+     "id": "h13",
+     "q": "Mängel soll man schriftlich melden.",
+     "tf": true,
+     "key": "r",
+     "why": "Und eine Kopie behalten."
+    },
+    {
+     "id": "h14",
+     "q": "Bei Schimmel soll man zuerst selbst renovieren.",
+     "tf": true,
+     "key": "f",
+     "why": "Man soll sofort den Vermieter informieren."
+    },
+    {
+     "id": "h15",
+     "q": "Viele Mieter kommen zu spät zur Beratung.",
+     "tf": true,
+     "key": "r",
+     "why": "Sie warten oft monatelang."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
+   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Am Mittwochvormittag muss jemand in der Wohnung sein.",
+     "tf": true,
+     "key": "r",
+     "why": "Der Techniker will die Heizkörper prüfen."
+    },
+    {
+     "id": "h17",
+     "q": "Der Sprecher findet die Busverbindung auf dem Land gut.",
+     "tf": true,
+     "key": "f",
+     "why": "Der Bus fährt nur zweimal am Tag, deshalb braucht er ein Auto."
+    },
+    {
+     "id": "h18",
+     "q": "Farben sind heute billiger.",
+     "tf": true,
+     "key": "r",
+     "why": "Zwanzig Prozent Rabatt bis achtzehn Uhr."
+    },
+    {
+     "id": "h19",
+     "q": "Dauerhaft gekippte Fenster sparen Energie.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie kosten viel Geld."
+    },
+    {
+     "id": "h20",
+     "q": "Die Reparatur des Balkons beginnt diese Woche.",
+     "tf": true,
+     "key": "f",
+     "why": "Erst nächste Woche."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an die Hausverwaltung (formell)",
+  "situation": "<b>Sie wohnen seit einem Jahr in einer Mietwohnung.</b> Seit drei Tagen funktioniert die Heizung im Wohnzimmer nicht mehr, und es ist sehr kalt. Schreiben Sie eine E-Mail an die Hausverwaltung, Frau Berger. Beschreiben Sie das Problem und sagen Sie, seit wann es besteht. Bitten Sie um eine schnelle Reparatur. Sagen Sie, wann Sie in der Wohnung sind.",
+  "points": [
+   "Problem beschreiben",
+   "Seit wann besteht das Problem?",
+   "Bitte um schnelle Reparatur",
+   "Wann sind Sie zu Hause?"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "heizung|funktioniert nicht|kalt|defekt|kaputt|wohnzimmer|ausgefallen",
+   "seit (drei|3|vorgestern|montag|dienstag|mittwoch|donnerstag|freitag|\\w+ tagen)|drei tage|3 tage|vor drei tagen|seit .{0,15}tagen",
+   "reparatur|repariere|reparieren|schnell|möglichst|dringend|handwerker|techniker|monteur|bald|bitte.{0,25}(kommen|schicken|lassen)",
+   "zu hause|zuhause|erreichbar|bin .{0,25}da|ab \\d|nach \\d|\\buhr\\b|nachmittag|abends|vormittag|wochenende|termin"
+  ],
+  "rg": "sie"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich in einer Gruppe kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf oder Ausbildung, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie Ihren Gesprächspartner / Ihre Gesprächspartnerin: Wo wohnt er/sie? Wie gefällt ihm/ihr die Wohnung? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Wohnen in der Stadt oder auf dem Land?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit dem Wohnen · 2. Wie Menschen in meinem Heimatland wohnen · 3. Vorteile und Nachteile von Stadt und Land · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam ein Hausfest</b> für die Nachbarn in Ihrem Haus. Besprechen Sie: Wann und wo? · Wer wird eingeladen? · Was gibt es zu essen und zu trinken? · Wer bringt was mit? · Wer macht die Einladungen? · Was tun Sie, wenn es regnet?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Sehr geehrte Frau Berger, ich wohne seit einem Jahr in der Lindenstraße 14, Wohnung 3. Leider funktioniert die Heizung im Wohnzimmer seit drei Tagen nicht mehr. Der Heizkörper bleibt kalt, obwohl ich alles geprüft habe. Weil es draußen sehr kalt ist, ist die Wohnung abends kaum noch zu heizen. Ich bitte Sie deshalb, schnell einen Techniker zu schicken. Ich bin an den Werktagen ab 17 Uhr zu Hause, am Samstag den ganzen Tag. Vielen Dank für Ihre Hilfe. Mit freundlichen Grüßen, Ivan Petrov</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich bin 33 Jahre alt und komme aus Indien. Seit zwei Jahren wohne ich in Aachen in einer 2-Zimmer-Wohnung. Ich arbeite als Softwareentwickler. Ich lerne Deutsch, weil ich hier bleiben möchte. Wo wohnst du? Wie gefällt dir deine Wohnung?</p><p><b>Teil 2:</b> Mein Thema ist: Wohnen in der Stadt oder auf dem Land. Ich wohne in einer Stadt, weil dort mein Büro ist. Der Vorteil ist, dass alles in der Nähe ist: Geschäfte, Bus und Ärzte. Der Nachteil sind die hohen Mieten und der Lärm. In Indien ziehen viele Menschen in die Stadt, weil es dort mehr Arbeit gibt. Meiner Meinung nach ist das Land schöner, aber man braucht ein Auto. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Wollen wir das Hausfest im Juni machen, vielleicht am zweiten Samstag? Wir können im Hof feiern, dort gibt es genug Platz. Wir laden alle Nachbarn ein, auch die Kinder. Ich schreibe die Einladungen und hänge sie im Treppenhaus auf. Jeder bringt etwas zu essen mit, ich kümmere mich um die Getränke. Wenn es regnet, feiern wir im Keller oder verschieben das Fest auf den nächsten Tag.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Liebe Mieter, am Donnerstag wird von acht bis zehn Uhr das Treppenhaus gestrichen. Bitte stellen Sie in dieser Zeit nichts ins Treppenhaus. Der Aufzug ist ebenfalls außer Betrieb.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Guten Tag, hier ist Immobilien Kranz. Die Besichtigung der Wohnung in der Gartenstraße findet morgen um siebzehn Uhr statt, nicht um sechzehn Uhr. Bitte seien Sie pünktlich.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Und nun der Verkehr: Wegen einer Baustelle ist die Hauptstraße in beiden Richtungen gesperrt. Bitte fahren Sie über die Ringstraße. Die Sperrung dauert bis Freitag.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Hi Sara, ich bin es, Tim. Ich ziehe am Samstag um und brauche noch zwei Helfer. Wir fangen um neun an, und es gibt Pizza für alle. Hast du Zeit?</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Der Recyclinghof schließt ab nächster Woche samstags schon um vierzehn Uhr, nicht erst um sechzehn Uhr. Montag bis Freitag bleiben die Zeiten gleich.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2",
+   "html": "<div class=\"text\"><p>Heute im Studio: Frau Yılmaz vom Mieterverein. Frau Yılmaz, wie lange arbeiten Sie schon dort?</p><p>Seit zwanzig Jahren. Am Anfang war ich nur im Büro, heute berate ich selbst die Mitglieder.</p><p>Mit welchen Fragen kommen die Leute am häufigsten zu Ihnen?</p><p>Meistens geht es um die Nebenkosten. Viele verstehen die Abrechnung nicht oder finden sie zu hoch. Danach kommen Fragen zu Mieterhöhungen.</p><p>Was ist wichtig, wenn ein Mieter kündigen möchte?</p><p>Die Kündigung muss schriftlich sein. In der Regel beträgt die Frist drei Monate. Man sollte den Brief unterschreiben und am besten per Einschreiben schicken.</p><p>Und die Kaution?</p><p>Die darf höchstens drei Monatsmieten kosten. Viele Vermieter verlangen weniger. Wichtig ist, dass man eine Quittung bekommt.</p><p>Was kostet die Mitgliedschaft?</p><p>Sechzig Euro im Jahr. Die Beratung ist für Mitglieder kostenlos. Sie findet dienstags und donnerstags statt, jeweils von zehn bis sechzehn Uhr.</p><p>Haben Sie einen Tipp für Mieter?</p><p>Ja: Mängel in der Wohnung immer schriftlich melden und eine Kopie behalten. Bei Schimmel zum Beispiel sollte man sofort den Vermieter informieren und nicht selbst renovieren.</p><p>Kommen die Mieter früh genug zu Ihnen?</p><p>Leider nicht immer. Viele warten monatelang und kommen erst, wenn das Problem sehr groß ist. Früher ist besser.</p><p>Vielen Dank, Frau Yılmaz.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Sehr geehrte Mieter, die Heizungsfirma kommt am Mittwoch zwischen acht und zwölf Uhr. Bitte lassen Sie jemanden in der Wohnung, damit der Techniker die Heizkörper prüfen kann.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Ich möchte lieber auf dem Land wohnen. Dort ist es ruhig, und die Miete ist niedriger. Aber ich brauche ein Auto, weil der Bus nur zweimal am Tag fährt. Für mich ist das in Ordnung.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Liebe Kunden, heute gibt es zwanzig Prozent Rabatt auf alle Farben und Pinsel in unserem Baumarkt. Das Angebot gilt nur bis achtzehn Uhr.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Ein Tipp zum Energiesparen: Stellen Sie die Heizung nachts etwas niedriger ein, und lüften Sie kurz, aber kräftig. Dauerhaft gekippte Fenster kosten viel Geld.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Hallo Frau Weber, hier ist Ihr Vermieter. Ich möchte Ihnen sagen, dass die Reparatur des Balkons erst nächste Woche beginnt, nicht diese. Sie müssen nichts tun.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Mieter, am Donnerstag wird von acht bis zehn Uhr das Treppenhaus gestrichen. Bitte stellen Sie in dieser Zeit nichts ins Treppenhaus. Der Aufzug ist ebenfalls außer Betrieb.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist Immobilien Kranz. Die Besichtigung der Wohnung in der Gartenstraße findet morgen um siebzehn Uhr statt, nicht um sechzehn Uhr. Bitte seien Sie pünktlich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Und nun der Verkehr: Wegen einer Baustelle ist die Hauptstraße in beiden Richtungen gesperrt. Bitte fahren Sie über die Ringstraße. Die Sperrung dauert bis Freitag.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hi Sara, ich bin es, Tim. Ich ziehe am Samstag um und brauche noch zwei Helfer. Wir fangen um neun an, und es gibt Pizza für alle. Hast du Zeit?",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Der Recyclinghof schließt ab nächster Woche samstags schon um vierzehn Uhr, nicht erst um sechzehn Uhr. Montag bis Freitag bleiben die Zeiten gleich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Yılmaz vom Mieterverein. Frau Yılmaz, wie lange arbeiten Sie schon dort?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit zwanzig Jahren. Am Anfang war ich nur im Büro, heute berate ich selbst die Mitglieder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Mit welchen Fragen kommen die Leute am häufigsten zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Meistens geht es um die Nebenkosten. Viele verstehen die Abrechnung nicht oder finden sie zu hoch. Danach kommen Fragen zu Mieterhöhungen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist wichtig, wenn ein Mieter kündigen möchte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Kündigung muss schriftlich sein. In der Regel beträgt die Frist drei Monate. Man sollte den Brief unterschreiben und am besten per Einschreiben schicken.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Kaution?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die darf höchstens drei Monatsmieten kosten. Viele Vermieter verlangen weniger. Wichtig ist, dass man eine Quittung bekommt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet die Mitgliedschaft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sechzig Euro im Jahr. Die Beratung ist für Mitglieder kostenlos. Sie findet dienstags und donnerstags statt, jeweils von zehn bis sechzehn Uhr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie einen Tipp für Mieter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja: Mängel in der Wohnung immer schriftlich melden und eine Kopie behalten. Bei Schimmel zum Beispiel sollte man sofort den Vermieter informieren und nicht selbst renovieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Kommen die Mieter früh genug zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Leider nicht immer. Viele warten monatelang und kommen erst, wenn das Problem sehr groß ist. Früher ist besser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Yılmaz.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Yılmaz vom Mieterverein. Frau Yılmaz, wie lange arbeiten Sie schon dort?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit zwanzig Jahren. Am Anfang war ich nur im Büro, heute berate ich selbst die Mitglieder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Mit welchen Fragen kommen die Leute am häufigsten zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Meistens geht es um die Nebenkosten. Viele verstehen die Abrechnung nicht oder finden sie zu hoch. Danach kommen Fragen zu Mieterhöhungen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist wichtig, wenn ein Mieter kündigen möchte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Kündigung muss schriftlich sein. In der Regel beträgt die Frist drei Monate. Man sollte den Brief unterschreiben und am besten per Einschreiben schicken.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Kaution?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die darf höchstens drei Monatsmieten kosten. Viele Vermieter verlangen weniger. Wichtig ist, dass man eine Quittung bekommt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet die Mitgliedschaft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sechzig Euro im Jahr. Die Beratung ist für Mitglieder kostenlos. Sie findet dienstags und donnerstags statt, jeweils von zehn bis sechzehn Uhr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie einen Tipp für Mieter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja: Mängel in der Wohnung immer schriftlich melden und eine Kopie behalten. Bei Schimmel zum Beispiel sollte man sofort den Vermieter informieren und nicht selbst renovieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Kommen die Mieter früh genug zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Leider nicht immer. Viele warten monatelang und kommen erst, wenn das Problem sehr groß ist. Früher ist besser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Yılmaz.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Mieter, die Heizungsfirma kommt am Mittwoch zwischen acht und zwölf Uhr. Bitte lassen Sie jemanden in der Wohnung, damit der Techniker die Heizkörper prüfen kann.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Mieter, die Heizungsfirma kommt am Mittwoch zwischen acht und zwölf Uhr. Bitte lassen Sie jemanden in der Wohnung, damit der Techniker die Heizkörper prüfen kann.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich möchte lieber auf dem Land wohnen. Dort ist es ruhig, und die Miete ist niedriger. Aber ich brauche ein Auto, weil der Bus nur zweimal am Tag fährt. Für mich ist das in Ordnung.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich möchte lieber auf dem Land wohnen. Dort ist es ruhig, und die Miete ist niedriger. Aber ich brauche ein Auto, weil der Bus nur zweimal am Tag fährt. Für mich ist das in Ordnung.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, heute gibt es zwanzig Prozent Rabatt auf alle Farben und Pinsel in unserem Baumarkt. Das Angebot gilt nur bis achtzehn Uhr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, heute gibt es zwanzig Prozent Rabatt auf alle Farben und Pinsel in unserem Baumarkt. Das Angebot gilt nur bis achtzehn Uhr.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ein Tipp zum Energiesparen: Stellen Sie die Heizung nachts etwas niedriger ein, und lüften Sie kurz, aber kräftig. Dauerhaft gekippte Fenster kosten viel Geld.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ein Tipp zum Energiesparen: Stellen Sie die Heizung nachts etwas niedriger ein, und lüften Sie kurz, aber kräftig. Dauerhaft gekippte Fenster kosten viel Geld.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Frau Weber, hier ist Ihr Vermieter. Ich möchte Ihnen sagen, dass die Reparatur des Balkons erst nächste Woche beginnt, nicht diese. Sie müssen nichts tun.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Frau Weber, hier ist Ihr Vermieter. Ich möchte Ihnen sagen, dass die Reparatur des Balkons erst nächste Woche beginnt, nicht diese. Sie müssen nichts tun.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

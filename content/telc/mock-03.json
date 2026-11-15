@@ -1,0 +1,1059 @@
+{
+ "n": 3,
+ "theme": "Gesundheit, Umwelt und Freizeit",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Die Stadtapotheke hat am Wochenende Notdienst. In dringenden Fällen können Sie auch nachts klingeln. Bitte legen Sie Ihr Rezept vor.</p><p><b>2</b>&nbsp; Das Rote Kreuz sucht Blutspender. Am Mittwoch von 14 bis 19 Uhr ist die Spende in der Turnhalle möglich. Jeder gesunde Erwachsene darf kommen. Bitte bringen Sie einen Ausweis mit.</p><p><b>3</b>&nbsp; Ab Juli gibt es in allen Supermärkten der Stadt keine Plastiktüten mehr. Kunden können Stofftaschen kaufen oder eigene Taschen mitbringen.</p><p><b>4</b>&nbsp; Die Laufgruppe des Turnvereins trifft sich jeden Sonntag um neun Uhr am Stadtpark. Anfänger sind willkommen. Die Teilnahme ist kostenlos.</p><p><b>5</b>&nbsp; Das Kino im Hof des Museums zeigt im August jeden Freitagabend einen Film. Bei Regen fällt die Vorstellung aus. Der Eintritt kostet sechs Euro.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Apotheke auch nachts erreichbar<br><b>b</b>&nbsp; Blut spenden und Leben retten<br><b>c</b>&nbsp; Schluss mit Plastiktüten<br><b>d</b>&nbsp; Neue Ärzte im Stadtteil<br><b>e</b>&nbsp; Gemeinsam joggen<br><b>f</b>&nbsp; Filme unter freiem Himmel<br><b>g</b>&nbsp; Preise für Bahnkarten steigen<br><b>h</b>&nbsp; Eltern-Kind-Café eröffnet<br><b>i</b>&nbsp; Müll richtig trennen<br><b>j</b>&nbsp; Fahrradtour am Sonntag</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Text 1: Notdienst, nachts klingeln → a „Apotheke auch nachts erreichbar“."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Text 2: Blutspender gesucht → b."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Text 3: keine Plastiktüten mehr → c. „Müll trennen“ (i) wird nicht erwähnt."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Text 4: Laufgruppe trifft sich sonntags → e „Gemeinsam joggen“. Die Fahrradtour (j) ist ein anderes Thema."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "f",
+     "why": "Text 5: Kino im Hof, Freitagabend → f „Filme unter freiem Himmel“."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Seit einem Jahr leben Mara und Jens Albers mit ihren zwei Kindern ohne Auto. Die Entscheidung kam, nachdem ihr alter Wagen kaputtging und eine Reparatur über 1.500 Euro kosten sollte. „Wir haben gerechnet“, erzählt Jens. „Versicherung, Steuer, Benzin und Parkplatz kosteten uns fast 400 Euro im Monat. Das Geld können wir besser nutzen.“</p><p>Heute fahren sie mit dem Rad, der Bahn oder dem Bus. Für den Wocheneinkauf haben sie ein Lastenrad, in dem auch die Kinder sitzen können. Die Schule und der Kindergarten sind nur zehn Minuten entfernt. Für längere Strecken leihen sie sich bei einem Carsharing-Anbieter ein Auto, aber das passiert nur dreimal im Jahr.</p><p>Einfach war der Anfang nicht. Im Winter fuhr Mara bei Schnee und Kälte mit dem Rad zur Arbeit und war froh, als es wieder wärmer wurde. Auch der Einkauf von schweren Dingen, etwa Getränkekisten, ist umständlich. „Wir lassen uns die Getränke jetzt liefern“, sagt sie. Dafür sparen sie viel Zeit, weil sie nicht im Stau stehen müssen.</p><p>Der älteste Sohn, elf, vermisst das Auto nicht. „Mit dem Rad bin ich schneller als meine Freunde im Elternauto“, sagt er stolz. Die Familie hat überlegt, vielleicht doch wieder einen Wagen zu kaufen, aber nur dann, wenn sie aufs Land ziehen sollten. In der Stadt wollen sie so weiterleben.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Warum hat die Familie das Auto verkauft?",
+     "opts": [
+      "Es war kaputt und die Reparatur zu teuer.",
+      "Sie zog aufs Land.",
+      "Die Kinder wollten es so."
+     ],
+     "key": "a",
+     "why": "Der alte Wagen ging kaputt und die Reparatur sollte über 1.500 Euro kosten. Der Umzug aufs Land ist nur eine mögliche Zukunft."
+    },
+    {
+     "id": "l7",
+     "q": "Was kostete das Auto die Familie früher jeden Monat?",
+     "opts": [
+      "etwa 150 Euro",
+      "fast 400 Euro",
+      "über 1.500 Euro"
+     ],
+     "key": "b",
+     "why": "„Fast 400 Euro im Monat“ für Versicherung, Steuer, Benzin und Parkplatz. 1.500 Euro ist der Preis der Reparatur."
+    },
+    {
+     "id": "l8",
+     "q": "Wie fährt die Familie heute längere Strecken?",
+     "opts": [
+      "Sie nehmen ein Taxi.",
+      "Sie leihen manchmal ein Auto.",
+      "Sie fahren mit dem Lastenrad."
+     ],
+     "key": "b",
+     "why": "Für längere Strecken leihen sie sich bei einem Carsharing-Anbieter ein Auto – dreimal im Jahr."
+    },
+    {
+     "id": "l9",
+     "q": "Was war nach Maras Erfahrung ein Problem?",
+     "opts": [
+      "Das Radfahren im Winter.",
+      "Die Schule war zu weit weg.",
+      "Der Bus fuhr nie pünktlich."
+     ],
+     "key": "a",
+     "why": "Im Winter fuhr Mara bei Schnee und Kälte mit dem Rad. Die Schule ist nur zehn Minuten entfernt."
+    },
+    {
+     "id": "l10",
+     "q": "Wann würde die Familie wieder ein Auto kaufen?",
+     "opts": [
+      "Wenn die Kinder älter sind.",
+      "Wenn sie aufs Land ziehen.",
+      "Wenn das Lastenrad kaputtgeht."
+     ],
+     "key": "b",
+     "why": "„… aber nur dann, wenn sie aufs Land ziehen sollten.“"
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Rückenschule an der VHS: Übungen gegen Verspannungen, Montag und Mittwoch um 18 Uhr. Anmeldung ab sofort.</p><p><b>b</b>&nbsp; „Digital hilft“: Wir sammeln gebrauchte Computer und Handys und geben sie an Schulen weiter. Abgabe jeden Dienstag.</p><p><b>c</b>&nbsp; Praxis Dr. Keller: Hausarzt mit Samstagssprechstunde von 9 bis 12 Uhr. Termine online buchen.</p><p><b>d</b>&nbsp; Wanderverein Eifelblick: Jeden zweiten Sonntag Tour in der Umgebung. Gäste sind willkommen.</p><p><b>e</b>&nbsp; Nachhilfe-Institut Mathe-Meister: Einzelunterricht in Mathematik für Klasse 5–10, auch am Wochenende.</p><p><b>f</b>&nbsp; Hofladen Berger: Obst und Gemüse aus eigenem Anbau, dazu frische Eier. Dienstag bis Samstag.</p><p><b>g</b>&nbsp; Pension „Zur Linde“: Einzelzimmer ab 38 Euro, Frühstück inklusive, zentral gelegen.</p><p><b>h</b>&nbsp; Open-Air-Konzerte im Stadtpark: Karten ab 15 Euro im Vorverkauf. Bei Regen im Festzelt.</p><p><b>i</b>&nbsp; Tierheim Sonnenhof: Wir suchen ehrenamtliche Helfer zum Gassigehen und Füttern. Einfach vorbeikommen!</p><p><b>j</b>&nbsp; Autohaus Weber: Winterreifen im Angebot, Montage inklusive. Nur bis Ende November.</p><p><b>k</b>&nbsp; Fitnessstudio Aktiv: 3 Monate zum Preis von 2. Neue Abendkurse.</p><p><b>l</b>&nbsp; Bäckerei Lindner: Frische Brötchen ab 6 Uhr, Frühstück am Wochenende.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie möchten in Ihrer Freizeit Tieren helfen.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Tieren helfen → i."
+    },
+    {
+     "id": "l12",
+     "q": "Sie suchen einen Platz, wo Sie Ihr Auto selbst waschen können.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Auto selbst waschen: keine Anzeige passt → x. Das Autohaus verkauft Reifen."
+    },
+    {
+     "id": "l13",
+     "q": "Sie möchten Ihren alten Computer spenden.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Computer spenden → b."
+    },
+    {
+     "id": "l14",
+     "q": "Sie möchten am Wochenende wandern und suchen eine Gruppe.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Wandergruppe → d."
+    },
+    {
+     "id": "l15",
+     "q": "Sie suchen einen Arzt, der auch am Samstag Termine hat.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Arzt am Samstag → c."
+    },
+    {
+     "id": "l16",
+     "q": "Sie suchen für Ihren Besuch aus dem Ausland ein günstiges Zimmer.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Günstiges Zimmer → g."
+    },
+    {
+     "id": "l17",
+     "q": "Sie haben Rückenschmerzen und suchen einen Kurs, der Ihnen hilft.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Rückenschmerzen → a."
+    },
+    {
+     "id": "l18",
+     "q": "Sie suchen frisches Gemüse direkt vom Bauern.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Gemüse vom Bauern → f."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten Karten für ein Konzert unter freiem Himmel kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "h",
+     "why": "Open-Air-Konzert → h."
+    },
+    {
+     "id": "l20",
+     "q": "Ihr Sohn braucht Nachhilfe in Mathematik.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Nachhilfe Mathe → e."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Lieber Tom,</p><p>vielen Dank für deine Einladung zur Hochzeit! Leider muss ich dir <b>(21)</b>, dass ich nicht kommen kann. Ich habe mir letzte Woche den Fuß <b>(22)</b> und darf zwei Wochen nicht laufen. Der Arzt hat mir <b>(23)</b>, viel zu liegen. Ich bin sehr traurig, <b>(24)</b> ich mich so auf die Feier gefreut habe.</p><p>Sag mir bitte, <b>(25)</b> ich dir ein Geschenk schicken darf. Vielleicht könnten wir uns im Herbst treffen, <b>(26)</b> du aus den Flitterwochen zurück bist. Ich würde dich und Lisa gern zum Essen einladen. <b>(27)</b> ihr Lust habt, sagt einfach Bescheid.</p><p>Ich wünsche euch einen wunderschönen Tag und hoffe, dass das Wetter <b>(28)</b> wird. Gib Lisa bitte einen Kuss von mir! Ich denke <b>(29)</b> euch und freue mich schon <b>(30)</b> die Fotos.</p><p>Dein Paul</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "absagen",
+      "mitteilen",
+      "antworten"
+     ],
+     "key": "b",
+     "why": "„Ich muss dir mitteilen, dass …“. „absagen, dass“ ist grammatisch nicht möglich (absagen + Akkusativ-Objekt, kein dass-Satz)."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "gebrochen",
+      "gebrechen",
+      "brach"
+     ],
+     "key": "a",
+     "why": "Perfekt: „habe mir den Fuß gebrochen“ (Partizip II von brechen)."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "gehört",
+      "geblieben",
+      "geraten"
+     ],
+     "key": "c",
+     "why": "„jemandem raten, etwas zu tun“ → „hat mir geraten, … zu liegen“."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "obwohl",
+      "weil",
+      "damit"
+     ],
+     "key": "b",
+     "why": "Grund → „weil“, Verb am Ende („gefreut habe“). „obwohl“ = Gegensatz, „damit“ = Zweck."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "ob",
+      "dass",
+      "wenn"
+     ],
+     "key": "a",
+     "why": "indirekte Ja/Nein-Frage („Darf ich dir ein Geschenk schicken?“) → „ob“."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "als",
+      "nachdem",
+      "wenn"
+     ],
+     "key": "c",
+     "why": "„wenn du zurück bist“ = Zeitpunkt in der Zukunft. „als“ nur Vergangenheit."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "Obwohl",
+      "Falls",
+      "Weil"
+     ],
+     "key": "b",
+     "why": "„Falls ihr Lust habt“ = Bedingung. „Obwohl“ und „Weil“ passen logisch nicht."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "schön",
+      "schöne",
+      "schönes"
+     ],
+     "key": "a",
+     "why": "„wird schön“: Adjektiv nach werden bleibt ohne Endung."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "über",
+      "an",
+      "auf"
+     ],
+     "key": "b",
+     "why": "denken an + Akkusativ."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "auf",
+      "über",
+      "für"
+     ],
+     "key": "a",
+     "why": "sich freuen auf + Akkusativ (Zukunft: die Fotos kommen noch)."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Liebe Nachbarn,</p><p>in unserem Haus gibt es seit einigen Wochen ein Problem mit dem <b>(31)</b>. Viele Bewohner werfen alles in dieselbe Tonne. Dabei gibt es für Papier, Glas und Plastik eigene <b>(32)</b>. Das ist wichtig, damit die Stoffe wiederverwendet werden können, und es hilft der <b>(33)</b>. Ich bitte euch deshalb, den Müll richtig zu <b>(34)</b>. Wenn ihr nicht sicher seid, <b>(35)</b> ihr auf dem Zettel an der Tür nachsehen. Dort steht auch, wann der Müllwagen <b>(36)</b>. Letzte Woche stand die Tonne zu spät auf der Straße, deshalb wurde sie nicht <b>(37)</b>. Bei Fragen <b>(38)</b> ihr bitte die Hausverwaltung. Wir können das Problem nur zusammen lösen. Ich danke euch für euer <b>(39)</b> und wünsche euch einen schönen <b>(40)</b>!</p><p>Herzliche Grüße, Frau Albrecht</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> geleert &nbsp;·&nbsp; <b>b</b> schlafen &nbsp;·&nbsp; <b>c</b> Verständnis &nbsp;·&nbsp; <b>d</b> Besuch &nbsp;·&nbsp; <b>e</b> kommt &nbsp;·&nbsp; <b>f</b> Sonntag &nbsp;·&nbsp; <b>g</b> leise &nbsp;·&nbsp; <b>h</b> trennen &nbsp;·&nbsp; <b>i</b> Umwelt &nbsp;·&nbsp; <b>j</b> kontaktiert &nbsp;·&nbsp; <b>k</b> könnt &nbsp;·&nbsp; <b>l</b> Tonnen &nbsp;·&nbsp; <b>m</b> gestern &nbsp;·&nbsp; <b>n</b> Frühling &nbsp;·&nbsp; <b>o</b> Müll</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "o",
+     "why": "Problem mit dem Müll (Dativ maskulin)."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "l",
+     "why": "eigene Tonnen (Plural)."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "hilft der Umwelt (Dativ feminin)."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "Infinitiv nach „zu“: Müll trennen."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "k",
+     "why": "Modalverb auf Position 2: „könnt ihr nachsehen“."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "„wann der Müllwagen kommt“ – Nebensatz, Verb am Ende."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "Passiv Präteritum: „wurde nicht geleert“."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "Imperativ-Form 2. Person Plural: „kontaktiert ihr bitte“ (Aufforderung)."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "Dank für euer Verständnis."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "einen schönen Sonntag (Akkusativ maskulin)."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
+   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Die Praxis ist nächste Woche donnerstags geschlossen.",
+     "tf": true,
+     "key": "f",
+     "why": "Geschlossen von Montag bis Mittwoch."
+    },
+    {
+     "id": "h2",
+     "q": "Auf der A 5 gibt es einen Stau nach einem Unfall.",
+     "tf": true,
+     "key": "r",
+     "why": "Sechs Kilometer Stau."
+    },
+    {
+     "id": "h3",
+     "q": "Die Erdbeeren sind den ganzen Tag billiger.",
+     "tf": true,
+     "key": "f",
+     "why": "Das Angebot gilt nur bis 18 Uhr."
+    },
+    {
+     "id": "h4",
+     "q": "Der Sprecher spielt heute in einer Band.",
+     "tf": true,
+     "key": "f",
+     "why": "Er spielt nur noch zu Hause."
+    },
+    {
+     "id": "h5",
+     "q": "Die Schwester kann am Samstag nicht zur Party kommen.",
+     "tf": true,
+     "key": "r",
+     "why": "Sie muss die Schicht tauschen."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
+   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Frau Berger läuft seit drei Jahren.",
+     "tf": true,
+     "key": "r",
+     "why": "Vor drei Jahren hat sie angefangen."
+    },
+    {
+     "id": "h7",
+     "q": "Eine Kollegin hat sie zum Laufen mitgenommen.",
+     "tf": true,
+     "key": "r",
+     "why": "Ja."
+    },
+    {
+     "id": "h8",
+     "q": "Anfangs konnte sie eine Stunde laufen.",
+     "tf": true,
+     "key": "f",
+     "why": "Zuerst nur zwanzig Minuten."
+    },
+    {
+     "id": "h9",
+     "q": "Sie hat vor dem Marathon einen Halbmarathon gemacht.",
+     "tf": true,
+     "key": "r",
+     "why": "Er hat ihr viel Spaß gemacht."
+    },
+    {
+     "id": "h10",
+     "q": "Sie trainierte jede Woche sechs Tage.",
+     "tf": true,
+     "key": "f",
+     "why": "Dreimal Laufen, zweimal Krafttraining, ein Tag frei."
+    },
+    {
+     "id": "h11",
+     "q": "Sie hat ihre Ernährung stark verändert.",
+     "tf": true,
+     "key": "f",
+     "why": "Nur weniger Süßigkeiten."
+    },
+    {
+     "id": "h12",
+     "q": "Im Frühling hatte sie Knieschmerzen.",
+     "tf": true,
+     "key": "r",
+     "why": "Sie musste zwei Wochen pausieren."
+    },
+    {
+     "id": "h13",
+     "q": "Die Ärzte haben etwas Schlimmes festgestellt.",
+     "tf": true,
+     "key": "f",
+     "why": "Nichts Schlimmes."
+    },
+    {
+     "id": "h14",
+     "q": "Sie ist den Marathon in unter vier Stunden gelaufen.",
+     "tf": true,
+     "key": "f",
+     "why": "Vier Stunden und zwanzig Minuten."
+    },
+    {
+     "id": "h15",
+     "q": "Nächstes Jahr will sie in Berlin laufen.",
+     "tf": true,
+     "key": "r",
+     "why": "Ja."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
+   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Die Bahn fährt heute bis zum Hauptbahnhof.",
+     "tf": true,
+     "key": "f",
+     "why": "Nur bis zur Haltestelle Rathaus."
+    },
+    {
+     "id": "h17",
+     "q": "Der Sprecher findet Taschengeld für Kinder sinnvoll.",
+     "tf": true,
+     "key": "r",
+     "why": "Kinder sollen früh lernen, mit Geld umzugehen."
+    },
+    {
+     "id": "h18",
+     "q": "Die gefundene Tasche wurde im Bus abgegeben.",
+     "tf": true,
+     "key": "r",
+     "why": "Am Montag im Bus Linie drei."
+    },
+    {
+     "id": "h19",
+     "q": "Das Hallenbad ist heute geschlossen.",
+     "tf": true,
+     "key": "f",
+     "why": "Nur das Freibad ist wegen Regen zu."
+    },
+    {
+     "id": "h20",
+     "q": "Die Klasse 5b hat am Mittwoch um 12 Uhr Schulschluss.",
+     "tf": true,
+     "key": "r",
+     "why": "Wegen der Klassenfahrt."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: formelle E-Mail (Sie) – Beschwerde",
+  "situation": "<b>Sie haben im Internet eine Jacke bestellt.</b> Die Lieferung ist angekommen, aber die Jacke hat die falsche Größe und einen Fleck. Schreiben Sie an den Kundenservice. Beschreiben Sie, was Sie bestellt haben und was nicht in Ordnung ist. Sagen Sie, was Sie von der Firma erwarten. Nennen Sie eine Frist für die Antwort. Bitten Sie um Entschuldigung für die Umstände.",
+  "points": [
+   "Was bestellt / was nicht in Ordnung",
+   "Was erwarten Sie?",
+   "Frist für die Antwort",
+   "Höflicher Abschluss"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "bestellt|jacke|größe|fleck|falsch|nicht in ordnung|beschädigt|bestellnummer",
+   "erwarte|möchte|wünsche|umtausch|tausch|erstatt|geld zurück|ersatz|neue jacke|rückgabe|zurückschick|richtige größe",
+   "frist|spätestens|innerhalb|\\d+ tage|zwei wochen|eine woche|bis (zum )?\\d|bis (montag|dienstag|mittwoch|donnerstag|freitag|ende)",
+   "vielen dank|danke|freundlichen gr|bedanke|im voraus|hoffe|verständnis|entschuldig|höflich"
+  ],
+  "rg": "sie"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie nehmen an einem Sprachcafé teil und lernen jemanden kennen. Stellen Sie sich vor und erzählen Sie von Ihrem Alltag, Ihrer Familie und Ihren Plänen für das Wochenende. Fragen Sie Ihren Partner / Ihre Partnerin mindestens zwei Dinge.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Sport und Gesundheit</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit Sport · 2. Die Situation in meinem Heimatland · 3. Vorteile und Nachteile von regelmäßigem Sport · 4. Meine Meinung · 5. Abschluss und Dank. Danach beantworten Sie eine Frage.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam ein Abschiedsfest</b> für einen Freund, der ins Ausland zieht. Besprechen Sie: Wo und wann? · Wer wird eingeladen? · Essen und Musik · Geschenk · Wer organisiert was? Einigen Sie sich.</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Sehr geehrte Damen und Herren, am 3. März habe ich bei Ihnen eine Winterjacke in Größe M bestellt. Heute ist das Paket angekommen, aber die Jacke hat Größe XL und außerdem einen Fleck am Ärmel. Ich bitte Sie, mir die richtige Jacke zuzuschicken oder das Geld zurückzuzahlen. Bitte antworten Sie mir bis zum 15. März, weil ich die Jacke bald brauche. Ich entschuldige mich für die Umstände und bedanke mich im Voraus für Ihre Hilfe. Mit freundlichen Grüßen, Manoj Kumar</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich bin 33 und komme aus Indien. Ich arbeite in Aachen als Softwareentwickler. Am Wochenende möchte ich einen Ausflug machen und Fotos aufnehmen. Meine Eltern und mein Bruder leben in Indien. Und Sie? Haben Sie Geschwister? Was machen Sie in Ihrer Freizeit?</p><p><b>Teil 2:</b> Ich möchte über Sport sprechen. Ich gehe zweimal pro Woche laufen und im Sommer fahre ich Rad. In Indien spielen viele Leute Cricket, und Yoga ist sehr bekannt. Sport hat Vorteile: Er hält gesund und man kann Stress abbauen. Ein Nachteil ist, dass man Zeit braucht, besonders mit Arbeit. Meiner Meinung nach sollte jeder dreimal pro Woche Sport machen. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Wir könnten das Fest bei mir zu Hause machen. Wie wäre es mit Samstag um 18 Uhr? – Gute Idee. Wen laden wir ein? – Alle Kollegen und Nachbarn. Ich kümmere mich um das Essen, und du bringst Musik mit. Für das Geschenk legen wir zusammen und kaufen ein Fotobuch.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Praxis Doktor Wagner, guten Tag. Wegen einer Fortbildung ist die Praxis nächste Woche von Montag bis Mittwoch geschlossen. Ab Donnerstag sind wir wieder für Sie da. Bei Notfällen wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Verkehrsmeldung: Auf der Autobahn A fünf zwischen Frankfurt und Darmstadt gibt es nach einem Unfall sechs Kilometer Stau. Fahrer sollten die Ausfahrt Langen nehmen und über die Landstraße fahren.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Liebe Kunden, heute im Angebot: frische Erdbeeren aus der Region für nur zwei Euro neunzig die Schale. Das Angebot gilt nur bis achtzehn Uhr.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Ich spiele seit zehn Jahren Gitarre. Früher habe ich in einer Band gespielt, aber seit ich Kinder habe, habe ich keine Zeit mehr für Proben. Jetzt spiele ich nur noch zu Hause, manchmal abends für meine Familie.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Hallo Max, hier ist deine Schwester. Ich wollte nur sagen, dass ich am Samstag doch nicht zu deiner Party kommen kann. Meine Chefin hat mich gebeten, die Schicht zu tauschen. Ich melde mich am Sonntag wieder.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2",
+   "html": "<div class=\"text\"><p>Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?</p><p>Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.</p><p>Und dann haben Sie sich gesteigert?</p><p>Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.</p><p>Wie haben Sie für den Marathon trainiert?</p><p>Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.</p><p>Und die Ernährung?</p><p>Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.</p><p>Gab es Probleme beim Training?</p><p>Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.</p><p>Wie lange haben Sie im Marathon gebraucht?</p><p>Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.</p><p>Waren Sie trotzdem zufrieden?</p><p>Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.</p><p>Planen Sie noch einen Marathon?</p><p>Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Praxis Doktor Wagner, guten Tag. Wegen einer Fortbildung ist die Praxis nächste Woche von Montag bis Mittwoch geschlossen. Ab Donnerstag sind wir wieder für Sie da. Bei Notfällen wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Verkehrsmeldung: Auf der Autobahn A fünf zwischen Frankfurt und Darmstadt gibt es nach einem Unfall sechs Kilometer Stau. Fahrer sollten die Ausfahrt Langen nehmen und über die Landstraße fahren.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, heute im Angebot: frische Erdbeeren aus der Region für nur zwei Euro neunzig die Schale. Das Angebot gilt nur bis achtzehn Uhr.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich spiele seit zehn Jahren Gitarre. Früher habe ich in einer Band gespielt, aber seit ich Kinder habe, habe ich keine Zeit mehr für Proben. Jetzt spiele ich nur noch zu Hause, manchmal abends für meine Familie.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Max, hier ist deine Schwester. Ich wollte nur sagen, dass ich am Samstag doch nicht zu deiner Party kommen kann. Meine Chefin hat mich gebeten, die Schicht zu tauschen. Ich melde mich am Sonntag wieder.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und dann haben Sie sich gesteigert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie haben Sie für den Marathon trainiert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und die Ernährung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gab es Probleme beim Training?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie lange haben Sie im Marathon gebraucht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Waren Sie trotzdem zufrieden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Planen Sie noch einen Marathon?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und dann haben Sie sich gesteigert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie haben Sie für den Marathon trainiert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und die Ernährung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gab es Probleme beim Training?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie lange haben Sie im Marathon gebraucht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Waren Sie trotzdem zufrieden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Planen Sie noch einen Marathon?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

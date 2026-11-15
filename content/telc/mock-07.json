@@ -1,0 +1,1071 @@
+{
+ "n": 7,
+ "theme": "Arbeit und Beruf",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Die Firma Meier & Söhne sucht ab sofort eine Aushilfe für das Lager. Arbeitszeit: Montag bis Freitag, 8 bis 12 Uhr. Bewerbungen bitte direkt an das Personalbüro.</p><p><b>2</b>&nbsp; Das Arbeitsamt bietet im März einen Bewerbungskurs an. Sie lernen, einen Lebenslauf zu schreiben und sich im Gespräch gut zu zeigen. Der Kurs ist kostenlos und dauert drei Tage.</p><p><b>3</b>&nbsp; Wegen einer Betriebsversammlung ist die Firma am Freitag von 12 bis 14 Uhr telefonisch nicht erreichbar. Danach sind wir wie gewohnt für Sie da.</p><p><b>4</b>&nbsp; Ab dem 1. April können alle Mitarbeiter zwei Tage pro Woche von zu Hause arbeiten. Bitte sprechen Sie vorher mit Ihrer Abteilungsleitung.</p><p><b>5</b>&nbsp; Der Betriebsrat lädt alle Kolleginnen und Kollegen zum Sommerfest am 20. Juli ein. Es gibt Essen, Musik und Spiele für Kinder. Familie ist willkommen.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Arbeiten von zu Hause erlaubt<br><b>b</b>&nbsp; Aushilfe im Lager gesucht<br><b>c</b>&nbsp; Hilfe bei der Bewerbung<br><b>d</b>&nbsp; Kurz nicht zu erreichen<br><b>e</b>&nbsp; Feiern mit der Familie<br><b>f</b>&nbsp; Neue Büros in Frankfurt<br><b>g</b>&nbsp; Gehalt steigt<br><b>h</b>&nbsp; Kantine zieht um<br><b>i</b>&nbsp; Fortbildung für Chefs<br><b>j</b>&nbsp; Firma sucht Geschäftsführer</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Text 1: Eine Aushilfe für das Lager wird gesucht → b."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Text 2: Ein Kurs hilft beim Lebenslauf und im Gespräch → c. „Bewerbung“ ist der Oberbegriff."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Text 3: Die Firma ist zwei Stunden telefonisch nicht da → d. „Kurz“ passt zu „von 12 bis 14 Uhr“."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Text 4: Mitarbeiter dürfen zwei Tage zu Hause arbeiten → a."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Text 5: Das Sommerfest ist für die ganze Familie → e."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Vier Tage arbeiten, drei Tage frei</p><p>Die Firma Lindner aus Bielefeld, die Küchenmöbel herstellt, hat vor einem halben Jahr die Vier-Tage-Woche eingeführt. Seitdem arbeiten die 60 Mitarbeiter nur noch von Montag bis Donnerstag, jeden Tag zehn Stunden statt acht. Das Gehalt ist gleich geblieben. Chef Peter Lindner wollte damit gute Fachkräfte halten: „In unserer Region ist es schwer, Tischler zu finden. Wer mehr freie Zeit bietet, hat einen Vorteil.“</p><p>Die Mitarbeiter sind überwiegend zufrieden. „Ich habe freitags endlich Zeit für Arzttermine und Einkäufe, und am Wochenende bin ich weniger gestresst“, sagt Tischlerin Anja Roth. Allerdings sind die langen Tage anstrengend. Manche Kollegen sind abends sehr müde, besonders ältere Mitarbeiter. Deshalb gibt es jetzt zwei zusätzliche Pausen von je zwanzig Minuten.</p><p>Auch für die Kunden gab es Veränderungen: Freitags ist die Firma nicht mehr erreichbar. Einige Kunden haben sich beschwert. Das Unternehmen hat daraufhin einen Anrufbeantworter eingerichtet, der am Montag zuerst abgehört wird.</p><p>Für die Zukunft will Lindner prüfen, ob sich der Umsatz verändert. Bisher ist er stabil. „Wenn das so bleibt, machen wir weiter“, sagt der Chef.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Warum hat die Firma die Vier-Tage-Woche eingeführt?",
+     "opts": [
+      "Weil die Kunden es wünschten.",
+      "Um gute Fachkräfte zu halten.",
+      "Weil es weniger Aufträge gab."
+     ],
+     "key": "b",
+     "why": "„Chef Peter Lindner wollte damit gute Fachkräfte halten.“"
+    },
+    {
+     "id": "l7",
+     "q": "Wie lange arbeiten die Mitarbeiter jetzt pro Tag?",
+     "opts": [
+      "Zehn Stunden.",
+      "Acht Stunden.",
+      "Sechs Stunden."
+     ],
+     "key": "a",
+     "why": "„Jeden Tag zehn Stunden statt acht.“"
+    },
+    {
+     "id": "l8",
+     "q": "Was gefällt Anja Roth an der neuen Regelung?",
+     "opts": [
+      "Dass sie weniger verdient.",
+      "Dass sie mehr Zeit mit den Kollegen verbringt.",
+      "Dass sie freitags Zeit für Termine hat."
+     ],
+     "key": "c",
+     "why": "„Ich habe freitags endlich Zeit für Arzttermine und Einkäufe.“"
+    },
+    {
+     "id": "l9",
+     "q": "Was hat die Firma gegen die Müdigkeit getan?",
+     "opts": [
+      "Sie hat einen zweiten Mitarbeiter eingestellt.",
+      "Sie hat zusätzliche Pausen eingeführt.",
+      "Sie hat die Arbeitszeit gekürzt."
+     ],
+     "key": "b",
+     "why": "„Deshalb gibt es jetzt zwei zusätzliche Pausen von je zwanzig Minuten.“"
+    },
+    {
+     "id": "l10",
+     "q": "Wie ist die Lage im Moment?",
+     "opts": [
+      "Der Umsatz ist stark gesunken.",
+      "Die Firma will die Vier-Tage-Woche wieder abschaffen.",
+      "Der Umsatz ist bisher gleich geblieben."
+     ],
+     "key": "c",
+     "why": "„Bisher ist er stabil.“ Der Chef will weitermachen, wenn das so bleibt."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Bäckerei Hoffmann: Verkäuferin oder Verkäufer für Samstag und Sonntag gesucht, 12 Euro pro Stunde.</p><p><b>b</b>&nbsp; Fotostudio Blick: Bewerbungsfotos ab 25 Euro, auch ohne Termin.</p><p><b>c</b>&nbsp; Schreibservice Klartext: Wir prüfen Ihre Bewerbung und verbessern Lebenslauf und Anschreiben. Erste Beratung kostenlos.</p><p><b>d</b>&nbsp; Abendschule Technik: Excel und Word für den Beruf, dienstags und donnerstags, 18 bis 20 Uhr.</p><p><b>e</b>&nbsp; Kita Regenbogen: Plätze für Kinder von 1 bis 6 Jahren, ab 7 Uhr geöffnet.</p><p><b>f</b>&nbsp; Gründerzentrum: Kostenlose Beratung für alle, die sich selbstständig machen wollen. Termin nach Vereinbarung.</p><p><b>g</b>&nbsp; Versicherung Nordstern sucht Bürokraft in Teilzeit (20 Stunden pro Woche). Bewerbung online.</p><p><b>h</b>&nbsp; Verkehrsverbund: Jobticket und Monatskarte, Rabatt für Arbeitnehmer und Auszubildende.</p><p><b>i</b>&nbsp; Arbeitsschutz Becker: Sicherheitsschuhe und Arbeitskleidung, 20 Prozent Rabatt für Neukunden.</p><p><b>j</b>&nbsp; Taxi-Zentrale Köln: Fahrer gesucht, Vollzeit oder Teilzeit. Personenbeförderungsschein erforderlich.</p><p><b>k</b>&nbsp; Fahrschule Mobil: Führerschein Klasse B, Intensivkurs in zwei Wochen.</p><p><b>l</b>&nbsp; Autohaus Weber: Gebrauchtwagen mit Garantie, Finanzierung möglich.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie suchen einen Arbeitsplatz in Teilzeit im Büro.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Teilzeit im Büro → g (Bürokraft, 20 Stunden)."
+    },
+    {
+     "id": "l12",
+     "q": "Sie brauchen jemanden, der Ihren Lebenslauf und Ihr Anschreiben korrigiert.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Lebenslauf verbessern → c (Schreibservice)."
+    },
+    {
+     "id": "l13",
+     "q": "Sie möchten Ihre Sicherheitsschuhe für die Arbeit günstig kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Arbeitsschuhe günstig → i (20 Prozent Rabatt)."
+    },
+    {
+     "id": "l14",
+     "q": "Sie suchen einen Minijob am Wochenende im Verkauf.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Wochenende, Verkauf → a (Samstag und Sonntag)."
+    },
+    {
+     "id": "l15",
+     "q": "Sie suchen eine Stelle als Taxifahrer in Hamburg.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Die Taxi-Zentrale (j) sucht Fahrer in Köln, nicht in Hamburg. Keine Anzeige passt: x."
+    },
+    {
+     "id": "l16",
+     "q": "Sie möchten wieder arbeiten und suchen einen Platz in der Kita für Ihr dreijähriges Kind.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Kita-Platz für ein Kind → e (Kinder von 1 bis 6 Jahren)."
+    },
+    {
+     "id": "l17",
+     "q": "Sie möchten Fotos für Ihre Bewerbung machen lassen.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Bewerbungsfotos → b."
+    },
+    {
+     "id": "l18",
+     "q": "Sie suchen eine günstige Monatskarte für den Weg zur Arbeit.",
+     "letters": "abcdefghijklx",
+     "key": "h",
+     "why": "Fahrkarte für den Arbeitsweg → h (Jobticket)."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten abends einen Computerkurs für den Beruf besuchen.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Abendkurs für den Beruf → d (Excel und Word, abends)."
+    },
+    {
+     "id": "l20",
+     "q": "Sie möchten sich selbstständig machen und suchen Beratung.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Selbstständig machen → f (Gründerzentrum)."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Damen und Herren,</p><p>ich habe Ihre Stellenanzeige im Internet <b>(21)</b> und möchte mich für die Stelle als Lagerarbeiter bewerben. Zurzeit arbeite ich <b>(22)</b> Fahrer bei einer Spedition, aber mein Vertrag <b>(23)</b> im Mai. In meiner jetzigen Arbeit habe ich schon viel Erfahrung <b>(24)</b>, zum Beispiel beim Be- und Entladen. Ich bin zuverlässig und <b>(25)</b> gern im Team. Ich spreche gut Deutsch und <b>(26)</b> einen Staplerführerschein. Gern <b>(27)</b> ich mich persönlich bei Ihnen vorstellen. Ich bin <b>(28)</b> Montag bis Freitag erreichbar. Im Anhang finden Sie meinen Lebenslauf <b>(29)</b> meine Zeugnisse. Ich freue mich auf eine Einladung zum Vorstellungsgespräch.</p><p>Mit freundlichen <b>(30)</b>\nDaniel Kraft</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "gesehen",
+      "gesiehen",
+      "sehen"
+     ],
+     "key": "a",
+     "why": "Perfekt: „habe … gesehen“ (haben + Partizip II)."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "wie",
+      "wenn",
+      "als"
+     ],
+     "key": "c",
+     "why": "„arbeiten als“ nennt den Beruf."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "endest",
+      "enden",
+      "endet"
+     ],
+     "key": "c",
+     "why": "3. Person Singular: „mein Vertrag endet“."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "gesammelt",
+      "gesamelt",
+      "sammeln"
+     ],
+     "key": "a",
+     "why": "Perfekt: „Erfahrung gesammelt“."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "arbeitest",
+      "arbeite",
+      "arbeitet"
+     ],
+     "key": "b",
+     "why": "1. Person Singular: „ich arbeite gern“."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "hat",
+      "haben",
+      "habe"
+     ],
+     "key": "c",
+     "why": "1. Person Singular von „haben“: „ich habe“."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "würdest",
+      "würde",
+      "würden"
+     ],
+     "key": "b",
+     "why": "Konjunktiv II: „ich würde“ (Person und Verb passen)."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "auf",
+      "von",
+      "seit"
+     ],
+     "key": "b",
+     "why": "„von Montag bis Freitag“ beschreibt einen Zeitraum."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "aber",
+      "oder",
+      "und"
+     ],
+     "key": "c",
+     "why": "„und“ verbindet zwei Dinge im Anhang."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "Gruß",
+      "Grüße",
+      "Grüßen"
+     ],
+     "key": "c",
+     "why": "Grußformel im Brief: „Mit freundlichen Grüßen“."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Hallo Nina,</p><p>ich muss dir etwas erzählen: Ich habe endlich eine neue Arbeit <b>(31)</b>! Ab Montag arbeite ich in einer Firma für Elektrotechnik. Der Weg dorthin ist nicht <b>(32)</b>, ich brauche mit dem Fahrrad nur zwanzig Minuten. Mein neuer Chef scheint sehr <b>(33)</b> zu sein, er hat mir schon beim Vorstellungsgespräch alles genau erklärt. Das Gehalt ist ein bisschen <b>(34)</b> als bei meiner alten Stelle, und ich habe sogar dreißig Tage <b>(35)</b>. Allerdings muss ich manchmal am Samstag <b>(36)</b>. Ich hoffe, wir können das <b>(37)</b> feiern. Hast du <b>(38)</b> Samstag Zeit? Wir könnten <b>(39)</b> Essen gehen und danach noch einen <b>(40)</b> trinken.</p><p>Viele Grüße\nMax</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> gefunden &nbsp;·&nbsp; <b>b</b> besser &nbsp;·&nbsp; <b>c</b> bald &nbsp;·&nbsp; <b>d</b> schwer &nbsp;·&nbsp; <b>e</b> Urlaub &nbsp;·&nbsp; <b>f</b> am &nbsp;·&nbsp; <b>g</b> Zeitung &nbsp;·&nbsp; <b>h</b> Fenster &nbsp;·&nbsp; <b>i</b> mal &nbsp;·&nbsp; <b>j</b> arbeiten &nbsp;·&nbsp; <b>k</b> nett &nbsp;·&nbsp; <b>l</b> gegessen &nbsp;·&nbsp; <b>m</b> Kaffee &nbsp;·&nbsp; <b>n</b> obwohl &nbsp;·&nbsp; <b>o</b> weit</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "Perfekt: „habe … gefunden“."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "o",
+     "why": "„nicht weit“ = kurzer Weg."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "k",
+     "why": "„sehr nett“ beschreibt den Chef."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "b",
+     "why": "Komparativ: „besser als“."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "„dreißig Tage Urlaub“."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "Modalverb „muss … arbeiten“."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "„bald feiern“ = in naher Zukunft."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "„am Samstag“: Zeitangabe mit „am“."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "„mal“ macht den Vorschlag lockerer."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "m",
+     "why": "„einen Kaffee trinken“."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
+   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Die Betriebsversammlung findet im Erdgeschoss statt.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie findet im zweiten Stock statt."
+    },
+    {
+     "id": "h2",
+     "q": "Man soll bei der Personalabteilung zurückrufen.",
+     "tf": true,
+     "key": "r",
+     "why": "„Bitte rufen Sie uns kurz zurück.“"
+    },
+    {
+     "id": "h3",
+     "q": "In der Pflege gibt es viele neue Stellen.",
+     "tf": true,
+     "key": "r",
+     "why": "Das sagt das Arbeitsamt ausdrücklich."
+    },
+    {
+     "id": "h4",
+     "q": "Jan hat morgen am Nachmittag eine Besprechung.",
+     "tf": true,
+     "key": "f",
+     "why": "Die Besprechung ist um sieben Uhr morgens."
+    },
+    {
+     "id": "h5",
+     "q": "Die Kassen funktionieren im Moment.",
+     "tf": true,
+     "key": "f",
+     "why": "Wegen eines Stromausfalls sind sie nicht in Betrieb."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
+   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Frau Dr. Lehmann berät Menschen bei der Berufswahl.",
+     "tf": true,
+     "key": "r",
+     "why": "Das sagt sie am Anfang."
+    },
+    {
+     "id": "h7",
+     "q": "Die meisten Arbeitnehmer wollen nur im Homeoffice arbeiten.",
+     "tf": true,
+     "key": "f",
+     "why": "Die wenigsten wollen ganz zu Hause arbeiten."
+    },
+    {
+     "id": "h8",
+     "q": "Im Homeoffice sind viele konzentrierter.",
+     "tf": true,
+     "key": "r",
+     "why": "Niemand stört sie."
+    },
+    {
+     "id": "h9",
+     "q": "Ein Nachteil des Homeoffice ist der fehlende Kontakt zu Kollegen.",
+     "tf": true,
+     "key": "r",
+     "why": "Man spricht weniger über Ideen."
+    },
+    {
+     "id": "h10",
+     "q": "Zu Hause braucht man keinen festen Arbeitsplatz.",
+     "tf": true,
+     "key": "f",
+     "why": "Man braucht einen ruhigen Platz."
+    },
+    {
+     "id": "h11",
+     "q": "Frau Lehmann rät zu festen Arbeitszeiten.",
+     "tf": true,
+     "key": "r",
+     "why": "Und zu regelmäßigen Pausen."
+    },
+    {
+     "id": "h12",
+     "q": "Die Firma bezahlt immer die Kosten für Internet und Strom.",
+     "tf": true,
+     "key": "f",
+     "why": "Das ist nicht überall gleich."
+    },
+    {
+     "id": "h13",
+     "q": "Man soll vorher mit dem Vorgesetzten sprechen.",
+     "tf": true,
+     "key": "r",
+     "why": "Und alles schriftlich festhalten."
+    },
+    {
+     "id": "h14",
+     "q": "Junge Mitarbeiter lernen im Büro oft schneller.",
+     "tf": true,
+     "key": "r",
+     "why": "Sie können direkt fragen."
+    },
+    {
+     "id": "h15",
+     "q": "Frau Lehmann glaubt, dass das Büro bald überflüssig ist.",
+     "tf": true,
+     "key": "f",
+     "why": "Das Büro bleibt, es verändert sich nur."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
+   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Die Arbeit am Montag beginnt um sechs Uhr.",
+     "tf": true,
+     "key": "r",
+     "why": "Von sechs bis vierzehn Uhr."
+    },
+    {
+     "id": "h17",
+     "q": "Der Sprecher arbeitet in Vollzeit.",
+     "tf": true,
+     "key": "f",
+     "why": "Er arbeitet nur Teilzeit."
+    },
+    {
+     "id": "h18",
+     "q": "Die Fahrkarte gilt heute auch im Bus.",
+     "tf": true,
+     "key": "r",
+     "why": "„Ihre Fahrkarte gilt auch im Bus.“"
+    },
+    {
+     "id": "h19",
+     "q": "Man soll für jede Firma dasselbe Anschreiben benutzen.",
+     "tf": true,
+     "key": "f",
+     "why": "Man soll nie dasselbe Anschreiben schicken."
+    },
+    {
+     "id": "h20",
+     "q": "Der Termin bei der Bank ist jetzt am Donnerstag.",
+     "tf": true,
+     "key": "r",
+     "why": "Auf Donnerstag um vierzehn Uhr verschoben."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an einen Freund (informell)",
+  "situation": "<b>Ihr Freund Max hat eine neue Arbeitsstelle gefunden.</b> Er hat Ihnen davon in einer Nachricht erzählt. Schreiben Sie ihm eine E-Mail. Gratulieren Sie ihm. Fragen Sie, wie ihm die neue Arbeit gefällt. Schlagen Sie vor, dass Sie zusammen feiern. Fragen Sie, ob er am Wochenende Zeit hat.",
+  "points": [
+   "Glückwunsch",
+   "Frage: Wie gefällt dir die neue Arbeit?",
+   "Vorschlag: gemeinsam feiern",
+   "Frage: Hast du am Wochenende Zeit?"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "gratul|glückwunsch|herzlichen|freue mich (so |sehr )?für dich|super|toll|prima",
+   "wie gefällt|gefällt dir|wie ist|neue arbeit|neuen job|neue stelle|wie läuft|kollegen|chef",
+   "feier|anstoßen|essen gehen|zusammen|gemeinsam|ausgehen|treffen wir|einladen|sekt",
+   "wochenende|hast du zeit|samstag|sonntag|zeit"
+  ],
+  "rg": "du"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich in einer Gruppe kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf oder Ausbildung, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie Ihren Gesprächspartner / Ihre Gesprächspartnerin: Was arbeitet er/sie? Wie gefällt ihm/ihr die Arbeit? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Homeoffice oder Büro?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit Arbeit im Büro oder zu Hause · 2. Wie Menschen in meinem Heimatland arbeiten · 3. Vorteile und Nachteile von Homeoffice und Büro · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam eine Abschiedsfeier</b> für einen Kollegen, der in Rente geht. Besprechen Sie: Wann und wo? · Wer wird eingeladen? · Was gibt es zu essen und zu trinken? · Welches Geschenk schenken Sie? · Wer organisiert was? · Wer hält eine kurze Rede?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Lieber Max, herzlichen Glückwunsch zu deiner neuen Stelle! Ich habe mich sehr gefreut, als ich deine Nachricht gelesen habe. Wie gefällt dir die Arbeit? Sind die Kollegen nett, und ist der Weg weit? Ich finde, wir müssen das feiern. Wollen wir zusammen essen gehen und etwas trinken? Hast du am Wochenende Zeit? Ich habe am Samstagabend frei und könnte einen Tisch reservieren. Schreib mir bitte, was dir am besten passt. Ich freue mich schon auf dich. Viele Grüße, Manoj</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich bin 33 Jahre alt und komme aus Indien. Ich wohne in Aachen und arbeite als Softwareentwickler in einer großen Firma. Ich lerne Deutsch, weil ich im Team besser sprechen möchte. Was arbeitest du? Wie gefällt dir deine Arbeit?</p><p><b>Teil 2:</b> Mein Thema ist: Homeoffice oder Büro. Ich arbeite zwei Tage zu Hause und drei Tage im Büro. Zu Hause bin ich ruhiger und spare den Weg. Im Büro kann ich Fragen direkt stellen. In Indien arbeiten die meisten im Büro, Homeoffice ist noch selten. Der Nachteil von zu Hause ist, dass man allein ist. Meiner Meinung nach ist die Mischung am besten. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Wollen wir die Feier am letzten Arbeitstag machen, am Freitag nach der Arbeit? Wir können in der Kantine feiern, dort gibt es Platz. Wir laden alle Kollegen aus der Abteilung ein. Es gibt Kuchen, belegte Brötchen und Getränke. Als Geschenk schlage ich einen Gutschein für eine Reise vor. Ich kaufe den Gutschein, du schreibst die Karte. Unsere Chefin hält die Rede.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Liebe Mitarbeiter, die Betriebsversammlung beginnt um vierzehn Uhr im großen Konferenzraum im zweiten Stock. Bitte seien Sie pünktlich. Der Raum im Erdgeschoss ist heute nicht frei.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Guten Tag, hier ist die Personalabteilung der Firma Neumann. Wir haben Ihre Bewerbung erhalten und möchten Sie am Dienstag um zehn Uhr zu einem Gespräch einladen. Bitte rufen Sie uns kurz zurück.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Das Arbeitsamt Aachen teilt mit: Die Zahl der Arbeitslosen ist im Oktober leicht gesunken. Besonders viele neue Stellen gibt es in der Pflege und im Handwerk.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>Hallo Elena, hier ist Jan. Ich muss morgen früher ins Büro, weil der Chef eine Besprechung um sieben Uhr angesetzt hat. Kannst du mich um sechs Uhr abholen?</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Achtung, liebe Kunden und Mitarbeiter: Wegen eines Stromausfalls sind die Kassen für etwa dreißig Minuten nicht in Betrieb. Wir bitten um Ihr Verständnis.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2",
+   "html": "<div class=\"text\"><p>Heute im Studio: Frau Dr. Lehmann, Karriereberaterin. Frau Lehmann, womit beschäftigen Sie sich?</p><p>Ich berate Menschen bei der Berufswahl und beim Wechsel der Stelle. In den letzten Jahren kommt oft die Frage: Büro oder Homeoffice?</p><p>Was wünschen sich die meisten Arbeitnehmer?</p><p>Die wenigsten wollen ganz zu Hause arbeiten. Die meisten möchten zwei bis drei Tage zu Hause und den Rest der Woche im Büro sein.</p><p>Was spricht für das Homeoffice?</p><p>Viele sind dort konzentrierter, weil niemand sie stört. Außerdem sparen sie den Weg zur Arbeit. Das sind oft ein bis zwei Stunden am Tag.</p><p>Und die Nachteile?</p><p>Der Kontakt zu den Kollegen fehlt. Man spricht weniger über Ideen, und manchmal fühlt man sich allein. Außerdem braucht man zu Hause einen ruhigen Platz zum Arbeiten. Das hat nicht jeder.</p><p>Was raten Sie Menschen im Homeoffice?</p><p>Feste Arbeitszeiten einhalten und Pausen machen. Sonst arbeitet man abends noch und kann nicht abschalten.</p><p>Wer bezahlt die Kosten, zum Beispiel für Internet und Strom?</p><p>Das ist nicht überall gleich. Manche Firmen zahlen einen Teil, andere nichts. Deshalb sollte man vorher mit dem Vorgesetzten sprechen und alles schriftlich festhalten.</p><p>Was ist mit jungen Mitarbeitern?</p><p>Im Büro lernen sie oft schneller, weil sie Fragen direkt stellen können und von Kollegen lernen.</p><p>Wird das Büro bald überflüssig sein?</p><p>Nein, das glaube ich nicht. Menschen brauchen Treffpunkte. Das Büro wird sich verändern, aber es bleibt.</p><p>Vielen Dank für das Gespräch.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Text 1",
+     "<p>Guten Tag, hier ist die Zeitarbeitsfirma Rapid. Für Montag haben wir einen Job für Sie: Lagerarbeit in Düren, von sechs bis vierzehn Uhr. Bitte bringen Sie Ihren Ausweis mit.</p>"
+    ],
+    [
+     "Text 2",
+     "<p>Ich finde, dass Arbeit nicht das Wichtigste im Leben ist. Familie und Freunde sind mir wichtiger. Deshalb arbeite ich nur Teilzeit, auch wenn ich dadurch weniger verdiene.</p>"
+    ],
+    [
+     "Text 3",
+     "<p>Liebe Fahrgäste, wegen eines Streiks fahren heute keine S-Bahnen. Die Busse fahren nach Plan. Ihre Fahrkarte gilt auch im Bus.</p>"
+    ],
+    [
+     "Text 4",
+     "<p>In unserer Sendung geht es heute um Bewerbungen: Schicken Sie nie dasselbe Anschreiben an mehrere Firmen. Zeigen Sie, dass Sie sich für genau diese Stelle interessieren.</p>"
+    ],
+    [
+     "Text 5",
+     "<p>Hallo Herr Becker, hier ist Ihre Bank. Der Termin zum Thema Kredit ist verschoben worden, und zwar auf Donnerstag um vierzehn Uhr. Bitte bestätigen Sie den Termin per E-Mail.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Mitarbeiter, die Betriebsversammlung beginnt um vierzehn Uhr im großen Konferenzraum im zweiten Stock. Bitte seien Sie pünktlich. Der Raum im Erdgeschoss ist heute nicht frei.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Personalabteilung der Firma Neumann. Wir haben Ihre Bewerbung erhalten und möchten Sie am Dienstag um zehn Uhr zu einem Gespräch einladen. Bitte rufen Sie uns kurz zurück.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Arbeitsamt Aachen teilt mit: Die Zahl der Arbeitslosen ist im Oktober leicht gesunken. Besonders viele neue Stellen gibt es in der Pflege und im Handwerk.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Elena, hier ist Jan. Ich muss morgen früher ins Büro, weil der Chef eine Besprechung um sieben Uhr angesetzt hat. Kannst du mich um sechs Uhr abholen?",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Achtung, liebe Kunden und Mitarbeiter: Wegen eines Stromausfalls sind die Kassen für etwa dreißig Minuten nicht in Betrieb. Wir bitten um Ihr Verständnis.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Dr. Lehmann, Karriereberaterin. Frau Lehmann, womit beschäftigen Sie sich?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich berate Menschen bei der Berufswahl und beim Wechsel der Stelle. In den letzten Jahren kommt oft die Frage: Büro oder Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was wünschen sich die meisten Arbeitnehmer?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die wenigsten wollen ganz zu Hause arbeiten. Die meisten möchten zwei bis drei Tage zu Hause und den Rest der Woche im Büro sein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was spricht für das Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Viele sind dort konzentrierter, weil niemand sie stört. Außerdem sparen sie den Weg zur Arbeit. Das sind oft ein bis zwei Stunden am Tag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Nachteile?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Der Kontakt zu den Kollegen fehlt. Man spricht weniger über Ideen, und manchmal fühlt man sich allein. Außerdem braucht man zu Hause einen ruhigen Platz zum Arbeiten. Das hat nicht jeder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was raten Sie Menschen im Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Feste Arbeitszeiten einhalten und Pausen machen. Sonst arbeitet man abends noch und kann nicht abschalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wer bezahlt die Kosten, zum Beispiel für Internet und Strom?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das ist nicht überall gleich. Manche Firmen zahlen einen Teil, andere nichts. Deshalb sollte man vorher mit dem Vorgesetzten sprechen und alles schriftlich festhalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit jungen Mitarbeitern?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Büro lernen sie oft schneller, weil sie Fragen direkt stellen können und von Kollegen lernen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wird das Büro bald überflüssig sein?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nein, das glaube ich nicht. Menschen brauchen Treffpunkte. Das Büro wird sich verändern, aber es bleibt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Dr. Lehmann, Karriereberaterin. Frau Lehmann, womit beschäftigen Sie sich?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich berate Menschen bei der Berufswahl und beim Wechsel der Stelle. In den letzten Jahren kommt oft die Frage: Büro oder Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was wünschen sich die meisten Arbeitnehmer?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die wenigsten wollen ganz zu Hause arbeiten. Die meisten möchten zwei bis drei Tage zu Hause und den Rest der Woche im Büro sein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was spricht für das Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Viele sind dort konzentrierter, weil niemand sie stört. Außerdem sparen sie den Weg zur Arbeit. Das sind oft ein bis zwei Stunden am Tag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Nachteile?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Der Kontakt zu den Kollegen fehlt. Man spricht weniger über Ideen, und manchmal fühlt man sich allein. Außerdem braucht man zu Hause einen ruhigen Platz zum Arbeiten. Das hat nicht jeder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was raten Sie Menschen im Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Feste Arbeitszeiten einhalten und Pausen machen. Sonst arbeitet man abends noch und kann nicht abschalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wer bezahlt die Kosten, zum Beispiel für Internet und Strom?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das ist nicht überall gleich. Manche Firmen zahlen einen Teil, andere nichts. Deshalb sollte man vorher mit dem Vorgesetzten sprechen und alles schriftlich festhalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit jungen Mitarbeitern?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Büro lernen sie oft schneller, weil sie Fragen direkt stellen können und von Kollegen lernen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wird das Büro bald überflüssig sein?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nein, das glaube ich nicht. Menschen brauchen Treffpunkte. Das Büro wird sich verändern, aber es bleibt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Zeitarbeitsfirma Rapid. Für Montag haben wir einen Job für Sie: Lagerarbeit in Düren, von sechs bis vierzehn Uhr. Bitte bringen Sie Ihren Ausweis mit.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Zeitarbeitsfirma Rapid. Für Montag haben wir einen Job für Sie: Lagerarbeit in Düren, von sechs bis vierzehn Uhr. Bitte bringen Sie Ihren Ausweis mit.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Arbeit nicht das Wichtigste im Leben ist. Familie und Freunde sind mir wichtiger. Deshalb arbeite ich nur Teilzeit, auch wenn ich dadurch weniger verdiene.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Arbeit nicht das Wichtigste im Leben ist. Familie und Freunde sind mir wichtiger. Deshalb arbeite ich nur Teilzeit, auch wenn ich dadurch weniger verdiene.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen eines Streiks fahren heute keine S-Bahnen. Die Busse fahren nach Plan. Ihre Fahrkarte gilt auch im Bus.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen eines Streiks fahren heute keine S-Bahnen. Die Busse fahren nach Plan. Ihre Fahrkarte gilt auch im Bus.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "In unserer Sendung geht es heute um Bewerbungen: Schicken Sie nie dasselbe Anschreiben an mehrere Firmen. Zeigen Sie, dass Sie sich für genau diese Stelle interessieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "In unserer Sendung geht es heute um Bewerbungen: Schicken Sie nie dasselbe Anschreiben an mehrere Firmen. Zeigen Sie, dass Sie sich für genau diese Stelle interessieren.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Herr Becker, hier ist Ihre Bank. Der Termin zum Thema Kredit ist verschoben worden, und zwar auf Donnerstag um vierzehn Uhr. Bitte bestätigen Sie den Termin per E-Mail.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Herr Becker, hier ist Ihre Bank. Der Termin zum Thema Kredit ist verschoben worden, und zwar auf Donnerstag um vierzehn Uhr. Bitte bestätigen Sie den Termin per E-Mail.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}
