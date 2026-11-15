@@ -93,3 +93,5 @@ textarea{width:100%;min-height:340px;font:1.06rem/1.7 var(--serif);padding:15px 
 .rrow.live{border-color:var(--bad);box-shadow:0 0 0 3px #f6c9c4}.rrow .rb{margin-left:auto}
 
 .homelink.tl{left:auto;right:12px}
+
+.hublink{display:block;color:#b8c7dc;font-weight:700;text-decoration:none;margin-bottom:10px;font-size:.9rem}.hublink:hover{color:#fff}
