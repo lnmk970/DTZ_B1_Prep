@@ -234,7 +234,8 @@ recRows();$('#spcopy0').onclick=()=>spCopy($('#spcopy0'));
 /* start */
 function showApp(){$('#start').hidden=true;$('#app').hidden=false}
 function begin(){const resume=!!st.paused;const fresh=!st.t0;if(!st.t0){st.t0=now();st.act='hoeren';st.since=now();save()}if(resume){st.paused=false;st.act=st.pact||null;st.since=now();save()}showApp();SECS.forEach(s=>{if(st.lock[s])lockSec(s,'Dieser Teil ist beendet.')});const tg=st.fin?'antworten':(st.where&&(avail(st.where)||st.lock[st.where])?st.where:'hoeren');go(tg,1);if(!st.fin&&!st.lock.hoeren&&tg==='hoeren'){if(fresh)preStart(30);else if(st.preLeft>0&&!st.apos)preStart(st.preLeft);else startAudio()}}
-$('#home').onclick=()=>{if(st.fin||!st.t0){location.href='../';return}if(confirm('Sie sind mitten in der Prüfung. Prüfung pausieren und zur Startseite gehen?\n\nDie Zeit wird angehalten. Beim Fortsetzen machen Sie genau hier weiter.')){if(preT){clearInterval(preT);preT=null;st.preLeft=preLeft}commit();st.pact=st.act;st.act=null;st.since=0;st.paused=true;st.where=cur;save();location.href='../'}};
+const goAway=url=>{if(st.fin||!st.t0){location.href=url;return}if(confirm('Sie sind mitten in der Prüfung. Prüfung pausieren und die Seite verlassen?\n\nDie Zeit wird angehalten. Beim Fortsetzen machen Sie genau hier weiter.')){if(preT){clearInterval(preT);preT=null;st.preLeft=preLeft}commit();st.pact=st.act;st.act=null;st.since=0;st.paused=true;st.where=cur;save();location.href=url}};
+$('#home').onclick=()=>goAway('../../../');$('#dtzb').onclick=()=>goAway('../');
 $('#begin').onclick=begin;$('#reset').onclick=()=>{if(confirm('Test zurücksetzen?')){try{localStorage.removeItem(SK)}catch(e){}location.reload()}};
 if(st.fin){showApp();SECS.forEach(s=>lockSec(s,'Die Prüfung ist abgegeben. Änderungen sind nicht mehr möglich.'));st.h=score('h');st.l=score('l');render();go('antworten',1)}
 else if(st.t0){$('#begin').textContent=st.paused?'Pausierte Prüfung fortsetzen':'Prüfung fortsetzen';$('#reset').hidden=false}

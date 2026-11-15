@@ -1,0 +1,418 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Abend, hier ist Frau Hartmann von der Hausverwaltung. Der Handwerker kommt morgen zwischen acht und zwölf Uhr, um die Heizung zu reparieren. Bitte sorgen Sie dafür, dass jemand in der Wohnung ist.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich bin vor drei Wochen nach Stuttgart gezogen. Die Stadt gefällt mir gut, aber die Wohnungen sind sehr teuer. Ich teile mir jetzt eine Wohnung mit einem Kollegen, das spart viel Geld.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage für alle Besucher. Der Parkplatz hinter dem Gebäude ist heute wegen einer Veranstaltung gesperrt. Bitte nutzen Sie das Parkhaus an der Bahnhofstraße.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Hier spricht der Anrufbeantworter von Reisebüro Sonnenweg. Unser Büro ist montags bis freitags von zehn bis achtzehn Uhr geöffnet. Am Samstag haben wir nur bis dreizehn Uhr für Sie da.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Bei uns im Kurs sind zwölf Teilnehmer aus acht Ländern. Das finde ich toll, denn wir sprechen im Unterricht nur Deutsch. So lernt man am schnellsten.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Ben, ich habe gehört, du warst im Urlaub?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, zwei Wochen in Portugal. Wir waren im Süden, an der Algarve.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie war das Wetter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Super, fast jeden Tag Sonne, aber nicht zu heiß. Nur an einem Tag hat es geregnet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wo habt ihr gewohnt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "In einer kleinen Ferienwohnung, zehn Minuten vom Strand entfernt. Sie hat 55 Euro pro Nacht gekostet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie seid ihr dorthin gekommen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Mit dem Flugzeug bis Faro und dann mit dem Mietwagen. Das war praktisch, weil wir viele Orte besuchen wollten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was hat dir am besten gefallen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das Essen! Vor allem der frische Fisch. Und die Altstadt von Lagos, die ist wirklich schön.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hast du Portugiesisch gesprochen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nur ein paar Wörter. Die meisten Leute sprechen gut Englisch, das war einfach.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gab es auch Probleme?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ein bisschen. Am zweiten Tag war mein Koffer nicht da, er kam erst am nächsten Morgen. Aber die Fluggesellschaft hat sich entschuldigt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Würdest du wieder hinfahren?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Auf jeden Fall. Nächstes Jahr möchte ich im Frühling fahren, wenn es noch ruhiger ist.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Ben, ich habe gehört, du warst im Urlaub?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, zwei Wochen in Portugal. Wir waren im Süden, an der Algarve.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie war das Wetter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Super, fast jeden Tag Sonne, aber nicht zu heiß. Nur an einem Tag hat es geregnet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wo habt ihr gewohnt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "In einer kleinen Ferienwohnung, zehn Minuten vom Strand entfernt. Sie hat 55 Euro pro Nacht gekostet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie seid ihr dorthin gekommen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Mit dem Flugzeug bis Faro und dann mit dem Mietwagen. Das war praktisch, weil wir viele Orte besuchen wollten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was hat dir am besten gefallen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das Essen! Vor allem der frische Fisch. Und die Altstadt von Lagos, die ist wirklich schön.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hast du Portugiesisch gesprochen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nur ein paar Wörter. Die meisten Leute sprechen gut Englisch, das war einfach.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gab es auch Probleme?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ein bisschen. Am zweiten Tag war mein Koffer nicht da, er kam erst am nächsten Morgen. Aber die Fluggesellschaft hat sich entschuldigt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Würdest du wieder hinfahren?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Auf jeden Fall. Nächstes Jahr möchte ich im Frühling fahren, wenn es noch ruhiger ist.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier ist die Nachricht für Herrn Klein. Ihr Paket konnte heute nicht zugestellt werden. Sie können es bis Freitag in der Filiale in der Poststraße abholen. Bitte bringen Sie Ihren Ausweis mit.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier ist die Nachricht für Herrn Klein. Ihr Paket konnte heute nicht zugestellt werden. Sie können es bis Freitag in der Filiale in der Poststraße abholen. Bitte bringen Sie Ihren Ausweis mit.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich finde, dass man in der Stadt weniger Autos braucht. Wer jeden Tag mit dem Rad fährt, ist gesünder und spart Geld. Natürlich geht das nicht überall, auf dem Land ist ein Auto oft nötig.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich finde, dass man in der Stadt weniger Autos braucht. Wer jeden Tag mit dem Rad fährt, ist gesünder und spart Geld. Natürlich geht das nicht überall, auf dem Land ist ein Auto oft nötig.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Kunden, unser Supermarkt macht ab nächster Woche einen Umbau. Die Obstabteilung ist dann im Erdgeschoss. Die Öffnungszeiten ändern sich nicht.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Kunden, unser Supermarkt macht ab nächster Woche einen Umbau. Die Obstabteilung ist dann im Erdgeschoss. Die Öffnungszeiten ändern sich nicht.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Theatervorstellung am Freitag beginnt eine halbe Stunde später als geplant, nämlich um 19:30 Uhr. Wer schon Karten hat, kann sie behalten. Der Einlass ist ab 18:30 Uhr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Theatervorstellung am Freitag beginnt eine halbe Stunde später als geplant, nämlich um 19:30 Uhr. Wer schon Karten hat, kann sie behalten. Der Einlass ist ab 18:30 Uhr.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Die Stadtbibliothek hat zwei neue Angebote: ab Montag gibt es eine Lesestunde für Kinder, und im Cafébereich kann man jetzt Kaffee und Kuchen kaufen. Der Eintritt zur Bibliothek bleibt frei.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Die Stadtbibliothek hat zwei neue Angebote: ab Montag gibt es eine Lesestunde für Kinder, und im Cafébereich kann man jetzt Kaffee und Kuchen kaufen. Der Eintritt zur Bibliothek bleibt frei.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

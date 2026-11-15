@@ -1,0 +1,406 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, in zehn Minuten schließen wir. Bitte gehen Sie jetzt zu den Kassen. Die Kasse drei ist schon geschlossen. Frisches Brot gibt es heute nur noch zum halben Preis.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Restaurant Sonnenhof, guten Tag. Wir haben montags Ruhetag. Für Reservierungen rufen Sie bitte dienstags bis sonntags zwischen zehn und achtzehn Uhr an.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Heute ist Wochenmarkt auf dem Rathausplatz. Wegen des Regens beginnt er erst um zehn Uhr. Die Obststände sind aber schon aufgebaut.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Mira, hier ist Ben. Ich habe für Samstag einen Tisch im Restaurant reserviert, für sieben Uhr. Du musst nichts mitbringen. Sag mir nur bitte Bescheid, ob du vegetarisch isst.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Achtung, Kolleginnen und Kollegen: Die Kantine bleibt morgen wegen einer Kontrolle geschlossen. Bitte bringen Sie Ihr Mittagessen selbst mit. Am Donnerstag sind wir wieder für Sie da.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute bei uns im Studio: Frau Costa, Besitzerin des Restaurants „La Piazza“. Frau Costa, seit wann gibt es Ihr Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit drei Jahren. Vorher habe ich viele Jahre als Köchin in einem Hotel gearbeitet. Irgendwann wollte ich mein eigenes Restaurant haben.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist das Besondere an Ihrer Speisekarte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sie ändert sich jeden Monat. Ich koche nur mit Zutaten aus der Region, zum Beispiel mit Gemüse von einem Bauern, der zehn Kilometer entfernt wohnt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie groß ist das Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht sehr groß. Wir haben sechzehn Tische und acht Mitarbeiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet ein Mittagessen bei Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Unser Mittagstisch kostet acht Euro fünfzig, mit Suppe und Getränk. Das Abendessen ist natürlich teurer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wann ist bei Ihnen am meisten los?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Am Wochenende, besonders samstags. Dann sind alle Tische reserviert, und wir haben oft eine Warteliste.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist die größte Schwierigkeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gutes Personal zu finden. Viele Köche und Kellner arbeiten lieber in großen Städten. Aber wir bezahlen fair und bieten Wochenenden frei, jeden zweiten Sonntag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wann haben Sie geöffnet?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Von Dienstag bis Sonntag, am Montag ist Ruhetag. Im Sommer hätte ich gern eine Terrasse mit zwanzig Plätzen. Die Stadt prüft gerade den Antrag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Dann drücken wir die Daumen. Vielen Dank, Frau Costa.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute bei uns im Studio: Frau Costa, Besitzerin des Restaurants „La Piazza“. Frau Costa, seit wann gibt es Ihr Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit drei Jahren. Vorher habe ich viele Jahre als Köchin in einem Hotel gearbeitet. Irgendwann wollte ich mein eigenes Restaurant haben.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist das Besondere an Ihrer Speisekarte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sie ändert sich jeden Monat. Ich koche nur mit Zutaten aus der Region, zum Beispiel mit Gemüse von einem Bauern, der zehn Kilometer entfernt wohnt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie groß ist das Restaurant?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht sehr groß. Wir haben sechzehn Tische und acht Mitarbeiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet ein Mittagessen bei Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Unser Mittagstisch kostet acht Euro fünfzig, mit Suppe und Getränk. Das Abendessen ist natürlich teurer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wann ist bei Ihnen am meisten los?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Am Wochenende, besonders samstags. Dann sind alle Tische reserviert, und wir haben oft eine Warteliste.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist die größte Schwierigkeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gutes Personal zu finden. Viele Köche und Kellner arbeiten lieber in großen Städten. Aber wir bezahlen fair und bieten Wochenenden frei, jeden zweiten Sonntag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wann haben Sie geöffnet?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Von Dienstag bis Sonntag, am Montag ist Ruhetag. Im Sommer hätte ich gern eine Terrasse mit zwanzig Plätzen. Die Stadt prüft gerade den Antrag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Dann drücken wir die Daumen. Vielen Dank, Frau Costa.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Bäckerei Krause. Ihre Torte für Samstag ist bestellt. Sie können sie ab Freitag um zwölf Uhr abholen. Bitte bringen Sie die Quittung mit.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Bäckerei Krause. Ihre Torte für Samstag ist bestellt. Sie können sie ab Freitag um zwölf Uhr abholen. Bitte bringen Sie die Quittung mit.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Fast Food nicht so schlecht ist, wie alle sagen. Wichtig ist nur, dass man nicht jeden Tag Burger isst. Ich esse selbst nur einmal pro Woche so etwas.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Fast Food nicht so schlecht ist, wie alle sagen. Wichtig ist nur, dass man nicht jeden Tag Burger isst. Ich esse selbst nur einmal pro Woche so etwas.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, wegen einer Inventur ist unser Getränkemarkt am Dienstag geschlossen. Der Supermarkt ist wie immer von acht bis zwanzig Uhr geöffnet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, wegen einer Inventur ist unser Getränkemarkt am Dienstag geschlossen. Der Supermarkt ist wie immer von acht bis zwanzig Uhr geöffnet.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Heute in der Sendung: Tipps zum Sparen beim Einkaufen. Vergleichen Sie Preise, schreiben Sie eine Liste und gehen Sie nie hungrig einkaufen. So sparen Sie bis zu zwanzig Prozent.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Heute in der Sendung: Tipps zum Sparen beim Einkaufen. Vergleichen Sie Preise, schreiben Sie eine Liste und gehen Sie nie hungrig einkaufen. So sparen Sie bis zu zwanzig Prozent.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Mama, ich bin es, Lisa. Ich komme am Sonntag zum Mittagessen, aber ich bringe meinen Freund mit. Er isst kein Fleisch. Kannst du bitte etwas Vegetarisches kochen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Mama, ich bin es, Lisa. Ich komme am Sonntag zum Mittagessen, aber ich bringe meinen Freund mit. Er isst kein Fleisch. Kannst du bitte etwas Vegetarisches kochen?",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

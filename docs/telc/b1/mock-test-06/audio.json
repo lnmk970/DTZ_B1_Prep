@@ -1,0 +1,406 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Mieter, am Donnerstag wird von acht bis zehn Uhr das Treppenhaus gestrichen. Bitte stellen Sie in dieser Zeit nichts ins Treppenhaus. Der Aufzug ist ebenfalls außer Betrieb.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist Immobilien Kranz. Die Besichtigung der Wohnung in der Gartenstraße findet morgen um siebzehn Uhr statt, nicht um sechzehn Uhr. Bitte seien Sie pünktlich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Und nun der Verkehr: Wegen einer Baustelle ist die Hauptstraße in beiden Richtungen gesperrt. Bitte fahren Sie über die Ringstraße. Die Sperrung dauert bis Freitag.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hi Sara, ich bin es, Tim. Ich ziehe am Samstag um und brauche noch zwei Helfer. Wir fangen um neun an, und es gibt Pizza für alle. Hast du Zeit?",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Der Recyclinghof schließt ab nächster Woche samstags schon um vierzehn Uhr, nicht erst um sechzehn Uhr. Montag bis Freitag bleiben die Zeiten gleich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Yılmaz vom Mieterverein. Frau Yılmaz, wie lange arbeiten Sie schon dort?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit zwanzig Jahren. Am Anfang war ich nur im Büro, heute berate ich selbst die Mitglieder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Mit welchen Fragen kommen die Leute am häufigsten zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Meistens geht es um die Nebenkosten. Viele verstehen die Abrechnung nicht oder finden sie zu hoch. Danach kommen Fragen zu Mieterhöhungen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist wichtig, wenn ein Mieter kündigen möchte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Kündigung muss schriftlich sein. In der Regel beträgt die Frist drei Monate. Man sollte den Brief unterschreiben und am besten per Einschreiben schicken.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Kaution?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die darf höchstens drei Monatsmieten kosten. Viele Vermieter verlangen weniger. Wichtig ist, dass man eine Quittung bekommt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet die Mitgliedschaft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sechzig Euro im Jahr. Die Beratung ist für Mitglieder kostenlos. Sie findet dienstags und donnerstags statt, jeweils von zehn bis sechzehn Uhr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie einen Tipp für Mieter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja: Mängel in der Wohnung immer schriftlich melden und eine Kopie behalten. Bei Schimmel zum Beispiel sollte man sofort den Vermieter informieren und nicht selbst renovieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Kommen die Mieter früh genug zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Leider nicht immer. Viele warten monatelang und kommen erst, wenn das Problem sehr groß ist. Früher ist besser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Yılmaz.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Yılmaz vom Mieterverein. Frau Yılmaz, wie lange arbeiten Sie schon dort?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Seit zwanzig Jahren. Am Anfang war ich nur im Büro, heute berate ich selbst die Mitglieder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Mit welchen Fragen kommen die Leute am häufigsten zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Meistens geht es um die Nebenkosten. Viele verstehen die Abrechnung nicht oder finden sie zu hoch. Danach kommen Fragen zu Mieterhöhungen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist wichtig, wenn ein Mieter kündigen möchte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Kündigung muss schriftlich sein. In der Regel beträgt die Frist drei Monate. Man sollte den Brief unterschreiben und am besten per Einschreiben schicken.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Kaution?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die darf höchstens drei Monatsmieten kosten. Viele Vermieter verlangen weniger. Wichtig ist, dass man eine Quittung bekommt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet die Mitgliedschaft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sechzig Euro im Jahr. Die Beratung ist für Mitglieder kostenlos. Sie findet dienstags und donnerstags statt, jeweils von zehn bis sechzehn Uhr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie einen Tipp für Mieter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja: Mängel in der Wohnung immer schriftlich melden und eine Kopie behalten. Bei Schimmel zum Beispiel sollte man sofort den Vermieter informieren und nicht selbst renovieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Kommen die Mieter früh genug zu Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Leider nicht immer. Viele warten monatelang und kommen erst, wenn das Problem sehr groß ist. Früher ist besser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Yılmaz.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Mieter, die Heizungsfirma kommt am Mittwoch zwischen acht und zwölf Uhr. Bitte lassen Sie jemanden in der Wohnung, damit der Techniker die Heizkörper prüfen kann.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Mieter, die Heizungsfirma kommt am Mittwoch zwischen acht und zwölf Uhr. Bitte lassen Sie jemanden in der Wohnung, damit der Techniker die Heizkörper prüfen kann.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich möchte lieber auf dem Land wohnen. Dort ist es ruhig, und die Miete ist niedriger. Aber ich brauche ein Auto, weil der Bus nur zweimal am Tag fährt. Für mich ist das in Ordnung.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich möchte lieber auf dem Land wohnen. Dort ist es ruhig, und die Miete ist niedriger. Aber ich brauche ein Auto, weil der Bus nur zweimal am Tag fährt. Für mich ist das in Ordnung.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, heute gibt es zwanzig Prozent Rabatt auf alle Farben und Pinsel in unserem Baumarkt. Das Angebot gilt nur bis achtzehn Uhr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, heute gibt es zwanzig Prozent Rabatt auf alle Farben und Pinsel in unserem Baumarkt. Das Angebot gilt nur bis achtzehn Uhr.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ein Tipp zum Energiesparen: Stellen Sie die Heizung nachts etwas niedriger ein, und lüften Sie kurz, aber kräftig. Dauerhaft gekippte Fenster kosten viel Geld.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ein Tipp zum Energiesparen: Stellen Sie die Heizung nachts etwas niedriger ein, und lüften Sie kurz, aber kräftig. Dauerhaft gekippte Fenster kosten viel Geld.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Frau Weber, hier ist Ihr Vermieter. Ich möchte Ihnen sagen, dass die Reparatur des Balkons erst nächste Woche beginnt, nicht diese. Sie müssen nichts tun.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Frau Weber, hier ist Ihr Vermieter. Ich möchte Ihnen sagen, dass die Reparatur des Balkons erst nächste Woche beginnt, nicht diese. Sie müssen nichts tun.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

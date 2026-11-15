@@ -1,0 +1,406 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage für die Reisenden nach München. Der Zug fährt heute nicht von Gleis vier, sondern von Gleis sieben. Er hat zehn Minuten Verspätung.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, Sie haben die Praxis von Doktor Berger erreicht. Wir sind bis zum zwölften August im Urlaub. In dringenden Fällen wenden Sie sich bitte an die Vertretung. Die Nummer lautet zwei drei vier eins, fünf fünf, sechs sechs.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Und nun das Wetter. Morgen wird es im Norden regnerisch bei etwa zwölf Grad. Im Süden scheint dagegen die Sonne, dort werden es bis zu zwanzig Grad.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Kunden, nur noch heute: Alle Wintermäntel im zweiten Stock kosten die Hälfte. Die Kasse für Mäntel finden Sie direkt neben der Rolltreppe.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Lukas, hier ist Sven. Ich schaffe es heute Abend leider nicht zum Fußball, weil ich Überstunden machen muss. Aber am Samstag habe ich Zeit, da können wir spielen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen zu unserer Sendung „Neu im Viertel“. Heute ist Herr Demir bei uns. Er hat vor einem Jahr eine kleine Bäckerei eröffnet. Herr Demir, wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich habe zwanzig Jahre als Verkäufer in einem großen Supermarkt gearbeitet. Das war okay, aber ich wollte etwas Eigenes machen. Backen war immer mein Hobby.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wo haben Sie das Backen gelernt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zuerst von meiner Großmutter. Später habe ich abends einen Kurs bei der Handwerkskammer besucht. Der hat ein halbes Jahr gedauert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "War es schwierig, einen Laden zu finden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sehr schwierig. Die Mieten in der Innenstadt sind hoch. Am Ende habe ich ein kleines Geschäft in einer Seitenstraße gefunden. Es war vorher ein Blumenladen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viele Mitarbeiter haben Sie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Moment drei. Meine Frau hilft am Wochenende, und eine Studentin arbeitet bei uns im Verkauf. Ich selbst stehe um drei Uhr nachts auf.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Um drei Uhr! Das ist früh. Was gefällt Ihnen trotzdem an der Arbeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Dass ich sehe, wie die Leute sich über das frische Brot freuen. Manche Kunden kommen jeden Morgen und bleiben noch kurz für einen Kaffee.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was ist die größte Herausforderung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das Geld. Die Zutaten sind teurer geworden. Ich möchte die Preise nicht erhöhen, deshalb verkaufe ich jetzt auch Kaffee und Kuchen. Das läuft gut.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie schon Pläne für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, im Herbst möchte ich Brotbackkurse für Kinder anbieten. Die Schule im Viertel hat schon Interesse gezeigt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch, Herr Demir, und viel Erfolg!",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen zu unserer Sendung „Neu im Viertel“. Heute ist Herr Demir bei uns. Er hat vor einem Jahr eine kleine Bäckerei eröffnet. Herr Demir, wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich habe zwanzig Jahre als Verkäufer in einem großen Supermarkt gearbeitet. Das war okay, aber ich wollte etwas Eigenes machen. Backen war immer mein Hobby.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wo haben Sie das Backen gelernt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zuerst von meiner Großmutter. Später habe ich abends einen Kurs bei der Handwerkskammer besucht. Der hat ein halbes Jahr gedauert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "War es schwierig, einen Laden zu finden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Sehr schwierig. Die Mieten in der Innenstadt sind hoch. Am Ende habe ich ein kleines Geschäft in einer Seitenstraße gefunden. Es war vorher ein Blumenladen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viele Mitarbeiter haben Sie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Moment drei. Meine Frau hilft am Wochenende, und eine Studentin arbeitet bei uns im Verkauf. Ich selbst stehe um drei Uhr nachts auf.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Um drei Uhr! Das ist früh. Was gefällt Ihnen trotzdem an der Arbeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Dass ich sehe, wie die Leute sich über das frische Brot freuen. Manche Kunden kommen jeden Morgen und bleiben noch kurz für einen Kaffee.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was ist die größte Herausforderung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das Geld. Die Zutaten sind teurer geworden. Ich möchte die Preise nicht erhöhen, deshalb verkaufe ich jetzt auch Kaffee und Kuchen. Das läuft gut.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie schon Pläne für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, im Herbst möchte ich Brotbackkurse für Kinder anbieten. Die Schule im Viertel hat schon Interesse gezeigt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch, Herr Demir, und viel Erfolg!",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Nachricht für Herrn Weiß. Ihr Teppich ist da. Sie können ihn ab morgen abholen. Das Geschäft ist bis achtzehn Uhr geöffnet. Am Donnerstag ist wegen einer Inventur geschlossen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Nachricht für Herrn Weiß. Ihr Teppich ist da. Sie können ihn ab morgen abholen. Das Geschäft ist bis achtzehn Uhr geöffnet. Am Donnerstag ist wegen einer Inventur geschlossen.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Kinder schon früh mit Computern lernen sollten. Aber wichtig ist, dass sie nicht stundenlang davor sitzen. Eine Stunde am Tag reicht in der Grundschule völlig aus.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Kinder schon früh mit Computern lernen sollten. Aber wichtig ist, dass sie nicht stundenlang davor sitzen. Eine Stunde am Tag reicht in der Grundschule völlig aus.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen Bauarbeiten fährt die Linie fünf bis Ende Mai nur bis zum Marktplatz. Von dort bringt Sie ein Ersatzbus zum Hauptbahnhof. Bitte planen Sie fünfzehn Minuten mehr Zeit ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen Bauarbeiten fährt die Linie fünf bis Ende Mai nur bis zum Marktplatz. Von dort bringt Sie ein Ersatzbus zum Hauptbahnhof. Bitte planen Sie fünfzehn Minuten mehr Zeit ein.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Sommerfest unserer Schule findet am zwanzigsten Juni statt. Wir brauchen noch Eltern, die Kuchen backen oder beim Aufbau helfen. Wer mitmachen möchte, trägt sich bitte bis Freitag in die Liste im Sekretariat ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Sommerfest unserer Schule findet am zwanzigsten Juni statt. Wir brauchen noch Eltern, die Kuchen backen oder beim Aufbau helfen. Wer mitmachen möchte, trägt sich bitte bis Freitag in die Liste im Sekretariat ein.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Gäste, das Restaurant im ersten Stock bleibt heute Abend wegen einer privaten Feier geschlossen. Unser Café im Erdgeschoss ist wie immer bis dreiundzwanzig Uhr für Sie da.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Gäste, das Restaurant im ersten Stock bleibt heute Abend wegen einer privaten Feier geschlossen. Unser Café im Erdgeschoss ist wie immer bis dreiundzwanzig Uhr für Sie da.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

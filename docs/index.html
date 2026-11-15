@@ -1,6 +1,76 @@
 <!DOCTYPE html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DTZ B1 · Modelltests</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794690728"></head>
-<body class="home-page"><header class="hero"><div class="hero-in"><div><div class="logo">DTZ B1</div><h1>7 Modelltests</h1><div class="theme">Prüfung am Donnerstag, 10. Dezember 2026 · <span id="count"></span></div></div><div class="stats" id="stats"></div></div></header>
-<main class="homemain"><div class="card"><div class="bar"><i id="bar"></i></div><p id="sum"></p><p class="hint">Jeder Test ist eine komplette Prüfung mit Zeitlimit. Bestanden: B1 im Sprechen und in Hören/Lesen (ab 33 von 45) oder im Schreiben. Dein Fortschritt wird nur in diesem Browser gespeichert.</p></div>
-<div id="list"></div></main>
-<script>const MOCKS=[{"n": 1, "f": "mock-test-01-day-01", "d": "Fr, 13. November 2026", "th": "Gesundheit und Alltag"}, {"n": 2, "f": "mock-test-02-day-02", "d": "Sa, 14. November 2026", "th": "Wohnen und Familie"}, {"n": 3, "f": "mock-test-03-day-03", "d": "So, 15. November 2026", "th": "Arbeit und Verkehr"}, {"n": 4, "f": "mock-test-04-day-04", "d": "Mo, 16. November 2026", "th": "Schule, Kurs, Bildung"}, {"n": 5, "f": "mock-test-05-day-05", "d": "Di, 17. November 2026", "th": "Reisen und Urlaub"}, {"n": 6, "f": "mock-test-06-day-06", "d": "Mi, 18. November 2026", "th": "Essen und Einkaufen"}, {"n": 7, "f": "mock-test-07-day-07", "d": "Do, 19. November 2026", "th": "Post, Bank, Ämter"}];</script><script src="assets/index.js?v=1794690728"></script></body></html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>German Exam Prep</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d1b2e;--bg:#e8edf3;--card:#fff;--bd:#d3dbe6;--tx:#14233a;--mut:#62728a;--pri:#0b7a75;--sel:#e1f4f2;--ok:#16a067;--warn:#f0a22e;--bad:#d6402f;--gold:#f6c25b;--sans:'Manrope','Segoe UI',system-ui,sans-serif}
+*{box-sizing:border-box}body{margin:0;font:15px/1.55 var(--sans);background:var(--bg);color:var(--tx);-webkit-font-smoothing:antialiased}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+header{background:radial-gradient(900px 400px at 0 0,#1d4170 0,transparent 60%),var(--ink);color:#fff;padding:34px 20px 30px}
+.in{max-width:1040px;margin:0 auto}h1{font:800 clamp(1.7rem,5vw,2.5rem)/1.1 var(--sans);margin:0 0 6px;letter-spacing:-.02em}header p{margin:0;color:#b8c7dc}
+.wrap{max-width:1040px;margin:0 auto;padding:18px 16px 40px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr))}
+.ex{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.logo{display:inline-block;background:var(--gold);color:var(--ink);font-weight:800;letter-spacing:.04em;padding:5px 11px;border-radius:6px;font-size:.85rem}
+.ex h2{margin:8px 0 2px;font-size:1.45rem}.sub{color:var(--mut);font-size:.9rem;margin:0}
+.days{text-align:right;flex:none}.days b{display:block;font-size:1.9rem;line-height:1;font-weight:800}.days small{color:var(--mut)}
+.badge{display:inline-block;border-radius:99px;padding:3px 12px;font-weight:800;font-size:.85rem;color:#fff;background:#8a97ab}.badge.ok{background:var(--ok)}.badge.bad{background:var(--bad)}
+.prog{height:8px;background:#e3e9f1;border-radius:99px;overflow:hidden}.prog i{display:block;height:100%;background:var(--pri)}
+.sec{display:grid;gap:9px}.row{display:grid;grid-template-columns:104px 1fr 92px;gap:10px;align-items:center;font-size:.9rem}.row .m{height:8px;background:#e3e9f1;border-radius:99px;overflow:hidden}.row .m i{display:block;height:100%;background:var(--pri)}.row.weak .m i{background:var(--warn)}.row b{text-align:right;font-variant-numeric:tabular-nums}.row small{color:var(--mut)}
+.go{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto}.btn{flex:1;min-width:150px;text-align:center;text-decoration:none;background:var(--pri);color:#fff;border:1.5px solid var(--pri);border-radius:10px;padding:12px 18px;font:700 .95rem var(--sans);cursor:pointer}.btn.ghost{background:#fff;color:var(--pri)}.btn:hover{filter:brightness(.93)}
+.tools{max-width:1040px;margin:0 auto;padding:0 16px 40px}.tools .card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 18px}.tools h3{margin:0 0 4px;font-size:1rem}.tools p{margin:0 0 10px;color:var(--mut);font-size:.88rem}.tools .btn{flex:none;min-width:0;display:inline-block;margin-right:8px;padding:9px 16px}
+#msg{margin-left:6px;color:var(--mut);font-size:.88rem}
+@media(max-width:480px){.row{grid-template-columns:86px 1fr 74px}.ex{padding:16px}}
+</style></head>
+<body>
+<header><div class="in"><h1>German Exam Prep</h1><p>Modelltests unter Prüfungsbedingungen – dein Stand auf einen Blick.</p></div></header>
+<div class="wrap">
+<section class="ex" id="dtz"><div class="top"><div><span class="logo">DTZ B1</span><h2>Deutsch-Test für Zuwanderer</h2><p class="sub">Prüfung am 10. Dezember 2026</p></div><div class="days"><b id="dtzd">–</b><small>Tage</small></div></div>
+<div><div class="prog"><i id="dtzp"></i></div><p class="sub" id="dtzs" style="margin-top:6px"></p></div>
+<div class="sec" id="dtzr"></div><div id="dtzb"></div>
+<div class="go"><a class="btn" href="dtz/b1/">DTZ Modelltests öffnen</a></div></section>
+<section class="ex" id="telc"><div class="top"><div><span class="logo">telc B1</span><h2>telc Deutsch B1</h2><p class="sub">Prüfung am 25. Februar 2027</p></div><div class="days"><b id="telcd">–</b><small>Tage</small></div></div>
+<div><div class="prog"><i id="telcp"></i></div><p class="sub" id="telcs" style="margin-top:6px"></p></div>
+<div class="sec" id="telcr"></div><div id="telcb"></div>
+<div class="go"><a class="btn" href="telc/b1/">telc Modelltests öffnen</a></div></section>
+</div>
+<div class="tools"><div class="card"><h3>Fortschritt sichern oder auf ein anderes Gerät mitnehmen</h3><p>Dein Fortschritt liegt nur in diesem Browser. Speichere ihn als Datei und lade sie auf dem anderen Gerät hier wieder hoch. Aufnahmen (Sprechen) sind nicht enthalten.</p>
+<button class="btn ghost" id="exp" type="button">Fortschritt exportieren</button><label class="btn ghost" style="cursor:pointer">Fortschritt importieren<input id="imp" type="file" accept="application/json,.json" hidden></label><span id="msg"></span></div></div>
+<script>
+(function(){
+const N=7,today=new Date();
+const get=k=>{try{return JSON.parse(localStorage.getItem(k)||'{}')}catch(e){return{}}};
+const avg=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:null;
+const pct=v=>v===null?'–':Math.round(v*100)+' %';
+const rows=(el,R)=>{const vs=R.filter(r=>r[1]!==null);const mn=vs.length>1?Math.min(...vs.map(r=>r[1])):null;
+ document.getElementById(el).innerHTML=R.map(r=>'<div class="row'+(r[1]!==null&&r[1]===mn&&vs.length>1?' weak':'')+'"><span>'+r[0]+'</span><div class="m"><i style="width:'+(r[1]===null?0:Math.round(r[1]*100))+'%"></i></div><b>'+pct(r[1])+(r[2]?' <small>'+r[2]+'</small>':'')+'</b></div>').join('')};
+const days=(id,iso)=>{const d=Math.ceil((new Date(iso+'T00:00:00')-today)/864e5);document.getElementById(id).textContent=d>0?d:'0'};
+const badge=(id,txt,cls)=>document.getElementById(id).innerHTML='<span class="badge '+cls+'">'+txt+'</span>';
+// DTZ
+(function(){const S={h:[],l:[],s:[],p:[]};let begun=0,fin=0,best=-1;const LV=['A1','A2','B1'];
+ for(let n=1;n<=N;n++){const st=get('dtz:'+n);if(st.t0)begun++;if(!st.fin)continue;fin++;S.h.push(st.h/20);S.l.push(st.l/25);
+  if(st.sw&&st.sw.m)S.s.push(st.sw.p/st.sw.m);if(st.ss&&st.ss.m)S.p.push(st.ss.p/st.ss.m);
+  if(st.p!==undefined&&st.s!==undefined){const hl=st.h+st.l,P=+st.p,Sc=+st.s;const o=P===2&&(hl>=33||Sc===2)?2:(P>=1&&(hl>=20||Sc>=1))?1:0;if(o>best)best=o}}
+ days('dtzd','2026-12-10');document.getElementById('dtzp').style.width=(fin/N*100)+'%';
+ document.getElementById('dtzs').textContent=fin+' von '+N+' Modelltests abgeschlossen'+(begun>fin?' · '+(begun-fin)+' begonnen':'');
+ rows('dtzr',[['Hören',avg(S.h)],['Lesen',avg(S.l)],['Schreiben',avg(S.s)],['Sprechen',avg(S.p)]]);
+ if(best>=0)badge('dtzb','Bestes Gesamtergebnis: '+LV[best],best===2?'ok':'bad');else badge('dtzb','Noch kein Gesamtergebnis','')})();
+// telc
+(function(){const S={l:[],s:[],h:[],w:[],m:[]};let begun=0,fin=0,bestT=null,bestOk=false;
+ for(let n=1;n<=N;n++){const st=get('telc:mt:'+n);if(st.t0)begun++;if(!st.fin||!st.sc)continue;fin++;const c=st.sc;S.l.push(c.l/20);S.s.push(c.s/20);S.h.push(c.h/20);
+  const P=st.pt||{l:c.l*3.75,s:c.s*1.5,h:c.h*3.75},base=P.l+P.s+P.h,sch=parseFloat(st.ssch),spr=parseFloat(st.sspr);
+  if(!isNaN(sch))S.w.push(sch/45);if(!isNaN(spr))S.m.push(spr/75);
+  if(!isNaN(sch)&&!isNaN(spr)){const tot=base+sch+spr,ok=base+sch>=135&&spr>=45;if(bestT===null||tot>bestT){bestT=tot;bestOk=ok}}}
+ days('telcd','2027-02-25');document.getElementById('telcp').style.width=(fin/N*100)+'%';
+ document.getElementById('telcs').textContent=fin+' von '+N+' Modelltests abgeschlossen'+(begun>fin?' · '+(begun-fin)+' begonnen':'');
+ rows('telcr',[['Lesen',avg(S.l)],['Sprachbausteine',avg(S.s)],['Hören',avg(S.h)],['Schreiben',avg(S.w)],['Sprechen',avg(S.m)]]);
+ if(bestT!==null)badge('telcb','Bestes Gesamtergebnis: '+String(Math.round(bestT*10)/10).replace('.0','')+' von 300 · '+(bestOk?'bestanden':'nicht bestanden'),bestOk?'ok':'bad');else badge('telcb','Noch kein Gesamtergebnis','')})();
+// export / import (localStorage keys of both exams)
+const msg=t=>document.getElementById('msg').textContent=t;
+document.getElementById('exp').onclick=()=>{const o={app:'german-exam-prep',v:1,at:new Date().toISOString(),data:{}};
+ try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(/^(dtz:|telc:)/.test(k))o.data[k]=localStorage.getItem(k)}}catch(e){}
+ const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(o)],{type:'application/json'}));a.download='german-exam-prep-fortschritt-'+o.at.slice(0,10)+'.json';a.click();msg(Object.keys(o.data).length+' Einträge gespeichert.')};
+document.getElementById('imp').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const o=JSON.parse(r.result);if(o.app!=='german-exam-prep'||!o.data)throw 0;
+ const ks=Object.keys(o.data).filter(k=>/^(dtz:|telc:)/.test(k));if(!ks.length)throw 0;
+ if(!confirm(ks.length+' Einträge importieren? Vorhandene Einträge mit gleichem Namen werden überschrieben.'))return;
+ ks.forEach(k=>localStorage.setItem(k,o.data[k]));msg('Importiert. Seite wird neu geladen …');setTimeout(()=>location.reload(),600)}catch(x){msg('Diese Datei passt nicht.')}};r.readAsText(f)};
+})();
+</script></body></html>

@@ -1,0 +1,430 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Mitarbeiter, die Betriebsversammlung beginnt um vierzehn Uhr im großen Konferenzraum im zweiten Stock. Bitte seien Sie pünktlich. Der Raum im Erdgeschoss ist heute nicht frei.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Personalabteilung der Firma Neumann. Wir haben Ihre Bewerbung erhalten und möchten Sie am Dienstag um zehn Uhr zu einem Gespräch einladen. Bitte rufen Sie uns kurz zurück.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Arbeitsamt Aachen teilt mit: Die Zahl der Arbeitslosen ist im Oktober leicht gesunken. Besonders viele neue Stellen gibt es in der Pflege und im Handwerk.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Elena, hier ist Jan. Ich muss morgen früher ins Büro, weil der Chef eine Besprechung um sieben Uhr angesetzt hat. Kannst du mich um sechs Uhr abholen?",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Achtung, liebe Kunden und Mitarbeiter: Wegen eines Stromausfalls sind die Kassen für etwa dreißig Minuten nicht in Betrieb. Wir bitten um Ihr Verständnis.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Dr. Lehmann, Karriereberaterin. Frau Lehmann, womit beschäftigen Sie sich?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich berate Menschen bei der Berufswahl und beim Wechsel der Stelle. In den letzten Jahren kommt oft die Frage: Büro oder Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was wünschen sich die meisten Arbeitnehmer?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die wenigsten wollen ganz zu Hause arbeiten. Die meisten möchten zwei bis drei Tage zu Hause und den Rest der Woche im Büro sein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was spricht für das Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Viele sind dort konzentrierter, weil niemand sie stört. Außerdem sparen sie den Weg zur Arbeit. Das sind oft ein bis zwei Stunden am Tag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Nachteile?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Der Kontakt zu den Kollegen fehlt. Man spricht weniger über Ideen, und manchmal fühlt man sich allein. Außerdem braucht man zu Hause einen ruhigen Platz zum Arbeiten. Das hat nicht jeder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was raten Sie Menschen im Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Feste Arbeitszeiten einhalten und Pausen machen. Sonst arbeitet man abends noch und kann nicht abschalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wer bezahlt die Kosten, zum Beispiel für Internet und Strom?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das ist nicht überall gleich. Manche Firmen zahlen einen Teil, andere nichts. Deshalb sollte man vorher mit dem Vorgesetzten sprechen und alles schriftlich festhalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit jungen Mitarbeitern?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Büro lernen sie oft schneller, weil sie Fragen direkt stellen können und von Kollegen lernen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wird das Büro bald überflüssig sein?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nein, das glaube ich nicht. Menschen brauchen Treffpunkte. Das Büro wird sich verändern, aber es bleibt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Heute im Studio: Frau Dr. Lehmann, Karriereberaterin. Frau Lehmann, womit beschäftigen Sie sich?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich berate Menschen bei der Berufswahl und beim Wechsel der Stelle. In den letzten Jahren kommt oft die Frage: Büro oder Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was wünschen sich die meisten Arbeitnehmer?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die wenigsten wollen ganz zu Hause arbeiten. Die meisten möchten zwei bis drei Tage zu Hause und den Rest der Woche im Büro sein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was spricht für das Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Viele sind dort konzentrierter, weil niemand sie stört. Außerdem sparen sie den Weg zur Arbeit. Das sind oft ein bis zwei Stunden am Tag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und die Nachteile?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Der Kontakt zu den Kollegen fehlt. Man spricht weniger über Ideen, und manchmal fühlt man sich allein. Außerdem braucht man zu Hause einen ruhigen Platz zum Arbeiten. Das hat nicht jeder.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was raten Sie Menschen im Homeoffice?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Feste Arbeitszeiten einhalten und Pausen machen. Sonst arbeitet man abends noch und kann nicht abschalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wer bezahlt die Kosten, zum Beispiel für Internet und Strom?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Das ist nicht überall gleich. Manche Firmen zahlen einen Teil, andere nichts. Deshalb sollte man vorher mit dem Vorgesetzten sprechen und alles schriftlich festhalten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit jungen Mitarbeitern?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Im Büro lernen sie oft schneller, weil sie Fragen direkt stellen können und von Kollegen lernen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wird das Büro bald überflüssig sein?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nein, das glaube ich nicht. Menschen brauchen Treffpunkte. Das Büro wird sich verändern, aber es bleibt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank für das Gespräch.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Zeitarbeitsfirma Rapid. Für Montag haben wir einen Job für Sie: Lagerarbeit in Düren, von sechs bis vierzehn Uhr. Bitte bringen Sie Ihren Ausweis mit.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Guten Tag, hier ist die Zeitarbeitsfirma Rapid. Für Montag haben wir einen Job für Sie: Lagerarbeit in Düren, von sechs bis vierzehn Uhr. Bitte bringen Sie Ihren Ausweis mit.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Arbeit nicht das Wichtigste im Leben ist. Familie und Freunde sind mir wichtiger. Deshalb arbeite ich nur Teilzeit, auch wenn ich dadurch weniger verdiene.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Arbeit nicht das Wichtigste im Leben ist. Familie und Freunde sind mir wichtiger. Deshalb arbeite ich nur Teilzeit, auch wenn ich dadurch weniger verdiene.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen eines Streiks fahren heute keine S-Bahnen. Die Busse fahren nach Plan. Ihre Fahrkarte gilt auch im Bus.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Fahrgäste, wegen eines Streiks fahren heute keine S-Bahnen. Die Busse fahren nach Plan. Ihre Fahrkarte gilt auch im Bus.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "In unserer Sendung geht es heute um Bewerbungen: Schicken Sie nie dasselbe Anschreiben an mehrere Firmen. Zeigen Sie, dass Sie sich für genau diese Stelle interessieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "In unserer Sendung geht es heute um Bewerbungen: Schicken Sie nie dasselbe Anschreiben an mehrere Firmen. Zeigen Sie, dass Sie sich für genau diese Stelle interessieren.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Herr Becker, hier ist Ihre Bank. Der Termin zum Thema Kredit ist verschoben worden, und zwar auf Donnerstag um vierzehn Uhr. Bitte bestätigen Sie den Termin per E-Mail.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Herr Becker, hier ist Ihre Bank. Der Termin zum Thema Kredit ist verschoben worden, und zwar auf Donnerstag um vierzehn Uhr. Bitte bestätigen Sie den Termin per E-Mail.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

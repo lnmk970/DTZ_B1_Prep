@@ -1,0 +1,418 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Praxis Doktor Wagner, guten Tag. Wegen einer Fortbildung ist die Praxis nächste Woche von Montag bis Mittwoch geschlossen. Ab Donnerstag sind wir wieder für Sie da. Bei Notfällen wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Verkehrsmeldung: Auf der Autobahn A fünf zwischen Frankfurt und Darmstadt gibt es nach einem Unfall sechs Kilometer Stau. Fahrer sollten die Ausfahrt Langen nehmen und über die Landstraße fahren.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Kunden, heute im Angebot: frische Erdbeeren aus der Region für nur zwei Euro neunzig die Schale. Das Angebot gilt nur bis achtzehn Uhr.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich spiele seit zehn Jahren Gitarre. Früher habe ich in einer Band gespielt, aber seit ich Kinder habe, habe ich keine Zeit mehr für Proben. Jetzt spiele ich nur noch zu Hause, manchmal abends für meine Familie.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo Max, hier ist deine Schwester. Ich wollte nur sagen, dass ich am Samstag doch nicht zu deiner Party kommen kann. Meine Chefin hat mich gebeten, die Schicht zu tauschen. Ich melde mich am Sonntag wieder.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und dann haben Sie sich gesteigert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie haben Sie für den Marathon trainiert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und die Ernährung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gab es Probleme beim Training?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie lange haben Sie im Marathon gebraucht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Waren Sie trotzdem zufrieden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Planen Sie noch einen Marathon?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und dann haben Sie sich gesteigert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie haben Sie für den Marathon trainiert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Und die Ernährung?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Gab es Probleme beim Training?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wie lange haben Sie im Marathon gebraucht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Waren Sie trotzdem zufrieden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Planen Sie noch einen Marathon?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

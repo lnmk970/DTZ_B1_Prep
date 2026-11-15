@@ -1,0 +1,406 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Achtung, eine Durchsage der Volkshochschule. Der Kurs Italienisch für Anfänger beginnt heute nicht um 18 Uhr, sondern erst um 18 Uhr 30. Bitte warten Sie vor Raum 204.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Mailbox von Frau Lindner. Ich bin heute nicht im Büro. Wenn Sie wegen der Prüfungsanmeldung anrufen, melden Sie sich bitte bis Freitag im Sekretariat. Danach ist die Anmeldung geschlossen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Und nun die Verkehrsmeldung: Auf der A4 gibt es zwischen Köln und Aachen sieben Kilometer Stau. Fahren Sie besser über die Landstraße. Sie verlieren so etwa zwanzig Minuten.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hallo Anna, hier ist Paul. Ich kann morgen nicht mit dir lernen, weil mein Zug Verspätung hat. Wollen wir uns stattdessen am Mittwoch in der Bibliothek treffen? Ruf mich bitte zurück.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Gäste, unsere Kantine hat ab sofort eine neue Öffnungszeit. Sie ist montags bis freitags von elf bis vierzehn Uhr geöffnet. Am Wochenende bleibt sie geschlossen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie lange dauert der Unterricht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Fächer lernen die Schüler?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viel kostet der Besuch?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie viele schaffen am Ende den Abschluss?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie jemandem raten, der noch zögert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Ilić, für das Gespräch.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie lange dauert der Unterricht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Fächer lernen die Schüler?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viel kostet der Besuch?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie viele schaffen am Ende den Abschluss?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie jemandem raten, der noch zögert?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Vielen Dank, Frau Ilić, für das Gespräch.",
+   "p": 20,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 3,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 2.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.",
+   "p": 9,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}
