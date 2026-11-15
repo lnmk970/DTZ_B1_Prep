@@ -257,7 +257,7 @@ def build_page(n, M, total):
     meta = json.dumps({"n": n, "key": key, "ex": ex, "tk": TK, "wm": {"A": model, "B": modelB}, "wl": {"A": list(lp), "B": list(lpB)}, "ws": {"A": sit, "B": sitB}, "sp": {"t1": {"pts": list(p1[0]), "q": list(p1[1])}, "a": {"d": p2[0], "q": list(p2[1])}, "b": {"d": p2b[0], "q": list(p2b[1])}, "p3": {"t": p3[0], "b": list(p3[1])}}, "rg": {"A": WC.REG[n][0], "B": WC.REG[n][1]}, "kw": {"A": WC.KW[n][0], "B": WC.KW[n][1]}, "pm": P_model}, ensure_ascii=False).replace("</", "<\\/")
     save = ""
     return f"""<!DOCTYPE html>
-<html lang="de" translate="no"><head><meta charset="utf-8"><meta name="google" content="notranslate" id="nt"><script>try{{var _s=JSON.parse(localStorage.getItem("dtz:{n}")||"{{}}");if(_s.fin){{document.getElementById("nt").remove();document.documentElement.removeAttribute("translate")}}}}catch(e){{}}</script><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="de" translate="no"><head><meta charset="utf-8"><meta name="google" content="notranslate" id="nt"><script>try{{var _s=JSON.parse(localStorage.getItem("dtz:{n}")||"{{}}");if(_s.fin){{document.getElementById("nt").remove();document.documentElement.removeAttribute("translate")}}}}catch(e){{}}</script><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="apple-touch-icon" href="../../../apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Deutsch B1"><meta name="theme-color" content="#12263f">
 <title>DTZ B1 · Modelltest {n}</title>{FONTS}<link rel="stylesheet" href="../assets/style.css?v={BUILD}"></head>
 <body class="exam">
 <div id="start"><div class="hero-l"><div><span class="logo">DTZ B1</span><div class="big">{n}</div><h1>Modelltest {n}</h1><p>{E(M['th'])} · {ds}</p></div><p>Deutsch-Test für Zuwanderer · Probeprüfung unter Prüfungsbedingungen</p></div>
@@ -293,7 +293,7 @@ def build_page(n, M, total):
 def build_index(mocks):
     meta = json.dumps([{"n": i + 1, "f": folder(i + 1), "d": date_of(i + 1)[1], "th": M["th"]} for i, M in enumerate(mocks)], ensure_ascii=False)
     return f"""<!DOCTYPE html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DTZ B1 · Modelltests</title>{FONTS}<link rel="stylesheet" href="assets/style.css?v={BUILD}"></head>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="apple-touch-icon" href="../../apple-touch-icon.png"><meta name="apple-mobile-web-app-title" content="Deutsch B1"><meta name="theme-color" content="#12263f"><title>DTZ B1 · Modelltests</title>{FONTS}<link rel="stylesheet" href="assets/style.css?v={BUILD}"></head>
 <body class="home-page"><header class="hero"><div class="hero-in"><div><a class="hublink" href="../../">← Hauptseite</a><div class="logo">DTZ B1</div><h1>{len(mocks)} Modelltests</h1><div class="theme">Prüfung am Donnerstag, 10. Dezember 2026 · <span id="count"></span></div></div><div class="stats" id="stats"></div></div></header>
 <main class="homemain"><div class="card"><div class="bar"><i id="bar"></i></div><p id="sum"></p><p class="hint">Jeder Test ist eine komplette Prüfung mit Zeitlimit. Bestanden: B1 im Sprechen und in Hören/Lesen (ab 33 von 45) oder im Schreiben. Dein Fortschritt wird nur in diesem Browser gespeichert.</p></div>
 <div id="list"></div></main>
