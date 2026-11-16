@@ -72,9 +72,9 @@ function pal(){
  TK[cur].forEach((ks,idx)=>{
   h+='<div class="grp">'+esc(titles[idx])+'</div><div class="g">';
   ks.forEach(k=>{const e=EX[k],a=st.sel[k]!==undefined,v=st.vis[k]&&!a&&idx!==ti;
-   h+='<a data-k="'+k+'" data-t="'+idx+'" class="'+(a?'ans':v?'vis':'')+(idx===ti&&false?' curT':'')+'">'+e.n+'</a>'});
+   h+='<a data-k="'+k+'" data-t="'+idx+'" class="'+(st.fin?(a?(String(KEY[k])===st.sel[k]?'r':'w'):'vis'):(a?'ans':v?'vis':''))+(idx===ti&&false?' curT':'')+'">'+e.n+'</a>'});
   h+='</div>'});
- h+='<div class="legend"><span class="l-a">beantwortet</span><span class="l-v">nicht beantwortet (übersprungen)</span><span class="l-n">noch nicht gesehen</span></div>';
+ h+=st.fin?'<div class="legend"><span class="l-a">richtig</span><span class="l-w">falsch</span><span class="l-v">nicht beantwortet</span></div>':'<div class="legend"><span class="l-a">beantwortet</span><span class="l-v">nicht beantwortet (übersprungen)</span><span class="l-n">noch nicht gesehen</span></div>';
  P.innerHTML=h;
  $$('#pal a').forEach(a=>a.onclick=()=>{showTask(cur,+a.dataset.t);const it=document.getElementById('i-'+a.dataset.k);if(it)it.scrollIntoView({block:'center',behavior:'smooth'})});
 }
@@ -163,7 +163,7 @@ function render(){
  const c=counts(),L=st.sc.l,S=st.sc.s,H=st.sc.h;
  const P=st.pt||{l:L*3.75,s:S*1.5,h:H*3.75},pl=P.l,ps=P.s,ph=P.h;
  $('#ans-sum').innerHTML='<div class="sum"><div><b>'+L+' / '+c.l[1]+'</b><small>Lesen · '+pl.toFixed(1).replace('.0','')+' von 75 Punkten</small></div><div><b>'+S+' / '+c.s[1]+'</b><small>Sprachbausteine · '+ps.toFixed(1).replace('.0','')+' von 30</small></div><div><b>'+H+' / '+c.h[1]+'</b><small>Hören · '+ph.toFixed(1).replace('.0','')+' von 75</small></div></div>';
- verdict();list();inline();
+ verdict();list();inline();pal();
  $('#schmodel').hidden=false;revWS();revSP();
 }
 function verdict(){
