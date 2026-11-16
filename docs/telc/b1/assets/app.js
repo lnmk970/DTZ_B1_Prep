@@ -157,9 +157,8 @@ function inline(){if(aud){aud.controls=true;aud.removeAttribute('hidden');aud.st
  it.querySelectorAll('.opt').forEach(l=>{const i=l.querySelector('input');if(!i)return;l.classList.remove('is-correct','is-wrong');
   if(i.value===a)l.classList.add('is-correct');else if(sv!==undefined&&i.value===sv)l.classList.add('is-wrong');
   if(sv!==undefined)i.checked=(i.value===sv)});
- const qb=it.querySelector('.qb');if(qb&&!qb.querySelector('.inres')){const d=document.createElement('div');d.className='inres';qb.appendChild(d)}
- const d=qb&&qb.querySelector('.inres'),e=EX[k]||{};it.classList.toggle('q-ok',sv===a);it.classList.toggle('q-bad',sv!==a);
- if(d)d.innerHTML=sv===a?'<span class="tag ok">✔ richtig</span>':'<span class="tag no">✘ '+(sv===undefined?'nicht beantwortet':'falsch')+'</span> Richtig ist: <b>'+esc(String(a).toUpperCase())+'</b>'+(e.why?'<p class="mem"><span class="lab">Warum?</span> '+esc(e.why)+'</p>':'')})}
+ const qb=it.querySelector('.qb');const old=qb.querySelector('.inexp,.inres');if(old)old.remove();it.classList.toggle('q-ok',sv===a);it.classList.toggle('q-bad',sv!==a);
+ const d=document.createElement('div');d.className='inexp';d.innerHTML=card(k,true);qb.appendChild(d)})}
 function render(){
  const c=counts(),L=st.sc.l,S=st.sc.s,H=st.sc.h;
  const P=st.pt||{l:L*3.75,s:S*1.5,h:H*3.75},pl=P.l,ps=P.s,ph=P.h;
@@ -178,10 +177,11 @@ function verdict(){
  v.innerHTML=t;
 }
 function opt(e,i){return e.ot?(e.ot[i]):''}
-function card(k){
+function card(k,inl){
  const e=EX[k],s=st.sel[k],a=String(KEY[k]),ok=s===a,none=s===undefined;
  const cls=none?'w':ok?'r':'w';
  const show=v=>{if(v===undefined)return '<i>keine Antwort</i>';if(e.t==='mc'){const i='abc'.indexOf(v);return '<b>'+v+'</b> · '+esc(opt(e,i))}if(e.t==='rf')return '<b>'+(v==='r'?'richtig':'falsch')+'</b>';return '<b>'+esc(v)+'</b>'};
+ if(inl)return '<div class="a-item inl '+cls+'"><div class="a-body"><p><span class="tag '+(ok?'ok':none?'nil':'no')+'">'+(ok?'richtig':none?'nicht beantwortet':'falsch')+'</span></p><p><span class="lab">Deine Antwort:</span> '+show(s)+'</p><p><span class="lab">Richtig:</span> '+show(a)+'</p><p class="mem"><span class="lab">Warum?</span> '+esc(e.why)+'</p></div></div>';
  return '<div class="a-item '+cls+'" data-ok="'+(ok?1:0)+'"><div class="a-head"><span>'+e.n+'</span><span class="tag '+(ok?'ok':'no')+'">'+(ok?'richtig':none?'offen':'falsch')+'</span><small>'+esc(e.tit)+'</small></div><div class="a-body"><p class="lab">Aufgabe</p><p>'+esc(e.q)+'</p><p><span class="lab">Ihre Antwort:</span> '+show(s)+'</p><p><span class="lab">Richtig:</span> '+show(a)+'</p><p class="mem"><span class="lab">Warum?</span> '+esc(e.why)+'</p></div></div>';
 }
 function list(f){
