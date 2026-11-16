@@ -151,11 +151,17 @@ function openFinish(){
 }
 /* ---------- Auswertung ---------- */
 function pct(a,b){return b?Math.round(a/b*100):0}
+function inline(){Object.keys(KEY).forEach(k=>{const it=document.getElementById('i-'+k);if(!it)return;const sv=st.sel[k],a=String(KEY[k]);
+ it.querySelectorAll('.opt').forEach(l=>{const i=l.querySelector('input');if(!i)return;l.classList.remove('is-correct','is-wrong');
+  if(i.value===a)l.classList.add('is-correct');else if(sv!==undefined&&i.value===sv)l.classList.add('is-wrong');
+  if(sv!==undefined)i.checked=(i.value===sv)});
+ const qb=it.querySelector('.qb');if(qb&&!qb.querySelector('.inres')){const d=document.createElement('div');d.className='inres';qb.appendChild(d)}
+ const d=qb&&qb.querySelector('.inres');if(d)d.innerHTML=sv===a?'<span class="tag ok">richtig</span>':'<span class="tag no">'+(sv===undefined?'offen':'falsch')+'</span> Richtig ist: <b>'+esc(String(a).toUpperCase())+'</b>'})}
 function render(){
  const c=counts(),L=st.sc.l,S=st.sc.s,H=st.sc.h;
  const P=st.pt||{l:L*3.75,s:S*1.5,h:H*3.75},pl=P.l,ps=P.s,ph=P.h;
  $('#ans-sum').innerHTML='<div class="sum"><div><b>'+L+' / '+c.l[1]+'</b><small>Lesen · '+pl.toFixed(1).replace('.0','')+' von 75 Punkten</small></div><div><b>'+S+' / '+c.s[1]+'</b><small>Sprachbausteine · '+ps.toFixed(1).replace('.0','')+' von 30</small></div><div><b>'+H+' / '+c.h[1]+'</b><small>Hören · '+ph.toFixed(1).replace('.0','')+' von 75</small></div></div>';
- verdict();list();
+ verdict();list();inline();
  $('#schmodel').hidden=false;revWS();revSP();
 }
 function verdict(){

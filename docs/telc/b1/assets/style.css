@@ -97,3 +97,4 @@ textarea{width:100%;min-height:340px;font:1.06rem/1.7 var(--serif);padding:15px 
 .hublink{display:block;color:#b8c7dc;font-weight:700;text-decoration:none;margin-bottom:10px;font-size:.9rem}.hublink:hover{color:#fff}
 .tblw{overflow-x:auto;margin:10px 0}.sptbl{border-collapse:collapse;width:100%;font-size:.92rem}.sptbl th,.sptbl td{border:1px solid var(--bd);padding:7px 10px;text-align:left}.sptbl th{background:var(--sel)}.sptbl td b{font-size:1.05rem}.sptbl small{color:var(--mut,#667)}
 .endacts{max-width:1000px;margin:18px auto 40px;padding:0 16px}
+.inres{margin-top:8px;font-size:.9rem}
