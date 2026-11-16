@@ -151,7 +151,9 @@ function openFinish(){
 }
 /* ---------- Auswertung ---------- */
 function pct(a,b){return b?Math.round(a/b*100):0}
-function inline(){Object.keys(KEY).forEach(k=>{const it=document.getElementById('i-'+k);if(!it)return;const sv=st.sel[k],a=String(KEY[k]);
+function inline(){if(aud){aud.controls=true;aud.removeAttribute('hidden');aud.style.cssText='display:block;width:100%;margin:8px 0 12px';if(!aud.paused&&st.fin)try{aud.pause()}catch(e){}
+ const ap=$('#aplay');if(ap)ap.hidden=true;const hd=$('#hdone');if(hd)hd.hidden=true;const ec=$('#endcur');if(ec)ec.hidden=true;const as=$('#astat');if(as)as.textContent='Zum Nachhören: Wiedergabe, Pause und Vor- oder Zurückspulen mit der Leiste unten.'}
+ Object.keys(KEY).forEach(k=>{const it=document.getElementById('i-'+k);if(!it)return;const sv=st.sel[k],a=String(KEY[k]);
  it.querySelectorAll('.opt').forEach(l=>{const i=l.querySelector('input');if(!i)return;l.classList.remove('is-correct','is-wrong');
   if(i.value===a)l.classList.add('is-correct');else if(sv!==undefined&&i.value===sv)l.classList.add('is-wrong');
   if(sv!==undefined)i.checked=(i.value===sv)});
