@@ -98,3 +98,5 @@ textarea{width:100%;min-height:340px;font:1.06rem/1.7 var(--serif);padding:15px 
 .tblw{overflow-x:auto;margin:10px 0}.sptbl{border-collapse:collapse;width:100%;font-size:.92rem}.sptbl th,.sptbl td{border:1px solid var(--bd);padding:7px 10px;text-align:left}.sptbl th{background:var(--sel)}.sptbl td b{font-size:1.05rem}.sptbl small{color:var(--mut,#667)}
 .endacts{max-width:1000px;margin:18px auto 40px;padding:0 16px}
 .inres{margin-top:8px;font-size:.9rem}
+.item.q-bad{border-left:5px solid var(--bad);background:var(--badbg,#fdecea);border-radius:12px;padding-left:10px}.item.q-ok{border-left:5px solid var(--ok)}.inres .mem{margin:.4em 0 0;padding:8px 10px;background:#fff;border-radius:8px;font-size:.9rem}
+.locked .opt.is-wrong,.opt.is-wrong{border-color:var(--bad)!important;background:var(--badbg,#fdecea)!important;box-shadow:inset 4px 0 0 var(--bad)!important}.locked .opt.is-correct,.opt.is-correct{border-color:var(--ok)!important;background:var(--okbg,#e2f5ec)!important;box-shadow:inset 4px 0 0 var(--ok)!important}

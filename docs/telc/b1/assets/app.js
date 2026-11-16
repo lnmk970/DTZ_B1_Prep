@@ -158,7 +158,8 @@ function inline(){if(aud){aud.controls=true;aud.removeAttribute('hidden');aud.st
   if(i.value===a)l.classList.add('is-correct');else if(sv!==undefined&&i.value===sv)l.classList.add('is-wrong');
   if(sv!==undefined)i.checked=(i.value===sv)});
  const qb=it.querySelector('.qb');if(qb&&!qb.querySelector('.inres')){const d=document.createElement('div');d.className='inres';qb.appendChild(d)}
- const d=qb&&qb.querySelector('.inres');if(d)d.innerHTML=sv===a?'<span class="tag ok">richtig</span>':'<span class="tag no">'+(sv===undefined?'offen':'falsch')+'</span> Richtig ist: <b>'+esc(String(a).toUpperCase())+'</b>'})}
+ const d=qb&&qb.querySelector('.inres'),e=EX[k]||{};it.classList.toggle('q-ok',sv===a);it.classList.toggle('q-bad',sv!==a);
+ if(d)d.innerHTML=sv===a?'<span class="tag ok">✔ richtig</span>':'<span class="tag no">✘ '+(sv===undefined?'nicht beantwortet':'falsch')+'</span> Richtig ist: <b>'+esc(String(a).toUpperCase())+'</b>'+(e.why?'<p class="mem"><span class="lab">Warum?</span> '+esc(e.why)+'</p>':'')})}
 function render(){
  const c=counts(),L=st.sc.l,S=st.sc.s,H=st.sc.h;
  const P=st.pt||{l:L*3.75,s:S*1.5,h:H*3.75},pl=P.l,ps=P.s,ph=P.h;
