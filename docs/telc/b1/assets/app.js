@@ -166,11 +166,19 @@ function render(){
  verdict();list();inline();pal();
  $('#schmodel').hidden=false;revWS();revSP();
 }
+function secTbl(base,sch,spr,P){const pc=(x,m)=>m?Math.round(x/m*100)+' %':'–',f=x=>(Math.round(x*10)/10).toString().replace('.',',');
+ const R=(n,x,m,note)=>'<tr><td>'+n+'</td><td><b>'+(x===null?'…':f(x)+' / '+m)+'</b></td><td>'+(x===null?'…':pc(x,m))+'</td><td>'+note+'</td></tr>';
+ const none='kein Einzelwert – zählt im schriftlichen Teil';
+ let h='<table class="sectbl"><thead><tr><th>Teil</th><th>Erreicht</th><th>%</th><th>Nötig für Bestehen</th></tr></thead><tbody>'
+ +R('Lesen',P.l,75,none)+R('Sprachbausteine',P.s,30,none)+R('Hören',P.h,75,none)+R('Schreiben'+(st.mansch?'':' (Schätzung)'),isNaN(sch)?null:sch,45,none)
+ +R('<b>Schriftlich gesamt</b>',isNaN(sch)?null:base+sch,225,'mind. 135 von 225 (60 %)')
+ +R('<b>Mündlich (Sprechen'+(st.mansp?'':', Schätzung')+')</b>',isNaN(spr)?null:spr,75,'mind. 45 von 75 (60 %)')+'</tbody></table>';
+ return h}
 function verdict(){
  const v=$('#verdict');if(!st.sc)return;
  const sch=parseFloat(st.ssch),spr=parseFloat(st.sspr);
  const P=st.pt||{l:st.sc.l*3.75,s:st.sc.s*1.5,h:st.sc.h*3.75},base=P.l+P.s+P.h;
- let t='<p><b>Schriftlich bisher:</b> '+base.toFixed(1).replace('.0','')+' von 180 Punkten (Lesen, Sprachbausteine, Hören). Dazu kommen höchstens 45 Punkte für Schreiben. Für „bestanden“ brauchen Sie im schriftlichen Teil 135 von 225 Punkten (60 %) und im mündlichen Teil 45 von 75 Punkten.</p>';
+ let t=secTbl(base,sch,spr,P)+'<p><b>Schriftlich bisher:</b> '+base.toFixed(1).replace('.0','')+' von 180 Punkten (Lesen, Sprachbausteine, Hören). Dazu kommen höchstens 45 Punkte für Schreiben. Für „bestanden“ brauchen Sie im schriftlichen Teil 135 von 225 Punkten (60 %) und im mündlichen Teil 45 von 75 Punkten.</p>';
  if(!isNaN(sch)){const w=base+sch;t+='<p><b>Schriftlich mit Schreiben'+(st.mansch?'':' (Schätzung)')+':</b> '+w.toFixed(1).replace('.0','')+' von 225 · '+(w>=135?'<span class="tag ok">60 % erreicht</span>':'<span class="tag no">unter 60 %</span>')+'</p>'}
  if(!isNaN(spr)){t+='<p><b>Mündlich'+(st.mansp?'':' (Schätzung)')+':</b> '+spr+' von 75 · '+(spr>=45?'<span class="tag ok">60 % erreicht</span>':'<span class="tag no">unter 60 %</span>')+'</p>'}
  if(!isNaN(sch)&&!isNaN(spr)){const tot=base+sch+spr,ok=base+sch>=135&&spr>=45;t+='<p><b>Gesamt:</b> '+tot.toFixed(1).replace('.0','')+' von 300 · <b>'+(ok?'Bestanden':'Nicht bestanden')+'</b>'+(ok?' ('+(tot>=270?'sehr gut':tot>=240?'gut':tot>=210?'befriedigend':'ausreichend')+')':'')+'</p>'}

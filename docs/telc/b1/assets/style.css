@@ -101,3 +101,4 @@ textarea{width:100%;min-height:340px;font:1.06rem/1.7 var(--serif);padding:15px 
 .locked .opt.is-wrong,.opt.is-wrong{border-color:var(--bad)!important;background:var(--badbg,#fdecea)!important;box-shadow:inset 4px 0 0 var(--bad)!important}.locked .opt.is-correct,.opt.is-correct{border-color:var(--ok)!important;background:var(--okbg,#e2f5ec)!important;box-shadow:inset 4px 0 0 var(--ok)!important}
 .inexp .a-item{margin:12px 0 0}.tag.nil{background:#eef1f5;color:#52627a}
 .legend .l-w::before{background:var(--bad);border-color:var(--bad)}
+.sectbl{width:100%;border-collapse:collapse;margin:8px 0}.sectbl th,.sectbl td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--bd);font-size:.9rem;vertical-align:top}.sectbl th{color:var(--mut);font-size:.8rem}
