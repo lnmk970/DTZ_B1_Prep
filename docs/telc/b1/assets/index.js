@@ -26,4 +26,10 @@ const vals=R.filter(r=>r[1]!==null);const min=vals.length>1?Math.min(...vals.map
 const tile=(r)=>{const v=r[1],p=v===null?0:Math.round(v*100),weak=vals.length>1&&v===min,col=v===null?'#5b6f8c':p>=60?'#2fbf85':p>=40?'#f0a22e':'#ef6a5b';
 return '<div class="stat'+(weak?' weak':'')+'"><div class="top"><small>Ø '+(r[0]==='Sprachbausteine'?'Sprachb.':r[0])+'</small>'+(weak?'<span class="up">üben</span>':'')+'</div><b>'+(v===null?'–':p+' %')+'</b><div class="m"><i style="width:'+p+'%;background:'+col+'"></i></div><span class="cap">'+(v===null?'noch kein Test':'der Punkte')+'</span></div>'};
 document.getElementById('stats').innerHTML='<div class="stat done"><div class="top"><small>Abgeschlossen</small></div><b>'+done+' <em>/ '+MOCKS.length+'</em></b><div class="dots">'+MOCKS.map((m,i)=>'<i class="'+(i<done?'on':'')+'"></i>').join('')+'</div><span class="cap">Modelltests</span></div>'+R.map(tile).join('');
-const d=Math.ceil((new Date(EXAM+'T00:00:00')-today)/864e5);document.getElementById('count').textContent=d>0?'noch '+d+' Tage':'Prüfungstag';})();
+})();
+(function(def,key){let ex=def;try{ex=localStorage.getItem(key)||def}catch(e){}const th=document.querySelector('.theme');if(!th)return;
+const fmt=s=>new Date(s+'T00:00:00').toLocaleDateString('de-DE',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+function draw(){const d=Math.ceil((new Date(ex+'T00:00:00')-new Date(new Date().toDateString()))/864e5);
+th.innerHTML='Prüfung am '+fmt(ex)+' · <span id="count">'+(d>0?'noch '+d+' Tage':d===0?'Prüfungstag':'Prüfung vorbei')+'</span> · <label>Prüfungsdatum ändern <input type="date" id="examin" value="'+ex+'" style="margin-left:6px;padding:3px 8px;border-radius:8px;border:1px solid #6f86a6;background:#ffffff14;color:#fff;font:inherit;color-scheme:dark"></label>';
+document.getElementById('examin').onchange=e=>{if(!e.target.value)return;ex=e.target.value;try{localStorage.setItem(key,ex)}catch(x){}draw()}}
+draw()})(EXAM,'telc:exam');

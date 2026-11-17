@@ -17,4 +17,10 @@ document.getElementById('bar').style.width=(done/MOCKS.length*100)+'%';document.
 const avg=x=>x.length?x.reduce((a,b)=>a+b,0)/x.length:null;const R=[['Hören',avg(S.h)],['Lesen',avg(S.l)],['Schreiben',avg(S.s)],['Sprechen',avg(S.p)]];
 const vals=R.filter(r=>r[1]!==null);const min=vals.length>1?Math.min(...vals.map(r=>r[1])):null;
 document.getElementById('stats').innerHTML=R.map(r=>'<div class="stat'+(r[1]!==null&&r[1]===min&&vals.length>1?' weak':'')+'"><small>'+r[0]+'</small><b>'+(r[1]===null?'–':Math.round(r[1]*100)+' %')+'</b><div class="m"><i style="width:'+(r[1]===null?0:r[1]*100)+'%"></i></div></div>').join('');
-const d=Math.ceil((new Date('2026-12-10T00:00:00')-today)/864e5);document.getElementById('count').textContent=d>0?'noch '+d+' Tage':'Prüfungstag';})();
+})();
+(function(def,key){let ex=def;try{ex=localStorage.getItem(key)||def}catch(e){}const th=document.querySelector('.theme');if(!th)return;
+const fmt=s=>new Date(s+'T00:00:00').toLocaleDateString('de-DE',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+function draw(){const d=Math.ceil((new Date(ex+'T00:00:00')-new Date(new Date().toDateString()))/864e5);
+th.innerHTML='Prüfung am '+fmt(ex)+' · <span id="count">'+(d>0?'noch '+d+' Tage':d===0?'Prüfungstag':'Prüfung vorbei')+'</span> · <label>Prüfungsdatum ändern <input type="date" id="examin" value="'+ex+'" style="margin-left:6px;padding:3px 8px;border-radius:8px;border:1px solid #6f86a6;background:#ffffff14;color:#fff;font:inherit;color-scheme:dark"></label>';
+document.getElementById('examin').onchange=e=>{if(!e.target.value)return;ex=e.target.value;try{localStorage.setItem(key,ex)}catch(x){}draw()}}
+draw()})('2026-12-10','dtz:exam');
