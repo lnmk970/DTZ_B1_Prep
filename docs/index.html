@@ -5,7 +5,7 @@
 :root{--ink:#0d1b2e;--bg:#e8edf3;--card:#fff;--bd:#d3dbe6;--tx:#14233a;--mut:#62728a;--pri:#0b7a75;--sel:#e1f4f2;--ok:#16a067;--warn:#f0a22e;--bad:#d6402f;--gold:#f6c25b;--sans:'Manrope','Segoe UI',system-ui,sans-serif}
 *{box-sizing:border-box}body{margin:0;font:15px/1.55 var(--sans);background:var(--bg);color:var(--tx);-webkit-font-smoothing:antialiased}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
-header{background:radial-gradient(900px 400px at 0 0,#1d4170 0,transparent 60%),var(--ink);color:#fff;padding:34px 20px 30px}
+header{position:relative;background:radial-gradient(900px 400px at 0 0,#1d4170 0,transparent 60%),var(--ink);color:#fff;padding:34px 20px 30px}
 .in{max-width:1040px;margin:0 auto}h1{font:800 clamp(1.7rem,5vw,2.5rem)/1.1 var(--sans);margin:0 0 6px;letter-spacing:-.02em}header p{margin:0;color:#b8c7dc}
 .wrap{max-width:1040px;margin:0 auto;padding:18px 16px 40px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr))}
 .ex{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:14px}
@@ -24,7 +24,7 @@ header{background:radial-gradient(900px 400px at 0 0,#1d4170 0,transparent 60%),
 @media(max-width:480px){.row{grid-template-columns:112px 1fr 64px;font-size:.85rem}.ex{padding:16px}}
 </style></head>
 <body>
-<header><div class="in"><h1>German Exam Prep</h1><p>Modelltests unter Prüfungsbedingungen – dein Stand auf einen Blick.</p></div></header>
+<header><div class="in"><h1>German Exam Prep</h1><a href="playground/" style="position:absolute;right:24px;top:22px;color:#fff;font-weight:700;text-decoration:none;border:1px solid #ffffff55;padding:8px 14px;border-radius:10px">Übungsbereich →</a><p>Modelltests unter Prüfungsbedingungen – dein Stand auf einen Blick.</p></div></header>
 <div class="wrap">
 <section class="ex" id="dtz"><div class="top"><div><span class="logo">DTZ B1</span><h2>Deutsch-Test für Zuwanderer</h2><p class="sub">Prüfung am 10. Dezember 2026</p></div><div class="days"><b id="dtzd">–</b><small>Tage</small></div></div>
 <div><div class="prog"><i id="dtzp"></i></div><p class="sub" id="dtzs" style="margin-top:6px"></p></div>
