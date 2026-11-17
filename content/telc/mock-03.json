@@ -380,163 +380,163 @@
  ],
  "hoeren": [
   {
-   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
-   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "title": "Hören · Teil 1: fünf Meinungen zu einem Thema (einmal hören)",
+   "instr": "Sie hören fünf Personen, die ihre Meinung zum Thema „Müll vermeiden und Umwelt schützen: fünf Meinungen“ sagen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
    "left": null,
    "items": [
     {
      "id": "h1",
-     "q": "Die Praxis ist nächste Woche donnerstags geschlossen.",
+     "q": "Die Sprecherin hat durch ihr neues Einkaufsverhalten weniger Plastikmüll.",
      "tf": true,
-     "key": "f",
-     "why": "Geschlossen von Montag bis Mittwoch."
+     "key": "r",
+     "why": "Lose Ware, fast kein Plastikmüll mehr."
     },
     {
      "id": "h2",
-     "q": "Auf der A 5 gibt es einen Stau nach einem Unfall.",
+     "q": "Der Sprecher trennt seinen Müll nicht.",
      "tf": true,
-     "key": "r",
-     "why": "Sechs Kilometer Stau."
+     "key": "f",
+     "why": "Er trennt zwar den Müll, macht aber nicht mehr."
     },
     {
      "id": "h3",
-     "q": "Die Erdbeeren sind den ganzen Tag billiger.",
+     "q": "Die Sprecherin ist verärgert über die Kontrollen ihrer Kinder.",
      "tf": true,
      "key": "f",
-     "why": "Das Angebot gilt nur bis 18 Uhr."
+     "why": "Es nervt manchmal, aber sie ist stolz."
     },
     {
      "id": "h4",
-     "q": "Der Sprecher spielt heute in einer Band.",
+     "q": "Der Sprecher fährt mit dem Rad, weil es ihn weniger kostet und fit hält.",
      "tf": true,
-     "key": "f",
-     "why": "Er spielt nur noch zu Hause."
+     "key": "r",
+     "why": "Billiger und fitter."
     },
     {
      "id": "h5",
-     "q": "Die Schwester kann am Samstag nicht zur Party kommen.",
+     "q": "Die Sprecherin meint, dass die Bürger das Müllproblem allein lösen können.",
      "tf": true,
-     "key": "r",
-     "why": "Sie muss die Schicht tauschen."
+     "key": "f",
+     "why": "Sie sagt das Gegenteil: Die Politik muss mehr tun."
     }
    ]
   },
   {
-   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
-   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "title": "Hören · Teil 2: Interview (zweimal hören)",
+   "instr": "Sie hören ein Interview. Sie hören den Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: eine Minute).",
    "left": null,
    "items": [
     {
      "id": "h6",
-     "q": "Frau Berger läuft seit drei Jahren.",
+     "q": "Frau Hartmann glaubt, dass die Stadt in fünf Jahren völlig ohne Müll sein wird.",
      "tf": true,
-     "key": "r",
-     "why": "Vor drei Jahren hat sie angefangen."
+     "key": "f",
+     "why": "Sie will den Restmüll halbieren."
     },
     {
      "id": "h7",
-     "q": "Eine Kollegin hat sie zum Laufen mitgenommen.",
+     "q": "Die Initiative hat fast achthundert freiwillige Helfer.",
      "tf": true,
      "key": "r",
-     "why": "Ja."
+     "why": "Fast achthundert Freiwillige."
     },
     {
      "id": "h8",
-     "q": "Anfangs konnte sie eine Stunde laufen.",
+     "q": "Frau Hartmann hat ihre Idee in der Schule bekommen.",
      "tf": true,
      "key": "f",
-     "why": "Zuerst nur zwanzig Minuten."
+     "why": "Sie arbeitete in einer Verpackungsfirma."
     },
     {
      "id": "h9",
-     "q": "Sie hat vor dem Marathon einen Halbmarathon gemacht.",
+     "q": "In den Reparatur-Cafés werden kaputte Geräte gemeinsam repariert.",
      "tf": true,
      "key": "r",
-     "why": "Er hat ihr viel Spaß gemacht."
+     "why": "Gemeinsam reparieren statt wegwerfen."
     },
     {
      "id": "h10",
-     "q": "Sie trainierte jede Woche sechs Tage.",
+     "q": "Die Stadt hat die Initiative bisher nicht unterstützt.",
      "tf": true,
      "key": "f",
-     "why": "Dreimal Laufen, zweimal Krafttraining, ein Tag frei."
+     "why": "Sie stellt einen Raum und zahlt die Miete."
     },
     {
      "id": "h11",
-     "q": "Sie hat ihre Ernährung stark verändert.",
+     "q": "Die Stadt will sofort ein Pfandsystem für Einwegbecher einführen.",
      "tf": true,
      "key": "f",
-     "why": "Nur weniger Süßigkeiten."
+     "why": "Sie will erst eine Studie abwarten."
     },
     {
      "id": "h12",
-     "q": "Im Frühling hatte sie Knieschmerzen.",
+     "q": "Frau Hartmann empfiehlt, zuerst weniger zu kaufen.",
      "tf": true,
      "key": "r",
-     "why": "Sie musste zwei Wochen pausieren."
+     "why": "Das wirkt am stärksten."
     },
     {
      "id": "h13",
-     "q": "Die Ärzte haben etwas Schlimmes festgestellt.",
+     "q": "In Aachen werden täglich etwa zweitausend Einwegbecher weggeworfen.",
      "tf": true,
      "key": "f",
-     "why": "Nichts Schlimmes."
+     "why": "Über zwanzigtausend."
     },
     {
      "id": "h14",
-     "q": "Sie ist den Marathon in unter vier Stunden gelaufen.",
+     "q": "Der verpackungsfreie Laden hat inzwischen Erfolg.",
      "tf": true,
-     "key": "f",
-     "why": "Vier Stunden und zwanzig Minuten."
+     "key": "r",
+     "why": "Er läuft gut, drei Mitarbeiter."
     },
     {
      "id": "h15",
-     "q": "Nächstes Jahr will sie in Berlin laufen.",
+     "q": "Frau Hartmann möchte das Thema aus den Schulen heraushalten.",
      "tf": true,
-     "key": "r",
-     "why": "Ja."
+     "key": "f",
+     "why": "Sie wünscht sich, dass Schulen es stärker aufgreifen."
     }
    ]
   },
   {
-   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
-   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "title": "Hören · Teil 3: fünf kurze Ansagen (zweimal hören)",
+   "instr": "Sie hören fünf kurze Ansagen oder Durchsagen. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
    "left": null,
    "items": [
     {
      "id": "h16",
-     "q": "Die Bahn fährt heute bis zum Hauptbahnhof.",
+     "q": "Die Praxis ist morgen geöffnet.",
      "tf": true,
      "key": "f",
-     "why": "Nur bis zur Haltestelle Rathaus."
+     "why": "Sie bleibt morgen geschlossen."
     },
     {
      "id": "h17",
-     "q": "Der Sprecher findet Taschengeld für Kinder sinnvoll.",
+     "q": "Im Schwimmbad können Kinder heute schwimmen.",
      "tf": true,
      "key": "r",
-     "why": "Kinder sollen früh lernen, mit Geld umzugehen."
+     "why": "Das Kinderbecken ist geöffnet."
     },
     {
      "id": "h18",
-     "q": "Die gefundene Tasche wurde im Bus abgegeben.",
+     "q": "Am Sonntag wird es wärmer als heute.",
      "tf": true,
      "key": "r",
-     "why": "Am Montag im Bus Linie drei."
+     "why": "Bis zu achtzehn Grad statt zwölf."
     },
     {
      "id": "h19",
-     "q": "Das Hallenbad ist heute geschlossen.",
+     "q": "Man kann die Theaterkarten im Voraus kaufen.",
      "tf": true,
      "key": "f",
-     "why": "Nur das Freibad ist wegen Regen zu."
+     "why": "Nur Abendkasse."
     },
     {
      "id": "h20",
-     "q": "Die Klasse 5b hat am Mittwoch um 12 Uhr Schulschluss.",
+     "q": "Das Angebot gilt auch für Bestellungen im Internet.",
      "tf": true,
-     "key": "r",
-     "why": "Wegen der Klassenfahrt."
+     "key": "f",
+     "why": "Nicht für Online-Bestellungen."
     }
    ]
   }
@@ -586,56 +586,56 @@
  },
  "hoertexte": [
   {
-   "title": "Hören Teil 1",
+   "title": "Hören Teil 1 · Müll vermeiden und Umwelt schützen: fünf Meinungen",
    "texts": [
     [
-     "Text 1",
-     "<p>Praxis Doktor Wagner, guten Tag. Wegen einer Fortbildung ist die Praxis nächste Woche von Montag bis Mittwoch geschlossen. Ab Donnerstag sind wir wieder für Sie da. Bei Notfällen wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst.</p>"
+     "Sprecher 1",
+     "<p>Ich kaufe seit zwei Jahren nur noch lose Ware auf dem Markt. Eigentlich war das am Anfang umständlich, weil ich ständig Stoffbeutel mitnehmen musste. Aber heute habe ich fast keinen Plastikmüll mehr, und das Gemüse schmeckt auch besser.</p>"
     ],
     [
-     "Text 2",
-     "<p>Verkehrsmeldung: Auf der Autobahn A fünf zwischen Frankfurt und Darmstadt gibt es nach einem Unfall sechs Kilometer Stau. Fahrer sollten die Ausfahrt Langen nehmen und über die Landstraße fahren.</p>"
+     "Sprecher 2",
+     "<p>Mir ist das alles zu viel Aufwand. Ich trenne zwar den Müll, aber mehr mache ich nicht. Ich arbeite zehn Stunden am Tag, und wenn ich abends nach Hause komme, will ich nicht noch überlegen, in welche Tonne die Verpackung gehört.</p>"
     ],
     [
-     "Text 3",
-     "<p>Liebe Kunden, heute im Angebot: frische Erdbeeren aus der Region für nur zwei Euro neunzig die Schale. Das Angebot gilt nur bis achtzehn Uhr.</p>"
+     "Sprecher 3",
+     "<p>Bei uns in der Familie sind die Kinder die Fachleute. Seit sie in der Schule über Müll gesprochen haben, kontrollieren sie jeden Abend, ob wir richtig trennen. Manchmal nervt das, aber ich bin eigentlich stolz auf sie.</p>"
     ],
     [
-     "Text 4",
-     "<p>Ich spiele seit zehn Jahren Gitarre. Früher habe ich in einer Band gespielt, aber seit ich Kinder habe, habe ich keine Zeit mehr für Proben. Jetzt spiele ich nur noch zu Hause, manchmal abends für meine Familie.</p>"
+     "Sprecher 4",
+     "<p>Ich fahre jeden Tag mit dem Rad zur Arbeit und habe mein Auto verkauft. Ich vermisse es überhaupt nicht. Es ist billiger, und ich bin viel fitter. Nur im Winter ist es manchmal unangenehm, wenn es regnet.</p>"
     ],
     [
-     "Text 5",
-     "<p>Hallo Max, hier ist deine Schwester. Ich wollte nur sagen, dass ich am Samstag doch nicht zu deiner Party kommen kann. Meine Chefin hat mich gebeten, die Schicht zu tauschen. Ich melde mich am Sonntag wieder.</p>"
+     "Sprecher 5",
+     "<p>Ich finde, die Politik muss mehr tun. Wir Bürger können nicht alles allein lösen. Wenn Verpackungen teurer wären, würden die Firmen weniger davon produzieren. Mit freiwilligen Tipps ändert sich nichts.</p>"
     ]
    ]
   },
   {
-   "title": "Hören Teil 2",
-   "html": "<div class=\"text\"><p>Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?</p><p>Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.</p><p>Und dann haben Sie sich gesteigert?</p><p>Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.</p><p>Wie haben Sie für den Marathon trainiert?</p><p>Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.</p><p>Und die Ernährung?</p><p>Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.</p><p>Gab es Probleme beim Training?</p><p>Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.</p><p>Wie lange haben Sie im Marathon gebraucht?</p><p>Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.</p><p>Waren Sie trotzdem zufrieden?</p><p>Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.</p><p>Planen Sie noch einen Marathon?</p><p>Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.</p></div>"
+   "title": "Hören Teil 2 · Interview: Eine Stadt ohne Müll? Frau Hartmann von der Umweltinitiative „Sauberes Aachen“",
+   "html": "<div class=\"text\"><p>Frau Hartmann, Ihre Initiative will die Stadt in fünf Jahren müllfrei machen. Ist das nicht ein bisschen zu optimistisch?</p><p>Müllfrei im Sinne von „null Abfall“ wird es wohl nie geben. Unser Ziel ist, den Restmüll zu halbieren. Dafür haben wir im Moment fast achthundert Freiwillige.</p><p>Wie sind Sie auf die Idee gekommen?</p><p>Ich habe nach dem Studium zwei Jahre in einer Verpackungsfirma gearbeitet und gesehen, wie viel unnötiges Material produziert wird. Das hat mich nicht mehr losgelassen.</p><p>Was machen Ihre Freiwilligen konkret?</p><p>Jedes Wochenende sammeln wir Müll im Stadtpark. Außerdem organisieren wir Reparatur-Cafés, in denen man kaputte Geräte nicht wegwirft, sondern gemeinsam repariert. Das ist sehr beliebt, vor allem bei älteren Leuten.</p><p>Und wie reagiert die Stadt?</p><p>Sehr offen. Die Stadt hat uns einen Raum zur Verfügung gestellt und zahlt die Miete. Beim Thema Pfand für Einwegbecher sind wir uns aber noch nicht einig. Die Stadt möchte erst die Ergebnisse einer Studie abwarten.</p><p>Was kann denn jeder Einzelne tun?</p><p>Als Erstes weniger kaufen. Das klingt banal, aber es wirkt am stärksten. Danach: Dinge reparieren, tauschen, leihen. Wer einen Bohrer nur zweimal im Jahr braucht, muss ihn nicht kaufen.</p><p>Haben Sie auch einen Tipp für den Alltag?</p><p>Ja, einen eigenen Becher mitnehmen. In Aachen werden täglich über zwanzigtausend Einwegbecher weggeworfen. Mit einem eigenen Becher bekommt man in vielen Cafés sogar zehn Cent Rabatt.</p><p>Was war Ihr größter Erfolg bisher?</p><p>Im letzten Herbst haben wir den ersten verpackungsfreien Laden der Stadt eröffnet. Anfangs hatten wir Zweifel, ob er sich trägt, aber er läuft inzwischen gut und beschäftigt drei Mitarbeiter.</p><p>Und was wünschen Sie sich für die Zukunft?</p><p>Dass Schulen das Thema stärker aufgreifen. Kinder sind die besten Botschafter, sie überzeugen ihre Eltern oft schneller als jede Kampagne.</p></div>"
   },
   {
    "title": "Hören Teil 3",
    "texts": [
     [
-     "Text 1",
-     "<p>Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.</p>"
+     "Ansage 1",
+     "<p>Hier ist die Praxis Doktor Lenz. Wegen eines Todesfalls in der Familie bleibt die Praxis morgen geschlossen. In dringenden Fällen wenden Sie sich bitte an den Notdienst unter der Nummer eins sechs vier eins sieben. Ab übermorgen sind wir wieder für Sie da.</p>"
     ],
     [
-     "Text 2",
-     "<p>Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.</p>"
+     "Ansage 2",
+     "<p>Achtung, eine Durchsage im Schwimmbad Nordbad: Das Sportbecken ist wegen einer technischen Störung bis fünfzehn Uhr gesperrt. Das Kinderbecken und die Sauna sind geöffnet. Eintrittskarten behalten ihre Gültigkeit.</p>"
     ],
     [
-     "Text 3",
-     "<p>Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.</p>"
+     "Ansage 3",
+     "<p>Und nun das Wetter. Heute zieht von Westen Regen auf, die Temperaturen erreichen höchstens zwölf Grad. Am Wochenende wird es freundlicher, am Sonntag sind bis zu achtzehn Grad möglich.</p>"
     ],
     [
-     "Text 4",
-     "<p>Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.</p>"
+     "Ansage 4",
+     "<p>Das Stadttheater präsentiert am Freitag um zwanzig Uhr die Komödie „Der Nachbar“. Karten gibt es an der Abendkasse für fünfzehn Euro, Studenten zahlen die Hälfte. Vorverkauf ist nicht möglich.</p>"
     ],
     [
-     "Text 5",
-     "<p>Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.</p>"
+     "Ansage 5",
+     "<p>Willkommen bei Sport Meier. Nur diese Woche: Alle Laufschuhe zwanzig Prozent günstiger. Wer drei Paar Socken kauft, bekommt das vierte Paar gratis dazu. Das Angebot gilt nicht für Online-Bestellungen.</p>"
     ]
    ]
   }
@@ -643,7 +643,7 @@
  "audio": [
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -654,32 +654,32 @@
    "r": "+0%"
   },
   {
-   "v": "de-DE-KatjaNeural",
-   "t": "Praxis Doktor Wagner, guten Tag. Wegen einer Fortbildung ist die Praxis nächste Woche von Montag bis Mittwoch geschlossen. Ab Donnerstag sind wir wieder für Sie da. Bei Notfällen wenden Sie sich bitte an den ärztlichen Bereitschaftsdienst.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Verkehrsmeldung: Auf der Autobahn A fünf zwischen Frankfurt und Darmstadt gibt es nach einem Unfall sechs Kilometer Stau. Fahrer sollten die Ausfahrt Langen nehmen und über die Landstraße fahren.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Kunden, heute im Angebot: frische Erdbeeren aus der Region für nur zwei Euro neunzig die Schale. Das Angebot gilt nur bis achtzehn Uhr.",
+   "t": "Ich kaufe seit zwei Jahren nur noch lose Ware auf dem Markt. Eigentlich war das am Anfang umständlich, weil ich ständig Stoffbeutel mitnehmen musste. Aber heute habe ich fast keinen Plastikmüll mehr, und das Gemüse schmeckt auch besser.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich spiele seit zehn Jahren Gitarre. Früher habe ich in einer Band gespielt, aber seit ich Kinder habe, habe ich keine Zeit mehr für Proben. Jetzt spiele ich nur noch zu Hause, manchmal abends für meine Familie.",
+   "t": "Mir ist das alles zu viel Aufwand. Ich trenne zwar den Müll, aber mehr mache ich nicht. Ich arbeite zehn Stunden am Tag, und wenn ich abends nach Hause komme, will ich nicht noch überlegen, in welche Tonne die Verpackung gehört.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo Max, hier ist deine Schwester. Ich wollte nur sagen, dass ich am Samstag doch nicht zu deiner Party kommen kann. Meine Chefin hat mich gebeten, die Schicht zu tauschen. Ich melde mich am Sonntag wieder.",
+   "t": "Bei uns in der Familie sind die Kinder die Fachleute. Seit sie in der Schule über Müll gesprochen haben, kontrollieren sie jeden Abend, ob wir richtig trennen. Manchmal nervt das, aber ich bin eigentlich stolz auf sie.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich fahre jeden Tag mit dem Rad zur Arbeit und habe mein Auto verkauft. Ich vermisse es überhaupt nicht. Es ist billiger, und ich bin viel fitter. Nur im Winter ist es manchmal unangenehm, wenn es regnet.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich finde, die Politik muss mehr tun. Wir Bürger können nicht alles allein lösen. Wenn Verpackungen teurer wären, würden die Firmen weniger davon produzieren. Mit freiwilligen Tipps ändert sich nichts.",
    "p": 7,
    "r": "-8%"
   },
@@ -691,7 +691,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -702,207 +702,201 @@
    "r": "+0%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
    "v": "de-DE-KatjaNeural",
-   "t": "Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Und dann haben Sie sich gesteigert?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Wie haben Sie für den Marathon trainiert?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Und die Ernährung?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Gab es Probleme beim Training?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Wie lange haben Sie im Marathon gebraucht?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Waren Sie trotzdem zufrieden?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Planen Sie noch einen Marathon?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.",
+   "t": "Frau Hartmann, Ihre Initiative will die Stadt in fünf Jahren müllfrei machen. Ist das nicht ein bisschen zu optimistisch?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
+   "t": "Müllfrei im Sinne von „null Abfall“ wird es wohl nie geben. Unser Ziel ist, den Restmüll zu halbieren. Dafür haben wir im Moment fast achthundert Freiwillige.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie sind Sie auf die Idee gekommen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich habe nach dem Studium zwei Jahre in einer Verpackungsfirma gearbeitet und gesehen, wie viel unnötiges Material produziert wird. Das hat mich nicht mehr losgelassen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was machen Ihre Freiwilligen konkret?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Jedes Wochenende sammeln wir Müll im Stadtpark. Außerdem organisieren wir Reparatur-Cafés, in denen man kaputte Geräte nicht wegwirft, sondern gemeinsam repariert. Das ist sehr beliebt, vor allem bei älteren Leuten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie reagiert die Stadt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sehr offen. Die Stadt hat uns einen Raum zur Verfügung gestellt und zahlt die Miete. Beim Thema Pfand für Einwegbecher sind wir uns aber noch nicht einig. Die Stadt möchte erst die Ergebnisse einer Studie abwarten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kann denn jeder Einzelne tun?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Als Erstes weniger kaufen. Das klingt banal, aber es wirkt am stärksten. Danach: Dinge reparieren, tauschen, leihen. Wer einen Bohrer nur zweimal im Jahr braucht, muss ihn nicht kaufen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie auch einen Tipp für den Alltag?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ja, einen eigenen Becher mitnehmen. In Aachen werden täglich über zwanzigtausend Einwegbecher weggeworfen. Mit einem eigenen Becher bekommt man in vielen Cafés sogar zehn Cent Rabatt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was war Ihr größter Erfolg bisher?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Im letzten Herbst haben wir den ersten verpackungsfreien Laden der Stadt eröffnet. Anfangs hatten wir Zweifel, ob er sich trägt, aber er läuft inzwischen gut und beschäftigt drei Mitarbeiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was wünschen Sie sich für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Dass Schulen das Thema stärker aufgreifen. Kinder sind die besten Botschafter, sie überzeugen ihre Eltern oft schneller als jede Kampagne.",
+   "p": 0.6,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1.5,
    "r": "+0%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Frau Berger, Sie haben im letzten Jahr Ihren ersten Marathon gelaufen. Wie kam es dazu?",
+   "v": "de-DE-KatjaNeural",
+   "t": "Frau Hartmann, Ihre Initiative will die Stadt in fünf Jahren müllfrei machen. Ist das nicht ein bisschen zu optimistisch?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Müllfrei im Sinne von „null Abfall“ wird es wohl nie geben. Unser Ziel ist, den Restmüll zu halbieren. Dafür haben wir im Moment fast achthundert Freiwillige.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Ich war immer sportlich, aber nie sehr ausdauernd. Vor drei Jahren hat mich eine Kollegin zum Laufen mitgenommen. Zuerst bin ich nur zwanzig Minuten gelaufen.",
+   "t": "Wie sind Sie auf die Idee gekommen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Und dann haben Sie sich gesteigert?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Ja, langsam. Nach einem Jahr konnte ich schon eine Stunde laufen. Dann habe ich mich für einen Halbmarathon angemeldet, und das hat mir so viel Spaß gemacht, dass ich mehr wollte.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Wie haben Sie für den Marathon trainiert?",
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich habe nach dem Studium zwei Jahre in einer Verpackungsfirma gearbeitet und gesehen, wie viel unnötiges Material produziert wird. Das hat mich nicht mehr losgelassen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Ich habe einen Plan von einem Trainer bekommen. Dreimal pro Woche Laufen, zweimal Krafttraining. Ein Tag pro Woche war ganz frei.",
+   "t": "Was machen Ihre Freiwilligen konkret?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Und die Ernährung?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Ich habe nichts Besonderes verändert, nur weniger Süßigkeiten gegessen. Vor dem Wettkampf gab es Nudeln mit Tomatensauce.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Gab es Probleme beim Training?",
+   "v": "de-DE-AmalaNeural",
+   "t": "Jedes Wochenende sammeln wir Müll im Stadtpark. Außerdem organisieren wir Reparatur-Cafés, in denen man kaputte Geräte nicht wegwirft, sondern gemeinsam repariert. Das ist sehr beliebt, vor allem bei älteren Leuten.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Ja, im Frühling hatte ich Knieschmerzen. Ich musste zwei Wochen pausieren. Das war frustrierend, aber der Arzt hat gesagt, dass es nichts Schlimmes ist.",
+   "t": "Und wie reagiert die Stadt?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Wie lange haben Sie im Marathon gebraucht?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Vier Stunden und zwanzig Minuten. Mein Ziel war eigentlich unter vier Stunden, aber nach Kilometer dreißig hatte ich keine Kraft mehr.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Waren Sie trotzdem zufrieden?",
+   "v": "de-DE-AmalaNeural",
+   "t": "Sehr offen. Die Stadt hat uns einen Raum zur Verfügung gestellt und zahlt die Miete. Beim Thema Pfand für Einwegbecher sind wir uns aber noch nicht einig. Die Stadt möchte erst die Ergebnisse einer Studie abwarten.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Sehr! Ich war so stolz, dass ich fast geweint habe. Meine Familie stand an der Strecke und hat mich angefeuert.",
+   "t": "Was kann denn jeder Einzelne tun?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Planen Sie noch einen Marathon?",
+   "v": "de-DE-AmalaNeural",
+   "t": "Als Erstes weniger kaufen. Das klingt banal, aber es wirkt am stärksten. Danach: Dinge reparieren, tauschen, leihen. Wer einen Bohrer nur zweimal im Jahr braucht, muss ihn nicht kaufen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Ja, nächstes Jahr in Berlin. Dann will ich die vier Stunden schaffen.",
-   "p": 20,
+   "t": "Haben Sie auch einen Tipp für den Alltag?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ja, einen eigenen Becher mitnehmen. In Aachen werden täglich über zwanzigtausend Einwegbecher weggeworfen. Mit einem eigenen Becher bekommt man in vielen Cafés sogar zehn Cent Rabatt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was war Ihr größter Erfolg bisher?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Im letzten Herbst haben wir den ersten verpackungsfreien Laden der Stadt eröffnet. Anfangs hatten wir Zweifel, ob er sich trägt, aber er läuft inzwischen gut und beschäftigt drei Mitarbeiter.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was wünschen Sie sich für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Dass Schulen das Thema stärker aufgreifen. Kinder sind die besten Botschafter, sie überzeugen ihre Eltern oft schneller als jede Kampagne.",
+   "p": 0.6,
    "r": "-8%"
   },
   {
@@ -913,7 +907,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -924,130 +918,94 @@
    "r": "+0%"
   },
   {
-   "v": "de-DE-AmalaNeural",
-   "t": "Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Achtung, eine Durchsage für Fahrgäste der Linie sieben. Wegen einer Störung fährt die Bahn heute nicht bis zum Hauptbahnhof, sondern nur bis zur Haltestelle Rathaus. Von dort fahren Busse weiter.",
-   "p": 9,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Ich finde es wichtig, dass Kinder früh lernen, mit Geld umzugehen. Mein Sohn bekommt seit seinem achten Geburtstag Taschengeld. Er muss damit auskommen und kann nichts mehr verlangen, wenn es zu Ende ist.",
-   "p": 9,
-   "r": "-8%"
-  },
-  {
    "v": "de-DE-KatjaNeural",
-   "t": "Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.",
-   "p": 0.6,
+   "t": "Hier ist die Praxis Doktor Lenz. Wegen eines Todesfalls in der Familie bleibt die Praxis morgen geschlossen. In dringenden Fällen wenden Sie sich bitte an den Notdienst unter der Nummer eins sechs vier eins sieben. Ab übermorgen sind wir wieder für Sie da.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hier spricht das Fundbüro der Stadt. Wir haben eine schwarze Tasche gefunden. Sie wurde am Montag im Bus Linie drei abgegeben. Der Besitzer kann sie während der Öffnungszeiten abholen.",
-   "p": 9,
+   "t": "Hier ist die Praxis Doktor Lenz. Wegen eines Todesfalls in der Familie bleibt die Praxis morgen geschlossen. In dringenden Fällen wenden Sie sich bitte an den Notdienst unter der Nummer eins sechs vier eins sieben. Ab übermorgen sind wir wieder für Sie da.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.",
-   "p": 0.6,
+   "t": "Achtung, eine Durchsage im Schwimmbad Nordbad: Das Sportbecken ist wegen einer technischen Störung bis fünfzehn Uhr gesperrt. Das Kinderbecken und die Sauna sind geöffnet. Eintrittskarten behalten ihre Gültigkeit.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Wegen starker Regenfälle bleibt das Freibad heute geschlossen. Das Hallenbad ist aber geöffnet. Alle Eintrittskarten gelten morgen auch im Hallenbad.",
-   "p": 9,
+   "t": "Achtung, eine Durchsage im Schwimmbad Nordbad: Das Sportbecken ist wegen einer technischen Störung bis fünfzehn Uhr gesperrt. Das Kinderbecken und die Sauna sind geöffnet. Eintrittskarten behalten ihre Gültigkeit.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.",
-   "p": 0.6,
+   "t": "Und nun das Wetter. Heute zieht von Westen Regen auf, die Temperaturen erreichen höchstens zwölf Grad. Am Wochenende wird es freundlicher, am Sonntag sind bis zu achtzehn Grad möglich.",
+   "p": 2,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Eltern, am Mittwoch haben die Schüler der Klasse 5b wegen einer Klassenfahrt schon um 12 Uhr Schulschluss. Bitte holen Sie Ihre Kinder pünktlich ab oder melden Sie sich im Sekretariat.",
-   "p": 9,
+   "t": "Und nun das Wetter. Heute zieht von Westen Regen auf, die Temperaturen erreichen höchstens zwölf Grad. Am Wochenende wird es freundlicher, am Sonntag sind bis zu achtzehn Grad möglich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Stadttheater präsentiert am Freitag um zwanzig Uhr die Komödie „Der Nachbar“. Karten gibt es an der Abendkasse für fünfzehn Euro, Studenten zahlen die Hälfte. Vorverkauf ist nicht möglich.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Das ist das Ende des Teils.",
-   "p": 3.0,
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
    "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Stadttheater präsentiert am Freitag um zwanzig Uhr die Komödie „Der Nachbar“. Karten gibt es an der Abendkasse für fünfzehn Euro, Studenten zahlen die Hälfte. Vorverkauf ist nicht möglich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen bei Sport Meier. Nur diese Woche: Alle Laufschuhe zwanzig Prozent günstiger. Wer drei Paar Socken kauft, bekommt das vierte Paar gratis dazu. Das Angebot gilt nicht für Online-Bestellungen.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen bei Sport Meier. Nur diese Woche: Alle Laufschuhe zwanzig Prozent günstiger. Wer drei Paar Socken kauft, bekommt das vierte Paar gratis dazu. Das Angebot gilt nicht für Online-Bestellungen.",
+   "p": 7,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",

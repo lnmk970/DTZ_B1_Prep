@@ -2,7 +2,7 @@
  "hoeren.mp3": [
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -14,31 +14,31 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Kunden, in zehn Minuten schließen wir. Bitte gehen Sie jetzt zu den Kassen. Die Kasse drei ist schon geschlossen. Frisches Brot gibt es heute nur noch zum halben Preis.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Restaurant Sonnenhof, guten Tag. Wir haben montags Ruhetag. Für Reservierungen rufen Sie bitte dienstags bis sonntags zwischen zehn und achtzehn Uhr an.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Heute ist Wochenmarkt auf dem Rathausplatz. Wegen des Regens beginnt er erst um zehn Uhr. Die Obststände sind aber schon aufgebaut.",
+   "t": "Ich gehe selten ins Restaurant, weil ich gern selbst koche. Meistens ist das Essen zu Hause besser und billiger. Nur wenn Gäste kommen, bestelle ich manchmal etwas, aber nicht oft.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Hallo Mira, hier ist Ben. Ich habe für Samstag einen Tisch im Restaurant reserviert, für sieben Uhr. Du musst nichts mitbringen. Sag mir nur bitte Bescheid, ob du vegetarisch isst.",
+   "t": "Ich esse fast jeden Tag in der Kantine. Dort bekomme ich für fünf Euro ein warmes Mittagessen und muss nicht überlegen, was ich koche. Abends mache ich mir nur ein Brot.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Achtung, Kolleginnen und Kollegen: Die Kantine bleibt morgen wegen einer Kontrolle geschlossen. Bitte bringen Sie Ihr Mittagessen selbst mit. Am Donnerstag sind wir wieder für Sie da.",
+   "t": "Ich kaufe am liebsten auf dem Wochenmarkt ein. Dort kenne ich die Verkäufer, und das Obst ist frisch. Im Supermarkt finde ich es oft unpersönlich und dort sind die Wege lang.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Mein Problem ist die Zeit. Ich bestelle fast alles im Internet, auch Lebensmittel. Das Essen kommt bis vor die Tür. Nur bei Obst bin ich vorsichtig, das möchte ich gern sehen und anfassen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Wir gehen jeden Freitag mit der ganzen Familie zum Italiener. Das ist unser Ritual, und die Kinder freuen sich die ganze Woche darauf. Dafür geben wir gern etwas mehr Geld aus.",
    "p": 7,
    "r": "-8%"
   },
@@ -50,7 +50,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -62,194 +62,200 @@
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Heute bei uns im Studio: Frau Costa, Besitzerin des Restaurants „La Piazza“. Frau Costa, seit wann gibt es Ihr Restaurant?",
+   "t": "Herr Rossi, Ihr Restaurant gibt es schon seit zwanzig Jahren. Was ist das Geheimnis?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Seit drei Jahren. Vorher habe ich viele Jahre als Köchin in einem Hotel gearbeitet. Irgendwann wollte ich mein eigenes Restaurant haben.",
+   "t": "Wir sind ein Familienbetrieb. Meine Frau kocht, mein Sohn bedient, und ich kümmere mich um den Einkauf. Die Gäste spüren, dass wir das gern machen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was ist das Besondere an Ihrer Speisekarte?",
+   "t": "Wie sind Sie nach Deutschland gekommen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Sie ändert sich jeden Monat. Ich koche nur mit Zutaten aus der Region, zum Beispiel mit Gemüse von einem Bauern, der zehn Kilometer entfernt wohnt.",
+   "t": "Mein Vater hat hier in den Siebzigerjahren gearbeitet, ich bin als Kind mitgekommen. Das Restaurant haben wir vor zwanzig Jahren gekauft, vorher war es eine Gaststätte.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wie groß ist das Restaurant?",
+   "t": "Was kochen Sie am liebsten?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Nicht sehr groß. Wir haben sechzehn Tische und acht Mitarbeiter.",
+   "t": "Pasta, das ist klar. Aber die Gäste wünschen sich zunehmend vegetarische Gerichte. Deshalb haben wir jetzt sechs davon auf der Karte, vor drei Jahren war es nur eines.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was kostet ein Mittagessen bei Ihnen?",
+   "t": "Hat sich der Beruf verändert?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Unser Mittagstisch kostet acht Euro fünfzig, mit Suppe und Getränk. Das Abendessen ist natürlich teurer.",
+   "t": "Sehr. Früher haben die Gäste einfach bestellt, heute wollen sie wissen, woher das Fleisch kommt. Viele fragen auch nach Allergien. Das ist anstrengend, aber ich finde es richtig.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wann ist bei Ihnen am meisten los?",
+   "t": "Wo kaufen Sie ein?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Am Wochenende, besonders samstags. Dann sind alle Tische reserviert, und wir haben oft eine Warteliste.",
+   "t": "Obst und Gemüse bekommen wir von einem Bauern aus der Nähe, jeden Morgen frisch. Nur den Käse und das Olivenöl holen wir aus Italien, da gibt es keinen Ersatz.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was ist die größte Schwierigkeit?",
+   "t": "Wie sehen Ihre Arbeitszeiten aus?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Gutes Personal zu finden. Viele Köche und Kellner arbeiten lieber in großen Städten. Aber wir bezahlen fair und bieten Wochenenden frei, jeden zweiten Sonntag.",
+   "t": "Wir öffnen um elf und schließen um Mitternacht, am Montag ist Ruhetag. Das sind lange Tage, ich stehe um sieben Uhr auf. Aber ich beschwere mich nicht, es ist ja meine Entscheidung.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Und wann haben Sie geöffnet?",
+   "t": "Was war die größte Herausforderung?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Von Dienstag bis Sonntag, am Montag ist Ruhetag. Im Sommer hätte ich gern eine Terrasse mit zwanzig Plätzen. Die Stadt prüft gerade den Antrag.",
+   "t": "Die Corona-Zeit. Wir haben fast sechs Monate lang nur Essen zum Mitnehmen verkauft. Zum Glück sind uns die Stammgäste treu geblieben.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Dann drücken wir die Daumen. Vielen Dank, Frau Costa.",
+   "t": "Wünschen Sie sich, dass Ihr Sohn das Restaurant übernimmt?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich wünsche ich es mir. Aber er muss selbst entscheiden. Im Moment studiert er nebenbei Betriebswirtschaft, und ich glaube, dass er nach dem Abschluss gern zurückkommt.",
+   "p": 0.6,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1.5,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Heute bei uns im Studio: Frau Costa, Besitzerin des Restaurants „La Piazza“. Frau Costa, seit wann gibt es Ihr Restaurant?",
+   "t": "Herr Rossi, Ihr Restaurant gibt es schon seit zwanzig Jahren. Was ist das Geheimnis?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Seit drei Jahren. Vorher habe ich viele Jahre als Köchin in einem Hotel gearbeitet. Irgendwann wollte ich mein eigenes Restaurant haben.",
+   "t": "Wir sind ein Familienbetrieb. Meine Frau kocht, mein Sohn bedient, und ich kümmere mich um den Einkauf. Die Gäste spüren, dass wir das gern machen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was ist das Besondere an Ihrer Speisekarte?",
+   "t": "Wie sind Sie nach Deutschland gekommen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Sie ändert sich jeden Monat. Ich koche nur mit Zutaten aus der Region, zum Beispiel mit Gemüse von einem Bauern, der zehn Kilometer entfernt wohnt.",
+   "t": "Mein Vater hat hier in den Siebzigerjahren gearbeitet, ich bin als Kind mitgekommen. Das Restaurant haben wir vor zwanzig Jahren gekauft, vorher war es eine Gaststätte.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wie groß ist das Restaurant?",
+   "t": "Was kochen Sie am liebsten?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Nicht sehr groß. Wir haben sechzehn Tische und acht Mitarbeiter.",
+   "t": "Pasta, das ist klar. Aber die Gäste wünschen sich zunehmend vegetarische Gerichte. Deshalb haben wir jetzt sechs davon auf der Karte, vor drei Jahren war es nur eines.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was kostet ein Mittagessen bei Ihnen?",
+   "t": "Hat sich der Beruf verändert?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Unser Mittagstisch kostet acht Euro fünfzig, mit Suppe und Getränk. Das Abendessen ist natürlich teurer.",
+   "t": "Sehr. Früher haben die Gäste einfach bestellt, heute wollen sie wissen, woher das Fleisch kommt. Viele fragen auch nach Allergien. Das ist anstrengend, aber ich finde es richtig.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wann ist bei Ihnen am meisten los?",
+   "t": "Wo kaufen Sie ein?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Am Wochenende, besonders samstags. Dann sind alle Tische reserviert, und wir haben oft eine Warteliste.",
+   "t": "Obst und Gemüse bekommen wir von einem Bauern aus der Nähe, jeden Morgen frisch. Nur den Käse und das Olivenöl holen wir aus Italien, da gibt es keinen Ersatz.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was ist die größte Schwierigkeit?",
+   "t": "Wie sehen Ihre Arbeitszeiten aus?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Gutes Personal zu finden. Viele Köche und Kellner arbeiten lieber in großen Städten. Aber wir bezahlen fair und bieten Wochenenden frei, jeden zweiten Sonntag.",
+   "t": "Wir öffnen um elf und schließen um Mitternacht, am Montag ist Ruhetag. Das sind lange Tage, ich stehe um sieben Uhr auf. Aber ich beschwere mich nicht, es ist ja meine Entscheidung.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Und wann haben Sie geöffnet?",
+   "t": "Was war die größte Herausforderung?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Von Dienstag bis Sonntag, am Montag ist Ruhetag. Im Sommer hätte ich gern eine Terrasse mit zwanzig Plätzen. Die Stadt prüft gerade den Antrag.",
+   "t": "Die Corona-Zeit. Wir haben fast sechs Monate lang nur Essen zum Mitnehmen verkauft. Zum Glück sind uns die Stammgäste treu geblieben.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Dann drücken wir die Daumen. Vielen Dank, Frau Costa.",
-   "p": 20,
+   "t": "Wünschen Sie sich, dass Ihr Sohn das Restaurant übernimmt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich wünsche ich es mir. Aber er muss selbst entscheiden. Im Moment studiert er nebenbei Betriebswirtschaft, und ich glaube, dass er nach dem Abschluss gern zurückkommt.",
+   "p": 0.6,
    "r": "-8%"
   },
   {
@@ -260,7 +266,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -272,129 +278,93 @@
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Guten Tag, hier ist die Bäckerei Krause. Ihre Torte für Samstag ist bestellt. Sie können sie ab Freitag um zwölf Uhr abholen. Bitte bringen Sie die Quittung mit.",
-   "p": 0.6,
+   "t": "Willkommen im Supermarkt Frischkauf. Heute im Angebot: Bio-Milch für neunundachtzig Cent, Äpfel aus der Region zwei Euro das Kilo. Beide Angebote gelten nur bis zwanzig Uhr, solange der Vorrat reicht.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Guten Tag, hier ist die Bäckerei Krause. Ihre Torte für Samstag ist bestellt. Sie können sie ab Freitag um zwölf Uhr abholen. Bitte bringen Sie die Quittung mit.",
-   "p": 9,
+   "t": "Willkommen im Supermarkt Frischkauf. Heute im Angebot: Bio-Milch für neunundachtzig Cent, Äpfel aus der Region zwei Euro das Kilo. Beide Angebote gelten nur bis zwanzig Uhr, solange der Vorrat reicht.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich finde, dass Fast Food nicht so schlecht ist, wie alle sagen. Wichtig ist nur, dass man nicht jeden Tag Burger isst. Ich esse selbst nur einmal pro Woche so etwas.",
-   "p": 0.6,
+   "t": "Guten Tag, hier spricht das Restaurant Zum Hirschen. Ihre Reservierung für Samstag um achtzehn Uhr für vier Personen ist bestätigt. Bitte rufen Sie bis Freitag an, wenn sich etwas ändert, sonst berechnen wir fünf Euro pro Person.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich finde, dass Fast Food nicht so schlecht ist, wie alle sagen. Wichtig ist nur, dass man nicht jeden Tag Burger isst. Ich esse selbst nur einmal pro Woche so etwas.",
-   "p": 9,
+   "t": "Guten Tag, hier spricht das Restaurant Zum Hirschen. Ihre Reservierung für Samstag um achtzehn Uhr für vier Personen ist bestätigt. Bitte rufen Sie bis Freitag an, wenn sich etwas ändert, sonst berechnen wir fünf Euro pro Person.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Kunden, wegen einer Inventur ist unser Getränkemarkt am Dienstag geschlossen. Der Supermarkt ist wie immer von acht bis zwanzig Uhr geöffnet.",
-   "p": 0.6,
+   "t": "Die Bäckerei Hoffmann informiert: Ab dem ersten März öffnen wir sonntags schon um sieben Uhr statt um acht. Außerdem haben wir neu im Sortiment glutenfreies Brot. Fragen Sie gern an der Theke.",
+   "p": 2,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Kunden, wegen einer Inventur ist unser Getränkemarkt am Dienstag geschlossen. Der Supermarkt ist wie immer von acht bis zwanzig Uhr geöffnet.",
-   "p": 9,
+   "t": "Die Bäckerei Hoffmann informiert: Ab dem ersten März öffnen wir sonntags schon um sieben Uhr statt um acht. Außerdem haben wir neu im Sortiment glutenfreies Brot. Fragen Sie gern an der Theke.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KillianNeural",
-   "t": "Heute in der Sendung: Tipps zum Sparen beim Einkaufen. Vergleichen Sie Preise, schreiben Sie eine Liste und gehen Sie nie hungrig einkaufen. So sparen Sie bis zu zwanzig Prozent.",
-   "p": 0.6,
+   "t": "Achtung, eine Durchsage im Einkaufszentrum: Auf dem Parkplatz steht ein silberner Kombi mit offenen Türen. Der Fahrer wird gebeten, sein Fahrzeug zu schließen. Der Parkscheinautomat im zweiten Stock ist außer Betrieb.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KillianNeural",
-   "t": "Heute in der Sendung: Tipps zum Sparen beim Einkaufen. Vergleichen Sie Preise, schreiben Sie eine Liste und gehen Sie nie hungrig einkaufen. So sparen Sie bis zu zwanzig Prozent.",
-   "p": 9,
+   "t": "Achtung, eine Durchsage im Einkaufszentrum: Auf dem Parkplatz steht ein silberner Kombi mit offenen Türen. Der Fahrer wird gebeten, sein Fahrzeug zu schließen. Der Parkscheinautomat im zweiten Stock ist außer Betrieb.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo Mama, ich bin es, Lisa. Ich komme am Sonntag zum Mittagessen, aber ich bringe meinen Freund mit. Er isst kein Fleisch. Kannst du bitte etwas Vegetarisches kochen?",
-   "p": 0.6,
+   "t": "Pizza Roma liefert jetzt auch nach Feierabend: Bestellungen bis dreiundzwanzig Uhr, Lieferung innerhalb von dreißig Minuten. Ab zwanzig Euro Bestellwert ist die Lieferung kostenlos.",
+   "p": 2,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo Mama, ich bin es, Lisa. Ich komme am Sonntag zum Mittagessen, aber ich bringe meinen Freund mit. Er isst kein Fleisch. Kannst du bitte etwas Vegetarisches kochen?",
-   "p": 9,
+   "t": "Pizza Roma liefert jetzt auch nach Feierabend: Bestellungen bis dreiundzwanzig Uhr, Lieferung innerhalb von dreißig Minuten. Ab zwanzig Euro Bestellwert ist die Lieferung kostenlos.",
+   "p": 7,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Das ist das Ende des Teils.",
-   "p": 3.0,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",

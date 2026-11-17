@@ -2,7 +2,7 @@
  "hoeren.mp3": [
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -14,31 +14,31 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Mieter, am Donnerstag wird von acht bis zehn Uhr das Treppenhaus gestrichen. Bitte stellen Sie in dieser Zeit nichts ins Treppenhaus. Der Aufzug ist ebenfalls außer Betrieb.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Guten Tag, hier ist Immobilien Kranz. Die Besichtigung der Wohnung in der Gartenstraße findet morgen um siebzehn Uhr statt, nicht um sechzehn Uhr. Bitte seien Sie pünktlich.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Und nun der Verkehr: Wegen einer Baustelle ist die Hauptstraße in beiden Richtungen gesperrt. Bitte fahren Sie über die Ringstraße. Die Sperrung dauert bis Freitag.",
+   "t": "Wir haben im Winter die Heizung um zwei Grad heruntergedreht. Zuerst haben wir gefroren, aber nach einer Woche war es normal. Im Jahr sparen wir dadurch fast hundertfünfzig Euro.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Hi Sara, ich bin es, Tim. Ich ziehe am Samstag um und brauche noch zwei Helfer. Wir fangen um neun an, und es gibt Pizza für alle. Hast du Zeit?",
+   "t": "Ich wohne zur Miete und kann an der Wohnung nichts ändern. Der Vermieter will keine neuen Fenster einbauen, obwohl es zieht. Also kann ich nur Decken kaufen und viel Tee trinken.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Der Recyclinghof schließt ab nächster Woche samstags schon um vierzehn Uhr, nicht erst um sechzehn Uhr. Montag bis Freitag bleiben die Zeiten gleich.",
+   "t": "Wir haben vor einem Jahr eine Solaranlage auf dem Dach installiert. Sie hat achttausend Euro gekostet, aber wir rechnen damit, dass sie sich in zehn Jahren bezahlt macht. Und wir fühlen uns unabhängiger.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich habe alle Lampen gegen LED getauscht und einen Zeitschalter für den Fernseher gekauft. Das klingt klein, aber meine Stromrechnung ist um ein Fünftel gesunken. Das hat mich selbst überrascht.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Mich nervt das Thema, ehrlich gesagt. Immer soll man sparen und verzichten. Ich zahle meine Rechnung und mache mir keine Gedanken. Wenn das Klima wirklich in Gefahr wäre, müsste der Staat handeln.",
    "p": 7,
    "r": "-8%"
   },
@@ -50,7 +50,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -62,194 +62,200 @@
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Heute im Studio: Frau Yılmaz vom Mieterverein. Frau Yılmaz, wie lange arbeiten Sie schon dort?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Seit zwanzig Jahren. Am Anfang war ich nur im Büro, heute berate ich selbst die Mitglieder.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Mit welchen Fragen kommen die Leute am häufigsten zu Ihnen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Meistens geht es um die Nebenkosten. Viele verstehen die Abrechnung nicht oder finden sie zu hoch. Danach kommen Fragen zu Mieterhöhungen.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Was ist wichtig, wenn ein Mieter kündigen möchte?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Die Kündigung muss schriftlich sein. In der Regel beträgt die Frist drei Monate. Man sollte den Brief unterschreiben und am besten per Einschreiben schicken.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Und die Kaution?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Die darf höchstens drei Monatsmieten kosten. Viele Vermieter verlangen weniger. Wichtig ist, dass man eine Quittung bekommt.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Was kostet die Mitgliedschaft?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Sechzig Euro im Jahr. Die Beratung ist für Mitglieder kostenlos. Sie findet dienstags und donnerstags statt, jeweils von zehn bis sechzehn Uhr.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Haben Sie einen Tipp für Mieter?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Ja: Mängel in der Wohnung immer schriftlich melden und eine Kopie behalten. Bei Schimmel zum Beispiel sollte man sofort den Vermieter informieren und nicht selbst renovieren.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Kommen die Mieter früh genug zu Ihnen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Leider nicht immer. Viele warten monatelang und kommen erst, wenn das Problem sehr groß ist. Früher ist besser.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Vielen Dank, Frau Yılmaz.",
+   "t": "Frau Köhler, viele Menschen in Altbauten haben hohe Heizkosten. Woran liegt das?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
+   "t": "Meistens an der Dämmung. Durch ein schlecht gedämmtes Dach gehen bis zu dreißig Prozent der Wärme verloren. Auch alte Fenster sind ein großes Problem.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was sollte man zuerst machen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Immer zuerst das Dach, weil es am wenigsten kostet und am meisten bringt. Danach die Fenster, und erst am Ende die Fassade, das ist die teuerste Variante.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was kostet so eine Maßnahme?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Für ein normales Einfamilienhaus liegt eine Dachdämmung bei etwa zehntausend Euro. Der Staat übernimmt unter Umständen bis zu zwanzig Prozent, das lohnt sich zu prüfen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und für Mieter? Die können ja nicht selbst umbauen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Stimmt. Aber Mieter können viel richtig machen: richtig lüften, also mehrmals am Tag kurz stoßlüften, statt das Fenster dauerhaft zu kippen. Das spart bis zu zehn Prozent.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was halten Sie von smarten Thermostaten?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich finde sie sinnvoll, aber nicht ein Wundermittel. Sie helfen vor allem Leuten, die oft nicht zu Hause sind. Wer den ganzen Tag arbeitet, spart damit am meisten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es auch Fehler, die man vermeiden sollte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Der häufigste Fehler: Räume, die man selten nutzt, gar nicht zu heizen. Dann wird es feucht, und es entsteht Schimmel. Besser ist es, sie auf fünfzehn Grad zu halten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie lange dauert es, bis sich eine Sanierung bezahlt macht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist sehr unterschiedlich. Bei einer Dachdämmung rechnet man mit etwa zehn bis fünfzehn Jahren. Bei neuen Fenstern dauert es länger, oft über zwanzig Jahre.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was raten Sie jemandem, der am Anfang steht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eine unabhängige Beratung. Die Energieberatung der Verbraucherzentrale kostet nur dreißig Euro, und man bekommt einen konkreten Plan.",
+   "p": 0.6,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1.5,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Heute im Studio: Frau Yılmaz vom Mieterverein. Frau Yılmaz, wie lange arbeiten Sie schon dort?",
+   "t": "Frau Köhler, viele Menschen in Altbauten haben hohe Heizkosten. Woran liegt das?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Seit zwanzig Jahren. Am Anfang war ich nur im Büro, heute berate ich selbst die Mitglieder.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Mit welchen Fragen kommen die Leute am häufigsten zu Ihnen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Meistens geht es um die Nebenkosten. Viele verstehen die Abrechnung nicht oder finden sie zu hoch. Danach kommen Fragen zu Mieterhöhungen.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Meistens an der Dämmung. Durch ein schlecht gedämmtes Dach gehen bis zu dreißig Prozent der Wärme verloren. Auch alte Fenster sind ein großes Problem.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was ist wichtig, wenn ein Mieter kündigen möchte?",
+   "t": "Was sollte man zuerst machen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Die Kündigung muss schriftlich sein. In der Regel beträgt die Frist drei Monate. Man sollte den Brief unterschreiben und am besten per Einschreiben schicken.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Und die Kaution?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Die darf höchstens drei Monatsmieten kosten. Viele Vermieter verlangen weniger. Wichtig ist, dass man eine Quittung bekommt.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Immer zuerst das Dach, weil es am wenigsten kostet und am meisten bringt. Danach die Fenster, und erst am Ende die Fassade, das ist die teuerste Variante.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was kostet die Mitgliedschaft?",
+   "t": "Was kostet so eine Maßnahme?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Sechzig Euro im Jahr. Die Beratung ist für Mitglieder kostenlos. Sie findet dienstags und donnerstags statt, jeweils von zehn bis sechzehn Uhr.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Haben Sie einen Tipp für Mieter?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Ja: Mängel in der Wohnung immer schriftlich melden und eine Kopie behalten. Bei Schimmel zum Beispiel sollte man sofort den Vermieter informieren und nicht selbst renovieren.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Für ein normales Einfamilienhaus liegt eine Dachdämmung bei etwa zehntausend Euro. Der Staat übernimmt unter Umständen bis zu zwanzig Prozent, das lohnt sich zu prüfen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Kommen die Mieter früh genug zu Ihnen?",
+   "t": "Und für Mieter? Die können ja nicht selbst umbauen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Leider nicht immer. Viele warten monatelang und kommen erst, wenn das Problem sehr groß ist. Früher ist besser.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Stimmt. Aber Mieter können viel richtig machen: richtig lüften, also mehrmals am Tag kurz stoßlüften, statt das Fenster dauerhaft zu kippen. Das spart bis zu zehn Prozent.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Vielen Dank, Frau Yılmaz.",
-   "p": 20,
+   "t": "Was halten Sie von smarten Thermostaten?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich finde sie sinnvoll, aber nicht ein Wundermittel. Sie helfen vor allem Leuten, die oft nicht zu Hause sind. Wer den ganzen Tag arbeitet, spart damit am meisten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es auch Fehler, die man vermeiden sollte?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Der häufigste Fehler: Räume, die man selten nutzt, gar nicht zu heizen. Dann wird es feucht, und es entsteht Schimmel. Besser ist es, sie auf fünfzehn Grad zu halten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie lange dauert es, bis sich eine Sanierung bezahlt macht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist sehr unterschiedlich. Bei einer Dachdämmung rechnet man mit etwa zehn bis fünfzehn Jahren. Bei neuen Fenstern dauert es länger, oft über zwanzig Jahre.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was raten Sie jemandem, der am Anfang steht?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eine unabhängige Beratung. Die Energieberatung der Verbraucherzentrale kostet nur dreißig Euro, und man bekommt einen konkreten Plan.",
+   "p": 0.6,
    "r": "-8%"
   },
   {
@@ -260,7 +266,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -272,129 +278,93 @@
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Sehr geehrte Mieter, die Heizungsfirma kommt am Mittwoch zwischen acht und zwölf Uhr. Bitte lassen Sie jemanden in der Wohnung, damit der Techniker die Heizkörper prüfen kann.",
-   "p": 0.6,
+   "t": "Hier ist die Hausverwaltung Maier. Wegen Wartungsarbeiten an der Heizung wird morgen zwischen neun und zwölf Uhr das Warmwasser abgestellt. Die Heizkörper bleiben in Betrieb. Wir bitten um Verständnis.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Sehr geehrte Mieter, die Heizungsfirma kommt am Mittwoch zwischen acht und zwölf Uhr. Bitte lassen Sie jemanden in der Wohnung, damit der Techniker die Heizkörper prüfen kann.",
-   "p": 9,
+   "t": "Hier ist die Hausverwaltung Maier. Wegen Wartungsarbeiten an der Heizung wird morgen zwischen neun und zwölf Uhr das Warmwasser abgestellt. Die Heizkörper bleiben in Betrieb. Wir bitten um Verständnis.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich möchte lieber auf dem Land wohnen. Dort ist es ruhig, und die Miete ist niedriger. Aber ich brauche ein Auto, weil der Bus nur zweimal am Tag fährt. Für mich ist das in Ordnung.",
-   "p": 0.6,
+   "t": "Achtung, eine Durchsage der Stadtwerke: Am Donnerstag wird in der Bergstraße der Strom von dreizehn bis sechzehn Uhr abgeschaltet. Betroffen sind die Hausnummern eins bis dreißig. Bitte planen Sie das ein.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich möchte lieber auf dem Land wohnen. Dort ist es ruhig, und die Miete ist niedriger. Aber ich brauche ein Auto, weil der Bus nur zweimal am Tag fährt. Für mich ist das in Ordnung.",
-   "p": 9,
+   "t": "Achtung, eine Durchsage der Stadtwerke: Am Donnerstag wird in der Bergstraße der Strom von dreizehn bis sechzehn Uhr abgeschaltet. Betroffen sind die Hausnummern eins bis dreißig. Bitte planen Sie das ein.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Kunden, heute gibt es zwanzig Prozent Rabatt auf alle Farben und Pinsel in unserem Baumarkt. Das Angebot gilt nur bis achtzehn Uhr.",
-   "p": 0.6,
+   "t": "Das Möbelhaus Wohnwelt lädt ein zur Küchenwoche: Auf alle Küchen gibt es zehn Prozent Rabatt. Die Beratung ist kostenlos, und der Aufbau ist für Kunden bis Ende des Monats gratis.",
+   "p": 2,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Kunden, heute gibt es zwanzig Prozent Rabatt auf alle Farben und Pinsel in unserem Baumarkt. Das Angebot gilt nur bis achtzehn Uhr.",
-   "p": 9,
+   "t": "Das Möbelhaus Wohnwelt lädt ein zur Küchenwoche: Auf alle Küchen gibt es zehn Prozent Rabatt. Die Beratung ist kostenlos, und der Aufbau ist für Kunden bis Ende des Monats gratis.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KillianNeural",
-   "t": "Ein Tipp zum Energiesparen: Stellen Sie die Heizung nachts etwas niedriger ein, und lüften Sie kurz, aber kräftig. Dauerhaft gekippte Fenster kosten viel Geld.",
-   "p": 0.6,
+   "t": "Hier ist die Mailbox von Herrn Schulte. Ich bin bis nächsten Mittwoch im Urlaub. Wegen der Mietangelegenheit rufen Sie bitte meine Kollegin an, Frau Krämer, unter der Nummer zwei sieben vier.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KillianNeural",
-   "t": "Ein Tipp zum Energiesparen: Stellen Sie die Heizung nachts etwas niedriger ein, und lüften Sie kurz, aber kräftig. Dauerhaft gekippte Fenster kosten viel Geld.",
-   "p": 9,
+   "t": "Hier ist die Mailbox von Herrn Schulte. Ich bin bis nächsten Mittwoch im Urlaub. Wegen der Mietangelegenheit rufen Sie bitte meine Kollegin an, Frau Krämer, unter der Nummer zwei sieben vier.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo Frau Weber, hier ist Ihr Vermieter. Ich möchte Ihnen sagen, dass die Reparatur des Balkons erst nächste Woche beginnt, nicht diese. Sie müssen nichts tun.",
-   "p": 0.6,
+   "t": "Die Müllabfuhr informiert: Wegen des Feiertags wird die Biotonne diese Woche nicht am Donnerstag, sondern erst am Freitag geleert. Die Restmülltonne ist nicht betroffen.",
+   "p": 2,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo Frau Weber, hier ist Ihr Vermieter. Ich möchte Ihnen sagen, dass die Reparatur des Balkons erst nächste Woche beginnt, nicht diese. Sie müssen nichts tun.",
-   "p": 9,
+   "t": "Die Müllabfuhr informiert: Wegen des Feiertags wird die Biotonne diese Woche nicht am Donnerstag, sondern erst am Freitag geleert. Die Restmülltonne ist nicht betroffen.",
+   "p": 7,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Das ist das Ende des Teils.",
-   "p": 3.0,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",

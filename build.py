@@ -659,6 +659,7 @@ def main():
     from content.l1cat import L1
     from content.lesen_long import LONG
     from content.lesen_hard import HARD
+    from content.hoeren_dtz_new import HOE
     mocks = load_mocks()[:MAXN]
     for i, M in enumerate(mocks):
         M.update(EXTRAS[i + 1]); M['l1cat'] = L1[i + 1]
@@ -671,6 +672,8 @@ def main():
         if i + 1 in HARD:  # harder Lesen (content/lesen_hard.py) replaces the Lesen content of that mock
             Hd = HARD[i + 1]
             M['l1cat'] = Hd['l1']; M['l2'] = Hd['l2']; M['l3'] = Hd['l3']; M['l4'] = Hd['l4']; M['l5'] = Hd['l5']
+        if i + 1 in HOE:  # official-pattern Hören (content/hoeren_dtz_new.py)
+            for k in ('h1','h2','h3','h4'): M[k] = HOE[i + 1][k]
     os.makedirs(os.path.join(DOCS, "assets"), exist_ok=True)
     app = APP.replace("%TIPS%", json.dumps({k: list(v) for k, v in X.TIPS.items()}, ensure_ascii=False))
     for name, txt in (("style.css", CSS), ("app.js", app), ("index.js", INDEX_JS)):

@@ -380,163 +380,163 @@
  ],
  "hoeren": [
   {
-   "title": "Hören · Teil 1: fünf kurze Texte (einmal hören)",
-   "instr": "Sie hören fünf kurze Texte, Meinungen oder Beschreibungen von Personen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "title": "Hören · Teil 1: fünf Meinungen zu einem Thema (einmal hören)",
+   "instr": "Sie hören fünf Personen, die ihre Meinung zum Thema „Sprachen lernen: fünf Meinungen“ sagen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
    "left": null,
    "items": [
     {
      "id": "h1",
-     "q": "Der Italienischkurs beginnt später als sonst.",
+     "q": "Die Sprecherin ist mit ihrer Kursgröße unzufrieden.",
      "tf": true,
      "key": "r",
-     "why": "Er beginnt um 18 Uhr 30, nicht um 18 Uhr."
+     "why": "Zwanzig Leute, selten dran."
     },
     {
      "id": "h2",
-     "q": "Man kann sich auch nach Freitag noch zur Prüfung anmelden.",
+     "q": "Der Sprecher lernt am liebsten mit einem Lehrer.",
      "tf": true,
      "key": "f",
-     "why": "Nach Freitag ist die Anmeldung geschlossen."
+     "why": "Er lernt am besten allein."
     },
     {
      "id": "h3",
-     "q": "Auf der Autobahn gibt es Stau.",
+     "q": "Die Sprecherin und ihr Mann sprechen zu Hause immer Deutsch.",
      "tf": true,
-     "key": "r",
-     "why": "Sieben Kilometer Stau auf der A4."
+     "key": "f",
+     "why": "Bei Streit wechseln sie zu Spanisch."
     },
     {
      "id": "h4",
-     "q": "Paul schlägt vor, am Mittwoch zu lernen.",
+     "q": "Der Sprecher möchte vor allem sprechen üben.",
      "tf": true,
      "key": "r",
-     "why": "Er möchte sich am Mittwoch in der Bibliothek treffen."
+     "why": "Konversationskurs."
     },
     {
      "id": "h5",
-     "q": "Die Kantine ist auch am Samstag geöffnet.",
+     "q": "Die Sprecherin findet Serien mit Untertiteln zu schwierig.",
      "tf": true,
      "key": "f",
-     "why": "Am Wochenende bleibt sie geschlossen."
+     "why": "Anfangs anstrengend, jetzt der leichteste Weg."
     }
    ]
   },
   {
-   "title": "Hören · Teil 2: ein Gespräch (zweimal hören)",
-   "instr": "Sie hören ein längeres Gespräch oder ein Interview. Sie hören es zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 1 Minute).",
+   "title": "Hören · Teil 2: Interview (zweimal hören)",
+   "instr": "Sie hören ein Interview. Sie hören den Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: eine Minute).",
    "left": null,
    "items": [
     {
      "id": "h6",
-     "q": "Frau Ilić leitet eine Abendschule.",
+     "q": "Die Zahl der Lernenden ist im letzten Jahr gestiegen.",
      "tf": true,
      "key": "r",
-     "why": "Das sagt die Moderatorin am Anfang."
+     "why": "Etwa tausend mehr."
     },
     {
      "id": "h7",
-     "q": "Die meisten Schüler sind jünger als zwanzig.",
+     "q": "Englisch ist der größte Bereich an der Volkshochschule.",
      "tf": true,
      "key": "f",
-     "why": "Sie sind meist zwischen dreißig und fünfzig."
+     "why": "Deutsch ist der größte."
     },
     {
      "id": "h8",
-     "q": "Der Unterricht ist von Montag bis Donnerstag.",
+     "q": "Spanischkurse werden oft von Rentnern besucht.",
      "tf": true,
      "key": "r",
-     "why": "Freitags ist kein Unterricht."
+     "why": "Rentner, die gern reisen."
     },
     {
      "id": "h9",
-     "q": "Der Unterricht beginnt um 17 Uhr.",
+     "q": "Das größte Problem der Teilnehmer ist das Geld.",
      "tf": true,
      "key": "f",
-     "why": "Er beginnt um 18 Uhr."
+     "why": "Das größte Problem ist die Zeit."
     },
     {
      "id": "h10",
-     "q": "Deutsch, Mathematik und Englisch sind Pflichtfächer.",
+     "q": "Die Online-Kurse dauern mehrere Stunden pro Woche.",
      "tf": true,
-     "key": "r",
-     "why": "Das nennt Frau Ilić ausdrücklich."
+     "key": "f",
+     "why": "Nur eine Stunde."
     },
     {
      "id": "h11",
-     "q": "Die Schüler müssen ein Wahlfach nehmen, das Geschichte heißt.",
+     "q": "Teilnehmer trauen sich zu Hause mehr zu sprechen.",
      "tf": true,
-     "key": "f",
-     "why": "Das Wahlfach kann zum Beispiel Informatik oder Geschichte sein."
+     "key": "r",
+     "why": "Entspannter, mehr trauen."
     },
     {
      "id": "h12",
-     "q": "Am Anfang schlafen manche Schüler fast ein.",
+     "q": "Ein Semesterkurs kostet ungefähr hundertzwanzig Euro.",
      "tf": true,
      "key": "r",
-     "why": "Nach einem langen Arbeitstag sind manche sehr müde."
+     "why": "Etwa 120 Euro."
     },
     {
      "id": "h13",
-     "q": "Die Schüler zahlen eine hohe Gebühr.",
+     "q": "Die Ermäßigung gibt es für alle Teilnehmer.",
      "tf": true,
      "key": "f",
-     "why": "Die Schule ist kostenlos, nur die Bücher kosten Geld."
+     "why": "Nur für Menschen mit geringem Einkommen, mit Nachweis."
     },
     {
      "id": "h14",
-     "q": "Rund drei Viertel der Schüler bestehen die Prüfung.",
+     "q": "Herr Berger empfiehlt, jeden Tag ein bisschen zu lernen.",
      "tf": true,
      "key": "r",
-     "why": "„Etwa Dreiviertel“."
+     "why": "Besser als einmal vier Stunden."
     },
     {
      "id": "h15",
-     "q": "Das Beratungsgespräch ist verpflichtend und kostet Geld.",
+     "q": "Der Sprachtreff im Café ist kostenpflichtig.",
      "tf": true,
      "key": "f",
-     "why": "Das Gespräch ist unverbindlich."
+     "why": "Kostenlos, ohne Anmeldung."
     }
    ]
   },
   {
-   "title": "Hören · Teil 3: fünf kurze Texte (zweimal hören)",
-   "instr": "Sie hören fünf kurze Texte, zum Beispiel eine Nachricht auf dem Anrufbeantworter, eine Durchsage oder eine Radioinformation. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "title": "Hören · Teil 3: fünf kurze Ansagen (zweimal hören)",
+   "instr": "Sie hören fünf kurze Ansagen oder Durchsagen. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
    "left": null,
    "items": [
     {
      "id": "h16",
-     "q": "Die Bibliothek schließt heute früher als normal.",
+     "q": "Die neuen Kurse beginnen am zwanzigsten Oktober.",
      "tf": true,
-     "key": "r",
-     "why": "Schon um sechzehn Uhr."
+     "key": "f",
+     "why": "Erst am vierten November."
     },
     {
      "id": "h17",
-     "q": "Der Sprecher findet, Grundschüler brauchen viele Hausaufgaben.",
+     "q": "Die Bibliothek schließt heute früher als normal.",
      "tf": true,
-     "key": "f",
-     "why": "Er findet Hausaufgaben nicht nötig."
+     "key": "r",
+     "why": "Achtzehn statt zweiundzwanzig Uhr."
     },
     {
      "id": "h18",
-     "q": "Der Zug nach Hamburg fährt heute nicht.",
+     "q": "Die Haltestelle Schule wird nicht bedient.",
      "tf": true,
      "key": "r",
-     "why": "Er fällt aus; man nimmt den Zug um 14 Uhr 15."
+     "why": "Nicht angefahren."
     },
     {
      "id": "h19",
-     "q": "Beim Tag der offenen Tür gibt es Getränke und Kuchen.",
+     "q": "Man muss sich für den Treff im Café anmelden.",
      "tf": true,
-     "key": "r",
-     "why": "„Für Getränke und Kuchen ist gesorgt.“"
+     "key": "f",
+     "why": "Keine Anmeldung nötig."
     },
     {
      "id": "h20",
-     "q": "Der Arzttermin morgen findet statt.",
+     "q": "Der Rabatt gilt auch für Chinesisch.",
      "tf": true,
      "key": "f",
-     "why": "Der Termin fällt aus."
+     "why": "Alle Sprachen außer Chinesisch."
     }
    ]
   }
@@ -586,56 +586,56 @@
  },
  "hoertexte": [
   {
-   "title": "Hören Teil 1",
+   "title": "Hören Teil 1 · Sprachen lernen: fünf Meinungen",
    "texts": [
     [
-     "Text 1",
-     "<p>Achtung, eine Durchsage der Volkshochschule. Der Kurs Italienisch für Anfänger beginnt heute nicht um 18 Uhr, sondern erst um 18 Uhr 30. Bitte warten Sie vor Raum 204.</p>"
+     "Sprecher 1",
+     "<p>Ich lerne Deutsch seit einem Jahr im Kurs. Eigentlich habe ich viel Spaß daran, aber das Sprechen fällt mir schwer. Im Kurs sind wir zwanzig Leute, und ich komme selten dran. Deshalb möchte ich eine Lernpartnerin finden.</p>"
     ],
     [
-     "Text 2",
-     "<p>Hier ist die Mailbox von Frau Lindner. Ich bin heute nicht im Büro. Wenn Sie wegen der Prüfungsanmeldung anrufen, melden Sie sich bitte bis Freitag im Sekretariat. Danach ist die Anmeldung geschlossen.</p>"
+     "Sprecher 2",
+     "<p>Ich benutze nur eine App. Zehn Minuten am Tag, im Bus oder in der Mittagspause. Das reicht mir. Ich brauche keine Lehrer, ich lerne am besten allein.</p>"
     ],
     [
-     "Text 3",
-     "<p>Und nun die Verkehrsmeldung: Auf der A4 gibt es zwischen Köln und Aachen sieben Kilometer Stau. Fahren Sie besser über die Landstraße. Sie verlieren so etwa zwanzig Minuten.</p>"
+     "Sprecher 3",
+     "<p>Mein Mann und ich sprechen zu Hause nur Deutsch, obwohl wir beide aus Spanien kommen. Am Anfang war das komisch, aber wir lernen so viel schneller. Nur bei Streit wechseln wir lieber zurück zu Spanisch.</p>"
     ],
     [
-     "Text 4",
-     "<p>Hallo Anna, hier ist Paul. Ich kann morgen nicht mit dir lernen, weil mein Zug Verspätung hat. Wollen wir uns stattdessen am Mittwoch in der Bibliothek treffen? Ruf mich bitte zurück.</p>"
+     "Sprecher 4",
+     "<p>Ich habe in der Schule sechs Jahre Englisch gelernt und kann trotzdem kaum sprechen. Das lag am Unterricht, es ging nur um Grammatik. Deshalb habe ich jetzt einen Konversationskurs gewählt, da wird nur geredet.</p>"
     ],
     [
-     "Text 5",
-     "<p>Liebe Gäste, unsere Kantine hat ab sofort eine neue Öffnungszeit. Sie ist montags bis freitags von elf bis vierzehn Uhr geöffnet. Am Wochenende bleibt sie geschlossen.</p>"
+     "Sprecher 5",
+     "<p>Ich schaue abends Serien auf Deutsch, mit deutschen Untertiteln. Zuerst war es anstrengend, aber inzwischen verstehe ich ungefähr achtzig Prozent. Das ist für mich der leichteste Weg.</p>"
     ]
    ]
   },
   {
-   "title": "Hören Teil 2",
-   "html": "<div class=\"text\"><p>Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?</p><p>Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.</p><p>Wie lange dauert der Unterricht?</p><p>Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.</p><p>Welche Fächer lernen die Schüler?</p><p>Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.</p><p>Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?</p><p>Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.</p><p>Wie viel kostet der Besuch?</p><p>Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.</p><p>Und wie viele schaffen am Ende den Abschluss?</p><p>Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.</p><p>Was würden Sie jemandem raten, der noch zögert?</p><p>Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.</p><p>Vielen Dank, Frau Ilić, für das Gespräch.</p></div>"
+   "title": "Hören Teil 2 · Interview: Erwachsene lernen eine neue Sprache. Herr Dr. Berger, Leiter der Volkshochschule",
+   "html": "<div class=\"text\"><p>Herr Berger, wie viele Menschen lernen bei Ihnen Sprachen?</p><p>Im letzten Jahr waren es rund viertausend, etwa tausend mehr als im Jahr davor. Deutsch ist natürlich der größte Bereich, danach folgen Englisch und Spanisch.</p><p>Wer sind die typischen Teilnehmer?</p><p>Das ist gemischt. Bei den Deutschkursen sind viele Berufstätige dabei, die schnell besser werden wollen. Die Spanischkurse besuchen dagegen oft Rentner, die gern reisen.</p><p>Was ist das Hauptproblem der Lernenden?</p><p>Die meisten haben keine Zeit. Sie kommen müde nach der Arbeit, haben Familie und müssen am Wochenende lernen. Deshalb bieten wir jetzt auch kurze Online-Kurse an, nur eine Stunde pro Woche.</p><p>Funktionieren die denn?</p><p>Besser als erwartet. Anfangs hatten wir Zweifel, weil der persönliche Kontakt fehlt. Aber viele sagen, dass sie sich zu Hause entspannter fühlen und mehr trauen zu sprechen.</p><p>Was kostet so ein Kurs?</p><p>Ein Semesterkurs kostet etwa hundertzwanzig Euro. Für Menschen mit geringem Einkommen gibt es dreißig Prozent Ermäßigung. Dafür braucht man nur einen Nachweis.</p><p>Haben Sie einen Tipp für Anfänger?</p><p>Jeden Tag ein bisschen, das ist besser als einmal pro Woche vier Stunden. Und keine Angst vor Fehlern. Die Leute, die am meisten sprechen, machen am schnellsten Fortschritte.</p><p>Und was kommt als Nächstes bei Ihnen?</p><p>Im Herbst starten wir einen Sprachtreff im Café. Einmal pro Woche, ohne Anmeldung und kostenlos. Dort kann man einfach vorbeikommen und reden.</p><p>Wird das Angebot angenommen?</p><p>Wir hoffen es. Das Pilotprojekt im letzten Jahr hatte jedes Mal um die dreißig Gäste, deshalb machen wir es jetzt dauerhaft.</p></div>"
   },
   {
    "title": "Hören Teil 3",
    "texts": [
     [
-     "Text 1",
-     "<p>Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.</p>"
+     "Ansage 1",
+     "<p>Hier ist die Volkshochschule. Wegen der Ferien beginnen die neuen Kurse erst am vierten November, nicht wie geplant am zwanzigsten Oktober. Die Anmeldung ist noch bis zum fünfundzwanzigsten Oktober möglich, auch online.</p>"
     ],
     [
-     "Text 2",
-     "<p>Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.</p>"
+     "Ansage 2",
+     "<p>Achtung, eine Durchsage in der Universitätsbibliothek: Die Bibliothek schließt heute wegen einer Veranstaltung schon um achtzehn Uhr, nicht wie sonst um zweiundzwanzig Uhr. Bitte geben Sie Ihre Bücher bis siebzehn Uhr dreißig zurück.</p>"
     ],
     [
-     "Text 3",
-     "<p>Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.</p>"
+     "Ansage 3",
+     "<p>Und nun die Verkehrsmeldung: Wegen einer Baustelle in der Schillerstraße fahren die Buslinien drei und sieben heute nur bis zum Marktplatz. Die Haltestelle Schule wird nicht angefahren. Es gibt einen Ersatzbus.</p>"
     ],
     [
-     "Text 4",
-     "<p>Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.</p>"
+     "Ansage 4",
+     "<p>Lust auf Sprachen? Im Café Babel treffen sich jeden Donnerstag um neunzehn Uhr Menschen aus aller Welt. Der Eintritt ist frei, und wer möchte, kann ein Getränk bestellen. Eine Anmeldung ist nicht nötig.</p>"
     ],
     [
-     "Text 5",
-     "<p>Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.</p>"
+     "Ansage 5",
+     "<p>Sprachschule Lingua. Sommerangebot: Wer bis Ende Juli einen Kurs bucht, bekommt zehn Prozent Rabatt und ein Wörterbuch gratis. Das Angebot gilt für alle Sprachen außer Chinesisch.</p>"
     ]
    ]
   }
@@ -643,7 +643,7 @@
  "audio": [
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -655,31 +655,31 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Achtung, eine Durchsage der Volkshochschule. Der Kurs Italienisch für Anfänger beginnt heute nicht um 18 Uhr, sondern erst um 18 Uhr 30. Bitte warten Sie vor Raum 204.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Hier ist die Mailbox von Frau Lindner. Ich bin heute nicht im Büro. Wenn Sie wegen der Prüfungsanmeldung anrufen, melden Sie sich bitte bis Freitag im Sekretariat. Danach ist die Anmeldung geschlossen.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Und nun die Verkehrsmeldung: Auf der A4 gibt es zwischen Köln und Aachen sieben Kilometer Stau. Fahren Sie besser über die Landstraße. Sie verlieren so etwa zwanzig Minuten.",
+   "t": "Ich lerne Deutsch seit einem Jahr im Kurs. Eigentlich habe ich viel Spaß daran, aber das Sprechen fällt mir schwer. Im Kurs sind wir zwanzig Leute, und ich komme selten dran. Deshalb möchte ich eine Lernpartnerin finden.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Hallo Anna, hier ist Paul. Ich kann morgen nicht mit dir lernen, weil mein Zug Verspätung hat. Wollen wir uns stattdessen am Mittwoch in der Bibliothek treffen? Ruf mich bitte zurück.",
+   "t": "Ich benutze nur eine App. Zehn Minuten am Tag, im Bus oder in der Mittagspause. Das reicht mir. Ich brauche keine Lehrer, ich lerne am besten allein.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Liebe Gäste, unsere Kantine hat ab sofort eine neue Öffnungszeit. Sie ist montags bis freitags von elf bis vierzehn Uhr geöffnet. Am Wochenende bleibt sie geschlossen.",
+   "t": "Mein Mann und ich sprechen zu Hause nur Deutsch, obwohl wir beide aus Spanien kommen. Am Anfang war das komisch, aber wir lernen so viel schneller. Nur bei Streit wechseln wir lieber zurück zu Spanisch.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich habe in der Schule sechs Jahre Englisch gelernt und kann trotzdem kaum sprechen. Das lag am Unterricht, es ging nur um Grammatik. Deshalb habe ich jetzt einen Konversationskurs gewählt, da wird nur geredet.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich schaue abends Serien auf Deutsch, mit deutschen Untertiteln. Zuerst war es anstrengend, aber inzwischen verstehe ich ungefähr achtzig Prozent. Das ist für mich der leichteste Weg.",
    "p": 7,
    "r": "-8%"
   },
@@ -691,7 +691,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -703,194 +703,200 @@
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?",
+   "t": "Herr Berger, wie viele Menschen lernen bei Ihnen Sprachen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.",
+   "t": "Im letzten Jahr waren es rund viertausend, etwa tausend mehr als im Jahr davor. Deutsch ist natürlich der größte Bereich, danach folgen Englisch und Spanisch.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wie lange dauert der Unterricht?",
+   "t": "Wer sind die typischen Teilnehmer?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.",
+   "t": "Das ist gemischt. Bei den Deutschkursen sind viele Berufstätige dabei, die schnell besser werden wollen. Die Spanischkurse besuchen dagegen oft Rentner, die gern reisen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Welche Fächer lernen die Schüler?",
+   "t": "Was ist das Hauptproblem der Lernenden?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.",
+   "t": "Die meisten haben keine Zeit. Sie kommen müde nach der Arbeit, haben Familie und müssen am Wochenende lernen. Deshalb bieten wir jetzt auch kurze Online-Kurse an, nur eine Stunde pro Woche.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?",
+   "t": "Funktionieren die denn?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.",
+   "t": "Besser als erwartet. Anfangs hatten wir Zweifel, weil der persönliche Kontakt fehlt. Aber viele sagen, dass sie sich zu Hause entspannter fühlen und mehr trauen zu sprechen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wie viel kostet der Besuch?",
+   "t": "Was kostet so ein Kurs?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.",
+   "t": "Ein Semesterkurs kostet etwa hundertzwanzig Euro. Für Menschen mit geringem Einkommen gibt es dreißig Prozent Ermäßigung. Dafür braucht man nur einen Nachweis.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Und wie viele schaffen am Ende den Abschluss?",
+   "t": "Haben Sie einen Tipp für Anfänger?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.",
+   "t": "Jeden Tag ein bisschen, das ist besser als einmal pro Woche vier Stunden. Und keine Angst vor Fehlern. Die Leute, die am meisten sprechen, machen am schnellsten Fortschritte.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was würden Sie jemandem raten, der noch zögert?",
+   "t": "Und was kommt als Nächstes bei Ihnen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.",
+   "t": "Im Herbst starten wir einen Sprachtreff im Café. Einmal pro Woche, ohne Anmeldung und kostenlos. Dort kann man einfach vorbeikommen und reden.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Vielen Dank, Frau Ilić, für das Gespräch.",
+   "t": "Wird das Angebot angenommen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
+   "v": "de-DE-ConradNeural",
+   "t": "Wir hoffen es. Das Pilotprojekt im letzten Jahr hatte jedes Mal um die dreißig Gäste, deshalb machen wir es jetzt dauerhaft.",
+   "p": 0.6,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1.5,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Willkommen bei „Bildung heute“. Zu Gast ist Frau Ilić, sie leitet eine Abendschule. Frau Ilić, wer besucht Ihre Schule?",
+   "t": "Herr Berger, wie viele Menschen lernen bei Ihnen Sprachen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Erwachsene, die früher keinen Schulabschluss gemacht haben. Die meisten sind zwischen dreißig und fünfzig Jahre alt. Viele arbeiten tagsüber.",
+   "t": "Im letzten Jahr waren es rund viertausend, etwa tausend mehr als im Jahr davor. Deutsch ist natürlich der größte Bereich, danach folgen Englisch und Spanisch.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wie lange dauert der Unterricht?",
+   "t": "Wer sind die typischen Teilnehmer?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Er findet von Montag bis Donnerstag statt, jeweils von 18 bis 21 Uhr. Freitags haben wir keinen Unterricht.",
+   "t": "Das ist gemischt. Bei den Deutschkursen sind viele Berufstätige dabei, die schnell besser werden wollen. Die Spanischkurse besuchen dagegen oft Rentner, die gern reisen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Welche Fächer lernen die Schüler?",
+   "t": "Was ist das Hauptproblem der Lernenden?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Deutsch, Mathematik und Englisch sind Pflicht. Dazu können sie ein Wahlfach nehmen, zum Beispiel Informatik oder Geschichte.",
+   "t": "Die meisten haben keine Zeit. Sie kommen müde nach der Arbeit, haben Familie und müssen am Wochenende lernen. Deshalb bieten wir jetzt auch kurze Online-Kurse an, nur eine Stunde pro Woche.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Ist das nicht sehr anstrengend, nach einem langen Arbeitstag?",
+   "t": "Funktionieren die denn?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ja, schon. Manche schlafen am Anfang fast ein. Aber nach ein paar Wochen gewöhnen sich die meisten daran. Wichtig ist, dass die Gruppe zusammenhält.",
+   "t": "Besser als erwartet. Anfangs hatten wir Zweifel, weil der persönliche Kontakt fehlt. Aber viele sagen, dass sie sich zu Hause entspannter fühlen und mehr trauen zu sprechen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wie viel kostet der Besuch?",
+   "t": "Was kostet so ein Kurs?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Die Schule ist kostenlos. Nur die Bücher müssen die Schüler selbst kaufen. Gebrauchte Bücher gibt es oft im Sekretariat.",
+   "t": "Ein Semesterkurs kostet etwa hundertzwanzig Euro. Für Menschen mit geringem Einkommen gibt es dreißig Prozent Ermäßigung. Dafür braucht man nur einen Nachweis.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Und wie viele schaffen am Ende den Abschluss?",
+   "t": "Haben Sie einen Tipp für Anfänger?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Etwa drei Viertel. Wer durchfällt, kann die Prüfung im nächsten Jahr wiederholen.",
+   "t": "Jeden Tag ein bisschen, das ist besser als einmal pro Woche vier Stunden. Und keine Angst vor Fehlern. Die Leute, die am meisten sprechen, machen am schnellsten Fortschritte.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was würden Sie jemandem raten, der noch zögert?",
+   "t": "Und was kommt als Nächstes bei Ihnen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Einfach anrufen und zu einem Beratungsgespräch kommen. Das ist unverbindlich. Viele sagen später, sie hätten schon viel früher beginnen sollen.",
+   "t": "Im Herbst starten wir einen Sprachtreff im Café. Einmal pro Woche, ohne Anmeldung und kostenlos. Dort kann man einfach vorbeikommen und reden.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Vielen Dank, Frau Ilić, für das Gespräch.",
-   "p": 20,
+   "t": "Wird das Angebot angenommen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Wir hoffen es. Das Pilotprojekt im letzten Jahr hatte jedes Mal um die dreißig Gäste, deshalb machen wir es jetzt dauerhaft.",
+   "p": 0.6,
    "r": "-8%"
   },
   {
@@ -901,7 +907,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -913,129 +919,93 @@
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.",
-   "p": 0.6,
+   "t": "Hier ist die Volkshochschule. Wegen der Ferien beginnen die neuen Kurse erst am vierten November, nicht wie geplant am zwanzigsten Oktober. Die Anmeldung ist noch bis zum fünfundzwanzigsten Oktober möglich, auch online.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Sehr geehrte Damen und Herren, die Stadtbibliothek schließt heute wegen einer Veranstaltung schon um sechzehn Uhr. Bitte geben Sie Ihre Bücher rechtzeitig zurück. Danke für Ihr Verständnis.",
-   "p": 9,
+   "t": "Hier ist die Volkshochschule. Wegen der Ferien beginnen die neuen Kurse erst am vierten November, nicht wie geplant am zwanzigsten Oktober. Die Anmeldung ist noch bis zum fünfundzwanzigsten Oktober möglich, auch online.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.",
-   "p": 0.6,
+   "t": "Achtung, eine Durchsage in der Universitätsbibliothek: Die Bibliothek schließt heute wegen einer Veranstaltung schon um achtzehn Uhr, nicht wie sonst um zweiundzwanzig Uhr. Bitte geben Sie Ihre Bücher bis siebzehn Uhr dreißig zurück.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich finde, dass Hausaufgaben für Grundschüler nicht nötig sind. Die Kinder sind nachmittags müde und sollen lieber spielen. In der Schule lernen sie schon genug.",
-   "p": 9,
+   "t": "Achtung, eine Durchsage in der Universitätsbibliothek: Die Bibliothek schließt heute wegen einer Veranstaltung schon um achtzehn Uhr, nicht wie sonst um zweiundzwanzig Uhr. Bitte geben Sie Ihre Bücher bis siebzehn Uhr dreißig zurück.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.",
-   "p": 0.6,
+   "t": "Und nun die Verkehrsmeldung: Wegen einer Baustelle in der Schillerstraße fahren die Buslinien drei und sieben heute nur bis zum Marktplatz. Die Haltestelle Schule wird nicht angefahren. Es gibt einen Ersatzbus.",
+   "p": 2,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Liebe Reisende, der Zug nach Hamburg fällt heute aus. Bitte benutzen Sie den Zug um 14 Uhr 15 auf Gleis neun. Ihre Fahrkarte bleibt gültig.",
-   "p": 9,
+   "t": "Und nun die Verkehrsmeldung: Wegen einer Baustelle in der Schillerstraße fahren die Buslinien drei und sieben heute nur bis zum Marktplatz. Die Haltestelle Schule wird nicht angefahren. Es gibt einen Ersatzbus.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KillianNeural",
-   "t": "Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.",
-   "p": 0.6,
+   "t": "Lust auf Sprachen? Im Café Babel treffen sich jeden Donnerstag um neunzehn Uhr Menschen aus aller Welt. Der Eintritt ist frei, und wer möchte, kann ein Getränk bestellen. Eine Anmeldung ist nicht nötig.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KillianNeural",
-   "t": "Der Tag der offenen Tür an unserer Schule findet am Samstag von zehn bis fünfzehn Uhr statt. Sie können Klassenzimmer besichtigen und mit Lehrern sprechen. Für Getränke und Kuchen ist gesorgt.",
-   "p": 9,
+   "t": "Lust auf Sprachen? Im Café Babel treffen sich jeden Donnerstag um neunzehn Uhr Menschen aus aller Welt. Der Eintritt ist frei, und wer möchte, kann ein Getränk bestellen. Eine Anmeldung ist nicht nötig.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.",
-   "p": 0.6,
+   "t": "Sprachschule Lingua. Sommerangebot: Wer bis Ende Juli einen Kurs bucht, bekommt zehn Prozent Rabatt und ein Wörterbuch gratis. Das Angebot gilt für alle Sprachen außer Chinesisch.",
+   "p": 2,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo, hier ist die Praxis von Dr. Weiß. Ihr Termin morgen um neun fällt leider aus. Bitte rufen Sie uns an. Wir finden einen neuen Termin, wahrscheinlich noch diese Woche.",
-   "p": 9,
+   "t": "Sprachschule Lingua. Sommerangebot: Wer bis Ende Juli einen Kurs bucht, bekommt zehn Prozent Rabatt und ein Wörterbuch gratis. Das Angebot gilt für alle Sprachen außer Chinesisch.",
+   "p": 7,
    "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Das ist das Ende des Teils.",
-   "p": 3.0,
-   "r": "+0%"
   },
   {
    "v": "de-DE-AmalaNeural",
