@@ -3,7 +3,7 @@
 const $=(s,r)=>(r||document).querySelector(s),$$=(s,r)=>Array.from((r||document).querySelectorAll(s));
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const EXAMS={dtz:{name:'DTZ B1',def:'2026-12-10',mock:n=>'dtz:'+n,N:24,dir:'dtz/b1'},telc:{name:'telc B1',def:'2027-02-25',mock:n=>'telc:mt:'+n,N:12,dir:'telc/b1'}};
-const SECS={hoeren:'Hören',lesen:'Lesen',schreiben:'Schreiben',sprechen:'Sprechen'};const PROD={schreiben:1,sprechen:1};const HOE=false;
+const SECS={hoeren:'Hören',lesen:'Lesen',schreiben:'Schreiben',sprechen:'Sprechen'};const PROD={schreiben:1,sprechen:1};const HOE=true;
 const LS={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
 const DB=()=>{const d=LS.get('pg:v1',null)||{};d.ev=d.ev||[];d.rounds=d.rounds||[];return d};
 const saveDB=d=>{if(d.ev.length>30000)d.ev=d.ev.slice(-30000);if(d.rounds.length>3000)d.rounds=d.rounds.slice(-3000);LS.set('pg:v1',d)};
@@ -36,7 +36,7 @@ async function renderSetup(q){
  view.innerHTML='<div class="card"><h2>Neue Runde</h2>'
  +'<div class="grp"><label>Prüfung</label>'+seg([['dtz','DTZ B1'],['telc','telc B1']],'ex')+'</div>'
  +'<div class="grp"><label>Niveau</label>'+seg([['a1','A1 (bald)',1],['a2','A2 (bald)',1],['b1','B1']],'lv')+'</div>'
- +'<div class="grp"><label>Bereich</label>'+seg([['hoeren','Hören (bald)',!HOE],['lesen','Lesen'],['schreiben','Schreiben'],['sprechen','Sprechen']],'sec')+'</div>'
+ +'<div class="grp"><label>Bereich</label>'+seg([['hoeren','Hören',!HOE],['lesen','Lesen'],['schreiben','Schreiben'],['sprechen','Sprechen']],'sec')+'</div>'
  +'<div class="grp"><label>Teil</label>'+seg([['0','Alle Teile']].concat(Object.keys(teile).map(t=>[t,'Teil '+t])),'teil')+'<p class="mut" style="margin:6px 0 0">'+(sel.teil==='0'?'Gemischt aus verschiedenen Modelltests.':esc(teile[sel.teil]||''))+'</p></div>'
  +(PROD[sel.sec]?'':'<div class="grp"><label>Auswahl</label>'+seg([['new','Neue Fragen zuerst'],['wrong','Meine Fehler wiederholen'],['mix','Gemischt']],'mode')+'</div>')
  +'<div class="row"><button class="btn big" id="go">Runde starten (ca. 10 Fragen)</button><span class="mut">Heute: '+tq+' Fragen · '+Math.round(tn/60)+' Min.</span></div></div>'
