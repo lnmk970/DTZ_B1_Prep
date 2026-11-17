@@ -665,6 +665,23 @@ def main():
     for _p in sorted(_g.glob(os.path.join(ROOT, 'content', 'dtz_new', 'm[0-9][0-9].py'))):
         _sp = importlib.util.spec_from_file_location('mn', _p); _m = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_m)
         NEW[int(os.path.basename(_p)[1:3])] = _m.M
+    def _shuf_mc(o, i, rnd):
+        if o in ("richtig|falsch", "richtig|falsch "): return o, i
+        parts = o.split("|")
+        if len(parts) != 3: return o, i
+        order = [0, 1, 2]; rnd.shuffle(order)
+        return "|".join(parts[k] for k in order), order.index(i)
+    import random as _r
+    for _n, _M in NEW.items():
+        if _n < 13: continue
+        _rnd = _r.Random(_n * 7919)
+        _M['h1'] = [(t, q) + _shuf_mc(o, i, _rnd) for (t, q, o, i) in _M['h1']]
+        _M['h2'] = [(t, q) + _shuf_mc(o, i, _rnd) for (t, q, o, i) in _M['h2']]
+        _h3 = []
+        for (st, dlg, qs) in _M['h3']:
+            _h3.append((st, dlg, [(q,) + _shuf_mc(o, i, _rnd) for (q, o, i) in qs]))
+        _M['h3'] = _h3
+        _M['l3'] = [[tx, [[q] + list(_shuf_mc(o, i, _rnd)) for (q, o, i) in qs]] for (tx, qs) in _M['l3']]
     mocks = load_mocks()[:max([MAXN] + list(NEW))]
     for i, M in enumerate(mocks):
         if i + 1 in NEW:
