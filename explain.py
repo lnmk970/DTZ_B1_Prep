@@ -140,19 +140,21 @@ CAT = {id(CONJ): "Konjunktion", id(PREP): "Präposition", id(ART): "Artikel", id
 
 
 def gap_rule(ans, opts, sentence):
+    def L(w):
+        return w if w in WORDS else (w.lower() if w.lower() in WORDS else w)
     kind = None
     for w in opts:
-        if w in WORDS:
-            kind = CAT[id(WORDS[w][0])]
+        if L(w) in WORDS:
+            kind = CAT[id(WORDS[L(w)][0])]
             break
-    a_txt = WORDS[ans][1] if ans in WORDS else None
+    a_txt = WORDS[L(ans)][1] if L(ans) in WORDS else None
     rule = f"„{ans}“ " + (a_txt if (a_txt and kind == "Konjunktion") else ("passt hier: " + a_txt if a_txt else "passt hier grammatisch und vom Sinn."))
     vs = []
     for w in opts:
         if w == ans:
             continue
-        if w in WORDS:
-            vs.append((w, WORDS[w][1]))
+        if L(w) in WORDS:
+            vs.append((w, WORDS[L(w)][1]))
         else:
             vs.append((w, "passt hier nicht zu Endung oder Satzstellung."))
     tips = {

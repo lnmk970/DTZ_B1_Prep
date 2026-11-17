@@ -6,7 +6,8 @@ Writes: docs/playground/bank-<exam>-<section>.json  (exam: dtz|telc, section: ho
 Patches: docs/<exam>/b1/<test folder>/audio.json  (adds hoeren_t1.mp3 ... hoeren_tN.mp3, one per Hören Teil)
 Then on the PC:  python gen_audio.py docs/dtz/b1  (and docs/telc/b1)   -> only the new files are created.
 """
-import os, re, json, glob, sys
+import os
+import explain as X, re, json, glob, sys
 from bs4 import BeautifulSoup
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -97,12 +98,15 @@ def main():
                         kk[pfx + q] = key[q]
                         e = exs.get(q, {})
                         o = {}
-                        for f in ('q', 'ot', 'a', 'src', 'why', 'tit'):
+                        for f in ('q', 'ot', 'a', 'src', 'why', 'tit', 'gap', 'sent', 'k'):
                             if f in e:
                                 o[f] = e[f]
                         ev = e.get('ev')
                         if ev:
                             o['ev'] = ev[0] if isinstance(ev, list) and len(set(ev)) == 1 else ev
+                        tp = X.TIPS.get(e.get('k'))
+                        if tp:
+                            o['tip'] = tp[1]
                         ee[pfx + q] = o
                     banks[sec].append({
                         'id': '%s-%d-%s%d' % (ex, n, sec[0], ti + 1), 'test': n, 'sec': sec, 'teil': ti + 1,
