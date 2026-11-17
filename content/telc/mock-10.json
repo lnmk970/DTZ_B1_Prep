@@ -1,0 +1,993 @@
+{
+ "n": 10,
+ "theme": "Medien, Technik und Internet",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Wegen einer Störung können viele Kunden seit gestern Abend nicht ins Internet. Die Techniker arbeiten an dem Problem. Bis Donnerstag soll alles wieder funktionieren. Betroffene Kunden bekommen eine Gutschrift.</p><p><b>2</b>&nbsp; Mit der neuen App können Sie Ihre Fahrkarte auf dem Handy kaufen und direkt im Zug vorzeigen. Die App ist kostenlos, für Android und iPhone. Die Fahrkarten gelten nur an dem Tag, für den sie gekauft wurden.</p><p><b>3</b>&nbsp; Viele Jugendliche verbringen mehr als vier Stunden täglich am Smartphone. Experten empfehlen, abends das Handy auszuschalten. Eltern sollen mit gutem Beispiel vorangehen und auch selbst weniger am Bildschirm sein.</p><p><b>4</b>&nbsp; Unser Kurs „Computer für Senioren“ beginnt am 5. Oktober. Sie lernen, wie man E-Mails schreibt, Fotos verschickt und im Internet einkauft. Die Teilnahme kostet 30 Euro für zehn Abende. Bitte eigenen Laptop mitbringen.</p><p><b>5</b>&nbsp; Vorsicht bei E-Mails von angeblichen Banken! Betrüger versuchen, Passwörter zu stehlen. Seriöse Banken fragen nie per E-Mail nach Ihrem Passwort. Im Zweifel rufen Sie Ihre Bank an.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Warnung vor falschen Bank-Mails<br><b>b</b>&nbsp; Kurse für Computeranfänger<br><b>c</b>&nbsp; Weniger Zeit am Handy<br><b>d</b>&nbsp; Internet gestört<br><b>e</b>&nbsp; Fahrkarte per Handy<br><b>f</b>&nbsp; Fernseher im Test<br><b>g</b>&nbsp; Neuer Rekord bei Online-Käufen<br><b>h</b>&nbsp; Zeitung wird teurer<br><b>i</b>&nbsp; Radio für Senioren<br><b>j</b>&nbsp; Freies WLAN in der Stadt</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Internet-Störung → Internet gestört (d)."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "App für Fahrkarten → e."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Handyzeit Jugendlicher → c."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Computerkurs Senioren → b."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Betrüger, Passwörter → a."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Das Ende der Zeitung?</p><p>Immer weniger Menschen lesen eine gedruckte Zeitung. Die „Rheinische Rundschau“ hat in zehn Jahren die Hälfte ihrer Leser verloren. Dafür steigen die Zahlen der Online-Abonnenten. Chefredakteurin Sabine Roth sagt: „Die Nachrichten sind dieselben, nur der Weg zum Leser ist ein anderer.“ Trotzdem macht sie sich Sorgen, denn mit Online-Anzeigen verdient die Zeitung viel weniger Geld.</p><p>Deshalb testet die Redaktion ein neues Modell. Wer einen Artikel liest, kann am Ende freiwillig ein bis zwei Euro bezahlen. Nach drei Monaten haben rund fünf Prozent der Leser mitgemacht. „Das ist nicht viel, aber es zeigt, dass Leser guten Journalismus schätzen“, so Roth.</p><p>Auch die Redaktion verändert sich. Statt zwanzig Reportern arbeiten nur noch zwölf. Dafür gibt es neue Stellen für Video und soziale Medien. Ältere Mitarbeiter müssen sich fortbilden, was nicht allen leichtfällt.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Wie hat sich die Zahl der Leser der Zeitung verändert?",
+     "opts": [
+      "Sie hat sich verdoppelt.",
+      "Die Hälfte der Print-Leser ist weg.",
+      "Sie ist gleich geblieben."
+     ],
+     "key": "b",
+     "why": "Hälfte verloren."
+    },
+    {
+     "id": "l7",
+     "q": "Was ist das Problem bei Online-Anzeigen?",
+     "opts": [
+      "Sie sind verboten.",
+      "Sie bringen weniger Geld.",
+      "Niemand liest sie."
+     ],
+     "key": "b",
+     "why": "Viel weniger Geld."
+    },
+    {
+     "id": "l8",
+     "q": "Wie funktioniert das neue Modell?",
+     "opts": [
+      "Leser zahlen freiwillig am Ende eines Artikels.",
+      "Alle Artikel kosten zwei Euro.",
+      "Nur Abonnenten dürfen lesen."
+     ],
+     "key": "a",
+     "why": "Freiwillige Zahlung."
+    },
+    {
+     "id": "l9",
+     "q": "Wie viele Leser machen mit?",
+     "opts": [
+      "Etwa fünf Prozent.",
+      "Etwa die Hälfte.",
+      "Fast alle."
+     ],
+     "key": "a",
+     "why": "Rund 5 %."
+    },
+    {
+     "id": "l10",
+     "q": "Was hat sich in der Redaktion geändert?",
+     "opts": [
+      "Mehr Reporter wurden eingestellt.",
+      "Es gibt weniger Reporter, aber neue Stellen für Video.",
+      "Die Redaktion zieht um."
+     ],
+     "key": "b",
+     "why": "12 statt 20; Video."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Handyshop Connect: Reparatur von Displays in 30 Minuten. Neue Handys ab 99 Euro, auch ohne Vertrag.</p><p><b>b</b>&nbsp; Computerhilfe Müller: Wir kommen zu Ihnen nach Hause! Hilfe bei Internet, Drucker und E-Mail. 25 Euro pro Stunde.</p><p><b>c</b>&nbsp; Buchhandlung Seitenweise: Bücher, Hörbücher und E-Reader. Lesungen jeden ersten Donnerstag im Monat.</p><p><b>d</b>&nbsp; Elektro Kaiser: Fernseher, Waschmaschinen und Kühlschränke. Lieferung und Aufbau kostenlos.</p><p><b>e</b>&nbsp; Foto Express: Fotos in einer Stunde, auch vom Smartphone. Fotobücher und Kalender zum Selbstgestalten.</p><p><b>f</b>&nbsp; Internetcafé Netz: Surfen für 2 Euro pro Stunde, Drucken und Scannen möglich. Geöffnet bis Mitternacht.</p><p><b>g</b>&nbsp; Radio Rhein: Das beste Programm für Ihre Stadt. Hören Sie uns jetzt auch als App.</p><p><b>h</b>&nbsp; Medienschule Klick: Kurse in Videoschnitt, Fotografie und Webdesign. Abendkurse ab 6 Personen.</p><p><b>i</b>&nbsp; Telefonanbieter FreeCall: Handytarif mit 10 GB für 9,99 Euro im Monat. Monatlich kündbar.</p><p><b>j</b>&nbsp; Gebrauchtmarkt Technik24: Gebrauchte Laptops mit einem Jahr Garantie. Ankauf Ihrer alten Geräte.</p><p><b>k</b>&nbsp; Kino Lichtblick: Aktuelle Filme, jeden Dienstag Kinotag. Kartenvorbestellung online.</p><p><b>l</b>&nbsp; Büro Fix: Druckerpatronen, Papier und Büromöbel. Online-Bestellung, Lieferung am nächsten Tag.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Das Display Ihres Smartphones ist gebrochen, Sie brauchen es heute noch.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Reparatur in 30 Minuten → a."
+    },
+    {
+     "id": "l12",
+     "q": "Ihr Opa hat Probleme mit seinem Drucker und kann nicht zu Ihnen kommen.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Hilfe zu Hause → b."
+    },
+    {
+     "id": "l13",
+     "q": "Sie möchten gern ein altes, aber funktionierendes Laptop günstig kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "j",
+     "why": "Gebrauchte Laptops → j."
+    },
+    {
+     "id": "l14",
+     "q": "Sie möchten lernen, wie man Filme am Computer schneidet.",
+     "letters": "abcdefghijklx",
+     "key": "h",
+     "why": "Videoschnitt → h."
+    },
+    {
+     "id": "l15",
+     "q": "Sie haben kein Internet zu Hause und müssen dringend eine Bewerbung ausdrucken.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Internetcafé → f."
+    },
+    {
+     "id": "l16",
+     "q": "Sie suchen einen günstigen Handytarif, den Sie schnell wieder kündigen können.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Monatlich kündbar → i."
+    },
+    {
+     "id": "l17",
+     "q": "Sie möchten eine neue Waschmaschine, die zu Ihnen gebracht wird.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Lieferung kostenlos → d."
+    },
+    {
+     "id": "l18",
+     "q": "Sie möchten Fotos von Ihrem Urlaub als Buch drucken.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Fotobücher → e."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten Ihr Lieblingsbuch als Hörbuch kaufen.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Hörbücher → c."
+    },
+    {
+     "id": "l20",
+     "q": "Sie möchten Ihre alte Schreibmaschine verkaufen.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Nur Ankauf von Geräten, nicht Schreibmaschine; kein Angebot → x."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Damen und Herren,</p><p>ich habe vor zwei Wochen bei Ihnen einen Laptop <b>(21)</b>. Leider funktioniert er nicht richtig. Der Bildschirm wird <b>(22)</b> schwarz, und das Gerät lässt sich dann nicht mehr einschalten. Ich habe schon versucht, den Akku <b>(23)</b>, aber das hat nichts geholfen. Der Verkäufer hat mir gesagt, <b>(24)</b> ich mich an den Kundendienst wenden soll. Ich möchte <b>(25)</b> Gerät zurückgeben und mein Geld zurückbekommen. Sollte das nicht möglich sein, wünsche ich eine <b>(26)</b> Reparatur. Bitte teilen Sie mir <b>(27)</b>, wie ich den Laptop schicken kann. Ich <b>(28)</b> auf eine baldige Antwort und bedanke mich <b>(29)</b> Ihre Hilfe <b>(30)</b>.</p><p>Mit freundlichen Grüßen<br>Karl Weiß</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "gekauft",
+      "kaufen",
+      "gekaufen"
+     ],
+     "key": "a",
+     "why": "Perfekt: habe … gekauft."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "plötzlich",
+      "plötzlicher",
+      "Plötzlichkeit"
+     ],
+     "key": "a",
+     "why": "Adverb."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "aufzuladen",
+      "aufladen",
+      "laden auf"
+     ],
+     "key": "a",
+     "why": "um-zu-frei: Infinitiv mit zu: „versucht, … aufzuladen“."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "dass",
+      "ob",
+      "weil"
+     ],
+     "key": "a",
+     "why": "Inhaltssatz: gesagt, dass …"
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "das",
+      "dem",
+      "den"
+     ],
+     "key": "a",
+     "why": "Akkusativ: das Gerät."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "kostenlose",
+      "kostenlosen",
+      "kostenloser"
+     ],
+     "key": "a",
+     "why": "Adjektiv, Akk. feminin: eine kostenlose Reparatur."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "mit",
+      "bei",
+      "an"
+     ],
+     "key": "a",
+     "why": "mitteilen (trennbar): teilen Sie mir … mit."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "warte",
+      "warten",
+      "wartet"
+     ],
+     "key": "a",
+     "why": "ich warte auf."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "für",
+      "zu",
+      "über"
+     ],
+     "key": "a",
+     "why": "sich bedanken für."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "im Voraus",
+      "im vorab",
+      "voraus im"
+     ],
+     "key": "a",
+     "why": "im Voraus = schon vorher."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Liebe Kollegen,</p><p>die IT-Abteilung teilt <b>(31)</b>, dass das Firmennetzwerk am Samstag von acht bis zwölf Uhr nicht zur Verfügung steht. Wir müssen neue Sicherheitsprogramme <b>(32)</b>. Bitte <b>(33)</b> Sie vorher alle wichtigen Dateien. Wer am Samstag arbeiten <b>(34)</b>, kann das Büro im Erdgeschoss benutzen, <b>(35)</b> dort ein eigenes Netz gibt. Das Problem <b>(36)</b> uns schon länger bekannt, <b>(37)</b> wir mussten die Arbeiten verschieben. Alle Passwörter müssen danach <b>(38)</b> werden. Falls Sie dabei Hilfe <b>(39)</b>, <b>(40)</b> Sie sich bitte an die Hotline.</p><p>Vielen Dank<br>Ihr IT-Team</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> mit &nbsp;·&nbsp; <b>b</b> installieren &nbsp;·&nbsp; <b>c</b> speichern &nbsp;·&nbsp; <b>d</b> muss &nbsp;·&nbsp; <b>e</b> weil &nbsp;·&nbsp; <b>f</b> ist &nbsp;·&nbsp; <b>g</b> aber &nbsp;·&nbsp; <b>h</b> geändert &nbsp;·&nbsp; <b>i</b> brauchen &nbsp;·&nbsp; <b>j</b> wenden &nbsp;·&nbsp; <b>k</b> da &nbsp;·&nbsp; <b>l</b> wird &nbsp;·&nbsp; <b>m</b> unser &nbsp;·&nbsp; <b>n</b> leider &nbsp;·&nbsp; <b>o</b> schon</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "mitteilen → teilt … mit."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "b",
+     "why": "installieren."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "speichern."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "wer … arbeiten muss."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "weil/da → hier „weil“."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "ist bekannt."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "g",
+     "why": "aber."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "Passiv: geändert werden."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "brauchen."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "wenden Sie sich."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf Meinungen zu einem Thema (einmal hören)",
+   "instr": "Sie hören fünf Personen, die ihre Meinung zum Thema „Wie nutzen Sie Medien?“ sagen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Die Sprecherin liest keine Zeitung mehr.",
+     "tf": true,
+     "key": "r",
+     "why": "Nur noch Handy."
+    },
+    {
+     "id": "h2",
+     "q": "Der Sprecher hat zu Hause schnelles Internet.",
+     "tf": true,
+     "key": "f",
+     "why": "Nicht einmal WLAN."
+    },
+    {
+     "id": "h3",
+     "q": "Die Sprecherin hört Podcasts beim Joggen.",
+     "tf": true,
+     "key": "r",
+     "why": "Joggen, Kochen, Zug."
+    },
+    {
+     "id": "h4",
+     "q": "Der Sprecher postet keine Fotos im Internet.",
+     "tf": true,
+     "key": "f",
+     "why": "Er postet sie."
+    },
+    {
+     "id": "h5",
+     "q": "Die Kinder der Sprecherin spielen jetzt mehr draußen.",
+     "tf": true,
+     "key": "r",
+     "why": "Mehr draußen."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: Interview (zweimal hören)",
+   "instr": "Sie hören ein Interview. Sie hören den Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: eine Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Herr Braun hat sein Smartphone vor zwei Jahren abgegeben.",
+     "tf": true,
+     "key": "r",
+     "why": "Seit zwei Jahren."
+    },
+    {
+     "id": "h7",
+     "q": "Er hat sich geärgert, weil das Handy kaputt war.",
+     "tf": true,
+     "key": "f",
+     "why": "Ständiger Blick aufs Display."
+    },
+    {
+     "id": "h8",
+     "q": "Nach etwa vier Wochen wurde es leichter.",
+     "tf": true,
+     "key": "r",
+     "why": "Vier Wochen."
+    },
+    {
+     "id": "h9",
+     "q": "Seitdem liest er im Zug wieder Bücher.",
+     "tf": true,
+     "key": "r",
+     "why": "Ja."
+    },
+    {
+     "id": "h10",
+     "q": "Er kann Fahrkarten per App kaufen.",
+     "tf": true,
+     "key": "f",
+     "why": "Kann er nicht."
+    },
+    {
+     "id": "h11",
+     "q": "Wenn er sich verfährt, fragt er Menschen.",
+     "tf": true,
+     "key": "r",
+     "why": "Nach dem Weg."
+    },
+    {
+     "id": "h12",
+     "q": "Seine Schüler haben ihn ausgelacht und sind dabei geblieben.",
+     "tf": true,
+     "key": "f",
+     "why": "Jetzt interessiert."
+    },
+    {
+     "id": "h13",
+     "q": "Er empfiehlt eine Woche Handypause.",
+     "tf": true,
+     "key": "r",
+     "why": "Eine Woche Pause."
+    },
+    {
+     "id": "h14",
+     "q": "Zu Hause benutzt er keinen Computer.",
+     "tf": true,
+     "key": "f",
+     "why": "Doch."
+    },
+    {
+     "id": "h15",
+     "q": "Die Fotos der Kinder macht die Familie mit der Kamera.",
+     "tf": true,
+     "key": "r",
+     "why": "Kamera."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Ansagen (zweimal hören)",
+   "instr": "Sie hören fünf kurze Ansagen oder Durchsagen. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Bei Fragen zur Rechnung muss man die Zwei drücken.",
+     "tf": true,
+     "key": "f",
+     "why": "Eins."
+    },
+    {
+     "id": "h17",
+     "q": "Die Lieferung des Fernsehers kostet immer Geld.",
+     "tf": true,
+     "key": "f",
+     "why": "Ab 100 Euro kostenlos."
+    },
+    {
+     "id": "h18",
+     "q": "Auf der A 3 gibt es einen Stau wegen eines Unfalls.",
+     "tf": true,
+     "key": "r",
+     "why": "Ja."
+    },
+    {
+     "id": "h19",
+     "q": "Man kann sich im Radio ein Lied wünschen.",
+     "tf": true,
+     "key": "r",
+     "why": "Wunschkonzert."
+    },
+    {
+     "id": "h20",
+     "q": "Die Praxis hat heute geöffnet.",
+     "tf": true,
+     "key": "f",
+     "why": "Geschlossen."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an eine Firma (formell)",
+  "situation": "<b>Sie haben vor einer Woche online einen Fernseher gekauft.</b> Das Gerät ist angekommen, aber der Bildschirm hat einen Kratzer. Schreiben Sie an den Kundenservice. Beschreiben Sie das Problem. Sagen Sie, was Sie möchten (Umtausch oder Geld zurück). Fragen Sie, wie Sie das Gerät zurückschicken können. Bitten Sie um eine schnelle Antwort.",
+  "points": [
+   "Problem beschreiben",
+   "Was möchten Sie?",
+   "Frage: Wie zurückschicken?",
+   "Bitte um schnelle Antwort"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "kratzer|defekt|kaputt|beschädigt|problem|bildschirm",
+   "umtausch|umtauschen|geld|zurück|ersatz|erstatt",
+   "zurückschicken|zurücksenden|schicken|senden|wie kann ich|versand",
+   "schnell|bald|antwort|dringend|bis"
+  ],
+  "rg": "sie"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich in einem Computerkurs kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie: Wie oft benutzt er/sie das Internet? Welche Geräte hat er/sie? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Smartphones im Alltag: Segen oder Fluch?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit dem Smartphone · 2. Wie Menschen in meinem Heimatland Medien nutzen · 3. Vorteile und Nachteile · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam einen Computerkurs</b> für Ihre Großeltern. Besprechen Sie: Wann? · Wo? · Was lernen sie? · Wer unterrichtet? · Was kostet es? · Wer organisiert was?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Sehr geehrte Damen und Herren, am 10. Mai habe ich bei Ihnen einen Fernseher bestellt. Das Gerät ist heute angekommen, aber der Bildschirm hat einen großen Kratzer. Ich möchte das Gerät umtauschen oder mein Geld zurückbekommen. Bitte teilen Sie mir mit, wie ich den Fernseher zurückschicken kann. Ich wäre Ihnen dankbar, wenn Sie mir bald antworten würden. Mit freundlichen Grüßen, Manoj Kumar</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich komme aus Indien und wohne in Aachen. Ich bin Softwareentwickler. Ich lerne Deutsch, weil ich hier arbeite. Wie oft benutzt du das Internet? Welche Geräte hast du?</p><p><b>Teil 2:</b> Mein Thema ist: das Smartphone im Alltag. Ich benutze es für Navigation, Nachrichten und Fahrkarten. In Indien bezahlen viele Menschen sogar den Tee per Handy. Der Vorteil ist, dass man überall Informationen hat. Der Nachteil ist, dass man abgelenkt ist. Meiner Meinung nach ist es nützlich, wenn man es bewusst benutzt. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Ich schlage vor, den Kurs am Samstagnachmittag zu machen. Mein Bruder unterrichtet. Die Großeltern lernen E-Mails und Videoanrufe. Der Kurs kostet nichts, denn wir machen ihn zu Hause.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1 · Wie nutzen Sie Medien?",
+   "texts": [
+    [
+     "Sprecher 1",
+     "<p>Ich lese nur noch Nachrichten am Handy. Eine Zeitung hatte ich seit Jahren nicht mehr in der Hand. Das spart Papier und ist bequem, nur abends tun mir die Augen manchmal weh.</p>"
+    ],
+    [
+     "Sprecher 2",
+     "<p>Ich sehe fast jeden Abend fern. Nach der Arbeit will ich nicht mehr nachdenken. Am liebsten sehe ich Krimis. Computer benutze ich nur im Büro, zu Hause habe ich nicht einmal WLAN.</p>"
+    ],
+    [
+     "Sprecher 3",
+     "<p>Ich höre den ganzen Tag Podcasts, beim Joggen, beim Kochen, im Zug. So lerne ich viel, ohne dass ich extra Zeit brauche. Fernsehen finde ich dagegen Zeitverschwendung.</p>"
+    ],
+    [
+     "Sprecher 4",
+     "<p>Ich bin viel in sozialen Netzwerken unterwegs. Ich poste Fotos von meinem Essen, und meine Freunde schreiben Kommentare. Manchmal vergesse ich dabei, richtig zu essen.</p>"
+    ],
+    [
+     "Sprecher 5",
+     "<p>Meine Kinder dürfen nur eine Stunde am Tag an den Computer. Wir haben das gemeinsam beschlossen. Am Anfang gab es Streit, aber jetzt spielen sie wieder mehr draußen.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2 · Interview: Leben ohne Smartphone. Herr Braun, Lehrer",
+   "html": "<div class=\"text\"><p>Herr Braun, Sie haben seit zwei Jahren kein Smartphone mehr. Wie kam es dazu?</p><p>Ich habe gemerkt, dass ich ständig auf das Display schaue, auch wenn ich mit Freunden zusammen bin. Das hat mich gestört. Ich habe das Handy einfach abgegeben und ein altes Tastentelefon gekauft.</p><p>Und wie ist es Ihnen am Anfang gegangen?</p><p>Schwer. Ich habe oft aus Gewohnheit in die Tasche gegriffen. Nach etwa vier Wochen wurde es leichter. Ich konnte plötzlich im Zug wieder ein Buch lesen.</p><p>Gibt es Nachteile?</p><p>Natürlich. Ich habe keine Karte dabei, wenn ich mich verfahre, und ich kann keine Fahrkarten per App kaufen. Dafür frage ich dann Menschen nach dem Weg, das ist oft sehr nett.</p><p>Wie reagieren Ihre Schüler?</p><p>Zuerst haben sie gelacht. Jetzt finden viele es interessant. Ich spreche mit ihnen oft über die Frage, wie viel Zeit sie am Handy verbringen. Manche haben ihre Zeit schon reduziert.</p><p>Würden Sie anderen raten, es auch zu versuchen?</p><p>Nicht unbedingt für immer. Aber ich empfehle eine Woche Pause, zum Beispiel im Urlaub. Danach sieht man die Dinge klarer.</p><p>Benutzen Sie überhaupt keine Technik mehr?</p><p>Doch, am Computer in der Schule und zu Hause. Ich schreibe E-Mails und suche Informationen. Der Unterschied ist: Ich bin nicht mehr ständig erreichbar.</p><p>Und Ihre Familie?</p><p>Meine Frau hat sich daran gewöhnt. Wenn etwas Wichtiges ist, ruft sie mich an. Für Fotos der Kinder benutzen wir die Kamera. Sie macht schönere Bilder als jedes Handy.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Ansage 1",
+     "<p>Willkommen beim Kundenservice der Telefongesellschaft FreeCall. Wenn Sie Fragen zu Ihrer Rechnung haben, drücken Sie die Eins. Für technische Probleme drücken Sie die Zwei. Unsere Hotline ist montags bis freitags von acht bis zwanzig Uhr erreichbar.</p>"
+    ],
+    [
+     "Ansage 2",
+     "<p>Guten Tag, hier spricht das Elektrogeschäft Kaiser. Ihr Fernseher ist da und kann ab sofort abgeholt werden. Wenn Sie eine Lieferung wünschen, rufen Sie uns bitte bis Freitag an. Die Lieferung ist ab hundert Euro Warenwert kostenlos.</p>"
+    ],
+    [
+     "Ansage 3",
+     "<p>Und nun die Verkehrsmeldungen. Auf der A 3 zwischen Köln und Frankfurt kommt es wegen eines Unfalls zu einem Stau von fünf Kilometern. Autofahrer sollten die Umleitung über Limburg nutzen.</p>"
+    ],
+    [
+     "Ansage 4",
+     "<p>Liebe Hörer, im Anschluss an die Nachrichten hören Sie unser Wunschkonzert. Wenn Sie ein Lied wünschen, schreiben Sie uns eine E-Mail oder rufen Sie während der Sendung an. Die Nummer finden Sie auf unserer Internetseite.</p>"
+    ],
+    [
+     "Ansage 5",
+     "<p>Hier ist der automatische Anrufbeantworter von Dr. Neumann. Die Praxis ist heute geschlossen. In dringenden Fällen wenden Sie sich bitte an den ärztlichen Notdienst unter der Nummer eins eins sechs, eins eins sieben.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich lese nur noch Nachrichten am Handy. Eine Zeitung hatte ich seit Jahren nicht mehr in der Hand. Das spart Papier und ist bequem, nur abends tun mir die Augen manchmal weh.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich sehe fast jeden Abend fern. Nach der Arbeit will ich nicht mehr nachdenken. Am liebsten sehe ich Krimis. Computer benutze ich nur im Büro, zu Hause habe ich nicht einmal WLAN.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich höre den ganzen Tag Podcasts, beim Joggen, beim Kochen, im Zug. So lerne ich viel, ohne dass ich extra Zeit brauche. Fernsehen finde ich dagegen Zeitverschwendung.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich bin viel in sozialen Netzwerken unterwegs. Ich poste Fotos von meinem Essen, und meine Freunde schreiben Kommentare. Manchmal vergesse ich dabei, richtig zu essen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Meine Kinder dürfen nur eine Stunde am Tag an den Computer. Wir haben das gemeinsam beschlossen. Am Anfang gab es Streit, aber jetzt spielen sie wieder mehr draußen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Herr Braun, Sie haben seit zwei Jahren kein Smartphone mehr. Wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich habe gemerkt, dass ich ständig auf das Display schaue, auch wenn ich mit Freunden zusammen bin. Das hat mich gestört. Ich habe das Handy einfach abgegeben und ein altes Tastentelefon gekauft.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie ist es Ihnen am Anfang gegangen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Schwer. Ich habe oft aus Gewohnheit in die Tasche gegriffen. Nach etwa vier Wochen wurde es leichter. Ich konnte plötzlich im Zug wieder ein Buch lesen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es Nachteile?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich. Ich habe keine Karte dabei, wenn ich mich verfahre, und ich kann keine Fahrkarten per App kaufen. Dafür frage ich dann Menschen nach dem Weg, das ist oft sehr nett.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie reagieren Ihre Schüler?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zuerst haben sie gelacht. Jetzt finden viele es interessant. Ich spreche mit ihnen oft über die Frage, wie viel Zeit sie am Handy verbringen. Manche haben ihre Zeit schon reduziert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Würden Sie anderen raten, es auch zu versuchen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht unbedingt für immer. Aber ich empfehle eine Woche Pause, zum Beispiel im Urlaub. Danach sieht man die Dinge klarer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Benutzen Sie überhaupt keine Technik mehr?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Doch, am Computer in der Schule und zu Hause. Ich schreibe E-Mails und suche Informationen. Der Unterschied ist: Ich bin nicht mehr ständig erreichbar.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und Ihre Familie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Meine Frau hat sich daran gewöhnt. Wenn etwas Wichtiges ist, ruft sie mich an. Für Fotos der Kinder benutzen wir die Kamera. Sie macht schönere Bilder als jedes Handy.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Herr Braun, Sie haben seit zwei Jahren kein Smartphone mehr. Wie kam es dazu?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich habe gemerkt, dass ich ständig auf das Display schaue, auch wenn ich mit Freunden zusammen bin. Das hat mich gestört. Ich habe das Handy einfach abgegeben und ein altes Tastentelefon gekauft.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie ist es Ihnen am Anfang gegangen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Schwer. Ich habe oft aus Gewohnheit in die Tasche gegriffen. Nach etwa vier Wochen wurde es leichter. Ich konnte plötzlich im Zug wieder ein Buch lesen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es Nachteile?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich. Ich habe keine Karte dabei, wenn ich mich verfahre, und ich kann keine Fahrkarten per App kaufen. Dafür frage ich dann Menschen nach dem Weg, das ist oft sehr nett.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie reagieren Ihre Schüler?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zuerst haben sie gelacht. Jetzt finden viele es interessant. Ich spreche mit ihnen oft über die Frage, wie viel Zeit sie am Handy verbringen. Manche haben ihre Zeit schon reduziert.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Würden Sie anderen raten, es auch zu versuchen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht unbedingt für immer. Aber ich empfehle eine Woche Pause, zum Beispiel im Urlaub. Danach sieht man die Dinge klarer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Benutzen Sie überhaupt keine Technik mehr?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Doch, am Computer in der Schule und zu Hause. Ich schreibe E-Mails und suche Informationen. Der Unterschied ist: Ich bin nicht mehr ständig erreichbar.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und Ihre Familie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Meine Frau hat sich daran gewöhnt. Wenn etwas Wichtiges ist, ruft sie mich an. Für Fotos der Kinder benutzen wir die Kamera. Sie macht schönere Bilder als jedes Handy.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen beim Kundenservice der Telefongesellschaft FreeCall. Wenn Sie Fragen zu Ihrer Rechnung haben, drücken Sie die Eins. Für technische Probleme drücken Sie die Zwei. Unsere Hotline ist montags bis freitags von acht bis zwanzig Uhr erreichbar.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen beim Kundenservice der Telefongesellschaft FreeCall. Wenn Sie Fragen zu Ihrer Rechnung haben, drücken Sie die Eins. Für technische Probleme drücken Sie die Zwei. Unsere Hotline ist montags bis freitags von acht bis zwanzig Uhr erreichbar.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Guten Tag, hier spricht das Elektrogeschäft Kaiser. Ihr Fernseher ist da und kann ab sofort abgeholt werden. Wenn Sie eine Lieferung wünschen, rufen Sie uns bitte bis Freitag an. Die Lieferung ist ab hundert Euro Warenwert kostenlos.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Guten Tag, hier spricht das Elektrogeschäft Kaiser. Ihr Fernseher ist da und kann ab sofort abgeholt werden. Wenn Sie eine Lieferung wünschen, rufen Sie uns bitte bis Freitag an. Die Lieferung ist ab hundert Euro Warenwert kostenlos.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Und nun die Verkehrsmeldungen. Auf der A 3 zwischen Köln und Frankfurt kommt es wegen eines Unfalls zu einem Stau von fünf Kilometern. Autofahrer sollten die Umleitung über Limburg nutzen.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Und nun die Verkehrsmeldungen. Auf der A 3 zwischen Köln und Frankfurt kommt es wegen eines Unfalls zu einem Stau von fünf Kilometern. Autofahrer sollten die Umleitung über Limburg nutzen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Hörer, im Anschluss an die Nachrichten hören Sie unser Wunschkonzert. Wenn Sie ein Lied wünschen, schreiben Sie uns eine E-Mail oder rufen Sie während der Sendung an. Die Nummer finden Sie auf unserer Internetseite.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Hörer, im Anschluss an die Nachrichten hören Sie unser Wunschkonzert. Wenn Sie ein Lied wünschen, schreiben Sie uns eine E-Mail oder rufen Sie während der Sendung an. Die Nummer finden Sie auf unserer Internetseite.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist der automatische Anrufbeantworter von Dr. Neumann. Die Praxis ist heute geschlossen. In dringenden Fällen wenden Sie sich bitte an den ärztlichen Notdienst unter der Nummer eins eins sechs, eins eins sieben.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist der automatische Anrufbeantworter von Dr. Neumann. Die Praxis ist heute geschlossen. In dringenden Fällen wenden Sie sich bitte an den ärztlichen Notdienst unter der Nummer eins eins sechs, eins eins sieben.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

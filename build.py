@@ -660,8 +660,15 @@ def main():
     from content.lesen_long import LONG
     from content.lesen_hard import HARD
     from content.hoeren_dtz_new import HOE
-    mocks = load_mocks()[:MAXN]
+    import glob as _g
+    NEW = {}  # new official-pattern mocks (content/dtz_new/mNN.py, defines M) for n >= 8
+    for _p in sorted(_g.glob(os.path.join(ROOT, 'content', 'dtz_new', 'm[0-9][0-9].py'))):
+        _sp = importlib.util.spec_from_file_location('mn', _p); _m = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_m)
+        NEW[int(os.path.basename(_p)[1:3])] = _m.M
+    mocks = load_mocks()[:max([MAXN] + list(NEW))]
     for i, M in enumerate(mocks):
+        if i + 1 in NEW:
+            N = dict(NEW[i + 1]); N['l1cat'] = N.pop('l1'); WC.REG[i + 1] = tuple(N.pop('reg')); WC.KW[i + 1] = tuple(N.pop('kw')); M.clear(); M.update(N); continue
         M.update(EXTRAS[i + 1]); M['l1cat'] = L1[i + 1]
         if i + 1 in LONG:
             Lg = LONG[i + 1]

@@ -1,0 +1,993 @@
+{
+ "n": 9,
+ "theme": "Familie, Freunde und Feste",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Wer im Dezember heiraten möchte, muss den Termin beim Standesamt mindestens drei Monate vorher anmelden. Die Gebühr beträgt 80 Euro. Trauzeugen sind nicht vorgeschrieben, aber viele Paare wünschen sie sich.</p><p><b>2</b>&nbsp; Das Stadtfest findet am ersten Juliwochenende statt. Auf drei Bühnen spielen Bands aus der Region, die Kinder können basteln und schminken. Der Eintritt ist frei, nur das Essen kostet Geld.</p><p><b>3</b>&nbsp; Die Familie Weber sucht für den Sommer eine Betreuung für ihre beiden Kinder (3 und 6 Jahre). Gesucht wird jemand, der montags bis donnerstags von acht bis fünfzehn Uhr Zeit hat und etwas kochen kann.</p><p><b>4</b>&nbsp; Wer seine Oma oder seinen Opa im Pflegeheim besuchen möchte, braucht keinen Termin mehr. Die Besuchszeiten sind täglich von 10 bis 18 Uhr. Kinder unter 12 Jahren müssen von Erwachsenen begleitet werden.</p><p><b>5</b>&nbsp; Nach 40 Jahren in der Firma geht Herr Brandt in den Ruhestand. Seine Kollegen laden alle Mitarbeiter am Freitag um 16 Uhr in die Kantine ein. Jeder bringt etwas zu essen mit, Getränke gibt es von der Firma.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Abschiedsfeier im Betrieb<br><b>b</b>&nbsp; Hochzeit planen<br><b>c</b>&nbsp; Kinderbetreuung gesucht<br><b>d</b>&nbsp; Musik und Spaß für die ganze Stadt<br><b>e</b>&nbsp; Besuch im Seniorenheim<br><b>f</b>&nbsp; Streit unter Nachbarn<br><b>g</b>&nbsp; Neues Kinderbuch erschienen<br><b>h</b>&nbsp; Geburtstag mit Überraschung<br><b>i</b>&nbsp; Umzug ins Ausland<br><b>j</b>&nbsp; Schulfest abgesagt</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Termin beim Standesamt → Hochzeit planen (b)."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Stadtfest, Bands, Kinder → d."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Betreuung für zwei Kinder → c."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Besuchszeiten im Pflegeheim → e."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Ruhestand, Kollegen feiern → a."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Großfamilie im Hochhaus</p><p>In einem Hochhaus in Essen leben vier Generationen unter einem Dach. Die 84-jährige Oma Hilde wohnt im Erdgeschoss, ihre Tochter Gerda mit Mann im ersten Stock, deren Sohn mit seiner Familie im dritten. Vor zehn Jahren sind sie bewusst zusammengezogen. „Wir wollten nicht, dass Oma alleine ist“, sagt Gerda. „Und wir sparen so auch Miete.“ Jeder hat seine eigene Wohnung, gegessen wird aber sonntags gemeinsam.</p><p>Nicht immer ist alles einfach. Die Kinder im dritten Stock sind laut, und Opa Karl ärgert sich über den Fernseher von Oma Hilde, der bis spät läuft. Wenn es Streit gibt, setzen sich alle zusammen und suchen eine Lösung. Es gibt inzwischen eine Regel: Nach zehn Uhr abends ist Ruhe.</p><p>Soziologen beobachten, dass solche Wohnformen wieder häufiger werden. Vor allem junge Eltern schätzen die Hilfe der Großeltern bei der Kinderbetreuung. Dafür unterstützen sie die Älteren im Alltag, zum Beispiel beim Einkaufen oder bei Arztterminen.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Warum sind die Familien zusammengezogen?",
+     "opts": [
+      "Weil die Wohnungen zu klein waren.",
+      "Weil Oma nicht allein sein sollte und man Miete spart.",
+      "Weil der Sohn Arbeit im Haus hatte."
+     ],
+     "key": "b",
+     "why": "Oma nicht allein; Miete sparen."
+    },
+    {
+     "id": "l7",
+     "q": "Wie oft essen alle zusammen?",
+     "opts": [
+      "Jeden Tag.",
+      "Nur zu Weihnachten.",
+      "Immer sonntags."
+     ],
+     "key": "c",
+     "why": "Sonntags gemeinsam."
+    },
+    {
+     "id": "l8",
+     "q": "Worüber ärgert sich Opa Karl?",
+     "opts": [
+      "Über die lauten Kinder.",
+      "Über Omas Fernseher.",
+      "Über die Miete."
+     ],
+     "key": "b",
+     "why": "Fernseher bis spät."
+    },
+    {
+     "id": "l9",
+     "q": "Was gilt seit dem Streit?",
+     "opts": [
+      "Nach zehn Uhr abends ist Ruhe.",
+      "Fernsehen ist verboten.",
+      "Die Kinder spielen draußen."
+     ],
+     "key": "a",
+     "why": "Regel: ab 22 Uhr Ruhe."
+    },
+    {
+     "id": "l10",
+     "q": "Wovon profitieren junge Eltern laut Text?",
+     "opts": [
+      "Von billigem Essen.",
+      "Von der Hilfe der Großeltern bei den Kindern.",
+      "Von mehr Platz."
+     ],
+     "key": "b",
+     "why": "Kinderbetreuung."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Blumen Rose: Hochzeitsschmuck, Tischdekoration und Brautsträuße. Lieferung und Aufbau am Festtag.</p><p><b>b</b>&nbsp; Partyservice Lecker: Buffet für Geburtstage und Feiern ab 20 Personen. Auf Wunsch auch vegetarisch.</p><p><b>c</b>&nbsp; Fotostudio Moment: Familienfotos, Passbilder, Hochzeitsreportagen. Termin auch am Wochenende.</p><p><b>d</b>&nbsp; Babysitter-Vermittlung Kinderfreund: Geprüfte Betreuer für den Abend, auch kurzfristig. Ab 12 Euro pro Stunde.</p><p><b>e</b>&nbsp; Tanzschule Takt: Hochzeitskurs für Paare, Walzer und Discofox. Beginn jeden ersten Montag im Monat.</p><p><b>f</b>&nbsp; Geschenke & mehr: Karten, Geschenkpapier und kleine Aufmerksamkeiten zu jedem Anlass. Auch Gravuren.</p><p><b>g</b>&nbsp; Zimmer frei bei Familie Koch: Gästezimmer für Verwandte und Freunde, Frühstück inklusive, in der Altstadt.</p><p><b>h</b>&nbsp; Musik für Ihr Fest: DJ Alex spielt Pop, Schlager und Klassiker. Anlage und Licht inklusive.</p><p><b>i</b>&nbsp; Konditorei Süß: Torten für jeden Anlass, auch glutenfrei. Bestellung bitte drei Tage vorher.</p><p><b>j</b>&nbsp; Kostümverleih Maske: Kostüme für Karneval, Mottopartys und Theater. Für Kinder und Erwachsene.</p><p><b>k</b>&nbsp; Seniorentreff Sonnenschein: Kaffeenachmittage, Spielenachmittage und Ausflüge für Menschen ab 65.</p><p><b>l</b>&nbsp; Ferienlager am Waldsee: Zwei Wochen Natur und Sport für Kinder von 8 bis 14 Jahren. Betreuung rund um die Uhr.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie heiraten im Sommer und möchten den Saal mit Blumen schmücken.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Hochzeitsschmuck → a."
+    },
+    {
+     "id": "l12",
+     "q": "Sie möchten für Ihren 40. Geburtstag das Essen nicht selbst kochen.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Partyservice → b."
+    },
+    {
+     "id": "l13",
+     "q": "Sie brauchen für Samstagabend schnell jemanden für die Kinder.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Kurzfristige Betreuer → d."
+    },
+    {
+     "id": "l14",
+     "q": "Ihre Eltern sind 70 und möchten mehr Kontakt zu anderen Menschen.",
+     "letters": "abcdefghijklx",
+     "key": "k",
+     "why": "Seniorentreff → k."
+    },
+    {
+     "id": "l15",
+     "q": "Sie suchen einen Tanzkurs für Ihre Hochzeit.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Hochzeitskurs → e."
+    },
+    {
+     "id": "l16",
+     "q": "Ihre Tante kommt zur Feier aus dem Ausland und braucht eine Übernachtung.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Gästezimmer → g."
+    },
+    {
+     "id": "l17",
+     "q": "Sie möchten Ihr Kind (11) in den Ferien in ein Sportlager schicken.",
+     "letters": "abcdefghijklx",
+     "key": "l",
+     "why": "Ferienlager → l."
+    },
+    {
+     "id": "l18",
+     "q": "Sie suchen eine Torte für Ihre Tochter, die kein Gluten verträgt.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "glutenfrei → i."
+    },
+    {
+     "id": "l19",
+     "q": "Sie brauchen Musik für Ihre Feier im Garten.",
+     "letters": "abcdefghijklx",
+     "key": "h",
+     "why": "DJ → h."
+    },
+    {
+     "id": "l20",
+     "q": "Sie möchten einen Umzugswagen für das Wochenende mieten.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Kein Umzugsangebot → x."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Lieber Tom,</p><p>ich möchte dich herzlich zu meiner Geburtstagsfeier <b>(21)</b>. Sie findet am Samstag, dem 8. März, in unserem Garten <b>(22)</b>. Wir fangen um 17 Uhr an, <b>(23)</b> dann ist es noch hell. Es gibt Grillfleisch und Salate, aber <b>(24)</b> du etwas Besonderes essen möchtest, sag mir bitte Bescheid. Bring bitte auch deine Freundin <b>(25)</b>, ich habe sie noch nie kennengelernt. Leider habe ich nicht genug Stühle, <b>(26)</b> wäre es toll, wenn du <b>(27)</b> Campingstuhl mitbringen könntest. Falls es regnet, feiern wir im Haus, <b>(28)</b> ist aber etwas eng. Ich <b>(29)</b> mich sehr auf dich und hoffe, dass du <b>(30)</b> kannst.</p><p>Liebe Grüße<br>Jana</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "einladen",
+      "eingeladen",
+      "einlädt"
+     ],
+     "key": "a",
+     "why": "„einladen“ nach „möchte … zu“ (Infinitiv)."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "statt",
+      "stattfindet",
+      "statt-"
+     ],
+     "key": "a",
+     "why": "trennbar: findet … statt."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "denn",
+      "weil",
+      "dass"
+     ],
+     "key": "a",
+     "why": "Hauptsatz mit denn (Position 0)."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "wenn",
+      "ob",
+      "als"
+     ],
+     "key": "a",
+     "why": "„wenn du … möchtest“ (Bedingung)."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "mit",
+      "bei",
+      "zu"
+     ],
+     "key": "a",
+     "why": "mitbringen → „mit“."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "deshalb",
+      "weil",
+      "obwohl"
+     ],
+     "key": "a",
+     "why": "Folge: deshalb + Verb."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "einen",
+      "ein",
+      "eine"
+     ],
+     "key": "a",
+     "why": "der Campingstuhl, Akkusativ → einen."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "das",
+      "es",
+      "er"
+     ],
+     "key": "a",
+     "why": "„das ist aber etwas eng“."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "freue",
+      "freust",
+      "freut"
+     ],
+     "key": "a",
+     "why": "ich freue mich."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "kommen",
+      "kommst",
+      "kommt"
+     ],
+     "key": "a",
+     "why": "Modalverb kannst + Infinitiv."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Frau Berger,</p><p>meine Tochter Mia besucht seit September Ihre Kindergartengruppe. Ich möchte mich <b>(31)</b>, dass Sie sich so gut um sie kümmern. Mia geht jeden Morgen <b>(32)</b> in den Kindergarten. Nächste Woche feiert sie ihren vierten <b>(33)</b>. Wir würden gern einen Kuchen <b>(34)</b>, wenn das erlaubt ist. Bitte <b>(35)</b> Sie mir, ob es Kinder mit Allergien in der Gruppe gibt. <b>(36)</b> möchte ich keinen Fehler machen. Ich kann den Kuchen am Montag <b>(37)</b>, sofern Sie damit einverstanden sind. Wenn Sie noch Fragen haben, <b>(38)</b> Sie mich bitte <b>(39)</b> Abend <b>(40)</b>.</p><p>Mit freundlichen Grüßen<br>Petra Schulz</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> bedanken &nbsp;·&nbsp; <b>b</b> gern &nbsp;·&nbsp; <b>c</b> Geburtstag &nbsp;·&nbsp; <b>d</b> mitbringen &nbsp;·&nbsp; <b>e</b> sagen &nbsp;·&nbsp; <b>f</b> Deshalb &nbsp;·&nbsp; <b>g</b> vorbeibringen &nbsp;·&nbsp; <b>h</b> rufen &nbsp;·&nbsp; <b>i</b> am &nbsp;·&nbsp; <b>j</b> an &nbsp;·&nbsp; <b>k</b> schenken &nbsp;·&nbsp; <b>l</b> Kuchen &nbsp;·&nbsp; <b>m</b> immer &nbsp;·&nbsp; <b>n</b> leider &nbsp;·&nbsp; <b>o</b> gerne</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "sich bedanken, dass …"
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "b",
+     "why": "„geht gern“ = mit Freude."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "vierter Geburtstag."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "Kuchen mitbringen."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "Bitte sagen Sie mir."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "Deshalb = Grund."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "g",
+     "why": "vorbeibringen (trennbar, Infinitiv nach „kann“)."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "Imperativ: rufen Sie … an."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "„am Abend“ → am."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "… an (Trennbare Verbpartikel am Ende)."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf Meinungen zu einem Thema (einmal hören)",
+   "instr": "Sie hören fünf Personen, die ihre Meinung zum Thema „Wie feiern Sie Feste?“ sagen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Die Sprecherin legt auf Geschenke zu Weihnachten keinen großen Wert.",
+     "tf": true,
+     "key": "r",
+     "why": "Geschenke nicht so wichtig."
+    },
+    {
+     "id": "h2",
+     "q": "Der Sprecher feiert seinen Geburtstag jedes Jahr.",
+     "tf": true,
+     "key": "f",
+     "why": "Nie."
+    },
+    {
+     "id": "h3",
+     "q": "Die Sprecherin arbeitet in einem Verein am Karneval mit.",
+     "tf": true,
+     "key": "r",
+     "why": "Wagenbau."
+    },
+    {
+     "id": "h4",
+     "q": "Der Sprecher findet Hochzeiten schön und entspannend.",
+     "tf": true,
+     "key": "f",
+     "why": "Anstrengend."
+    },
+    {
+     "id": "h5",
+     "q": "Die Sprecherin lernt bei Straßenfesten Nachbarn kennen.",
+     "tf": true,
+     "key": "r",
+     "why": "Neue Leute kennenlernen."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: Interview (zweimal hören)",
+   "instr": "Sie hören ein Interview. Sie hören den Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: eine Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Herr Demir steht um sechs Uhr auf.",
+     "tf": true,
+     "key": "r",
+     "why": "Sechs Uhr."
+    },
+    {
+     "id": "h7",
+     "q": "Seine Frau arbeitet in einer Schule.",
+     "tf": true,
+     "key": "f",
+     "why": "Im Krankenhaus."
+    },
+    {
+     "id": "h8",
+     "q": "Die beiden ältesten Kinder bringen die kleinen zur Schule.",
+     "tf": true,
+     "key": "r",
+     "why": "Ja."
+    },
+    {
+     "id": "h9",
+     "q": "Die Familie fährt im Urlaub gern in Hotels.",
+     "tf": true,
+     "key": "f",
+     "why": "Mit dem Zelt."
+    },
+    {
+     "id": "h10",
+     "q": "Herr Demir hat vor der Geburt genau ausgerechnet, was die Kinder kosten.",
+     "tf": true,
+     "key": "f",
+     "why": "Nie darüber nachgedacht."
+    },
+    {
+     "id": "h11",
+     "q": "Am Sonntag besucht die Familie die Großeltern.",
+     "tf": true,
+     "key": "r",
+     "why": "Ja."
+    },
+    {
+     "id": "h12",
+     "q": "Ein Plan an der Wand hilft, Streit zu vermeiden.",
+     "tf": true,
+     "key": "r",
+     "why": "Plan fürs Bad/Fernsehen."
+    },
+    {
+     "id": "h13",
+     "q": "Wenn er Ruhe braucht, geht er joggen.",
+     "tf": true,
+     "key": "r",
+     "why": "Joggen."
+    },
+    {
+     "id": "h14",
+     "q": "Er rät, alles perfekt zu organisieren.",
+     "tf": true,
+     "key": "f",
+     "why": "Nicht alles perfekt."
+    },
+    {
+     "id": "h15",
+     "q": "Gemeinsam zu essen findet er wichtig.",
+     "tf": true,
+     "key": "r",
+     "why": "Gemeinsam essen."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Ansagen (zweimal hören)",
+   "instr": "Sie hören fünf kurze Ansagen oder Durchsagen. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Das Sommerfest endet um fünfzehn Uhr.",
+     "tf": true,
+     "key": "f",
+     "why": "Gegen achtzehn Uhr."
+    },
+    {
+     "id": "h17",
+     "q": "Trauzeugen müssen volljährig sein.",
+     "tf": true,
+     "key": "r",
+     "why": "Mindestens 18."
+    },
+    {
+     "id": "h18",
+     "q": "Lena kommt am Sonntag zum Kaffee.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie ist krank."
+    },
+    {
+     "id": "h19",
+     "q": "Erwachsene müssen im Museum vier Euro zahlen.",
+     "tf": true,
+     "key": "r",
+     "why": "Vier Euro."
+    },
+    {
+     "id": "h20",
+     "q": "Bei Frau Wolff können Gäste eine Heimfahrt bestellen.",
+     "tf": true,
+     "key": "r",
+     "why": "Melden bei Frau Wolff."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an Bekannte (informell)",
+  "situation": "<b>Ihre Freundin Sara feiert ihren 30. Geburtstag und hat Sie eingeladen.</b> Schreiben Sie ihr. Bedanken Sie sich für die Einladung. Sagen Sie, ob Sie kommen können. Fragen Sie, was Sie mitbringen können. Schlagen Sie vor, wie Sie früher helfen können.",
+  "points": [
+   "Dank für die Einladung",
+   "Kommen Sie? Warum (nicht)?",
+   "Frage: Was kann ich mitbringen?",
+   "Vorschlag: Wie kann ich helfen?"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "danke|vielen dank|einladung|freue mich",
+   "komme|kann|leider|gern|nicht kommen|zusagen|absagen",
+   "mitbringen|mitbringe|soll ich|bring",
+   "helfen|helfe|aufbauen|früher|vorbereiten|kochen"
+  ],
+  "rg": "du"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich bei einem Fest kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie: Wie feiert er/sie Feste? Wer gehört zur Familie? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Familienfeste: wichtig oder altmodisch?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit Familienfesten · 2. Wie Feste in meinem Heimatland gefeiert werden · 3. Vorteile und Nachteile von großen Familienfesten · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam eine Überraschungsparty</b> für einen Freund. Besprechen Sie: Wann? · Wo? · Wen laden Sie ein? · Essen und Getränke · Geschenk · Wer macht was?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Liebe Sara, vielen Dank für deine Einladung zu deinem 30. Geburtstag! Ich freue mich sehr darauf. Leider kann ich erst um 19 Uhr kommen, weil ich bis 18 Uhr arbeiten muss. Was soll ich mitbringen? Soll ich einen Salat machen oder lieber etwas zu trinken kaufen? Wenn du möchtest, kann ich am Nachmittag früher kommen und beim Aufbauen helfen. Sag mir einfach Bescheid. Bis bald, Manoj</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj. Ich komme aus Indien und wohne in Aachen. Ich arbeite als Softwareentwickler und bin verheiratet. Ich lerne Deutsch, weil ich hier leben möchte. Wie feierst du Feste? Wer gehört zu deiner Familie?</p><p><b>Teil 2:</b> Mein Thema ist: Familienfeste. Bei uns in Indien feiern wir Feste mit der ganzen Familie, oft mit über fünfzig Personen. Der Vorteil ist, dass man sich oft sieht. Der Nachteil ist, dass es viel Arbeit und Geld kostet. Meiner Meinung nach sind Familienfeste wichtig, aber sie müssen nicht groß sein. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Ich schlage vor, die Party am Samstag um 18 Uhr bei mir zu machen. Wir laden zehn Freunde ein. Du kaufst die Getränke, ich koche. Das Geschenk kaufen wir zusammen für etwa 50 Euro.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1 · Wie feiern Sie Feste?",
+   "texts": [
+    [
+     "Sprecher 1",
+     "<p>Weihnachten ist für mich das wichtigste Fest. Die ganze Familie kommt zusammen, wir kochen stundenlang und singen. Geschenke sind mir nicht so wichtig, ich freue mich auf die Zeit mit den Eltern.</p>"
+    ],
+    [
+     "Sprecher 2",
+     "<p>Ich feiere meinen Geburtstag nie. Früher habe ich das gern gemacht, aber seit ich viel arbeite, habe ich keine Zeit zum Planen. Meine Kollegen schenken mir manchmal einen Kuchen, das reicht mir.</p>"
+    ],
+    [
+     "Sprecher 3",
+     "<p>Bei uns in Köln ist Karneval das schönste Fest des Jahres. Ich bin schon als Kind in der Stadt mitgelaufen. Jetzt bin ich in einem Verein und baue mit Freunden einen Wagen. Das dauert ein halbes Jahr.</p>"
+    ],
+    [
+     "Sprecher 4",
+     "<p>Hochzeiten finde ich anstrengend. Man muss immer schick angezogen sein und lange sitzen. Trotzdem gehe ich hin, wenn Freunde heiraten, weil sie sich freuen, wenn ich komme.</p>"
+    ],
+    [
+     "Sprecher 5",
+     "<p>Wir feiern jedes Jahr ein Straßenfest. Alle Nachbarn bringen etwas mit, und wir stellen Tische auf die Straße. Das ist die beste Gelegenheit, neue Leute kennenzulernen.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2 · Interview: Großfamilie. Herr Demir, Vater von fünf Kindern",
+   "html": "<div class=\"text\"><p>Herr Demir, Sie haben fünf Kinder. Wie sieht ein normaler Morgen bei Ihnen aus?</p><p>Chaos! Um sechs Uhr stehe ich auf, mache Frühstück und Pausenbrote. Meine Frau arbeitet im Krankenhaus und fängt schon um halb sieben an. Um sieben müssen alle fertig sein.</p><p>Wer hilft Ihnen?</p><p>Die beiden Ältesten, sie sind sechzehn und vierzehn. Sie bringen die Kleinen zur Schule. Ohne sie würde es nicht funktionieren.</p><p>Ist das nicht teuer, so viele Kinder zu haben?</p><p>Natürlich. Wir kaufen Kleidung second hand, und im Urlaub fahren wir mit dem Zelt. Aber ehrlich gesagt: Wir haben nie darüber nachgedacht, was es kostet. Wichtig ist, dass es allen gut geht.</p><p>Was machen Sie am Wochenende?</p><p>Am Samstag räumen wir gemeinsam das Haus auf, danach gehen wir meistens in den Park. Am Sonntag besuchen wir die Großeltern, die zwanzig Minuten entfernt wohnen.</p><p>Gibt es auch Streit?</p><p>Natürlich, vor allem ums Fernsehen und ums Badezimmer. Wir haben einen Plan an der Wand, wer wann dran ist. Das hilft.</p><p>Wünschen Sie sich manchmal mehr Ruhe?</p><p>Manchmal ja. Dann gehe ich eine Stunde allein joggen. Danach bin ich wieder gut gelaunt.</p><p>Was würden Sie anderen Familien raten?</p><p>Nicht alles perfekt machen wollen. Wenn mal die Wäsche liegen bleibt, ist das nicht schlimm. Wichtiger ist, dass man gemeinsam isst und miteinander redet.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Ansage 1",
+     "<p>Liebe Eltern, hier ist die Kita Sonnenblume. Am Freitag findet unser Sommerfest statt. Bitte bringen Sie Kuchen oder Salat mit. Das Fest beginnt um fünfzehn Uhr und endet gegen achtzehn Uhr. Bei schlechtem Wetter findet es im Haus statt.</p>"
+    ],
+    [
+     "Ansage 2",
+     "<p>Standesamt Mitte, guten Tag. Ihr Trautermin am Samstag ist um elf Uhr dreißig. Bitte bringen Sie beide Personalausweise und die Geburtsurkunden mit. Die Trauzeugen müssen mindestens achtzehn Jahre alt sein.</p>"
+    ],
+    [
+     "Ansage 3",
+     "<p>Hallo Oma, hier ist Lena. Ich komme am Sonntag nicht zum Kaffee, weil ich krank bin. Ich habe Fieber und bleibe im Bett. Ich rufe dich am Montag wieder an. Gute Besserung für dich auch!</p>"
+    ],
+    [
+     "Ansage 4",
+     "<p>Das Familienmuseum lädt am ersten Sonntag im Monat zu einem Kinderprogramm ein. Der Eintritt für Kinder ist frei, Erwachsene zahlen vier Euro. Eine Anmeldung ist nicht nötig.</p>"
+    ],
+    [
+     "Ansage 5",
+     "<p>Willkommen beim Seniorennachmittag. Heute zeigen wir einen Film aus den fünfziger Jahren. Danach gibt es Kaffee und Kuchen. Wer nach Hause gefahren werden möchte, meldet sich bitte bei Frau Wolff.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Weihnachten ist für mich das wichtigste Fest. Die ganze Familie kommt zusammen, wir kochen stundenlang und singen. Geschenke sind mir nicht so wichtig, ich freue mich auf die Zeit mit den Eltern.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ich feiere meinen Geburtstag nie. Früher habe ich das gern gemacht, aber seit ich viel arbeite, habe ich keine Zeit zum Planen. Meine Kollegen schenken mir manchmal einen Kuchen, das reicht mir.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Bei uns in Köln ist Karneval das schönste Fest des Jahres. Ich bin schon als Kind in der Stadt mitgelaufen. Jetzt bin ich in einem Verein und baue mit Freunden einen Wagen. Das dauert ein halbes Jahr.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Hochzeiten finde ich anstrengend. Man muss immer schick angezogen sein und lange sitzen. Trotzdem gehe ich hin, wenn Freunde heiraten, weil sie sich freuen, wenn ich komme.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Wir feiern jedes Jahr ein Straßenfest. Alle Nachbarn bringen etwas mit, und wir stellen Tische auf die Straße. Das ist die beste Gelegenheit, neue Leute kennenzulernen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Herr Demir, Sie haben fünf Kinder. Wie sieht ein normaler Morgen bei Ihnen aus?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Chaos! Um sechs Uhr stehe ich auf, mache Frühstück und Pausenbrote. Meine Frau arbeitet im Krankenhaus und fängt schon um halb sieben an. Um sieben müssen alle fertig sein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wer hilft Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die beiden Ältesten, sie sind sechzehn und vierzehn. Sie bringen die Kleinen zur Schule. Ohne sie würde es nicht funktionieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ist das nicht teuer, so viele Kinder zu haben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich. Wir kaufen Kleidung second hand, und im Urlaub fahren wir mit dem Zelt. Aber ehrlich gesagt: Wir haben nie darüber nachgedacht, was es kostet. Wichtig ist, dass es allen gut geht.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was machen Sie am Wochenende?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Am Samstag räumen wir gemeinsam das Haus auf, danach gehen wir meistens in den Park. Am Sonntag besuchen wir die Großeltern, die zwanzig Minuten entfernt wohnen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es auch Streit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich, vor allem ums Fernsehen und ums Badezimmer. Wir haben einen Plan an der Wand, wer wann dran ist. Das hilft.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wünschen Sie sich manchmal mehr Ruhe?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Manchmal ja. Dann gehe ich eine Stunde allein joggen. Danach bin ich wieder gut gelaunt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie anderen Familien raten?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht alles perfekt machen wollen. Wenn mal die Wäsche liegen bleibt, ist das nicht schlimm. Wichtiger ist, dass man gemeinsam isst und miteinander redet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Herr Demir, Sie haben fünf Kinder. Wie sieht ein normaler Morgen bei Ihnen aus?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Chaos! Um sechs Uhr stehe ich auf, mache Frühstück und Pausenbrote. Meine Frau arbeitet im Krankenhaus und fängt schon um halb sieben an. Um sieben müssen alle fertig sein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wer hilft Ihnen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die beiden Ältesten, sie sind sechzehn und vierzehn. Sie bringen die Kleinen zur Schule. Ohne sie würde es nicht funktionieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ist das nicht teuer, so viele Kinder zu haben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich. Wir kaufen Kleidung second hand, und im Urlaub fahren wir mit dem Zelt. Aber ehrlich gesagt: Wir haben nie darüber nachgedacht, was es kostet. Wichtig ist, dass es allen gut geht.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was machen Sie am Wochenende?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Am Samstag räumen wir gemeinsam das Haus auf, danach gehen wir meistens in den Park. Am Sonntag besuchen wir die Großeltern, die zwanzig Minuten entfernt wohnen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es auch Streit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Natürlich, vor allem ums Fernsehen und ums Badezimmer. Wir haben einen Plan an der Wand, wer wann dran ist. Das hilft.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wünschen Sie sich manchmal mehr Ruhe?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Manchmal ja. Dann gehe ich eine Stunde allein joggen. Danach bin ich wieder gut gelaunt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie anderen Familien raten?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Nicht alles perfekt machen wollen. Wenn mal die Wäsche liegen bleibt, ist das nicht schlimm. Wichtiger ist, dass man gemeinsam isst und miteinander redet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Eltern, hier ist die Kita Sonnenblume. Am Freitag findet unser Sommerfest statt. Bitte bringen Sie Kuchen oder Salat mit. Das Fest beginnt um fünfzehn Uhr und endet gegen achtzehn Uhr. Bei schlechtem Wetter findet es im Haus statt.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Eltern, hier ist die Kita Sonnenblume. Am Freitag findet unser Sommerfest statt. Bitte bringen Sie Kuchen oder Salat mit. Das Fest beginnt um fünfzehn Uhr und endet gegen achtzehn Uhr. Bei schlechtem Wetter findet es im Haus statt.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Standesamt Mitte, guten Tag. Ihr Trautermin am Samstag ist um elf Uhr dreißig. Bitte bringen Sie beide Personalausweise und die Geburtsurkunden mit. Die Trauzeugen müssen mindestens achtzehn Jahre alt sein.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Standesamt Mitte, guten Tag. Ihr Trautermin am Samstag ist um elf Uhr dreißig. Bitte bringen Sie beide Personalausweise und die Geburtsurkunden mit. Die Trauzeugen müssen mindestens achtzehn Jahre alt sein.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hallo Oma, hier ist Lena. Ich komme am Sonntag nicht zum Kaffee, weil ich krank bin. Ich habe Fieber und bleibe im Bett. Ich rufe dich am Montag wieder an. Gute Besserung für dich auch!",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hallo Oma, hier ist Lena. Ich komme am Sonntag nicht zum Kaffee, weil ich krank bin. Ich habe Fieber und bleibe im Bett. Ich rufe dich am Montag wieder an. Gute Besserung für dich auch!",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Familienmuseum lädt am ersten Sonntag im Monat zu einem Kinderprogramm ein. Der Eintritt für Kinder ist frei, Erwachsene zahlen vier Euro. Eine Anmeldung ist nicht nötig.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Das Familienmuseum lädt am ersten Sonntag im Monat zu einem Kinderprogramm ein. Der Eintritt für Kinder ist frei, Erwachsene zahlen vier Euro. Eine Anmeldung ist nicht nötig.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen beim Seniorennachmittag. Heute zeigen wir einen Film aus den fünfziger Jahren. Danach gibt es Kaffee und Kuchen. Wer nach Hause gefahren werden möchte, meldet sich bitte bei Frau Wolff.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen beim Seniorennachmittag. Heute zeigen wir einen Film aus den fünfziger Jahren. Danach gibt es Kaffee und Kuchen. Wer nach Hause gefahren werden möchte, meldet sich bitte bei Frau Wolff.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

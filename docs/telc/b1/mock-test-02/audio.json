@@ -2,7 +2,7 @@
  "hoeren.mp3": [
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil eins. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -13,32 +13,32 @@
    "r": "+0%"
   },
   {
-   "v": "de-DE-KatjaNeural",
-   "t": "Guten Abend, hier ist Frau Hartmann von der Hausverwaltung. Der Handwerker kommt morgen zwischen acht und zwölf Uhr, um die Heizung zu reparieren. Bitte sorgen Sie dafür, dass jemand in der Wohnung ist.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich wohne in einer kleinen Wohnung im Zentrum. Alles ist in der Nähe, Supermarkt, Arzt, Bahnhof. Allerdings ist es abends laut, und ich habe keinen Balkon.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Ich bin vor drei Wochen nach Stuttgart gezogen. Die Stadt gefällt mir gut, aber die Wohnungen sind sehr teuer. Ich teile mir jetzt eine Wohnung mit einem Kollegen, das spart viel Geld.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Achtung, eine Durchsage für alle Besucher. Der Parkplatz hinter dem Gebäude ist heute wegen einer Veranstaltung gesperrt. Bitte nutzen Sie das Parkhaus an der Bahnhofstraße.",
-   "p": 7,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Hier spricht der Anrufbeantworter von Reisebüro Sonnenweg. Unser Büro ist montags bis freitags von zehn bis achtzehn Uhr geöffnet. Am Samstag haben wir nur bis dreizehn Uhr für Sie da.",
+   "t": "Wir haben ein Haus mit Garten am Stadtrand. Für die Kinder ist das ideal. Dafür müssen wir jeden Tag mit dem Auto in die Stadt, und die Heizkosten sind im Winter sehr hoch.",
    "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Bei uns im Kurs sind zwölf Teilnehmer aus acht Ländern. Das finde ich toll, denn wir sprechen im Unterricht nur Deutsch. So lernt man am schnellsten.",
+   "t": "Ich lebe in einer Wohngemeinschaft mit drei anderen Studenten. Die Miete ist günstig, und es ist immer jemand da. Manchmal geht es mir aber zu chaotisch zu, besonders in der Küche.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich wohne bei meinen Eltern, obwohl ich schon 32 bin. Die Mieten sind so hoch, und ich spare für eine eigene Wohnung. Meine Mutter kocht gut, das ist natürlich ein Vorteil.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich habe vor einem Jahr eine Wohnung im Altenheim bezogen. Dort kann ich selbstständig leben, aber es gibt Hilfe, wenn ich sie brauche. Ich bin sehr zufrieden.",
    "p": 7,
    "r": "-8%"
   },
@@ -50,7 +50,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil zwei. Sie hören jetzt ein Gespräch. Dazu lösen Sie zehn Aufgaben. Sie hören das Gespräch zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -62,206 +62,176 @@
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo Ben, ich habe gehört, du warst im Urlaub?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Ja, zwei Wochen in Portugal. Wir waren im Süden, an der Algarve.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Wie war das Wetter?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Super, fast jeden Tag Sonne, aber nicht zu heiß. Nur an einem Tag hat es geregnet.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Wo habt ihr gewohnt?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "In einer kleinen Ferienwohnung, zehn Minuten vom Strand entfernt. Sie hat 55 Euro pro Nacht gekostet.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Und wie seid ihr dorthin gekommen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Mit dem Flugzeug bis Faro und dann mit dem Mietwagen. Das war praktisch, weil wir viele Orte besuchen wollten.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Was hat dir am besten gefallen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Das Essen! Vor allem der frische Fisch. Und die Altstadt von Lagos, die ist wirklich schön.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Hast du Portugiesisch gesprochen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Nur ein paar Wörter. Die meisten Leute sprechen gut Englisch, das war einfach.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Gab es auch Probleme?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Ein bisschen. Am zweiten Tag war mein Koffer nicht da, er kam erst am nächsten Morgen. Aber die Fluggesellschaft hat sich entschuldigt.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Würdest du wieder hinfahren?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Auf jeden Fall. Nächstes Jahr möchte ich im Frühling fahren, wenn es noch ruhiger ist.",
+   "t": "Frau Ivanova, Sie haben gerade eine Wohnung in München gefunden. Wie lange haben Sie gesucht?",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
+   "t": "Fast sieben Monate. Ich habe über hundert E-Mails geschrieben, aber nur zu drei Besichtigungen wurde ich eingeladen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Warum ist es so schwierig?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Mieten sind sehr hoch, und es gibt viele Bewerber. Als Studentin ohne festes Einkommen hat man schlechte Karten. Meine Eltern mussten für mich bürgen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was haben Sie schließlich gefunden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ein Zimmer in einer Zweier-WG. Es kostet 580 Euro warm. Das ist für München günstig, aber es liegt weit draußen. Ich brauche eine Stunde zur Uni.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie haben Sie die Wohnung am Ende bekommen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Über Freunde. Eine Kommilitonin hat erzählt, dass ihre Mitbewohnerin auszieht. Ich habe mich sofort gemeldet und durfte am nächsten Tag vorbeikommen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie anderen Suchenden raten?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Persönliche Kontakte nutzen und nicht nur Internetportale. Außerdem eine ordentliche Mappe mit Schufa-Auskunft und Bürgschaft vorbereiten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie fühlen Sie sich jetzt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Erleichtert. Die Suche hat mich viel Energie gekostet. Jetzt kann ich mich endlich wieder aufs Studium konzentrieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Planen Sie, später in München zu bleiben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eher nicht. Die Stadt ist wunderschön, aber zu teuer. Nach dem Studium suche ich eine Stelle in einer kleineren Stadt.",
+   "p": 0.6,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1.5,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Hallo Ben, ich habe gehört, du warst im Urlaub?",
+   "t": "Frau Ivanova, Sie haben gerade eine Wohnung in München gefunden. Wie lange haben Sie gesucht?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Ja, zwei Wochen in Portugal. Wir waren im Süden, an der Algarve.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Wie war das Wetter?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Super, fast jeden Tag Sonne, aber nicht zu heiß. Nur an einem Tag hat es geregnet.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Fast sieben Monate. Ich habe über hundert E-Mails geschrieben, aber nur zu drei Besichtigungen wurde ich eingeladen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Wo habt ihr gewohnt?",
+   "t": "Warum ist es so schwierig?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "In einer kleinen Ferienwohnung, zehn Minuten vom Strand entfernt. Sie hat 55 Euro pro Nacht gekostet.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Und wie seid ihr dorthin gekommen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Mit dem Flugzeug bis Faro und dann mit dem Mietwagen. Das war praktisch, weil wir viele Orte besuchen wollten.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Mieten sind sehr hoch, und es gibt viele Bewerber. Als Studentin ohne festes Einkommen hat man schlechte Karten. Meine Eltern mussten für mich bürgen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Was hat dir am besten gefallen?",
+   "t": "Was haben Sie schließlich gefunden?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Das Essen! Vor allem der frische Fisch. Und die Altstadt von Lagos, die ist wirklich schön.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Hast du Portugiesisch gesprochen?",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-ConradNeural",
-   "t": "Nur ein paar Wörter. Die meisten Leute sprechen gut Englisch, das war einfach.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Ein Zimmer in einer Zweier-WG. Es kostet 580 Euro warm. Das ist für München günstig, aber es liegt weit draußen. Ich brauche eine Stunde zur Uni.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Gab es auch Probleme?",
+   "t": "Wie haben Sie die Wohnung am Ende bekommen?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Ein bisschen. Am zweiten Tag war mein Koffer nicht da, er kam erst am nächsten Morgen. Aber die Fluggesellschaft hat sich entschuldigt.",
+   "v": "de-DE-AmalaNeural",
+   "t": "Über Freunde. Eine Kommilitonin hat erzählt, dass ihre Mitbewohnerin auszieht. Ich habe mich sofort gemeldet und durfte am nächsten Tag vorbeikommen.",
    "p": 0.6,
    "r": "-8%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Würdest du wieder hinfahren?",
+   "t": "Was würden Sie anderen Suchenden raten?",
    "p": 0.6,
    "r": "-8%"
   },
   {
-   "v": "de-DE-ConradNeural",
-   "t": "Auf jeden Fall. Nächstes Jahr möchte ich im Frühling fahren, wenn es noch ruhiger ist.",
-   "p": 20,
+   "v": "de-DE-AmalaNeural",
+   "t": "Persönliche Kontakte nutzen und nicht nur Internetportale. Außerdem eine ordentliche Mappe mit Schufa-Auskunft und Bürgschaft vorbereiten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie fühlen Sie sich jetzt?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Erleichtert. Die Suche hat mich viel Energie gekostet. Jetzt kann ich mich endlich wieder aufs Studium konzentrieren.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Planen Sie, später in München zu bleiben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eher nicht. Die Stadt ist wunderschön, aber zu teuer. Nach dem Studium suche ich eine Stelle in einer kleineren Stadt.",
+   "p": 0.6,
    "r": "-8%"
   },
   {
@@ -272,7 +242,7 @@
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Teil drei. Sie hören jetzt fünf kurze Texte. Zu jedem Text lösen Sie eine Aufgabe. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
    "p": 0.5,
    "r": "+0%"
   },
@@ -283,130 +253,94 @@
    "r": "+0%"
   },
   {
-   "v": "de-DE-AmalaNeural",
-   "t": "Hier ist die Nachricht für Herrn Klein. Ihr Paket konnte heute nicht zugestellt werden. Sie können es bis Freitag in der Filiale in der Poststraße abholen. Bitte bringen Sie Ihren Ausweis mit.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Hier ist die Nachricht für Herrn Klein. Ihr Paket konnte heute nicht zugestellt werden. Sie können es bis Freitag in der Filiale in der Poststraße abholen. Bitte bringen Sie Ihren Ausweis mit.",
-   "p": 9,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Ich finde, dass man in der Stadt weniger Autos braucht. Wer jeden Tag mit dem Rad fährt, ist gesünder und spart Geld. Natürlich geht das nicht überall, auf dem Land ist ein Auto oft nötig.",
-   "p": 0.6,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
-   "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-KillianNeural",
-   "t": "Ich finde, dass man in der Stadt weniger Autos braucht. Wer jeden Tag mit dem Rad fährt, ist gesünder und spart Geld. Natürlich geht das nicht überall, auf dem Land ist ein Auto oft nötig.",
-   "p": 9,
-   "r": "-8%"
-  },
-  {
    "v": "de-DE-KatjaNeural",
-   "t": "Liebe Kunden, unser Supermarkt macht ab nächster Woche einen Umbau. Die Obstabteilung ist dann im Erdgeschoss. Die Öffnungszeiten ändern sich nicht.",
-   "p": 0.6,
+   "t": "Liebe Mieter, im Namen der Hausverwaltung informieren wir Sie, dass das Wasser am Donnerstag von neun bis zwölf Uhr abgestellt wird. Es werden Rohre repariert. Bitte entschuldigen Sie die Unannehmlichkeiten.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-KatjaNeural",
-   "t": "Liebe Kunden, unser Supermarkt macht ab nächster Woche einen Umbau. Die Obstabteilung ist dann im Erdgeschoss. Die Öffnungszeiten ändern sich nicht.",
-   "p": 9,
+   "t": "Liebe Mieter, im Namen der Hausverwaltung informieren wir Sie, dass das Wasser am Donnerstag von neun bis zwölf Uhr abgestellt wird. Es werden Rohre repariert. Bitte entschuldigen Sie die Unannehmlichkeiten.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Die Theatervorstellung am Freitag beginnt eine halbe Stunde später als geplant, nämlich um 19:30 Uhr. Wer schon Karten hat, kann sie behalten. Der Einlass ist ab 18:30 Uhr.",
-   "p": 0.6,
+   "t": "Hier ist die Notrufzentrale der Apotheken. Heute Nacht hat die Löwen-Apotheke in der Bahnhofstraße geöffnet. Sie ist bis sieben Uhr morgens besetzt. Bitte klingeln Sie an der Tür.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
-  },
-  {
-   "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
    "v": "de-DE-ConradNeural",
-   "t": "Die Theatervorstellung am Freitag beginnt eine halbe Stunde später als geplant, nämlich um 19:30 Uhr. Wer schon Karten hat, kann sie behalten. Der Einlass ist ab 18:30 Uhr.",
-   "p": 9,
-   "r": "-8%"
-  },
-  {
-   "v": "de-DE-KatjaNeural",
-   "t": "Die Stadtbibliothek hat zwei neue Angebote: ab Montag gibt es eine Lesestunde für Kinder, und im Cafébereich kann man jetzt Kaffee und Kuchen kaufen. Der Eintritt zur Bibliothek bleibt frei.",
-   "p": 0.6,
+   "t": "Hier ist die Notrufzentrale der Apotheken. Heute Nacht hat die Löwen-Apotheke in der Bahnhofstraße geöffnet. Sie ist bis sieben Uhr morgens besetzt. Bitte klingeln Sie an der Tür.",
+   "p": 7,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "",
-   "p": 3,
-   "r": "+0%"
+   "t": "Guten Tag, Sie sind verbunden mit der Praxis Dr. Becker. Die Sprechzeiten sind montags bis freitags von acht bis zwölf Uhr. Für Termine am Nachmittag rufen Sie bitte während der Sprechzeiten an.",
+   "p": 2,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
    "t": "Sie hören den Text noch einmal.",
-   "p": 2.0,
+   "p": 1,
    "r": "+0%"
   },
   {
-   "v": "de-DE-KatjaNeural",
-   "t": "Die Stadtbibliothek hat zwei neue Angebote: ab Montag gibt es eine Lesestunde für Kinder, und im Cafébereich kann man jetzt Kaffee und Kuchen kaufen. Der Eintritt zur Bibliothek bleibt frei.",
-   "p": 9,
+   "v": "de-DE-AmalaNeural",
+   "t": "Guten Tag, Sie sind verbunden mit der Praxis Dr. Becker. Die Sprechzeiten sind montags bis freitags von acht bis zwölf Uhr. Für Termine am Nachmittag rufen Sie bitte während der Sprechzeiten an.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Hier ist Herr Lang, Ihr Vermieter. Ich möchte Sie darauf hinweisen, dass die Miete bis zum dritten Werktag des Monats auf meinem Konto sein muss. Bei Rückfragen erreichen Sie mich abends.",
+   "p": 2,
    "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",
-   "t": "Das ist das Ende des Teils.",
-   "p": 3.0,
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
    "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Hier ist Herr Lang, Ihr Vermieter. Ich möchte Sie darauf hinweisen, dass die Miete bis zum dritten Werktag des Monats auf meinem Konto sein muss. Bei Rückfragen erreichen Sie mich abends.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sie hören die Gesundheitssendung. Heute geht es um Bewegung im Alltag. Schon dreißig Minuten Spaziergang pro Tag senken das Risiko für Herzkrankheiten. Nehmen Sie ruhig öfter die Treppe statt des Aufzugs.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Sie hören die Gesundheitssendung. Heute geht es um Bewegung im Alltag. Schon dreißig Minuten Spaziergang pro Tag senken das Risiko für Herzkrankheiten. Nehmen Sie ruhig öfter die Treppe statt des Aufzugs.",
+   "p": 7,
+   "r": "-8%"
   },
   {
    "v": "de-DE-AmalaNeural",

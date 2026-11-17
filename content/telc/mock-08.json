@@ -1,0 +1,1017 @@
+{
+ "n": 8,
+ "theme": "Reisen und Verkehr",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Wegen Bauarbeiten fahren zwischen Hannover und Göttingen von Freitagabend bis Montagmorgen keine Fernzüge. Reisende können auf Regionalzüge ausweichen, die Fahrkarten bleiben gültig. Eine Fahrt kann kostenlos storniert werden.</p><p><b>2</b>&nbsp; Mit dem neuen Deutschlandticket können Sie für 49 Euro im Monat alle Busse und Regionalzüge im ganzen Land nutzen. Das Ticket ist monatlich kündbar und kann auch online gekauft werden. Fernzüge sind nicht eingeschlossen.</p><p><b>3</b>&nbsp; Die Autobahn A 7 ist wegen eines Unfalls bei Kassel in beide Richtungen gesperrt. Der Verkehr wird über die Landstraße umgeleitet. Autofahrer sollten mit einer Verspätung von bis zu einer Stunde rechnen.</p><p><b>4</b>&nbsp; Ab dem 1. Juni dürfen Fahrräder in den Zügen der Regionalbahn auch in der Hauptverkehrszeit kostenlos mitgenommen werden, wenn noch Platz ist. Bei großen Gruppen ist eine Anmeldung nötig.</p><p><b>5</b>&nbsp; Am Flughafen Düsseldorf wird ab nächster Woche das Parkhaus P 3 renoviert. Kurzzeitparker sollen das Parkhaus P 1 nutzen. Die Preise bleiben gleich. Gäste mit Behinderung dürfen weiterhin die Plätze vor Terminal B benutzen.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Verkehrschaos auf der Autobahn<br><b>b</b>&nbsp; Billiger Bus und Bahn im ganzen Land<br><b>c</b>&nbsp; Fahrräder dürfen jetzt mehr<br><b>d</b>&nbsp; Flughafen: Neue Parkplätze für Kurzzeitgäste<br><b>e</b>&nbsp; Streik bei der Bahn<br><b>f</b>&nbsp; Bahnlinie vorübergehend gesperrt<br><b>g</b>&nbsp; Neue Fahrpläne im Sommer<br><b>h</b>&nbsp; Taxi-Preise steigen<br><b>i</b>&nbsp; Mehr Sicherheit am Bahnhof<br><b>j</b>&nbsp; Urlaub mit dem Zug ins Ausland</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "f",
+     "why": "Fernzüge fahren nicht (Bauarbeiten): Bahnlinie gesperrt → f."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "49-Euro-Ticket für Bus und Bahn → b."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Unfall, Sperrung, Umleitung → a."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Fahrradmitnahme wird erleichtert → c."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Parkhaus P 3 renoviert, Kurzzeitparker nutzen P 1 → d."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Zug fahren ohne Ticketschalter</p><p>Die Deutsche Bahn schließt in diesem Jahr 40 Reisezentren in kleineren Städten. Die Kunden sollen ihre Fahrkarten künftig online oder an Automaten kaufen. Die Bahn begründet den Schritt damit, dass nur noch jeder fünfte Kunde am Schalter bucht. „Wir können nicht überall Personal bezahlen, das kaum noch gebraucht wird“, sagt ein Sprecher. Fahrgastverbände kritisieren die Pläne. Vor allem ältere Menschen und Reisende ohne Smartphone seien betroffen, die Automaten seien oft schwer zu bedienen.</p><p>Die Bahn versichert, dass sie Schulungen anbieten will. In den Bahnhöfen sollen Mitarbeiter mit Tablets Fragen beantworten und beim Kauf helfen. Außerdem wird ein Telefonservice ausgebaut: Wer anruft, bekommt die Fahrkarte nach Hause geschickt. Die Gebühr dafür beträgt jedoch 3,50 Euro pro Ticket, was die Verbände ebenfalls ärgert.</p><p>Die ersten Reisezentren sollen im Herbst geschlossen werden. Die Städte, die davon betroffen sind, wurden noch nicht genannt. Im nächsten Jahr will die Bahn prüfen, ob die Änderungen funktionieren.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Warum schließt die Bahn Reisezentren?",
+     "opts": [
+      "Weil die Kunden es verlangten.",
+      "Weil nur wenige Kunden am Schalter buchen.",
+      "Weil Fahrkarten billiger werden."
+     ],
+     "key": "b",
+     "why": "„Nur noch jeder fünfte Kunde bucht am Schalter.“"
+    },
+    {
+     "id": "l7",
+     "q": "Wer ist laut Fahrgastverbänden besonders betroffen?",
+     "opts": [
+      "Junge Berufstätige.",
+      "Touristen aus dem Ausland.",
+      "Ältere Menschen und Reisende ohne Smartphone."
+     ],
+     "key": "c",
+     "why": "Ältere und Menschen ohne Smartphone."
+    },
+    {
+     "id": "l8",
+     "q": "Was bietet die Bahn als Ersatz an?",
+     "opts": [
+      "Mitarbeiter mit Tablets in den Bahnhöfen.",
+      "Kostenlose Fahrkarten.",
+      "Größere Automaten."
+     ],
+     "key": "a",
+     "why": "Mitarbeiter helfen mit Tablets."
+    },
+    {
+     "id": "l9",
+     "q": "Was kostet der telefonische Kartenversand?",
+     "opts": [
+      "Nichts.",
+      "3,50 Euro pro Ticket.",
+      "Zehn Prozent des Fahrpreises."
+     ],
+     "key": "b",
+     "why": "Gebühr: 3,50 Euro pro Ticket."
+    },
+    {
+     "id": "l10",
+     "q": "Was ist über die ersten Schließungen bekannt?",
+     "opts": [
+      "Sie beginnen im Herbst, die Orte sind noch unklar.",
+      "Sie finden schon statt.",
+      "Sie betreffen nur große Städte."
+     ],
+     "key": "a",
+     "why": "Im Herbst; Städte noch nicht genannt."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Fahrradladen Speiche: Reparaturen in 24 Stunden, Leihräder für Touristen ab 10 Euro pro Tag.</p><p><b>b</b>&nbsp; Mietwagen Sonne: Kleinwagen ab 29 Euro pro Tag, Kindersitze kostenlos, Abholung am Flughafen.</p><p><b>c</b>&nbsp; Reisebüro Weitblick: Last-Minute-Reisen nach Spanien, Griechenland und in die Türkei. Beratung auch am Samstag.</p><p><b>d</b>&nbsp; Fahrschule Sicher: Führerschein Klasse B, Intensivkurs in zwei Wochen, auch auf Englisch.</p><p><b>e</b>&nbsp; Taxi Müller: Flughafentransfer rund um die Uhr, Festpreis 45 Euro, Vorbestellung online möglich.</p><p><b>f</b>&nbsp; Koffer & Taschen Reisefreund: Koffer, Rucksäcke und Reiseadapter. Heute 20 Prozent auf alles.</p><p><b>g</b>&nbsp; Sprachreisen International: Deutsch in Wien, Englisch in London. Gruppenreisen für Jugendliche, Unterkunft in Gastfamilien.</p><p><b>h</b>&nbsp; Bahnhofsbuchhandlung: Reiseführer, Landkarten und Zeitungen aus aller Welt, täglich von 6 bis 22 Uhr.</p><p><b>i</b>&nbsp; Reiseversicherung Safe: Schutz bei Krankheit und Gepäckverlust im Ausland. Ab 19 Euro pro Reise.</p><p><b>j</b>&nbsp; Hotel am See: Familienzimmer mit Frühstück, Kinder bis 6 Jahre kostenlos. Direkt am Strand.</p><p><b>k</b>&nbsp; Busreisen Fischer: Tagesausflüge zum Schloss und in die Berge, Abfahrt jeden Sonntag um 8 Uhr.</p><p><b>l</b>&nbsp; Campingplatz Waldblick: Stellplätze für Zelt und Wohnwagen, Duschen und Restaurant vorhanden. Von Mai bis September geöffnet.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie wollen mit der Familie in den Ferien am Meer wohnen, Ihre Kinder sind vier und sieben.",
+     "letters": "abcdefghijklx",
+     "key": "j",
+     "why": "Familie, Kinder, Strand → j (Hotel am See)."
+    },
+    {
+     "id": "l12",
+     "q": "Sie landen nachts am Flughafen und brauchen eine Fahrt in die Stadt.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Flughafentransfer rund um die Uhr → e."
+    },
+    {
+     "id": "l13",
+     "q": "Ihr Fahrrad ist kaputt, und Sie brauchen es schnell wieder.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Reparatur in 24 Stunden → a."
+    },
+    {
+     "id": "l14",
+     "q": "Sie möchten Ihre Tochter (16) für zwei Wochen zum Deutschlernen ins Ausland schicken.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Sprachreise für Jugendliche → g."
+    },
+    {
+     "id": "l15",
+     "q": "Sie fahren im Sommer in ein fremdes Land und möchten sich gegen Krankheit absichern.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Reiseversicherung → i."
+    },
+    {
+     "id": "l16",
+     "q": "Sie möchten am Sonntag einen Ausflug in die Berge machen, haben aber kein Auto.",
+     "letters": "abcdefghijklx",
+     "key": "k",
+     "why": "Busreise sonntags → k."
+    },
+    {
+     "id": "l17",
+     "q": "Sie brauchen für Ihre Reise einen neuen Koffer und möchten sparen.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Koffer, 20 Prozent → f."
+    },
+    {
+     "id": "l18",
+     "q": "Sie möchten mit dem Zelt in den Urlaub fahren und suchen einen Platz.",
+     "letters": "abcdefghijklx",
+     "key": "l",
+     "why": "Campingplatz → l."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten Ihren Führerschein in einer Fremdsprache machen.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Fahrschule, auch auf Englisch → d."
+    },
+    {
+     "id": "l20",
+     "q": "Sie suchen für den Winter einen Skiurlaub in den Alpen.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Kein Skiangebot → x."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Liebe Anna,</p><p>vielen Dank für deine Einladung. Ich habe mich sehr <b>(21)</b>, von dir zu hören. Leider kann ich nicht am 12. Juni kommen, <b>(22)</b> ich an diesem Wochenende arbeiten muss. Ich habe aber schon überlegt, wie wir uns trotzdem sehen <b>(23)</b>. Wenn du <b>(24)</b> Mitte Juli Zeit hast, könnte ich dich besuchen. Die Fahrt dauert <b>(25)</b> dem Zug nur drei Stunden. Ich würde aber lieber mit dem Auto fahren, <b>(26)</b> ich dann mehr Gepäck mitnehmen kann. Die Reise wäre allerdings <b>(27)</b> teurer. Was <b>(28)</b> du davon? Du kannst mir gern einen Termin <b>(29)</b>, der dir passt. Ich freue mich <b>(30)</b> dich zu sehen.</p><p>Viele Grüße<br>Eva</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "gefreut",
+      "freuen",
+      "freut"
+     ],
+     "key": "a",
+     "why": "Perfekt: „habe mich gefreut“."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "weil",
+      "obwohl",
+      "sondern"
+     ],
+     "key": "a",
+     "why": "Grund: „weil ich arbeiten muss“."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "können",
+      "könnten",
+      "konnten"
+     ],
+     "key": "a",
+     "why": "Nebensatz: „wie wir uns sehen können“."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "erst",
+      "schon",
+      "noch"
+     ],
+     "key": "a",
+     "why": "„erst Mitte Juli“ = nicht früher."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "mit",
+      "bei",
+      "nach"
+     ],
+     "key": "a",
+     "why": "„mit dem Zug“."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "weil",
+      "denn",
+      "dass"
+     ],
+     "key": "a",
+     "why": "Nebensatz mit Verb am Ende: „weil ich … mitnehmen kann“."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "etwas",
+      "viel",
+      "sehr"
+     ],
+     "key": "a",
+     "why": "„etwas teurer“."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "denkst",
+      "denkt",
+      "denkest"
+     ],
+     "key": "a",
+     "why": "du denkst."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "vorschlagen",
+      "vorgeschlagen",
+      "vorschlägt"
+     ],
+     "key": "a",
+     "why": "„du kannst mir … vorschlagen“."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "darauf",
+      "daran",
+      "dafür"
+     ],
+     "key": "a",
+     "why": "„sich freuen auf“ → darauf."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Damen und Herren,</p><p>ich habe bei Ihnen für den 14. August eine Reise nach Lissabon <b>(31)</b>. Leider muss ich meine Buchung ändern, <b>(32)</b> ich im August doch nicht fahren kann. Ich würde <b>(33)</b> gern im Oktober fliegen. Könnten Sie mir bitte <b>(34)</b>, ob das möglich ist und ob dabei zusätzliche Kosten <b>(35)</b>? Ich habe gehört, dass bei einer Umbuchung eine <b>(36)</b> fällig wird. Außerdem möchte ich <b>(37)</b>, ob die Versicherung weiter gilt. Ich wäre Ihnen dankbar, <b>(38)</b> Sie mir bis Ende der Woche antworten würden, <b>(39)</b> ich meinen Urlaub rechtzeitig <b>(40)</b> kann.</p><p>Mit freundlichen Grüßen<br>Ivan Petrov</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> gebucht &nbsp;·&nbsp; <b>b</b> da &nbsp;·&nbsp; <b>c</b> stattdessen &nbsp;·&nbsp; <b>d</b> mitteilen &nbsp;·&nbsp; <b>e</b> entstehen &nbsp;·&nbsp; <b>f</b> Gebühr &nbsp;·&nbsp; <b>g</b> wissen &nbsp;·&nbsp; <b>h</b> wenn &nbsp;·&nbsp; <b>i</b> damit &nbsp;·&nbsp; <b>j</b> planen &nbsp;·&nbsp; <b>k</b> obwohl &nbsp;·&nbsp; <b>l</b> deshalb &nbsp;·&nbsp; <b>m</b> Preis &nbsp;·&nbsp; <b>n</b> gebuchte &nbsp;·&nbsp; <b>o</b> bevor</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "Perfekt: „habe … gebucht“."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "b",
+     "why": "„da ich nicht fahren kann“ = Grund."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "„stattdessen“ = anstelle von August."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "„mitteilen, ob“."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "„Kosten entstehen“."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "„eine Gebühr fällig“."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "g",
+     "why": "„ich möchte wissen, ob“."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "„dankbar, wenn Sie … würden“."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "„damit ich … planen kann“."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "„planen kann“ am Ende."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf Meinungen zu einem Thema (einmal hören)",
+   "instr": "Sie hören fünf Personen, die ihre Meinung zum Thema „Wie reisen Sie am liebsten?“ sagen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Die Sprecherin ärgert sich, wenn der Zug zu spät kommt.",
+     "tf": true,
+     "key": "r",
+     "why": "Nur bei Verspätung ärgert sie sich."
+    },
+    {
+     "id": "h2",
+     "q": "Der Sprecher benutzt im Urlaub niemals das Auto.",
+     "tf": true,
+     "key": "f",
+     "why": "Im Urlaub fährt er auch mit dem Auto."
+    },
+    {
+     "id": "h3",
+     "q": "Die Sprecherin fliegt, weil sie wenig Urlaub hat.",
+     "tf": true,
+     "key": "r",
+     "why": "Nur zwei Wochen Urlaub."
+    },
+    {
+     "id": "h4",
+     "q": "Der Sprecher findet Radfahren in den Ferien zu anstrengend.",
+     "tf": true,
+     "key": "f",
+     "why": "Anstrengend, aber er lernt viel kennen."
+    },
+    {
+     "id": "h5",
+     "q": "Die Sprecherin reist gern in ferne Länder.",
+     "tf": true,
+     "key": "f",
+     "why": "Weite Reisen machen sie nervös."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: Interview (zweimal hören)",
+   "instr": "Sie hören ein Interview. Sie hören den Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: eine Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Frau Lindner hat ihren Blog zuerst für ihre Freunde geschrieben.",
+     "tf": true,
+     "key": "r",
+     "why": "Tagebuch für Freunde."
+    },
+    {
+     "id": "h7",
+     "q": "Sie lebt seit drei Jahren vom Reisebloggen.",
+     "tf": true,
+     "key": "f",
+     "why": "Seit einem Jahr."
+    },
+    {
+     "id": "h8",
+     "q": "Sie übernachtet meistens in Hostels.",
+     "tf": true,
+     "key": "r",
+     "why": "Hostels."
+    },
+    {
+     "id": "h9",
+     "q": "Ein Zehn-Tage-Ticket in Portugal kostet hundertzwanzig Euro.",
+     "tf": true,
+     "key": "r",
+     "why": "120 Euro."
+    },
+    {
+     "id": "h10",
+     "q": "Die Fahrt durch Indien war sehr entspannt.",
+     "tf": true,
+     "key": "f",
+     "why": "Sie wurde krank."
+    },
+    {
+     "id": "h11",
+     "q": "Seit der Indienreise plant sie mehr Zeit pro Ort ein.",
+     "tf": true,
+     "key": "r",
+     "why": "Mehr Zeit für jeden Ort."
+    },
+    {
+     "id": "h12",
+     "q": "Sie empfiehlt, möglichst viel Gepäck mitzunehmen.",
+     "tf": true,
+     "key": "f",
+     "why": "Nicht zu viel Gepäck."
+    },
+    {
+     "id": "h13",
+     "q": "Sie plant ihre Reisen vollständig zu Hause.",
+     "tf": true,
+     "key": "f",
+     "why": "Nur die Grobplanung."
+    },
+    {
+     "id": "h14",
+     "q": "Nach Asien reist sie mit dem Zug.",
+     "tf": true,
+     "key": "f",
+     "why": "Keine gute Alternative zum Flug."
+    },
+    {
+     "id": "h15",
+     "q": "Die Norwegenreise macht sie zum ersten Mal seit Indien in Begleitung.",
+     "tf": true,
+     "key": "r",
+     "why": "Mit der Schwester."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Ansagen (zweimal hören)",
+   "instr": "Sie hören fünf kurze Ansagen oder Durchsagen. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Der Zug fährt von Gleis acht.",
+     "tf": true,
+     "key": "f",
+     "why": "Gleis zwölf."
+    },
+    {
+     "id": "h17",
+     "q": "Die Zufahrt zu Terminal zwei ist gesperrt.",
+     "tf": true,
+     "key": "r",
+     "why": "Bauarbeiten."
+    },
+    {
+     "id": "h18",
+     "q": "Die Stornierung der Taxifahrt ist immer kostenlos.",
+     "tf": true,
+     "key": "f",
+     "why": "Nach heute Abend fünf Euro."
+    },
+    {
+     "id": "h19",
+     "q": "Das Frühstück gibt es bis zehn Uhr.",
+     "tf": true,
+     "key": "r",
+     "why": "Sieben bis zehn."
+    },
+    {
+     "id": "h20",
+     "q": "Am Sonntag regnet es im Norden.",
+     "tf": true,
+     "key": "f",
+     "why": "Im Norden wird es trocken."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an einen Freund (informell)",
+  "situation": "<b>Ihre Freundin Lisa hat Sie zu einem Besuch in Wien eingeladen.</b> Sie hat Ihnen in einer E-Mail davon erzählt. Schreiben Sie ihr. Bedanken Sie sich für die Einladung. Sagen Sie, wann Sie kommen können. Fragen Sie, wie Sie am besten nach Wien kommen (Zug, Flug). Fragen Sie, was Sie mitbringen sollen.",
+  "points": [
+   "Dank für die Einladung",
+   "Wann Sie kommen können",
+   "Frage: Wie am besten nach Wien?",
+   "Frage: Was soll ich mitbringen?"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "danke|vielen dank|einladung|freue mich",
+   "kann|komme|zeit|wochenende|juni|juli|august|im (mai|juni|juli|august|herbst|sommer)",
+   "zug|flug|fliegen|bahn|reise|verbindung|am besten|wie komme",
+   "mitbringen|mitbringe|soll ich|brauche|bring"
+  ],
+  "rg": "du"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich in einer Gruppe kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf oder Ausbildung, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie Ihren Gesprächspartner / Ihre Gesprächspartnerin: Wohin reist er/sie gern? Wie war die letzte Reise? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Urlaub im Inland oder im Ausland?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit Urlaub · 2. Wie Menschen in meinem Heimatland Urlaub machen · 3. Vorteile und Nachteile von Urlaub im Inland und im Ausland · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam einen Wochenendausflug</b> mit Freunden. Besprechen Sie: Wohin? · Wann? · Wie kommen Sie hin? · Wo übernachten Sie? · Was kostet es? · Wer organisiert was?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Liebe Lisa, vielen Dank für deine Einladung nach Wien! Ich habe mich sehr gefreut. Ich kann im Juli kommen, denn dann habe ich zwei Wochen Urlaub. Ich möchte gern mit dem Zug fahren, aber ich weiß nicht, welche Verbindung am besten ist. Kannst du mir einen Tipp geben? Was soll ich mitbringen? Soll ich etwas aus Aachen mitbringen, zum Beispiel Printen? Schreib mir bitte bald. Viele Grüße, Manoj</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich komme aus Indien und wohne in Aachen. Ich arbeite als Softwareentwickler. Ich lerne Deutsch, weil ich hier leben möchte. Wohin reist du gern? Wie war deine letzte Reise?</p><p><b>Teil 2:</b> Mein Thema ist: Urlaub im Inland oder im Ausland. Ich habe in Deutschland schon viele Städte besucht, zum Beispiel Köln und Berlin. Im Inland ist die Reise günstiger und einfacher. Im Ausland erlebt man mehr Neues, aber es ist teurer. In Indien machen viele Familien Urlaub im eigenen Land, zum Beispiel in den Bergen. Meiner Meinung nach ist beides schön. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Wohin fahren wir? Ich schlage die Eifel vor, mit dem Zug in zwei Stunden. Wir fahren am Samstagmorgen und bleiben bis Sonntag. Wir übernachten in einer Jugendherberge, das kostet etwa 30 Euro pro Person. Ich suche die Verbindung, du buchst die Unterkunft.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1 · Wie reisen Sie am liebsten?",
+   "texts": [
+    [
+     "Sprecher 1",
+     "<p>Ich fahre immer mit dem Zug, auch wenn es manchmal länger dauert. Ich kann lesen oder arbeiten und muss mich nicht auf die Straße konzentrieren. Nur wenn die Bahn Verspätung hat, ärgere ich mich.</p>"
+    ],
+    [
+     "Sprecher 2",
+     "<p>Ohne Auto geht bei uns auf dem Land nichts. Der nächste Bahnhof ist zwanzig Kilometer entfernt. Im Urlaub fahre ich aber auch mit dem Auto, weil ich dann Kinder und Gepäck problemlos mitnehmen kann.</p>"
+    ],
+    [
+     "Sprecher 3",
+     "<p>Ich fliege gern, auch wenn ich weiß, dass es nicht umweltfreundlich ist. Ich habe nur zwei Wochen Urlaub und möchte möglichst viel erleben. Mit dem Zug würde ich zu viel Zeit verlieren.</p>"
+    ],
+    [
+     "Sprecher 4",
+     "<p>Seit fünf Jahren fahre ich nur mit dem Fahrrad, auch in den Ferien. Ich habe schon halb Europa gesehen. Das ist anstrengend, aber man lernt Land und Leute viel besser kennen.</p>"
+    ],
+    [
+     "Sprecher 5",
+     "<p>Ich bin nicht gern unterwegs. Am liebsten bleibe ich zu Hause oder fahre mit dem Bus in die Nachbarstadt. Weite Reisen machen mich nervös, ich habe auch Angst vor dem Fliegen.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2 · Interview: Reisen mit kleinem Budget. Frau Lindner, Reisebloggerin",
+   "html": "<div class=\"text\"><p>Frau Lindner, Sie sind seit drei Jahren als Reisebloggerin unterwegs. Wie kommt man zu so einem Beruf?</p><p>Durch Zufall. Ich habe nach dem Studium eine Weltreise gemacht und für Freunde ein Tagebuch im Internet geführt. Plötzlich hatte ich tausend Leser.</p><p>Und davon können Sie leben?</p><p>Seit einem Jahr. Ich bekomme Geld von Werbepartnern und schreibe Artikel für Zeitungen. Aber reich wird man damit nicht, ich übernachte meistens in Hostels.</p><p>Welche Reise war die schönste?</p><p>Die Reise durch Portugal mit dem Zug. Das Land ist klein, die Verbindungen sind gut, und ein Zehn-Tage-Ticket kostet nur hundertzwanzig Euro. Man trifft unterwegs viele Menschen.</p><p>Was war die schwierigste Reise?</p><p>Eine Fahrt durch Indien. Ich hatte mir zu viel vorgenommen, jede Nacht in einer anderen Stadt, und wurde nach zwei Wochen krank. Seitdem plane ich viel mehr Zeit für jeden Ort ein.</p><p>Haben Sie Tipps für Anfänger?</p><p>Erstens: nicht zu viel Gepäck. Mit einem kleinen Rucksack ist man viel flexibler. Zweitens: ein paar Wörter in der Landessprache lernen, das öffnet Türen.</p><p>Wie planen Sie Ihre Reisen?</p><p>Die Grobplanung mache ich zu Hause: Route, erste Unterkunft. Alles andere entscheide ich vor Ort. Die besten Tipps bekommt man von Einheimischen, nicht aus dem Reiseführer.</p><p>Was ist mit der Umwelt? Fliegen Sie viel?</p><p>Weniger als früher. Nach Europa fahre ich fast immer mit Bus oder Bahn. Für Reisen nach Asien gibt es leider keine gute Alternative, aber ich bleibe dann länger.</p><p>Und wohin soll es als Nächstes gehen?</p><p>Im Herbst reise ich mit meiner Schwester nach Norwegen. Wir wollen dort zwei Wochen wandern. Das ist nach Indien das erste Mal, dass ich nicht allein unterwegs bin.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Ansage 1",
+     "<p>Hier ist die Bahn-Hotline. Ihr Zug nach München fährt heute nicht von Gleis acht, sondern von Gleis zwölf. Die Abfahrt bleibt bei vierzehn Uhr zwanzig. Wegen starker Nachfrage empfehlen wir Ihnen, Ihren Sitzplatz zu reservieren.</p>"
+    ],
+    [
+     "Ansage 2",
+     "<p>Willkommen am Flughafen Köln. Wegen Bauarbeiten ist die Zufahrt zu Terminal zwei heute gesperrt. Fluggäste werden gebeten, über Terminal eins zu fahren. Der Weg ist ausgeschildert. Die Parkgebühr bleibt unverändert.</p>"
+    ],
+    [
+     "Ansage 3",
+     "<p>Hier ist Taxi Meier. Ihre Bestellung für morgen früh um fünf Uhr ist bestätigt. Der Fahrer wartet vor dem Haus. Wenn Sie die Fahrt stornieren möchten, sagen Sie bitte bis heute Abend Bescheid, sonst müssen wir fünf Euro berechnen.</p>"
+    ],
+    [
+     "Ansage 4",
+     "<p>Liebe Gäste, das Hotel Seeblick heißt Sie willkommen. Das Frühstück wird von sieben bis zehn Uhr im Restaurant serviert. Am Mittwoch ist die Sauna geschlossen. Die Schlüssel geben Sie bitte beim Abreisen an der Rezeption ab.</p>"
+    ],
+    [
+     "Ansage 5",
+     "<p>Und nun der Wetterbericht für das Wochenende: Am Samstag ist es im Süden sonnig, im Norden regnet es. Am Sonntag zieht der Regen in den Süden, im Norden wird es trocken. Die Höchstwerte liegen bei achtzehn Grad.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich fahre immer mit dem Zug, auch wenn es manchmal länger dauert. Ich kann lesen oder arbeiten und muss mich nicht auf die Straße konzentrieren. Nur wenn die Bahn Verspätung hat, ärgere ich mich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ohne Auto geht bei uns auf dem Land nichts. Der nächste Bahnhof ist zwanzig Kilometer entfernt. Im Urlaub fahre ich aber auch mit dem Auto, weil ich dann Kinder und Gepäck problemlos mitnehmen kann.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich fliege gern, auch wenn ich weiß, dass es nicht umweltfreundlich ist. Ich habe nur zwei Wochen Urlaub und möchte möglichst viel erleben. Mit dem Zug würde ich zu viel Zeit verlieren.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Seit fünf Jahren fahre ich nur mit dem Fahrrad, auch in den Ferien. Ich habe schon halb Europa gesehen. Das ist anstrengend, aber man lernt Land und Leute viel besser kennen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich bin nicht gern unterwegs. Am liebsten bleibe ich zu Hause oder fahre mit dem Bus in die Nachbarstadt. Weite Reisen machen mich nervös, ich habe auch Angst vor dem Fliegen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Frau Lindner, Sie sind seit drei Jahren als Reisebloggerin unterwegs. Wie kommt man zu so einem Beruf?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Durch Zufall. Ich habe nach dem Studium eine Weltreise gemacht und für Freunde ein Tagebuch im Internet geführt. Plötzlich hatte ich tausend Leser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und davon können Sie leben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Seit einem Jahr. Ich bekomme Geld von Werbepartnern und schreibe Artikel für Zeitungen. Aber reich wird man damit nicht, ich übernachte meistens in Hostels.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Reise war die schönste?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Reise durch Portugal mit dem Zug. Das Land ist klein, die Verbindungen sind gut, und ein Zehn-Tage-Ticket kostet nur hundertzwanzig Euro. Man trifft unterwegs viele Menschen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was war die schwierigste Reise?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eine Fahrt durch Indien. Ich hatte mir zu viel vorgenommen, jede Nacht in einer anderen Stadt, und wurde nach zwei Wochen krank. Seitdem plane ich viel mehr Zeit für jeden Ort ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie Tipps für Anfänger?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Erstens: nicht zu viel Gepäck. Mit einem kleinen Rucksack ist man viel flexibler. Zweitens: ein paar Wörter in der Landessprache lernen, das öffnet Türen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie planen Sie Ihre Reisen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Grobplanung mache ich zu Hause: Route, erste Unterkunft. Alles andere entscheide ich vor Ort. Die besten Tipps bekommt man von Einheimischen, nicht aus dem Reiseführer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit der Umwelt? Fliegen Sie viel?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Weniger als früher. Nach Europa fahre ich fast immer mit Bus oder Bahn. Für Reisen nach Asien gibt es leider keine gute Alternative, aber ich bleibe dann länger.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wohin soll es als Nächstes gehen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Im Herbst reise ich mit meiner Schwester nach Norwegen. Wir wollen dort zwei Wochen wandern. Das ist nach Indien das erste Mal, dass ich nicht allein unterwegs bin.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Frau Lindner, Sie sind seit drei Jahren als Reisebloggerin unterwegs. Wie kommt man zu so einem Beruf?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Durch Zufall. Ich habe nach dem Studium eine Weltreise gemacht und für Freunde ein Tagebuch im Internet geführt. Plötzlich hatte ich tausend Leser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und davon können Sie leben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Seit einem Jahr. Ich bekomme Geld von Werbepartnern und schreibe Artikel für Zeitungen. Aber reich wird man damit nicht, ich übernachte meistens in Hostels.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Reise war die schönste?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Reise durch Portugal mit dem Zug. Das Land ist klein, die Verbindungen sind gut, und ein Zehn-Tage-Ticket kostet nur hundertzwanzig Euro. Man trifft unterwegs viele Menschen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was war die schwierigste Reise?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eine Fahrt durch Indien. Ich hatte mir zu viel vorgenommen, jede Nacht in einer anderen Stadt, und wurde nach zwei Wochen krank. Seitdem plane ich viel mehr Zeit für jeden Ort ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie Tipps für Anfänger?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Erstens: nicht zu viel Gepäck. Mit einem kleinen Rucksack ist man viel flexibler. Zweitens: ein paar Wörter in der Landessprache lernen, das öffnet Türen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie planen Sie Ihre Reisen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Grobplanung mache ich zu Hause: Route, erste Unterkunft. Alles andere entscheide ich vor Ort. Die besten Tipps bekommt man von Einheimischen, nicht aus dem Reiseführer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit der Umwelt? Fliegen Sie viel?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Weniger als früher. Nach Europa fahre ich fast immer mit Bus oder Bahn. Für Reisen nach Asien gibt es leider keine gute Alternative, aber ich bleibe dann länger.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wohin soll es als Nächstes gehen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Im Herbst reise ich mit meiner Schwester nach Norwegen. Wir wollen dort zwei Wochen wandern. Das ist nach Indien das erste Mal, dass ich nicht allein unterwegs bin.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Bahn-Hotline. Ihr Zug nach München fährt heute nicht von Gleis acht, sondern von Gleis zwölf. Die Abfahrt bleibt bei vierzehn Uhr zwanzig. Wegen starker Nachfrage empfehlen wir Ihnen, Ihren Sitzplatz zu reservieren.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Bahn-Hotline. Ihr Zug nach München fährt heute nicht von Gleis acht, sondern von Gleis zwölf. Die Abfahrt bleibt bei vierzehn Uhr zwanzig. Wegen starker Nachfrage empfehlen wir Ihnen, Ihren Sitzplatz zu reservieren.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Willkommen am Flughafen Köln. Wegen Bauarbeiten ist die Zufahrt zu Terminal zwei heute gesperrt. Fluggäste werden gebeten, über Terminal eins zu fahren. Der Weg ist ausgeschildert. Die Parkgebühr bleibt unverändert.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Willkommen am Flughafen Köln. Wegen Bauarbeiten ist die Zufahrt zu Terminal zwei heute gesperrt. Fluggäste werden gebeten, über Terminal eins zu fahren. Der Weg ist ausgeschildert. Die Parkgebühr bleibt unverändert.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier ist Taxi Meier. Ihre Bestellung für morgen früh um fünf Uhr ist bestätigt. Der Fahrer wartet vor dem Haus. Wenn Sie die Fahrt stornieren möchten, sagen Sie bitte bis heute Abend Bescheid, sonst müssen wir fünf Euro berechnen.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier ist Taxi Meier. Ihre Bestellung für morgen früh um fünf Uhr ist bestätigt. Der Fahrer wartet vor dem Haus. Wenn Sie die Fahrt stornieren möchten, sagen Sie bitte bis heute Abend Bescheid, sonst müssen wir fünf Euro berechnen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Gäste, das Hotel Seeblick heißt Sie willkommen. Das Frühstück wird von sieben bis zehn Uhr im Restaurant serviert. Am Mittwoch ist die Sauna geschlossen. Die Schlüssel geben Sie bitte beim Abreisen an der Rezeption ab.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Gäste, das Hotel Seeblick heißt Sie willkommen. Das Frühstück wird von sieben bis zehn Uhr im Restaurant serviert. Am Mittwoch ist die Sauna geschlossen. Die Schlüssel geben Sie bitte beim Abreisen an der Rezeption ab.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und nun der Wetterbericht für das Wochenende: Am Samstag ist es im Süden sonnig, im Norden regnet es. Am Sonntag zieht der Regen in den Süden, im Norden wird es trocken. Die Höchstwerte liegen bei achtzehn Grad.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und nun der Wetterbericht für das Wochenende: Am Samstag ist es im Süden sonnig, im Norden regnet es. Am Sonntag zieht der Regen in den Süden, im Norden wird es trocken. Die Höchstwerte liegen bei achtzehn Grad.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

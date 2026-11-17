@@ -1,0 +1,376 @@
+{
+ "hoeren.mp3": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich fahre immer mit dem Zug, auch wenn es manchmal länger dauert. Ich kann lesen oder arbeiten und muss mich nicht auf die Straße konzentrieren. Nur wenn die Bahn Verspätung hat, ärgere ich mich.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Ohne Auto geht bei uns auf dem Land nichts. Der nächste Bahnhof ist zwanzig Kilometer entfernt. Im Urlaub fahre ich aber auch mit dem Auto, weil ich dann Kinder und Gepäck problemlos mitnehmen kann.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich fliege gern, auch wenn ich weiß, dass es nicht umweltfreundlich ist. Ich habe nur zwei Wochen Urlaub und möchte möglichst viel erleben. Mit dem Zug würde ich zu viel Zeit verlieren.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Seit fünf Jahren fahre ich nur mit dem Fahrrad, auch in den Ferien. Ich habe schon halb Europa gesehen. Das ist anstrengend, aber man lernt Land und Leute viel besser kennen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich bin nicht gern unterwegs. Am liebsten bleibe ich zu Hause oder fahre mit dem Bus in die Nachbarstadt. Weite Reisen machen mich nervös, ich habe auch Angst vor dem Fliegen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Frau Lindner, Sie sind seit drei Jahren als Reisebloggerin unterwegs. Wie kommt man zu so einem Beruf?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Durch Zufall. Ich habe nach dem Studium eine Weltreise gemacht und für Freunde ein Tagebuch im Internet geführt. Plötzlich hatte ich tausend Leser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und davon können Sie leben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Seit einem Jahr. Ich bekomme Geld von Werbepartnern und schreibe Artikel für Zeitungen. Aber reich wird man damit nicht, ich übernachte meistens in Hostels.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Reise war die schönste?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Reise durch Portugal mit dem Zug. Das Land ist klein, die Verbindungen sind gut, und ein Zehn-Tage-Ticket kostet nur hundertzwanzig Euro. Man trifft unterwegs viele Menschen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was war die schwierigste Reise?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eine Fahrt durch Indien. Ich hatte mir zu viel vorgenommen, jede Nacht in einer anderen Stadt, und wurde nach zwei Wochen krank. Seitdem plane ich viel mehr Zeit für jeden Ort ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie Tipps für Anfänger?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Erstens: nicht zu viel Gepäck. Mit einem kleinen Rucksack ist man viel flexibler. Zweitens: ein paar Wörter in der Landessprache lernen, das öffnet Türen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie planen Sie Ihre Reisen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Grobplanung mache ich zu Hause: Route, erste Unterkunft. Alles andere entscheide ich vor Ort. Die besten Tipps bekommt man von Einheimischen, nicht aus dem Reiseführer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit der Umwelt? Fliegen Sie viel?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Weniger als früher. Nach Europa fahre ich fast immer mit Bus oder Bahn. Für Reisen nach Asien gibt es leider keine gute Alternative, aber ich bleibe dann länger.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wohin soll es als Nächstes gehen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Im Herbst reise ich mit meiner Schwester nach Norwegen. Wir wollen dort zwei Wochen wandern. Das ist nach Indien das erste Mal, dass ich nicht allein unterwegs bin.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Frau Lindner, Sie sind seit drei Jahren als Reisebloggerin unterwegs. Wie kommt man zu so einem Beruf?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Durch Zufall. Ich habe nach dem Studium eine Weltreise gemacht und für Freunde ein Tagebuch im Internet geführt. Plötzlich hatte ich tausend Leser.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und davon können Sie leben?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Seit einem Jahr. Ich bekomme Geld von Werbepartnern und schreibe Artikel für Zeitungen. Aber reich wird man damit nicht, ich übernachte meistens in Hostels.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Welche Reise war die schönste?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Reise durch Portugal mit dem Zug. Das Land ist klein, die Verbindungen sind gut, und ein Zehn-Tage-Ticket kostet nur hundertzwanzig Euro. Man trifft unterwegs viele Menschen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was war die schwierigste Reise?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Eine Fahrt durch Indien. Ich hatte mir zu viel vorgenommen, jede Nacht in einer anderen Stadt, und wurde nach zwei Wochen krank. Seitdem plane ich viel mehr Zeit für jeden Ort ein.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie Tipps für Anfänger?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Erstens: nicht zu viel Gepäck. Mit einem kleinen Rucksack ist man viel flexibler. Zweitens: ein paar Wörter in der Landessprache lernen, das öffnet Türen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie planen Sie Ihre Reisen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Die Grobplanung mache ich zu Hause: Route, erste Unterkunft. Alles andere entscheide ich vor Ort. Die besten Tipps bekommt man von Einheimischen, nicht aus dem Reiseführer.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist mit der Umwelt? Fliegen Sie viel?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Weniger als früher. Nach Europa fahre ich fast immer mit Bus oder Bahn. Für Reisen nach Asien gibt es leider keine gute Alternative, aber ich bleibe dann länger.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wohin soll es als Nächstes gehen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Im Herbst reise ich mit meiner Schwester nach Norwegen. Wir wollen dort zwei Wochen wandern. Das ist nach Indien das erste Mal, dass ich nicht allein unterwegs bin.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Bahn-Hotline. Ihr Zug nach München fährt heute nicht von Gleis acht, sondern von Gleis zwölf. Die Abfahrt bleibt bei vierzehn Uhr zwanzig. Wegen starker Nachfrage empfehlen wir Ihnen, Ihren Sitzplatz zu reservieren.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Hier ist die Bahn-Hotline. Ihr Zug nach München fährt heute nicht von Gleis acht, sondern von Gleis zwölf. Die Abfahrt bleibt bei vierzehn Uhr zwanzig. Wegen starker Nachfrage empfehlen wir Ihnen, Ihren Sitzplatz zu reservieren.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Willkommen am Flughafen Köln. Wegen Bauarbeiten ist die Zufahrt zu Terminal zwei heute gesperrt. Fluggäste werden gebeten, über Terminal eins zu fahren. Der Weg ist ausgeschildert. Die Parkgebühr bleibt unverändert.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Willkommen am Flughafen Köln. Wegen Bauarbeiten ist die Zufahrt zu Terminal zwei heute gesperrt. Fluggäste werden gebeten, über Terminal eins zu fahren. Der Weg ist ausgeschildert. Die Parkgebühr bleibt unverändert.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier ist Taxi Meier. Ihre Bestellung für morgen früh um fünf Uhr ist bestätigt. Der Fahrer wartet vor dem Haus. Wenn Sie die Fahrt stornieren möchten, sagen Sie bitte bis heute Abend Bescheid, sonst müssen wir fünf Euro berechnen.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier ist Taxi Meier. Ihre Bestellung für morgen früh um fünf Uhr ist bestätigt. Der Fahrer wartet vor dem Haus. Wenn Sie die Fahrt stornieren möchten, sagen Sie bitte bis heute Abend Bescheid, sonst müssen wir fünf Euro berechnen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Gäste, das Hotel Seeblick heißt Sie willkommen. Das Frühstück wird von sieben bis zehn Uhr im Restaurant serviert. Am Mittwoch ist die Sauna geschlossen. Die Schlüssel geben Sie bitte beim Abreisen an der Rezeption ab.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Gäste, das Hotel Seeblick heißt Sie willkommen. Das Frühstück wird von sieben bis zehn Uhr im Restaurant serviert. Am Mittwoch ist die Sauna geschlossen. Die Schlüssel geben Sie bitte beim Abreisen an der Rezeption ab.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und nun der Wetterbericht für das Wochenende: Am Samstag ist es im Süden sonnig, im Norden regnet es. Am Sonntag zieht der Regen in den Süden, im Norden wird es trocken. Die Höchstwerte liegen bei achtzehn Grad.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und nun der Wetterbericht für das Wochenende: Am Samstag ist es im Süden sonnig, im Norden regnet es. Am Sonntag zieht der Regen in den Süden, im Norden wird es trocken. Die Höchstwerte liegen bei achtzehn Grad.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

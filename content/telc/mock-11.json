@@ -1,0 +1,993 @@
+{
+ "n": 11,
+ "theme": "Stadt, Behörden und Alltag",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Das Bürgeramt Mitte ist ab nächster Woche dienstags und donnerstags auch bis 19 Uhr geöffnet. Termine können online gebucht werden. Wer keinen Termin hat, muss mit längerer Wartezeit rechnen.</p><p><b>2</b>&nbsp; Der Wochenmarkt auf dem Rathausplatz findet immer mittwochs und samstags statt. Es gibt Obst, Gemüse, Käse und Blumen direkt von den Bauern aus der Region. Parkplätze sind in der Tiefgarage vorhanden.</p><p><b>3</b>&nbsp; Wer in Deutschland ein Auto anmelden möchte, braucht eine Versicherungsbestätigung, den Fahrzeugbrief und einen gültigen Ausweis. Die Gebühr beträgt rund 30 Euro. Die Zulassungsstelle ist in der Bahnhofstraße.</p><p><b>4</b>&nbsp; Ab Montag wird die Hauptstraße zwischen Rathaus und Bahnhof gesperrt, weil die Fernwärme-Leitungen erneuert werden. Die Arbeiten dauern etwa vier Wochen. Busse fahren eine andere Route, Geschäfte bleiben erreichbar.</p><p><b>5</b>&nbsp; Die Stadtbibliothek hat ein neues Angebot: Wer sich ausweist, kann jetzt auch Spiele und Musik ausleihen. Die Leihfrist beträgt vier Wochen. Studenten und Kinder bezahlen keine Jahresgebühr.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Länger geöffnet beim Amt<br><b>b</b>&nbsp; Autos anmelden leicht gemacht<br><b>c</b>&nbsp; Frisch vom Bauern<br><b>d</b>&nbsp; Straße wegen Bauarbeiten zu<br><b>e</b>&nbsp; Mehr als nur Bücher<br><b>f</b>&nbsp; Neues Schwimmbad eröffnet<br><b>g</b>&nbsp; Mietpreise steigen<br><b>h</b>&nbsp; Fahrradwege werden breiter<br><b>i</b>&nbsp; Parkgebühren teurer<br><b>j</b>&nbsp; Stadtführung für Touristen</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "Bürgeramt, längere Öffnungszeiten → a."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Wochenmarkt, Bauern → c."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Auto anmelden → b."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Straßensperre → d."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Bibliothek verleiht auch Spiele und Musik → e."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Neues Leben im alten Bahnhof</p><p>Der alte Bahnhof von Oberdorf stand zwanzig Jahre lang leer. Jetzt hat ein Verein das Gebäude gekauft und in ein Kulturzentrum verwandelt. Im Wartesaal gibt es ein Café, in der Gepäckhalle finden Konzerte und Theaterabende statt. Rund 80 Freiwillige haben den Umbau geholfen.</p><p>Bürgermeister Franz Lenz freut sich über das Projekt. „Die Stadt hätte kein Geld gehabt, das Gebäude zu renovieren“, sagt er. Trotzdem hat die Stadt den Verein unterstützt: Sie hat ihm das Gebäude für einen Euro verkauft und die Bauarbeiten mit 50.000 Euro gefördert.</p><p>Kritik kommt von einigen Anwohnern. Sie befürchten Lärm am Abend und fehlende Parkplätze. Der Verein hat versprochen, dass nach 22 Uhr keine Musik mehr gespielt wird und Besucher am nahegelegenen Sportplatz parken sollen.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Was war mit dem Bahnhof zwanzig Jahre lang?",
+     "opts": [
+      "Er war ein Museum.",
+      "Er stand leer.",
+      "Er war ein Hotel."
+     ],
+     "key": "b",
+     "why": "Leer."
+    },
+    {
+     "id": "l7",
+     "q": "Wer hat den Umbau gemacht?",
+     "opts": [
+      "Eine große Baufirma.",
+      "Der Bürgermeister allein.",
+      "Rund 80 Freiwillige."
+     ],
+     "key": "c",
+     "why": "Freiwillige."
+    },
+    {
+     "id": "l8",
+     "q": "Wie hat die Stadt das Projekt unterstützt?",
+     "opts": [
+      "Sie hat das Gebäude für einen Euro verkauft und Geld gegeben.",
+      "Sie hat gar nichts gemacht.",
+      "Sie hat den Verein bezahlt."
+     ],
+     "key": "a",
+     "why": "1 Euro + 50.000 Euro."
+    },
+    {
+     "id": "l9",
+     "q": "Was kritisieren einige Anwohner?",
+     "opts": [
+      "Die hohen Preise.",
+      "Möglichen Lärm und fehlende Parkplätze.",
+      "Die Öffnungszeiten."
+     ],
+     "key": "b",
+     "why": "Lärm, Parkplätze."
+    },
+    {
+     "id": "l10",
+     "q": "Was verspricht der Verein?",
+     "opts": [
+      "Nach 22 Uhr keine Musik mehr.",
+      "Eintritt frei für Anwohner.",
+      "Mehr Parkplätze zu bauen."
+     ],
+     "key": "a",
+     "why": "Nach 22 Uhr Ruhe."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Umzugsservice Fix: Wir packen, laden und fahren. Festpreis ab 199 Euro. Auch am Wochenende.</p><p><b>b</b>&nbsp; Schlüsseldienst Rapid: Tag und Nacht für Sie da. Türen öffnen ab 59 Euro. Anfahrt kostenlos.</p><p><b>c</b>&nbsp; Stadtbibliothek: Neue Öffnungszeiten ab Montag: 10 bis 19 Uhr. Kinderlesen jeden Mittwoch.</p><p><b>d</b>&nbsp; Friseur Kamm: Herren ab 15 Euro, Damen ab 25 Euro. Ohne Termin von Dienstag bis Donnerstag.</p><p><b>e</b>&nbsp; Rechtsberatung Stein: Hilfe bei Mietproblemen, Arbeitsrecht und Verkehrsunfällen. Erstgespräch kostenlos.</p><p><b>f</b>&nbsp; Reinigung Frisch: Hemden, Anzüge, Gardinen. Abholung und Lieferung zu Ihnen nach Hause.</p><p><b>g</b>&nbsp; Immobilien Heim: Wohnungen in Neustadt, 2 bis 4 Zimmer, ab 650 Euro kalt. Besichtigung nach Termin.</p><p><b>h</b>&nbsp; Fahrradwerkstatt Kette: Inspektion für 29 Euro, Ersatzteile für alle Marken. Leihräder für Gäste.</p><p><b>i</b>&nbsp; Nachbarschaftshilfe Neustadt: Wir helfen älteren Menschen beim Einkaufen und bei Behördengängen. Kostenlos, ehrenamtlich.</p><p><b>j</b>&nbsp; Kfz-Werkstatt Auto-Doktor: TÜV, Ölwechsel, Reifenwechsel. Kostenvoranschlag am Telefon.</p><p><b>k</b>&nbsp; Deutsch-Kurse VHS: Integrationskurse und Prüfungsvorbereitung für Telc B1. Anmeldung bis 15. des Monats.</p><p><b>l</b>&nbsp; Hundeschule Pfote: Welpen- und Erwachsenenkurse am Wochenende. Probestunde gratis.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie ziehen am Wochenende um und haben viele Möbel.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Umzugsservice → a."
+    },
+    {
+     "id": "l12",
+     "q": "Sie haben sich ausgesperrt, es ist zwei Uhr nachts.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Schlüsseldienst → b."
+    },
+    {
+     "id": "l13",
+     "q": "Sie haben Streit mit Ihrem Vermieter und brauchen juristischen Rat.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Rechtsberatung → e."
+    },
+    {
+     "id": "l14",
+     "q": "Sie suchen eine Wohnung mit drei Zimmern.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Immobilien → g."
+    },
+    {
+     "id": "l15",
+     "q": "Ihre Oma ist 82 und kann nicht mehr allein zur Behörde.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Nachbarschaftshilfe → i."
+    },
+    {
+     "id": "l16",
+     "q": "Sie möchten sich auf die B1-Prüfung vorbereiten.",
+     "letters": "abcdefghijklx",
+     "key": "k",
+     "why": "VHS-Deutschkurse → k."
+    },
+    {
+     "id": "l17",
+     "q": "Ihr Auto muss zum TÜV.",
+     "letters": "abcdefghijklx",
+     "key": "j",
+     "why": "Kfz-Werkstatt → j."
+    },
+    {
+     "id": "l18",
+     "q": "Sie möchten Ihre Anzüge reinigen lassen, haben aber keine Zeit.",
+     "letters": "abcdefghijklx",
+     "key": "f",
+     "why": "Abholung und Lieferung → f."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten einen Haarschnitt ohne Termin am Mittwoch.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Ohne Termin Di–Do → d."
+    },
+    {
+     "id": "l20",
+     "q": "Sie suchen einen Kurs für Ihre Katze.",
+     "letters": "abcdefghijklx",
+     "key": "x",
+     "why": "Nur Hundeschule → x."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Frau Dr. Keller,</p><p>ich wohne seit drei Monaten in Neustadt und möchte mich <b>(21)</b> die Heizung bei Ihnen <b>(22)</b>. In meinem Wohnhaus <b>(23)</b> es seit Wochen Probleme mit der Heizung. Ich habe den Hausmeister schon zweimal <b>(24)</b>, aber er hat nichts unternommen. Deshalb wende ich mich <b>(25)</b> Sie. Können Sie mir sagen, wer für die Heizung <b>(26)</b> ist? Ich habe <b>(27)</b>, dass die Stadt die Wohnungsunternehmen kontrollieren kann. Bitte <b>(28)</b> Sie mir, wie ich vorgehen soll. Ich <b>(29)</b> Ihnen gern alle Unterlagen zukommen lassen. Ich danke Ihnen im Voraus <b>(30)</b> Ihre Mühe.</p><p>Mit freundlichen Grüßen<br>Lena Marx</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "über",
+      "an",
+      "auf"
+     ],
+     "key": "a",
+     "why": "sich beschweren über + Akk."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "beschweren",
+      "beschwert",
+      "beschwerte"
+     ],
+     "key": "a",
+     "why": "Infinitiv nach „möchte“."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "gibt",
+      "gab",
+      "gegeben"
+     ],
+     "key": "a",
+     "why": "es gibt (Präsens)."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "angerufen",
+      "anrufen",
+      "anruft"
+     ],
+     "key": "a",
+     "why": "Perfekt: angerufen."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "an",
+      "bei",
+      "in"
+     ],
+     "key": "a",
+     "why": "sich wenden an."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "zuständig",
+      "zuständige",
+      "Zuständigkeit"
+     ],
+     "key": "a",
+     "why": "zuständig sein für."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "gehört",
+      "gehören",
+      "gehörte"
+     ],
+     "key": "a",
+     "why": "ich habe gehört."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "erklären",
+      "erklärt",
+      "erklärst"
+     ],
+     "key": "a",
+     "why": "Imperativ Höflichkeit: erklären Sie."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "kann",
+      "könnte",
+      "konnte"
+     ],
+     "key": "a",
+     "why": "Ich kann … zukommen lassen."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "für",
+      "um",
+      "an"
+     ],
+     "key": "a",
+     "why": "danken für."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Sehr geehrte Damen und Herren,</p><p>ich möchte meinen Wohnsitz ummelden, <b>(31)</b> ich innerhalb der Stadt umgezogen bin. Bitte <b>(32)</b> Sie mir mit, welche Unterlagen ich <b>(33)</b>. Ich habe schon <b>(34)</b>, dass ich den Mietvertrag mitbringen muss. Gilt das auch <b>(35)</b> die Bestätigung des Vermieters? Außerdem <b>(36)</b> ich wissen, ob ich einen Termin vereinbaren muss. Wenn möglich, <b>(37)</b> ich das lieber online erledigen. Ich <b>(38)</b> aber nicht, ob das möglich ist. Falls es eine Gebühr gibt, <b>(39)</b> mich bitte, wie viel ich <b>(40)</b> muss.</p><p>Mit freundlichen Grüßen<br>Tomasz Nowak</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> weil &nbsp;·&nbsp; <b>b</b> teilen &nbsp;·&nbsp; <b>c</b> brauche &nbsp;·&nbsp; <b>d</b> gelesen &nbsp;·&nbsp; <b>e</b> für &nbsp;·&nbsp; <b>f</b> möchte &nbsp;·&nbsp; <b>g</b> würde &nbsp;·&nbsp; <b>h</b> weiß &nbsp;·&nbsp; <b>i</b> informieren &nbsp;·&nbsp; <b>j</b> zahlen &nbsp;·&nbsp; <b>k</b> obwohl &nbsp;·&nbsp; <b>l</b> schreiben &nbsp;·&nbsp; <b>m</b> erledigt &nbsp;·&nbsp; <b>n</b> dass &nbsp;·&nbsp; <b>o</b> gebraucht</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "weil ich umgezogen bin."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "b",
+     "why": "teilen Sie mir mit."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "welche Unterlagen ich brauche."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "ich habe gelesen."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "für die Bestätigung."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "ich möchte wissen."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "g",
+     "why": "würde lieber … erledigen."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "ich weiß nicht."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "informieren Sie mich."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "zahlen muss."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf Meinungen zu einem Thema (einmal hören)",
+   "instr": "Sie hören fünf Personen, die ihre Meinung zum Thema „Was gefällt Ihnen an Ihrer Stadt?“ sagen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Die Sprecherin fährt am Wochenende in eine Großstadt.",
+     "tf": true,
+     "key": "r",
+     "why": "Wegen Kultur."
+    },
+    {
+     "id": "h2",
+     "q": "Der Sprecher zahlt weniger als die Hälfte seines Gehalts für die Miete.",
+     "tf": true,
+     "key": "f",
+     "why": "Fast die Hälfte."
+    },
+    {
+     "id": "h3",
+     "q": "Die Sprecherin fährt jeden Tag mit dem Fahrrad zur Arbeit.",
+     "tf": true,
+     "key": "r",
+     "why": "Jeden Tag."
+    },
+    {
+     "id": "h4",
+     "q": "Der Sprecher mag die Hektik der Stadt.",
+     "tf": true,
+     "key": "f",
+     "why": "Zu laut und hektisch."
+    },
+    {
+     "id": "h5",
+     "q": "Der Spielplatz wird im Frühling gebaut.",
+     "tf": true,
+     "key": "r",
+     "why": "Frühling."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: Interview (zweimal hören)",
+   "instr": "Sie hören ein Interview. Sie hören den Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: eine Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Frau Hoffmann ist seit fünf Jahren Bürgermeisterin.",
+     "tf": true,
+     "key": "r",
+     "why": "Fünf Jahre."
+    },
+    {
+     "id": "h7",
+     "q": "Das autofreie Zentrum war von Anfang an beliebt bei Geschäftsleuten.",
+     "tf": true,
+     "key": "f",
+     "why": "Zuerst Kritik."
+    },
+    {
+     "id": "h8",
+     "q": "Das Schwimmbad wurde schneller gebaut als geplant.",
+     "tf": true,
+     "key": "f",
+     "why": "Länger."
+    },
+    {
+     "id": "h9",
+     "q": "Die Baukosten des Schwimmbads sind gestiegen.",
+     "tf": true,
+     "key": "r",
+     "why": "Ja."
+    },
+    {
+     "id": "h10",
+     "q": "Vormittags hat sie Termine mit Bürgern.",
+     "tf": true,
+     "key": "r",
+     "why": "Bis mittags."
+    },
+    {
+     "id": "h11",
+     "q": "Sie ist abends meistens früh zu Hause.",
+     "tf": true,
+     "key": "f",
+     "why": "Selten vor zehn."
+    },
+    {
+     "id": "h12",
+     "q": "Sonntags schaltet sie das Handy aus.",
+     "tf": true,
+     "key": "r",
+     "why": "Wandern."
+    },
+    {
+     "id": "h13",
+     "q": "Bei Neubauten müssen alle Wohnungen günstig vermietet werden.",
+     "tf": true,
+     "key": "f",
+     "why": "Ein Drittel."
+    },
+    {
+     "id": "h14",
+     "q": "Im Herbst soll eine neue Buslinie eröffnet werden.",
+     "tf": true,
+     "key": "r",
+     "why": "Industriegebiet."
+    },
+    {
+     "id": "h15",
+     "q": "Sie möchte nicht mehr kandidieren.",
+     "tf": true,
+     "key": "f",
+     "why": "Glaubt ja."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Ansagen (zweimal hören)",
+   "instr": "Sie hören fünf kurze Ansagen oder Durchsagen. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Anmeldungen und Ummeldungen macht man an Schalter fünf.",
+     "tf": true,
+     "key": "r",
+     "why": "Schalter fünf."
+    },
+    {
+     "id": "h17",
+     "q": "Das Wasser wird den ganzen Tag abgestellt.",
+     "tf": true,
+     "key": "f",
+     "why": "Neun bis dreizehn Uhr."
+    },
+    {
+     "id": "h18",
+     "q": "Bücher kann man im August nicht zurückgeben.",
+     "tf": true,
+     "key": "f",
+     "why": "Am Automaten möglich."
+    },
+    {
+     "id": "h19",
+     "q": "Die Linie sieben fährt heute nur bis zum Rathaus.",
+     "tf": true,
+     "key": "r",
+     "why": "Endet am Rathaus."
+    },
+    {
+     "id": "h20",
+     "q": "Das Fundbüro hat dienstags geöffnet.",
+     "tf": true,
+     "key": "f",
+     "why": "Mo, Mi, Fr."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: Brief an das Amt (formell)",
+  "situation": "<b>Sie sind vor kurzem innerhalb der Stadt umgezogen.</b> Sie möchten Ihre neue Adresse bei der Stadt melden. Schreiben Sie an das Bürgeramt. Sagen Sie, warum Sie schreiben. Fragen Sie, welche Unterlagen Sie brauchen. Fragen Sie nach einem Termin. Fragen Sie, ob es etwas kostet.",
+  "points": [
+   "Grund des Schreibens",
+   "Frage: Welche Unterlagen?",
+   "Frage: Termin",
+   "Frage: Kosten"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "umgezogen|umzug|neue adresse|ummelden|anmelden|wohne",
+   "unterlagen|dokumente|mitbringen|brauche|ausweis|mietvertrag",
+   "termin|wann|vereinbaren|öffnungszeit",
+   "kosten|gebühr|kostet|zahlen|euro"
+  ],
+  "rg": "sie"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich bei einem Nachbarschaftstreffen kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie: Seit wann wohnt er/sie hier? Was gefällt ihm/ihr am Stadtteil? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Leben in der Großstadt oder auf dem Land?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen · 2. Wie die Menschen in meinem Heimatland wohnen · 3. Vorteile und Nachteile von Stadt und Land · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam ein Straßenfest</b> in Ihrer Nachbarschaft. Besprechen Sie: Wann? · Wo? · Wer wird eingeladen? · Essen und Getränke · Musik und Spiele · Wer macht was?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Sehr geehrte Damen und Herren, ich bin am 1. Mai innerhalb der Stadt umgezogen und möchte meine neue Adresse melden. Welche Unterlagen muss ich zum Bürgeramt mitbringen? Brauche ich einen Termin, oder kann ich auch ohne Termin kommen? Außerdem möchte ich wissen, ob die Ummeldung etwas kostet. Vielen Dank für Ihre Hilfe. Mit freundlichen Grüßen, Manoj Kumar</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich komme aus Indien und wohne seit drei Jahren in Aachen. Ich arbeite bei einer Softwarefirma. Wie lange wohnst du schon hier? Was gefällt dir am Stadtteil?</p><p><b>Teil 2:</b> Mein Thema ist: Stadt oder Land. Ich habe in Indien in einer Großstadt gelebt und jetzt in Aachen. In der Stadt gibt es viele Jobs und gute Verbindungen. Auf dem Land ist es ruhiger und billiger. Meiner Meinung nach ist eine mittelgroße Stadt ideal. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Wir machen das Fest im Juni, am Samstag ab 15 Uhr, auf dem Hof vor dem Haus. Alle Nachbarn sind eingeladen. Jeder bringt etwas zu essen mit. Ich kümmere mich um die Musik, du organisierst die Tische.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1 · Was gefällt Ihnen an Ihrer Stadt?",
+   "texts": [
+    [
+     "Sprecher 1",
+     "<p>Ich wohne in einer kleinen Stadt, in der jeder jeden kennt. Das mag ich, weil ich nie allein bin. Nachteil: Es gibt kaum Kultur, ich fahre am Wochenende immer in die nächste Großstadt.</p>"
+    ],
+    [
+     "Sprecher 2",
+     "<p>Die Mieten in meiner Stadt sind unglaublich hoch. Ich zahle fast die Hälfte meines Gehalts. Ich würde gern wegziehen, aber meine Arbeit ist hier. Immerhin gibt es gute Busverbindungen.</p>"
+    ],
+    [
+     "Sprecher 3",
+     "<p>Bei uns gibt es viele Parks und Radwege. Ich fahre jeden Tag mit dem Rad zur Arbeit, in zwanzig Minuten. Das Auto brauche ich nur zum Einkaufen, und selbst das nicht jede Woche.</p>"
+    ],
+    [
+     "Sprecher 4",
+     "<p>Ich finde die Stadt zu laut und zu hektisch. Ständig Verkehr, ständig Menschen. Am Wochenende fahre ich zu meinen Eltern aufs Land. Dort kann ich mich wirklich erholen.</p>"
+    ],
+    [
+     "Sprecher 5",
+     "<p>Seit zwei Jahren engagiere ich mich in einer Initiative für einen neuen Spielplatz. Anfangs wollte die Stadt kein Geld geben. Jetzt wird er im Frühling gebaut, und ich bin sehr stolz.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2 · Interview: Bürgermeisterin Frau Hoffmann über ihre Stadt",
+   "html": "<div class=\"text\"><p>Frau Hoffmann, Sie sind seit fünf Jahren Bürgermeisterin von Neustadt. Was war Ihr größter Erfolg?</p><p>Wir haben das Zentrum autofrei gemacht. Zuerst gab es viel Kritik von den Geschäftsleuten. Heute sagen sie selbst, dass mehr Kunden kommen.</p><p>Und was war ein Misserfolg?</p><p>Das neue Schwimmbad. Wir wollten es in drei Jahren bauen, jetzt sind es schon fünf. Die Baukosten sind gestiegen, und der Gemeinderat musste mehr Geld genehmigen.</p><p>Wie sieht Ihr normaler Arbeitstag aus?</p><p>Um acht Uhr bin ich im Rathaus. Bis mittags habe ich Termine mit Bürgern, am Nachmittag Sitzungen. Abends gehe ich oft zu Veranstaltungen. Ich komme selten vor zehn nach Hause.</p><p>Haben Sie noch Freizeit?</p><p>Wenig. Sonntags gehe ich mit meinem Mann wandern. Das ist mir heilig, da schalte ich das Handy aus.</p><p>Was wünschen sich die Bürger am meisten?</p><p>Bezahlbare Wohnungen. Deshalb hat die Stadt ein Programm gestartet: Wer neu baut, muss ein Drittel der Wohnungen günstig vermieten.</p><p>Gibt es Pläne für die Zukunft?</p><p>Ja, wir wollen im Herbst eine neue Buslinie zum Industriegebiet eröffnen. Viele Menschen arbeiten dort und haben kein Auto.</p><p>Würden Sie noch einmal kandidieren?</p><p>Ich glaube ja. Die Arbeit ist anstrengend, aber sie macht Freude. Man sieht, dass man etwas verändern kann.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Ansage 1",
+     "<p>Willkommen im Bürgeramt Mitte. Wenn Sie einen Reisepass beantragen möchten, nehmen Sie bitte eine Nummer am Automaten und warten Sie im Raum zwei. Für Anmeldungen und Ummeldungen gehen Sie zum Schalter fünf.</p>"
+    ],
+    [
+     "Ansage 2",
+     "<p>Achtung, eine Durchsage der Stadtwerke. Wegen Wartungsarbeiten wird morgen von neun bis dreizehn Uhr das Wasser in der Nordstadt abgestellt. Bitte füllen Sie rechtzeitig Wasser in Behälter.</p>"
+    ],
+    [
+     "Ansage 3",
+     "<p>Hier spricht der Anrufbeantworter der Stadtbibliothek. Wir haben vom ersten bis zum fünfzehnten August geschlossen. Bücher können in dieser Zeit am Automaten vor dem Eingang zurückgegeben werden.</p>"
+    ],
+    [
+     "Ansage 4",
+     "<p>Liebe Fahrgäste, wegen eines Konzerts auf dem Marktplatz endet die Linie sieben heute schon am Rathaus. Bitte benutzen Sie ab dort die Linie zwölf oder gehen Sie zu Fuß.</p>"
+    ],
+    [
+     "Ansage 5",
+     "<p>Das Fundbüro der Stadt ist montags, mittwochs und freitags von neun bis zwölf geöffnet. Bitte bringen Sie einen Ausweis mit. Fahrräder werden nach sechs Monaten versteigert.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich wohne in einer kleinen Stadt, in der jeder jeden kennt. Das mag ich, weil ich nie allein bin. Nachteil: Es gibt kaum Kultur, ich fahre am Wochenende immer in die nächste Großstadt.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Mieten in meiner Stadt sind unglaublich hoch. Ich zahle fast die Hälfte meines Gehalts. Ich würde gern wegziehen, aber meine Arbeit ist hier. Immerhin gibt es gute Busverbindungen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Bei uns gibt es viele Parks und Radwege. Ich fahre jeden Tag mit dem Rad zur Arbeit, in zwanzig Minuten. Das Auto brauche ich nur zum Einkaufen, und selbst das nicht jede Woche.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich finde die Stadt zu laut und zu hektisch. Ständig Verkehr, ständig Menschen. Am Wochenende fahre ich zu meinen Eltern aufs Land. Dort kann ich mich wirklich erholen.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Seit zwei Jahren engagiere ich mich in einer Initiative für einen neuen Spielplatz. Anfangs wollte die Stadt kein Geld geben. Jetzt wird er im Frühling gebaut, und ich bin sehr stolz.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Frau Hoffmann, Sie sind seit fünf Jahren Bürgermeisterin von Neustadt. Was war Ihr größter Erfolg?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Wir haben das Zentrum autofrei gemacht. Zuerst gab es viel Kritik von den Geschäftsleuten. Heute sagen sie selbst, dass mehr Kunden kommen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was war ein Misserfolg?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das neue Schwimmbad. Wir wollten es in drei Jahren bauen, jetzt sind es schon fünf. Die Baukosten sind gestiegen, und der Gemeinderat musste mehr Geld genehmigen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie sieht Ihr normaler Arbeitstag aus?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Um acht Uhr bin ich im Rathaus. Bis mittags habe ich Termine mit Bürgern, am Nachmittag Sitzungen. Abends gehe ich oft zu Veranstaltungen. Ich komme selten vor zehn nach Hause.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie noch Freizeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Wenig. Sonntags gehe ich mit meinem Mann wandern. Das ist mir heilig, da schalte ich das Handy aus.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was wünschen sich die Bürger am meisten?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Bezahlbare Wohnungen. Deshalb hat die Stadt ein Programm gestartet: Wer neu baut, muss ein Drittel der Wohnungen günstig vermieten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es Pläne für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ja, wir wollen im Herbst eine neue Buslinie zum Industriegebiet eröffnen. Viele Menschen arbeiten dort und haben kein Auto.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Würden Sie noch einmal kandidieren?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich glaube ja. Die Arbeit ist anstrengend, aber sie macht Freude. Man sieht, dass man etwas verändern kann.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Frau Hoffmann, Sie sind seit fünf Jahren Bürgermeisterin von Neustadt. Was war Ihr größter Erfolg?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Wir haben das Zentrum autofrei gemacht. Zuerst gab es viel Kritik von den Geschäftsleuten. Heute sagen sie selbst, dass mehr Kunden kommen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und was war ein Misserfolg?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das neue Schwimmbad. Wir wollten es in drei Jahren bauen, jetzt sind es schon fünf. Die Baukosten sind gestiegen, und der Gemeinderat musste mehr Geld genehmigen.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie sieht Ihr normaler Arbeitstag aus?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Um acht Uhr bin ich im Rathaus. Bis mittags habe ich Termine mit Bürgern, am Nachmittag Sitzungen. Abends gehe ich oft zu Veranstaltungen. Ich komme selten vor zehn nach Hause.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Haben Sie noch Freizeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Wenig. Sonntags gehe ich mit meinem Mann wandern. Das ist mir heilig, da schalte ich das Handy aus.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was wünschen sich die Bürger am meisten?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Bezahlbare Wohnungen. Deshalb hat die Stadt ein Programm gestartet: Wer neu baut, muss ein Drittel der Wohnungen günstig vermieten.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es Pläne für die Zukunft?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ja, wir wollen im Herbst eine neue Buslinie zum Industriegebiet eröffnen. Viele Menschen arbeiten dort und haben kein Auto.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Würden Sie noch einmal kandidieren?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich glaube ja. Die Arbeit ist anstrengend, aber sie macht Freude. Man sieht, dass man etwas verändern kann.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen im Bürgeramt Mitte. Wenn Sie einen Reisepass beantragen möchten, nehmen Sie bitte eine Nummer am Automaten und warten Sie im Raum zwei. Für Anmeldungen und Ummeldungen gehen Sie zum Schalter fünf.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Willkommen im Bürgeramt Mitte. Wenn Sie einen Reisepass beantragen möchten, nehmen Sie bitte eine Nummer am Automaten und warten Sie im Raum zwei. Für Anmeldungen und Ummeldungen gehen Sie zum Schalter fünf.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Achtung, eine Durchsage der Stadtwerke. Wegen Wartungsarbeiten wird morgen von neun bis dreizehn Uhr das Wasser in der Nordstadt abgestellt. Bitte füllen Sie rechtzeitig Wasser in Behälter.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Achtung, eine Durchsage der Stadtwerke. Wegen Wartungsarbeiten wird morgen von neun bis dreizehn Uhr das Wasser in der Nordstadt abgestellt. Bitte füllen Sie rechtzeitig Wasser in Behälter.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier spricht der Anrufbeantworter der Stadtbibliothek. Wir haben vom ersten bis zum fünfzehnten August geschlossen. Bücher können in dieser Zeit am Automaten vor dem Eingang zurückgegeben werden.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Hier spricht der Anrufbeantworter der Stadtbibliothek. Wir haben vom ersten bis zum fünfzehnten August geschlossen. Bücher können in dieser Zeit am Automaten vor dem Eingang zurückgegeben werden.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Fahrgäste, wegen eines Konzerts auf dem Marktplatz endet die Linie sieben heute schon am Rathaus. Bitte benutzen Sie ab dort die Linie zwölf oder gehen Sie zu Fuß.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Liebe Fahrgäste, wegen eines Konzerts auf dem Marktplatz endet die Linie sieben heute schon am Rathaus. Bitte benutzen Sie ab dort die Linie zwölf oder gehen Sie zu Fuß.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Das Fundbüro der Stadt ist montags, mittwochs und freitags von neun bis zwölf geöffnet. Bitte bringen Sie einen Ausweis mit. Fahrräder werden nach sechs Monaten versteigert.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Das Fundbüro der Stadt ist montags, mittwochs und freitags von neun bis zwölf geöffnet. Bitte bringen Sie einen Ausweis mit. Fahrräder werden nach sechs Monaten versteigert.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}

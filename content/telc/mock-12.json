@@ -1,0 +1,993 @@
+{
+ "n": 12,
+ "theme": "Freizeit, Kultur und Vereine",
+ "lesen": [
+  {
+   "title": "Lesen · Teil 1: Überschriften zuordnen",
+   "instr": "Lesen Sie die fünf Texte und die zehn Überschriften a bis j. Wählen Sie zu jedem Text die passende Überschrift. Fünf Überschriften bleiben übrig. Jede Überschrift passt nur einmal.",
+   "left": "<div class=\"text\"><p><b>1</b>&nbsp; Der Sportverein TSV Rot-Weiß sucht neue Mitglieder für die Fußballmannschaft der Jugendlichen. Trainiert wird dienstags und donnerstags ab 17 Uhr. Der Beitrag beträgt 8 Euro im Monat. Fußballschuhe werden gestellt.</p><p><b>2</b>&nbsp; Das Stadttheater zeigt ab Freitag das Stück „Der Besuch der alten Dame“. Karten gibt es an der Abendkasse oder online. Studenten und Schüler bekommen die Hälfte des Preises zurück, wenn sie einen Ausweis vorzeigen.</p><p><b>3</b>&nbsp; Wegen starker Regenfälle muss das Open-Air-Konzert am Samstag leider ausfallen. Bereits gekaufte Karten behalten ihre Gültigkeit für den Ersatztermin am 15. September. Wer sein Geld zurück möchte, kann die Karte bis Ende des Monats umtauschen.</p><p><b>4</b>&nbsp; Im Naturpark Eifel beginnt am Sonntag die Wandersaison. Geführte Touren starten jeden Sonntag um 10 Uhr am Parkplatz. Bitte feste Schuhe tragen und Verpflegung mitbringen. Hunde müssen an der Leine geführt werden.</p><p><b>5</b>&nbsp; Die Volkshochschule bietet im Herbst neue Kurse an: Kochen international, Gitarre für Anfänger und Töpfern. Alle Kurse finden abends statt. Anmeldung ist online bis zum 20. September möglich.</p></div><div class=\"text\"><b>Überschriften</b><br><b>a</b>&nbsp; Kurse für jeden Geschmack<br><b>b</b>&nbsp; Konzert fällt ins Wasser<br><b>c</b>&nbsp; Neue Spieler gesucht<br><b>d</b>&nbsp; Theaterbesuch für die Jugend billiger<br><b>e</b>&nbsp; Wanderungen durch die Natur<br><b>f</b>&nbsp; Neues Fitnessstudio eröffnet<br><b>g</b>&nbsp; Museumsnacht in der Stadt<br><b>h</b>&nbsp; Chor sucht Sänger<br><b>i</b>&nbsp; Schwimmbad im Winter geschlossen<br><b>j</b>&nbsp; Radtour für Familien</div>",
+   "items": [
+    {
+     "id": "l1",
+     "q": "Text 1",
+     "letters": "abcdefghij",
+     "key": "c",
+     "why": "Neue Mitglieder für Fußball → c (Neue Spieler gesucht)."
+    },
+    {
+     "id": "l2",
+     "q": "Text 2",
+     "letters": "abcdefghij",
+     "key": "d",
+     "why": "Theater, Preisnachlass für Schüler → d."
+    },
+    {
+     "id": "l3",
+     "q": "Text 3",
+     "letters": "abcdefghij",
+     "key": "b",
+     "why": "Open-Air fällt aus → b."
+    },
+    {
+     "id": "l4",
+     "q": "Text 4",
+     "letters": "abcdefghij",
+     "key": "e",
+     "why": "Wandersaison → e."
+    },
+    {
+     "id": "l5",
+     "q": "Text 5",
+     "letters": "abcdefghij",
+     "key": "a",
+     "why": "VHS-Kurse → a."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 2: Zeitungsartikel verstehen",
+   "instr": "Lesen Sie den Text und die Aufgaben 1 bis 5. Wählen Sie bei jeder Aufgabe die richtige Lösung a, b oder c. Die Aufgaben folgen nicht der Reihenfolge im Text.",
+   "left": "<div class=\"text\"><p>Singen verbindet</p><p>Jeden Mittwochabend treffen sich im Gemeindehaus von Wiesental etwa vierzig Menschen zum Singen. Der „Chor ohne Noten“ wurde vor vier Jahren von der Musiklehrerin Clara Brandt gegründet. Mitglieder müssen keine Noten lesen können und auch nicht vorsingen. „Wer Spaß am Singen hat, ist willkommen“, sagt sie.</p><p>Die Idee kam ihr, als sie merkte, dass viele Erwachsene sich nicht trauen zu singen. „In der Schule hat ihnen jemand gesagt, sie seien unmusikalisch. Das bleibt hängen“, erzählt Brandt. Im Chor lernen sie die Lieder nach Gehör. Am Ende des Jahres gibt es ein Konzert, das meist ausverkauft ist.</p><p>Der Chor finanziert sich durch einen Monatsbeitrag von zehn Euro und durch Spenden. Neue Mitglieder können im September einsteigen. Wer möchte, kann einen Abend unverbindlich zuhören.</p></div>",
+   "items": [
+    {
+     "id": "l6",
+     "q": "Wann trifft sich der Chor?",
+     "opts": [
+      "Jeden Mittwochabend.",
+      "Jeden Samstag.",
+      "Einmal im Monat."
+     ],
+     "key": "a",
+     "why": "Mittwochabend."
+    },
+    {
+     "id": "l7",
+     "q": "Was müssen Mitglieder können?",
+     "opts": [
+      "Noten lesen.",
+      "Vorsingen.",
+      "Nichts Besonderes, nur Spaß am Singen haben."
+     ],
+     "key": "c",
+     "why": "Keine Voraussetzung."
+    },
+    {
+     "id": "l8",
+     "q": "Warum gründete Clara Brandt den Chor?",
+     "opts": [
+      "Weil viele Erwachsene sich nicht zu singen trauen.",
+      "Weil sie Geld verdienen wollte.",
+      "Weil die Schule es verlangte."
+     ],
+     "key": "a",
+     "why": "Hemmung bei Erwachsenen."
+    },
+    {
+     "id": "l9",
+     "q": "Wie lernt man die Lieder?",
+     "opts": [
+      "Durch Noten.",
+      "Nach Gehör.",
+      "Mit dem Computer."
+     ],
+     "key": "b",
+     "why": "Nach Gehör."
+    },
+    {
+     "id": "l10",
+     "q": "Was kostet die Mitgliedschaft?",
+     "opts": [
+      "Nichts.",
+      "Zehn Euro im Monat.",
+      "Hundert Euro im Jahr."
+     ],
+     "key": "b",
+     "why": "10 € pro Monat."
+    }
+   ]
+  },
+  {
+   "title": "Lesen · Teil 3: Anzeigen zuordnen",
+   "instr": "Zehn Personen suchen etwas Bestimmtes. Lesen Sie die Situationen 1 bis 10 und die Anzeigen a bis l. Welche Anzeige passt zu welcher Situation? Sie können jede Anzeige nur einmal verwenden. Wenn keine Anzeige passt, wählen Sie x.",
+   "left": "<div class=\"text\"><p><b>a</b>&nbsp; Fitnessstudio Power: Probetraining gratis. Mitgliedschaft ab 19 Euro im Monat, monatlich kündbar.</p><p><b>b</b>&nbsp; Tanzclub Rhythmus: Salsa, Hip-Hop und Standard. Kurse für Anfänger donnerstags, 19 Uhr.</p><p><b>c</b>&nbsp; Kunstverein Pinsel: Malkurse für Erwachsene und Kinder, Material inklusive. Ausstellung am 20. Juni.</p><p><b>d</b>&nbsp; Kino Odeon: Neuer Film jede Woche. Montags alle Plätze für 6 Euro. Online-Reservierung möglich.</p><p><b>e</b>&nbsp; Schachclub Läufer: Wir suchen Spieler jeden Alters. Spieleabend freitags ab 18 Uhr im Vereinsheim.</p><p><b>f</b>&nbsp; Reitstall Sonnenhof: Reitstunden für Kinder, Ausritte für Erwachsene. Pferde vorhanden, Helme werden geliehen.</p><p><b>g</b>&nbsp; Buchclub Leseratten: Wir treffen uns jeden zweiten Dienstag im Café und sprechen über ein gemeinsames Buch.</p><p><b>h</b>&nbsp; Angelverein Forelle: Gemeinsames Angeln am Wochenende, Anfänger willkommen. Fischereischein erforderlich.</p><p><b>i</b>&nbsp; Wanderverein Bergfreunde: Jeden Sonntag eine neue Tour, 10 bis 20 Kilometer. Gäste sind willkommen.</p><p><b>j</b>&nbsp; Musikschule Klangwelt: Unterricht für Klavier, Geige und Gitarre. Instrumente zum Ausleihen.</p><p><b>k</b>&nbsp; Schwimmverein Delfin: Schwimmkurse für Kinder ab 5 Jahren. Frühschwimmer-Training ab 6 Uhr.</p><p><b>l</b>&nbsp; Theatergruppe Maske: Neue Mitspieler gesucht. Proben dienstags, Aufführung im Dezember.</p></div>",
+   "items": [
+    {
+     "id": "l11",
+     "q": "Sie möchten Salsa tanzen, haben aber noch nie getanzt.",
+     "letters": "abcdefghijklx",
+     "key": "b",
+     "why": "Anfänger donnerstags → b."
+    },
+    {
+     "id": "l12",
+     "q": "Sie möchten Ihre Tochter (6) das Schwimmen lernen lassen.",
+     "letters": "abcdefghijklx",
+     "key": "k",
+     "why": "Kinderkurse ab 5 → k."
+    },
+    {
+     "id": "l13",
+     "q": "Sie suchen einen Verein, in dem man sich über Bücher unterhält.",
+     "letters": "abcdefghijklx",
+     "key": "g",
+     "why": "Buchclub → g."
+    },
+    {
+     "id": "l14",
+     "q": "Sie möchten ein Fitnessstudio ausprobieren, ohne zu zahlen.",
+     "letters": "abcdefghijklx",
+     "key": "a",
+     "why": "Probetraining gratis → a."
+    },
+    {
+     "id": "l15",
+     "q": "Sie möchten am Sonntag in der Natur wandern, auch mit Gästen.",
+     "letters": "abcdefghijklx",
+     "key": "i",
+     "why": "Wanderverein → i."
+    },
+    {
+     "id": "l16",
+     "q": "Sie möchten Gitarre lernen, besitzen aber keine.",
+     "letters": "abcdefghijklx",
+     "key": "j",
+     "why": "Instrumente leihen → j."
+    },
+    {
+     "id": "l17",
+     "q": "Sie möchten ein Instrument im Verein spielen, sind aber lieber leise und logisch.",
+     "letters": "abcdefghijklx",
+     "key": "e",
+     "why": "Schach → e."
+    },
+    {
+     "id": "l18",
+     "q": "Sie spielen gern Theater und möchten im Winter auf der Bühne stehen.",
+     "letters": "abcdefghijklx",
+     "key": "l",
+     "why": "Theatergruppe → l."
+    },
+    {
+     "id": "l19",
+     "q": "Sie möchten malen und brauchen kein eigenes Material.",
+     "letters": "abcdefghijklx",
+     "key": "c",
+     "why": "Material inklusive → c."
+    },
+    {
+     "id": "l20",
+     "q": "Sie möchten sich am Montag einen günstigen Film ansehen.",
+     "letters": "abcdefghijklx",
+     "key": "d",
+     "why": "Montags 6 Euro → d."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 1: Lücken im Brief (a, b oder c)",
+   "instr": "Lesen Sie den Brief. Wählen Sie für jede Lücke das passende Wort a, b oder c.",
+   "left": "<div class=\"text\"><p>Liebe Katrin,</p><p>wie geht es dir? Ich hoffe, du hast die Prüfung gut <b>(21)</b>. Ich wollte dir schon länger schreiben, aber ich hatte viel <b>(22)</b>. Seit Januar mache ich <b>(23)</b> Sport als früher. Ich bin in einen Laufverein <b>(24)</b>, und wir treffen uns zweimal pro Woche. Die anderen sind sehr nett, <b>(25)</b> ich fühle mich dort wohl. Im Mai nehmen wir an einem Halbmarathon <b>(26)</b>. Ich bin schon sehr gespannt, <b>(27)</b> es wird. Hast du Lust, <b>(28)</b> mir zu laufen? Du <b>(29)</b> natürlich nicht die ganze Strecke laufen, es gibt auch einen kürzeren Lauf. Schreib mir bitte, <b>(30)</b> du Zeit hast.</p><p>Liebe Grüße<br>Nina</p></div>",
+   "items": [
+    {
+     "id": "s1",
+     "q": "Lücke 21",
+     "opts": [
+      "bestanden",
+      "bestehen",
+      "besteht"
+     ],
+     "key": "a",
+     "why": "Perfekt: bestanden."
+    },
+    {
+     "id": "s2",
+     "q": "Lücke 22",
+     "opts": [
+      "zu tun",
+      "getan",
+      "tut"
+     ],
+     "key": "a",
+     "why": "viel zu tun haben."
+    },
+    {
+     "id": "s3",
+     "q": "Lücke 23",
+     "opts": [
+      "mehr",
+      "viel",
+      "sehr"
+     ],
+     "key": "a",
+     "why": "Komparativ: mehr Sport als früher."
+    },
+    {
+     "id": "s4",
+     "q": "Lücke 24",
+     "opts": [
+      "eingetreten",
+      "eintreten",
+      "eingetritt"
+     ],
+     "key": "a",
+     "why": "Perfekt: eingetreten."
+    },
+    {
+     "id": "s5",
+     "q": "Lücke 25",
+     "opts": [
+      "deshalb",
+      "weil",
+      "obwohl"
+     ],
+     "key": "a",
+     "why": "Hauptsatz: Folge → deshalb fühle ich mich wohl."
+    },
+    {
+     "id": "s6",
+     "q": "Lücke 26",
+     "opts": [
+      "teil",
+      "mit",
+      "an"
+     ],
+     "key": "a",
+     "why": "teilnehmen → nehmen … teil."
+    },
+    {
+     "id": "s7",
+     "q": "Lücke 27",
+     "opts": [
+      "wie",
+      "wann",
+      "was"
+     ],
+     "key": "a",
+     "why": "wie es wird."
+    },
+    {
+     "id": "s8",
+     "q": "Lücke 28",
+     "opts": [
+      "mit",
+      "bei",
+      "von"
+     ],
+     "key": "a",
+     "why": "mit mir laufen."
+    },
+    {
+     "id": "s9",
+     "q": "Lücke 29",
+     "opts": [
+      "musst",
+      "müsste",
+      "müssen"
+     ],
+     "key": "a",
+     "why": "Du musst nicht … (Modalverb)."
+    },
+    {
+     "id": "s10",
+     "q": "Lücke 30",
+     "opts": [
+      "wann",
+      "ob",
+      "dass"
+     ],
+     "key": "a",
+     "why": "Schreib mir, wann du Zeit hast."
+    }
+   ]
+  },
+  {
+   "title": "Sprachbausteine · Teil 2: Lücken und Wortkasten (a bis o)",
+   "instr": "Lesen Sie den Text. Wählen Sie für jede Lücke das passende Wort aus dem Kasten. Fünf Wörter bleiben übrig. Jedes Wort passt nur einmal.",
+   "left": "<div class=\"text\"><p>Sehr geehrter Herr Kramer,</p><p>ich habe Ihre Anzeige im Stadtblatt <b>(31)</b> und interessiere mich für Ihren Gitarrenkurs. Ich spiele <b>(32)</b> zwei Jahren Gitarre, bin aber noch <b>(33)</b>. Ich möchte <b>(34)</b>, ob der Kurs für mich geeignet ist. Welche Vorkenntnisse <b>(35)</b> man? Wie viele Personen <b>(36)</b> an einem Kurs teil? Findet der Kurs <b>(37)</b> in der Woche oder am Wochenende statt? Ich arbeite <b>(38)</b>, deshalb habe ich nur abends Zeit. Außerdem <b>(39)</b> ich wissen, ob ich eine eigene Gitarre <b>(40)</b> soll.</p><p>Mit freundlichen Grüßen<br>Marco Fischer</p></div><div class=\"text\"><b>Wortkasten</b><br><b>a</b> gelesen &nbsp;·&nbsp; <b>b</b> seit &nbsp;·&nbsp; <b>c</b> Anfänger &nbsp;·&nbsp; <b>d</b> fragen &nbsp;·&nbsp; <b>e</b> braucht &nbsp;·&nbsp; <b>f</b> nehmen &nbsp;·&nbsp; <b>g</b> entweder &nbsp;·&nbsp; <b>h</b> tagsüber &nbsp;·&nbsp; <b>i</b> möchte &nbsp;·&nbsp; <b>j</b> mitbringen &nbsp;·&nbsp; <b>k</b> lesen &nbsp;·&nbsp; <b>l</b> sondern &nbsp;·&nbsp; <b>m</b> bringen &nbsp;·&nbsp; <b>n</b> wollte &nbsp;·&nbsp; <b>o</b> mitgebracht</div>",
+   "items": [
+    {
+     "id": "s11",
+     "q": "Lücke 31",
+     "letters": "abcdefghijklmno",
+     "key": "a",
+     "why": "Perfekt: gelesen."
+    },
+    {
+     "id": "s12",
+     "q": "Lücke 32",
+     "letters": "abcdefghijklmno",
+     "key": "b",
+     "why": "seit zwei Jahren."
+    },
+    {
+     "id": "s13",
+     "q": "Lücke 33",
+     "letters": "abcdefghijklmno",
+     "key": "c",
+     "why": "noch Anfänger."
+    },
+    {
+     "id": "s14",
+     "q": "Lücke 34",
+     "letters": "abcdefghijklmno",
+     "key": "d",
+     "why": "fragen, ob."
+    },
+    {
+     "id": "s15",
+     "q": "Lücke 35",
+     "letters": "abcdefghijklmno",
+     "key": "e",
+     "why": "braucht man."
+    },
+    {
+     "id": "s16",
+     "q": "Lücke 36",
+     "letters": "abcdefghijklmno",
+     "key": "f",
+     "why": "nehmen … teil."
+    },
+    {
+     "id": "s17",
+     "q": "Lücke 37",
+     "letters": "abcdefghijklmno",
+     "key": "g",
+     "why": "entweder … oder."
+    },
+    {
+     "id": "s18",
+     "q": "Lücke 38",
+     "letters": "abcdefghijklmno",
+     "key": "h",
+     "why": "tagsüber arbeiten."
+    },
+    {
+     "id": "s19",
+     "q": "Lücke 39",
+     "letters": "abcdefghijklmno",
+     "key": "i",
+     "why": "ich möchte wissen."
+    },
+    {
+     "id": "s20",
+     "q": "Lücke 40",
+     "letters": "abcdefghijklmno",
+     "key": "j",
+     "why": "eigene Gitarre mitbringen (Infinitiv)."
+    }
+   ]
+  }
+ ],
+ "hoeren": [
+  {
+   "title": "Hören · Teil 1: fünf Meinungen zu einem Thema (einmal hören)",
+   "instr": "Sie hören fünf Personen, die ihre Meinung zum Thema „Was machen Sie in Ihrer Freizeit?“ sagen. Sie hören jeden Text nur einmal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h1",
+     "q": "Die Sprecherin geht jeden Mittwoch ins Kino.",
+     "tf": true,
+     "key": "r",
+     "why": "Mittwoch."
+    },
+    {
+     "id": "h2",
+     "q": "Der Sprecher findet Gartenarbeit anstrengender als Fitness.",
+     "tf": true,
+     "key": "f",
+     "why": "Besser als Fitnessstudio."
+    },
+    {
+     "id": "h3",
+     "q": "Die Sprecherin spielt dreimal im Jahr Konzerte.",
+     "tf": true,
+     "key": "r",
+     "why": "Dreimal."
+    },
+    {
+     "id": "h4",
+     "q": "Der Sprecher hat viele Hobbys.",
+     "tf": true,
+     "key": "f",
+     "why": "Keine Energie."
+    },
+    {
+     "id": "h5",
+     "q": "Die Sprecherin besucht Museen oft am Monatsanfang.",
+     "tf": true,
+     "key": "r",
+     "why": "Eintritt frei."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 2: Interview (zweimal hören)",
+   "instr": "Sie hören ein Interview. Sie hören den Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: eine Minute).",
+   "left": null,
+   "items": [
+    {
+     "id": "h6",
+     "q": "Herr Vogel trainiert seit zwanzig Jahren Kinder.",
+     "tf": true,
+     "key": "r",
+     "why": "Zwanzig Jahre."
+    },
+    {
+     "id": "h7",
+     "q": "Er wollte ursprünglich nur ein Jahr bleiben.",
+     "tf": true,
+     "key": "r",
+     "why": "Für ein Jahr."
+    },
+    {
+     "id": "h8",
+     "q": "Er findet es schön, wie die Kinder sich entwickeln.",
+     "tf": true,
+     "key": "r",
+     "why": "Größer werden."
+    },
+    {
+     "id": "h9",
+     "q": "Die größte Schwierigkeit sind die Kinder.",
+     "tf": true,
+     "key": "f",
+     "why": "Die Eltern."
+    },
+    {
+     "id": "h10",
+     "q": "Im Kinderfußball geht es vor allem um Siege.",
+     "tf": true,
+     "key": "f",
+     "why": "Spaß und Zusammenhalt."
+    },
+    {
+     "id": "h11",
+     "q": "Er trainiert insgesamt etwa acht Stunden pro Woche.",
+     "tf": true,
+     "key": "r",
+     "why": "Acht Stunden."
+    },
+    {
+     "id": "h12",
+     "q": "Er bekommt ein Gehalt vom Verein.",
+     "tf": true,
+     "key": "f",
+     "why": "Nur Fahrtkosten."
+    },
+    {
+     "id": "h13",
+     "q": "Der Verein hat genug Trainer.",
+     "tf": true,
+     "key": "f",
+     "why": "Nachwuchs gesucht."
+    },
+    {
+     "id": "h14",
+     "q": "Man muss früher ein guter Spieler gewesen sein.",
+     "tf": true,
+     "key": "f",
+     "why": "Nicht nötig."
+    },
+    {
+     "id": "h15",
+     "q": "Er möchte vielleicht aufhören, wenn es einen Nachfolger gibt.",
+     "tf": true,
+     "key": "r",
+     "why": "Vielleicht."
+    }
+   ]
+  },
+  {
+   "title": "Hören · Teil 3: fünf kurze Ansagen (zweimal hören)",
+   "instr": "Sie hören fünf kurze Ansagen oder Durchsagen. Sie hören jeden Text zweimal. Entscheiden Sie: richtig oder falsch. Lesen Sie zuerst die Aufgaben (im Audio: 30 Sekunden).",
+   "left": null,
+   "items": [
+    {
+     "id": "h16",
+     "q": "Im Theater darf man fotografieren.",
+     "tf": true,
+     "key": "f",
+     "why": "Nicht erlaubt."
+    },
+    {
+     "id": "h17",
+     "q": "Das Freibad ist heute bis sechzehn Uhr offen.",
+     "tf": true,
+     "key": "r",
+     "why": "Bis 16 Uhr."
+    },
+    {
+     "id": "h18",
+     "q": "Das Handballspiel beginnt um fünfzehn Uhr.",
+     "tf": true,
+     "key": "f",
+     "why": "14:30."
+    },
+    {
+     "id": "h19",
+     "q": "Die englische Führung kostet extra.",
+     "tf": true,
+     "key": "r",
+     "why": "Zwei Euro."
+    },
+    {
+     "id": "h20",
+     "q": "Am Sonntag scheint die Sonne.",
+     "tf": true,
+     "key": "r",
+     "why": "Viel Sonne."
+    }
+   ]
+  }
+ ],
+ "schreiben": {
+  "title": "Schreiben: E-Mail an Bekannte (informell)",
+  "situation": "<b>Ihr Freund Jan hat einen Verein gegründet</b> und möchte, dass Sie dort mitmachen. Schreiben Sie ihm. Bedanken Sie sich für die Idee. Sagen Sie, ob Sie Interesse haben. Fragen Sie, wann die Treffen sind. Fragen Sie, was der Beitrag kostet.",
+  "points": [
+   "Dank für die Idee",
+   "Interesse? Warum?",
+   "Frage: Wann sind die Treffen?",
+   "Frage: Was kostet es?"
+  ],
+  "len": "Schreiben Sie etwa 80 bis 100 Wörter. Zeit: 30 Minuten. Schreiben Sie zu allen vier Leitpunkten.",
+  "kw": [
+   "danke|vielen dank|idee|freue mich",
+   "interesse|gern|gerne|mitmachen|interessant|leider",
+   "wann|treffen|uhrzeit|tag|abend|wochenende",
+   "kostet|beitrag|kosten|euro|zahlen|mitgliedsbeitrag"
+  ],
+  "rg": "du"
+ },
+ "sprechen": [
+  {
+   "title": "Teil 1 · Kontaktaufnahme (ca. 3 Minuten)",
+   "text": "<p>Sie lernen sich bei einem Vereinsfest kennen. Stellen Sie sich vor: Name, Herkunft, Wohnort, Beruf, Familie, Hobbys, warum Sie Deutsch lernen. Fragen Sie: Was macht er/sie in der Freizeit? In welchem Verein ist er/sie? Reagieren Sie auf die Antworten.</p>"
+  },
+  {
+   "title": "Teil 2 · Gespräch über ein Thema (ca. 4 Minuten, 20 Minuten Vorbereitung)",
+   "text": "<p><b>Thema: Vereine: Sinnvolle Freizeit oder Verpflichtung?</b> Halten Sie einen kurzen Vortrag (ca. 3 Minuten) mit diesen fünf Punkten: 1. Meine Erfahrungen mit Vereinen oder Hobbys · 2. Wie die Menschen in meinem Heimatland ihre Freizeit verbringen · 3. Vorteile und Nachteile von Vereinen · 4. Meine Meinung · 5. Abschluss und Dank für die Aufmerksamkeit. Danach stellen die Zuhörer Fragen.</p>"
+  },
+  {
+   "title": "Teil 3 · Gemeinsam etwas planen (ca. 4 Minuten)",
+   "text": "<p><b>Sie planen gemeinsam einen Kulturabend</b> für Ihre Kollegen. Besprechen Sie: Wohin? (Theater, Konzert, Kino) · Wann? · Wie kommen Sie hin? · Was kostet es? · Essen danach? · Wer organisiert was?</p>"
+  }
+ ],
+ "model": {
+  "letter": "<p>Lieber Jan, vielen Dank für deine tolle Idee! Ich habe großes Interesse, denn ich spiele gern Volleyball. Wann finden die Treffen statt? Ich kann am besten am Wochenende oder abends nach 19 Uhr. Was kostet der Mitgliedsbeitrag? Schick mir bitte alle Informationen. Ich freue mich darauf, dich bald zu sehen. Viele Grüße, Manoj</p>",
+  "check": [
+   "Alle vier Leitpunkte beantwortet",
+   "Anrede und Gruß passend (du: Liebe/Lieber … · Sie: Sehr geehrte/r …)",
+   "Sätze verbinden (weil, dass, deshalb …)",
+   "Verb an der richtigen Stelle, Nomen groß",
+   "Etwa 80 bis 100 Wörter, in 30 Minuten"
+  ],
+  "speak": "<p><b>Teil 1:</b> Guten Tag, ich heiße Manoj, ich komme aus Indien und wohne in Aachen. Ich arbeite als Softwareentwickler. In meiner Freizeit spiele ich gern Cricket und gehe wandern. Was machst du in deiner Freizeit? In welchem Verein bist du?</p><p><b>Teil 2:</b> Mein Thema ist: Vereine. In Deutschland gibt es für fast jedes Hobby einen Verein. In Indien trifft man sich eher informell. Der Vorteil eines Vereins ist, dass man Freunde findet. Der Nachteil ist, dass man feste Termine hat. Meiner Meinung nach sind Vereine eine gute Möglichkeit, Deutsch zu üben. Vielen Dank für Ihre Aufmerksamkeit.</p><p><b>Teil 3:</b> Ich schlage ein Konzert am Freitagabend vor. Wir fahren mit der Bahn. Die Karten kosten etwa 25 Euro. Danach essen wir zusammen in einem Restaurant. Ich kaufe die Karten, du reservierst den Tisch.</p>"
+ },
+ "hoertexte": [
+  {
+   "title": "Hören Teil 1 · Was machen Sie in Ihrer Freizeit?",
+   "texts": [
+    [
+     "Sprecher 1",
+     "<p>Ich gehe jeden Mittwoch mit meiner Freundin ins Kino. Seit zehn Jahren machen wir das. Der Film ist egal, wichtig ist, dass wir danach noch einen Tee trinken und darüber reden.</p>"
+    ],
+    [
+     "Sprecher 2",
+     "<p>Am Wochenende bin ich im Garten. Ich baue Gemüse an, Tomaten, Bohnen, Kartoffeln. Das ist besser als jedes Fitnessstudio. Und im Herbst ernte ich, was ich selbst gesät habe.</p>"
+    ],
+    [
+     "Sprecher 3",
+     "<p>Ich spiele Geige in einem kleinen Orchester. Wir proben zweimal in der Woche und geben dreimal im Jahr ein Konzert. Mein Beruf ist sehr stressig, bei der Musik kann ich abschalten.</p>"
+    ],
+    [
+     "Sprecher 4",
+     "<p>Ich habe nicht viel Freizeit, weil ich zwei Jobs habe. Wenn ich frei habe, schlafe ich lange und sehe fern. Für Hobbys fehlt mir momentan die Energie.</p>"
+    ],
+    [
+     "Sprecher 5",
+     "<p>Ich gehe gern ins Museum. Besonders mag ich moderne Kunst. Am Anfang des Monats ist der Eintritt frei, dann gehe ich mit meinen Kindern. Danach gibt es immer Eis.</p>"
+    ]
+   ]
+  },
+  {
+   "title": "Hören Teil 2 · Interview: Der Ehrenamtliche Herr Vogel, Fußballtrainer",
+   "html": "<div class=\"text\"><p>Herr Vogel, Sie trainieren seit zwanzig Jahren Kinder im Fußballverein. Wie sind Sie dazu gekommen?</p><p>Mein Sohn wollte Fußball spielen, und der Verein suchte einen Trainer. Ich habe gesagt: Ich probiere es für ein Jahr. Daraus sind zwanzig geworden.</p><p>Was gefällt Ihnen daran?</p><p>Die Kinder. Man sieht, wie sie größer werden, nicht nur körperlich. Manche waren am Anfang schüchtern und sind jetzt Mannschaftskapitäne.</p><p>Was ist die größte Schwierigkeit?</p><p>Die Eltern. Manche erwarten, dass ihr Kind immer spielt. Aber im Kinderfußball geht es nicht um Siege, sondern um Spaß und Zusammenhalt.</p><p>Wie viel Zeit investieren Sie?</p><p>Zweimal Training pro Woche, dazu am Samstag das Spiel. Das sind etwa acht Stunden. Ich bekomme dafür kein Geld, nur die Kosten für Fahrten werden erstattet.</p><p>Gibt es genug Trainer im Verein?</p><p>Leider nicht. Wir suchen dringend Nachwuchs. Viele junge Leute haben keine Zeit oder wollen sich nicht binden.</p><p>Was würden Sie jemandem sagen, der überlegt, Trainer zu werden?</p><p>Einfach probieren. Man muss kein guter Spieler gewesen sein. Wichtiger ist, dass man Geduld hat und die Kinder mag.</p><p>Und wie lange machen Sie noch weiter?</p><p>Solange die Knie halten. Im Ernst: Wenn ein Nachfolger da ist, höre ich vielleicht auf. Aber ganz ohne Fußball könnte ich nicht leben.</p></div>"
+  },
+  {
+   "title": "Hören Teil 3",
+   "texts": [
+    [
+     "Ansage 1",
+     "<p>Liebe Gäste, herzlich willkommen im Stadttheater. Die Vorstellung beginnt in fünf Minuten. Bitte schalten Sie jetzt Ihre Mobiltelefone aus. Fotografieren ist während der Vorstellung nicht erlaubt. Nach dem ersten Akt gibt es eine Pause von zwanzig Minuten.</p>"
+    ],
+    [
+     "Ansage 2",
+     "<p>Hier ist das Freibad am See. Wegen des schlechten Wetters ist das Bad heute nur bis sechzehn Uhr geöffnet. Die Sauna bleibt geschlossen. Morgen ab zehn Uhr haben wir wieder normal geöffnet.</p>"
+    ],
+    [
+     "Ansage 3",
+     "<p>Und jetzt eine Information für alle Sportfreunde: Das Handballspiel am Samstag beginnt nicht um fünfzehn, sondern schon um vierzehn Uhr dreißig. Die Halle öffnet eine Stunde vorher. Karten gibt es nur an der Tageskasse.</p>"
+    ],
+    [
+     "Ansage 4",
+     "<p>Museum für Moderne Kunst. Unsere Führung in englischer Sprache beginnt jeden Samstag um elf Uhr. Treffpunkt ist an der Kasse. Die Teilnahme kostet zusätzlich zwei Euro pro Person.</p>"
+    ],
+    [
+     "Ansage 5",
+     "<p>Das war die Wettervorhersage. Für das Wochenende gilt: Samstag bewölkt, bis zu zwanzig Grad. Sonntag viel Sonne, bis zu vierundzwanzig Grad. Ein guter Tag für Wanderungen und Ausflüge.</p>"
+    ]
+   ]
+  }
+ ],
+ "audio": [
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil eins. Sie hören jetzt fünf Personen, die ihre Meinung zu einem Thema sagen. Sie hören jeden Text einmal. Lesen Sie zuerst die Aufgaben eins bis fünf. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich gehe jeden Mittwoch mit meiner Freundin ins Kino. Seit zehn Jahren machen wir das. Der Film ist egal, wichtig ist, dass wir danach noch einen Tee trinken und darüber reden.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Am Wochenende bin ich im Garten. Ich baue Gemüse an, Tomaten, Bohnen, Kartoffeln. Das ist besser als jedes Fitnessstudio. Und im Herbst ernte ich, was ich selbst gesät habe.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Ich spiele Geige in einem kleinen Orchester. Wir proben zweimal in der Woche und geben dreimal im Jahr ein Konzert. Mein Beruf ist sehr stressig, bei der Musik kann ich abschalten.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Ich habe nicht viel Freizeit, weil ich zwei Jobs habe. Wenn ich frei habe, schlafe ich lange und sehe fern. Für Hobbys fehlt mir momentan die Energie.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ich gehe gern ins Museum. Besonders mag ich moderne Kunst. Am Anfang des Monats ist der Eintritt frei, dann gehe ich mit meinen Kindern. Danach gibt es immer Eis.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil zwei. Sie hören jetzt ein Interview. Sie hören den Text zweimal. Lesen Sie zuerst die Aufgaben sechs bis fünfzehn. Dafür haben Sie eine Minute.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 60,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Herr Vogel, Sie trainieren seit zwanzig Jahren Kinder im Fußballverein. Wie sind Sie dazu gekommen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Mein Sohn wollte Fußball spielen, und der Verein suchte einen Trainer. Ich habe gesagt: Ich probiere es für ein Jahr. Daraus sind zwanzig geworden.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was gefällt Ihnen daran?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Kinder. Man sieht, wie sie größer werden, nicht nur körperlich. Manche waren am Anfang schüchtern und sind jetzt Mannschaftskapitäne.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist die größte Schwierigkeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Eltern. Manche erwarten, dass ihr Kind immer spielt. Aber im Kinderfußball geht es nicht um Siege, sondern um Spaß und Zusammenhalt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viel Zeit investieren Sie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zweimal Training pro Woche, dazu am Samstag das Spiel. Das sind etwa acht Stunden. Ich bekomme dafür kein Geld, nur die Kosten für Fahrten werden erstattet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es genug Trainer im Verein?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Leider nicht. Wir suchen dringend Nachwuchs. Viele junge Leute haben keine Zeit oder wollen sich nicht binden.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie jemandem sagen, der überlegt, Trainer zu werden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Einfach probieren. Man muss kein guter Spieler gewesen sein. Wichtiger ist, dass man Geduld hat und die Kinder mag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie lange machen Sie noch weiter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Solange die Knie halten. Im Ernst: Wenn ein Nachfolger da ist, höre ich vielleicht auf. Aber ganz ohne Fußball könnte ich nicht leben.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Herr Vogel, Sie trainieren seit zwanzig Jahren Kinder im Fußballverein. Wie sind Sie dazu gekommen?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Mein Sohn wollte Fußball spielen, und der Verein suchte einen Trainer. Ich habe gesagt: Ich probiere es für ein Jahr. Daraus sind zwanzig geworden.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was gefällt Ihnen daran?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Kinder. Man sieht, wie sie größer werden, nicht nur körperlich. Manche waren am Anfang schüchtern und sind jetzt Mannschaftskapitäne.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was ist die größte Schwierigkeit?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Die Eltern. Manche erwarten, dass ihr Kind immer spielt. Aber im Kinderfußball geht es nicht um Siege, sondern um Spaß und Zusammenhalt.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Wie viel Zeit investieren Sie?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Zweimal Training pro Woche, dazu am Samstag das Spiel. Das sind etwa acht Stunden. Ich bekomme dafür kein Geld, nur die Kosten für Fahrten werden erstattet.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Gibt es genug Trainer im Verein?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Leider nicht. Wir suchen dringend Nachwuchs. Viele junge Leute haben keine Zeit oder wollen sich nicht binden.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Was würden Sie jemandem sagen, der überlegt, Trainer zu werden?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Einfach probieren. Man muss kein guter Spieler gewesen sein. Wichtiger ist, dass man Geduld hat und die Kinder mag.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Und wie lange machen Sie noch weiter?",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Solange die Knie halten. Im Ernst: Wenn ein Nachfolger da ist, höre ich vielleicht auf. Aber ganz ohne Fußball könnte ich nicht leben.",
+   "p": 0.6,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Das ist das Ende des Teils.",
+   "p": 3.0,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Teil drei. Sie hören jetzt fünf kurze Ansagen. Sie hören jeden Text zweimal. Lesen Sie zuerst die Aufgaben sechzehn bis zwanzig. Dafür haben Sie dreißig Sekunden.",
+   "p": 0.5,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "",
+   "p": 30,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Gäste, herzlich willkommen im Stadttheater. Die Vorstellung beginnt in fünf Minuten. Bitte schalten Sie jetzt Ihre Mobiltelefone aus. Fotografieren ist während der Vorstellung nicht erlaubt. Nach dem ersten Akt gibt es eine Pause von zwanzig Minuten.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Liebe Gäste, herzlich willkommen im Stadttheater. Die Vorstellung beginnt in fünf Minuten. Bitte schalten Sie jetzt Ihre Mobiltelefone aus. Fotografieren ist während der Vorstellung nicht erlaubt. Nach dem ersten Akt gibt es eine Pause von zwanzig Minuten.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hier ist das Freibad am See. Wegen des schlechten Wetters ist das Bad heute nur bis sechzehn Uhr geöffnet. Die Sauna bleibt geschlossen. Morgen ab zehn Uhr haben wir wieder normal geöffnet.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-ConradNeural",
+   "t": "Hier ist das Freibad am See. Wegen des schlechten Wetters ist das Bad heute nur bis sechzehn Uhr geöffnet. Die Sauna bleibt geschlossen. Morgen ab zehn Uhr haben wir wieder normal geöffnet.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Und jetzt eine Information für alle Sportfreunde: Das Handballspiel am Samstag beginnt nicht um fünfzehn, sondern schon um vierzehn Uhr dreißig. Die Halle öffnet eine Stunde vorher. Karten gibt es nur an der Tageskasse.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Und jetzt eine Information für alle Sportfreunde: Das Handballspiel am Samstag beginnt nicht um fünfzehn, sondern schon um vierzehn Uhr dreißig. Die Halle öffnet eine Stunde vorher. Karten gibt es nur an der Tageskasse.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Museum für Moderne Kunst. Unsere Führung in englischer Sprache beginnt jeden Samstag um elf Uhr. Treffpunkt ist an der Kasse. Die Teilnahme kostet zusätzlich zwei Euro pro Person.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KillianNeural",
+   "t": "Museum für Moderne Kunst. Unsere Führung in englischer Sprache beginnt jeden Samstag um elf Uhr. Treffpunkt ist an der Kasse. Die Teilnahme kostet zusätzlich zwei Euro pro Person.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Das war die Wettervorhersage. Für das Wochenende gilt: Samstag bewölkt, bis zu zwanzig Grad. Sonntag viel Sonne, bis zu vierundzwanzig Grad. Ein guter Tag für Wanderungen und Ausflüge.",
+   "p": 2,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Sie hören den Text noch einmal.",
+   "p": 1,
+   "r": "+0%"
+  },
+  {
+   "v": "de-DE-KatjaNeural",
+   "t": "Das war die Wettervorhersage. Für das Wochenende gilt: Samstag bewölkt, bis zu zwanzig Grad. Sonntag viel Sonne, bis zu vierundzwanzig Grad. Ein guter Tag für Wanderungen und Ausflüge.",
+   "p": 7,
+   "r": "-8%"
+  },
+  {
+   "v": "de-DE-AmalaNeural",
+   "t": "Ende des Hörverstehens.",
+   "p": 0.5,
+   "r": "+0%"
+  }
+ ]
+}
